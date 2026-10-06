@@ -1,0 +1,85 @@
+title: flat-file text database
+status: experiment
+date: 2026-10-06
+tags: text, database, filesystem, terminal
+
+goal:
+  Хранить знания в обычных txt-файлах так, чтобы человек мог ориентироваться
+  по структуре без специального приложения.
+
+model:
+  directory:
+    Адресует крупную область.
+  subdirectory:
+    Уточняет классификацию.
+  file:
+    Содержит одну тему.
+  indentation:
+    Показывает вложенность внутри темы.
+
+record:
+  title:
+    Человекочитаемый идентификатор.
+  status:
+    Состояние материала.
+  date:
+    Дата последней существенной правки.
+  tags:
+    Простая строка для grep.
+  sections:
+    Содержат факты, практику, компромиссы и проверки.
+
+format:
+  encoding:
+    UTF-8
+  line:
+    Одна логическая строка.
+  indentation:
+    Только пробелы.
+  width:
+    Рекомендуется фиксированный шаг 2 пробела.
+  markup:
+    Не требуется.
+
+navigation:
+  filesystem:
+    cd
+    find
+    tree
+  text:
+    grep
+    sed
+    awk
+    less
+    cat
+
+query:
+  by_title:
+    grep -Rni '^title:' .
+  by_tag:
+    grep -Rni '^tags:.*terminal' .
+  by_status:
+    grep -Rni '^status:.*tested' .
+  by_field:
+    grep -Rni '^    check:' .
+
+advantages:
+  fact:
+    Файлы читаются почти любым инструментом.
+  practice:
+    Git даёт историю изменений.
+  preference:
+    Формат остаётся понятным без специального GUI.
+
+limits:
+  fact:
+    Поиск по связям и сложные запросы приходится строить отдельно.
+  tradeoff:
+    Чем строже формат, тем легче автоматическая обработка, но тем меньше
+    свободы у обычного текста.
+
+experiment:
+  question:
+    Достаточно ли каталога + отступов + grep для личной базы знаний?
+  next:
+    Проверять это на реальных материалах, а не на искусственных примерах.

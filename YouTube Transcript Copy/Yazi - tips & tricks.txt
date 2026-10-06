@@ -1,0 +1,390 @@
+Title: You've been browsing files wrong
+URL: https://www.youtube.com/watch?v=H9HCCMq4E94
+
+(0:00) You've got to try terminal file
+(0:01) browsing. Seriously, it will unlock
+(0:03) levels of productivity you've never seen
+(0:06) before. Check this out. By just using my
+(0:08) keyboard and a terminal file browser
+(0:10) called Yazy, I can do amazing things. I
+(0:13) can move files from one destination to
+(0:15) another, just like this. I can also
+(0:18) rename files super easily with one
+(0:20) keystroke. Let's rename this to
+(0:23) something different. I'm not that
+(0:25) creative. Sorry. I can also go into a
+(0:27) directory and select multiple files that
+(0:29) I want to move or take an action on. I
+(0:32) can yank those. I can move them to
+(0:34) another folder right in here. And I can
+(0:36) rename them just like this. It's super
+(0:39) easy.
+(0:41) I can also fuzzy filter on all my
+(0:43) folders so I can easily get to the
+(0:45) directory that I want to get to. I can
+(0:46) fuzzy filter also on files so I can find
+(0:49) the exact file that I want to get to.
+(0:51) And Yazi has some amazing features built
+(0:53) in. So, if you install the right
+(0:55) packages to support it, you can do
+(0:56) amazing things like inspect the inside
+(0:59) of compressed files or see thumbnails
+(1:02) for previews of movie files. Also, if I
+(1:05) hit enter, it will automatically open
+(1:07) this in the movie player. There's a
+(1:08) little behind-the-scenes action of my
+(1:10) latest short. Let's say you're on Linux
+(1:12) and you found a package.
+(1:13) Pretty cool. But the best part about
+(1:15) this is that it's not just for neck
+(1:17) beards and nerds like myself. Anyone and
+(1:19) everyone should be using terminal file
+(1:21) browsing. It's so much fun and I promise
+(1:24) it's not as scary as it may look. So, in
+(1:26) this video, I'll show you what a
+(1:27) terminal file browser is and why it's so
+(1:29) productive. So, let's take our mouses
+(1:31) and throw them away. This video is about
+(1:33) Yazi.
+(1:37) I should I should probably go get that.
+(1:46) Now, Yazi is built in Rust, so you know
+(1:48) it's blazing fast and definitely has a
+(1:51) great trademark policy. Don't worry if
+(1:52) you don't get that joke. It wasn't that
+(1:54) great. Sorry. So, to install Yazi, I'm
+(1:56) currently on Linux. Actually, I'm on
+(1:58) Arch Linux, by the way. So, to install
+(2:00) Yazi, I can type yay-s.
+(2:04) And that's how you install it. It's
+(2:06) actually available in many different
+(2:08) popular distributions. In fact, it's
+(2:10) available pretty much everywhere. For
+(2:12) installation, we can see that it's
+(2:13) available on Arch Linux. It's available
+(2:15) on Nyx. Ew. But it's also available on
+(2:18) Windows, on Mac OS through Homebrew or
+(2:20) Mac ports. It's available for Debian.
+(2:23) It's available for everything that you
+(2:24) could want to install Yazi on. So, if
+(2:27) you have a computer, you could probably
+(2:29) install Yazi on it. And once you have
+(2:31) Yazi installed, you can just type Yazi
+(2:33) and you can see well, all of your files
+(2:35) in your current directory. So, let's go
+(2:37) over how to use it and why it's so cool.
+(2:39) So, Yazi is pretty amazing out of the
+(2:41) box. You can see that we have all of our
+(2:43) files and directories in front of us
+(2:45) right here. But how do we move around
+(2:48) and figure out where to go? Well,
+(2:50) there's a few ways to do it. Now, Yazi
+(2:52) supports out of the box using your arrow
+(2:54) keys. You can go down to go down these
+(2:57) directories or up to go up your
+(2:59) directories or files, but I prefer the
+(3:01) vim keys which is HJ KL. It's uh H for
+(3:06) left, J for down, K for up, and L for
+(3:10) right, or lur for short. So, I like to
+(3:12) use my Vim keys. So, now I'm going to go
+(3:14) J for down, K for up. And if I want to
+(3:17) drill into a directory, I can type L or
+(3:20) write to go into that directory. And
+(3:22) then we can see that it goes into that
+(3:23) next directory. And I can keep
+(3:25) continuing on and on. Now, what's really
+(3:28) cool is out of the box also, Yazi
+(3:30) provides previews for all of your files.
+(3:32) So when you want to look at a Ruby file,
+(3:34) for instance, this is a Ruby on Rails
+(3:36) project. I can actually see that these
+(3:38) are all of my let's say migrations
+(3:40) because this is the this is the
+(3:42) directory that I'm in. All of my
+(3:43) migrations have previews to them. That's
+(3:45) pretty neat. And then when I hit enter,
+(3:47) what happens is it'll actually open it
+(3:49) in my editor, which for me is Neovim,
+(3:52) which is awesome. So let me just quit
+(3:54) Neoim. And now I'm [music] back in Yazy.
+(3:56) That's a really easy way to sort of use
+(3:59) Yazi for opening files that you're
+(4:01) interested in. Hey gang, let me talk to
+(4:03) you really quick about this video
+(4:04) sponsor, Warp. [music] Warp is an
+(4:06) amazing agentic development environment.
+(4:08) Now, Warp's been a supporter of this
+(4:10) channel for a long time now, and back in
+(4:13) the day, it started off as an amazing
+(4:15) terminal. Now, Warp is still an amazing
+(4:16) terminal, but it has so much more to it
+(4:18) now. It has built-in AI, so you can type
+(4:21) right with the AI
+(4:25) from within your terminal interface. And
+(4:27) it also has a coding agent. So from
+(4:30) within this project, we can actually
+(4:32) open up a file and we can edit our code
+(4:34) in here. We can add things as context
+(4:39) actually use AI from within our terminal
+(4:42) environment on this file and it keeps
+(4:44) you all within your flow. It's amazing.
+(4:46) There's also agent multi-threading and
+(4:48) management. And on top of all these
+(4:50) features, there's something that I think
+(4:51) is pretty amazing. Warp drive. Now, Warp
+(4:53) Drive solves what I think is a little
+(4:54) bit of a problem for me and my current
+(4:56) day-to-day usage of AI, which is giving
+(4:59) context to your AI. With Warp Drive, you
+(5:01) can share commands and knowledge with
+(5:03) you and [music] your teammates. It's
+(5:05) amazing. Check out Warp at warp.dev.
+(5:07) It's available everywhere, including
+(5:09) Linux, which I am using on Arch Linux
+(5:11) right now. Go check them out. Okay, now
+(5:13) let's get back to Yazy. Now, as cool as
+(5:15) this view is, let's just say that you
+(5:17) don't want to have to keep going back
+(5:18) and forth between all your directories
+(5:20) every single time you want to move a
+(5:22) file. How do you quickly get to a
+(5:23) directory that you know you want to get
+(5:24) to? Well, with Yazi, you can type
+(5:26) capital Z and it will use FZF as a fuzzy
+(5:29) finder to find your directory. So, let's
+(5:31) do that now. But wait a minute, FZF is
+(5:34) not installed. Well, that's pretty easy.
+(5:36) While I install FZF, let me just
+(5:38) explain. This was done as demonstration
+(5:39) purposes to just show off how great Yazi
+(5:42) is at telling you when something isn't
+(5:44) installed that it expects. It expected
+(5:47) FZF to be installed and it wasn't. So
+(5:50) instead of failing silently or blowing
+(5:52) up, it gave you a warning and it told
+(5:54) you, hey, install FZF if you want to use
+(5:56) that command. So we open up Yazi again
+(5:59) and we type shift Z. Now that will bring
+(6:01) us to FZF. In fact, this is actually
+(6:04) Zoxside using FZF to list all of its
+(6:07) directories that it remembers. Now,
+(6:10) instead of just navigating my files and
+(6:12) directories using either FZF or by going
+(6:14) left and right by going up and down my
+(6:16) directory tree, I can actually do some
+(6:18) pretty amazing things with files
+(6:19) themselves. Let's check that out. In my
+(6:21) downloads folder, I can hit right to go
+(6:24) into my downloads folder, and I can
+(6:26) check out what's here. What's cool about
+(6:28) Yazi is it has some amazing defaults for
+(6:31) previews and looking at different kinds
+(6:33) of files. Now, you already saw what it
+(6:35) did with code. It showed a nice little
+(6:37) preview for that code, but it actually
+(6:39) has some really great implementations
+(6:42) for previewing things in your terminal
+(6:44) for other types of files. Now, an
+(6:46) amazing thing that Yazi does is it uses
+(6:48) ffmpeg, the library, to show a thumbnail
+(6:52) of a video file. So, if you're not sure
+(6:55) if you have a bunch of videos on your
+(6:56) system, which I do because I'm a content
+(6:59) creator, then you might not be able to
+(7:01) know exactly what video you're looking
+(7:02) at. So, it's cool that Yazi will produce
+(7:05) a thumbnail using FFmpeg under the hood
+(7:08) when you want to look at your videos
+(7:10) through Yazi. Next up, Yazy will also
+(7:13) inspect compressed files. But, as you
+(7:16) can see here, you need sevenzip
+(7:18) installed. So, let me just go ahead and
+(7:20) do that right now. Yay. S7 zip.
+(7:23) [music]
+(7:23) This is a program that will allow us to
+(7:26) inspect zipped files or compressed files
+(7:29) in our system. So, let's open up Yazi
+(7:31) again. We can go back to downloads and
+(7:34) now we can actually see the contents of
+(7:36) these compressed files using sevenzip.
+(7:39) Pretty amazing. But it gets even better
+(7:40) than that. Yazi allows you to also
+(7:42) preview out of the box [music] images in
+(7:45) your terminal. Now, you actually need a
+(7:47) specific terminal in order to do this.
+(7:49) namely a terminal that supports maybe uh
+(7:51) Kitty's open graphics protocol or Uber
+(7:54) Zug which I think you can install on
+(7:56) many different terminals but as long as
+(7:57) your terminal can support displaying
+(8:00) images in itself then Yazi will allow
+(8:02) you to preview images in your terminal
+(8:05) and I think this is kind of a game
+(8:06) changer because I have a workflow where
+(8:07) I move images from my folders to my
+(8:10) projects and it's kind of nice to just
+(8:12) see which ones I want to move as opposed
+(8:14) to the ones that I don't want to move
+(8:15) and it's great to have that little
+(8:17) preview there now to show this off a
+(8:19) little bit more. I can open up a
+(8:21) different terminal like elacrity and
+(8:23) elacrity on this system does not have
+(8:26) something installed to allow it to
+(8:27) preview images. So if I open up Yazi and
+(8:29) I go down to my downloads, I can see
+(8:32) here that I do not get an image preview.
+(8:34) [music] So it's important that you have
+(8:36) a specific terminal that supports
+(8:39) Kitty's open graphics protocol. Now
+(8:41) obviously the Kitty terminal does this.
+(8:43) I use Ghosty as my main terminal and of
+(8:45) course it uses Kitty's open graphics
+(8:47) protocol under the hood for graphics. So
+(8:50) it supports this out of the box, but
+(8:52) something to keep in mind. Now on top of
+(8:54) this, Yazi also has a plugins [music]
+(8:56) feature that allows users to create
+(8:57) plugins with Lua. Now this is still in
+(8:59) beta, but it's very promising. I could
+(9:01) see some amazing plugins coming for Yazi
+(9:04) out of this beta. Now, I'm ready to show
+(9:06) off some workflows for you to show you
+(9:07) how powerful Yazi is when it comes to
+(9:10) just keeping your hands on the keyboard
+(9:11) to manipulate and move files around, but
+(9:13) I don't love the theme here. You see,
+(9:15) I'm a big cat pooing guy. Meow. And I
+(9:18) see that Yazi doesn't really play that
+(9:20) nicely with my terminals Cat Pooin
+(9:23) theme. You see down here, I actually
+(9:24) can't really see what this text says.
+(9:26) And on the bottom right here, I also
+(9:28) can't see the text there. So, I'd like
+(9:30) to change that a little bit. Well, as it
+(9:32) turns out, Yazi is also very
+(9:33) configurable. You can configure Yazi
+(9:35) using three different files. Yazi
+(9:37) dottoml is where you want to fine-tune
+(9:39) your default settings. The next is
+(9:41) keymap.toml which if where you guessed
+(9:44) it is where you want to put your key
+(9:46) maps if you want any special key maps
+(9:47) for your workflows in Yazi. And the last
+(9:50) [music] is theme.toml. Now this is where
+(9:53) I want to focus because I want my Yazi
+(9:56) install to look better with my cat puin
+(9:58) theming [music] in my terminal. So let's
+(10:00) go ahead and check that out.
+(10:03) Now, of course, as you may have guessed,
+(10:05) there is a port for Yazi with the
+(10:08) Capuchin theme. So, let's go ahead and
+(10:11) install that. We can click on themes. We
+(10:13) click on Mocha, and then we click on Hm.
+(10:16) I like the blue one. So, I can actually
+(10:19) just copy this file.
+(10:22) I can then open the config Yazi
+(10:25) theme.toml file and paste everything in
+(10:29) there. Now, the next time I launch Yazi,
+(10:31) we can see, yep, Yazi now looks
+(10:33) fantastic. This Capuchin theme for Yazy
+(10:36) perfectly matches the Capuchin theme
+(10:38) [music] for my terminal. We can see down
+(10:40) on the bottom left and on the bottom
+(10:42) right, the text that used to be kind of
+(10:44) not very visible looks perfect now. And
+(10:46) even the previews for all my files now
+(10:48) look really nice as well. They did
+(10:50) before, but they look even better now.
+(10:52) Okay, so now let's show off some
+(10:53) workflows when using Yazy in my
+(10:55) day-to-day work. Now, this is something
+(10:57) that I think is applicable for everyone,
+(11:00) not just neck beards like myself. And to
+(11:02) prove how flexible and awesome Yazi is,
+(11:05) I'm going to show you three different
+(11:06) ways to copy images into a different
+(11:09) folder using Yazi. Now, of course, this
+(11:12) works for any real file type, but I'm
+(11:14) just going to show off a few different
+(11:15) features along the way. So, I can go
+(11:16) into my downloads folder. I have my
+(11:18) logos folder as well. I hit L to go
+(11:21) right. Now, I can just type Y to yank
+(11:23) this file. Now, if I want to move this
+(11:24) file, I can do a few different things.
+(11:26) One is I can type Y to yank it. That
+(11:28) will actually let me transport this file
+(11:30) almost copy it if you will into another
+(11:33) place. I can type H and H again to go
+(11:35) back to my git learn [music] app assets
+(11:38) images and then hit P to paste. Now you
+(11:41) can see after pasting this file just
+(11:43) showed up right here. Now of course I
+(11:44) can rename this file to something
+(11:46) different if I want to by typing R. R
+(11:48) will allow me to rename the file. I can
+(11:50) just type backspace to get to the end
+(11:52) here and type um logo for something.png.
+(11:58) Enter. Okay, great. That's one way to
+(12:00) move a file. So now let's go back to our
+(12:01) downloads folder, but I don't want to
+(12:03) traverse my whole entire file system
+(12:04) again. So let's type shift Z. Now I can
+(12:07) go back to downloads. So now I'm already
+(12:09) at my downloads folder. So now I just
+(12:11) need to go to my logos again. And I want
+(12:13) to um well, you know what? This time I
+(12:15) had a few logos that I wanted to move.
+(12:17) So, how about I take an action on a
+(12:19) bunch of different files? Well, you can
+(12:20) do that by typing space. Space space
+(12:23) space will select these three files that
+(12:25) you can see are highlighted on the left.
+(12:27) And then you type the action you want.
+(12:28) Now, for me, instead of yanking these
+(12:30) files, I'm going to cut them. This will
+(12:32) delete them in their current place and
+(12:34) then paste them somewhere else on my
+(12:36) system. So, I'll type X to do that. This
+(12:38) will then cut these files for me. Now I
+(12:41) can go back to where I was by typing
+(12:42) shift Z again, typing learn, and now I'm
+(12:46) already in my learn directory. App
+(12:48) assets images. As you can see, actually
+(12:50) Yazi remembered the last place I
+(12:52) visited. So it's easier to just sort of
+(12:53) keep hitting right or L for me to get to
+(12:56) where I want to be. Now I can paste all
+(12:58) my files. We can see all three of them
+(13:00) are right here. And I can also rename
+(13:02) them all if I want to. R to rename. Now
+(13:05) this opens up for me a Vim buffer that
+(13:08) allows me to rename these. type graph.
+(13:10) I'll just do one, two, three. Now, let's
+(13:13) see how that works. I write and quit
+(13:14) that buffer. Then all I have to do is
+(13:16) hit yes. And here we go. All three of
+(13:19) these files were now renamed. You can do
+(13:22) bulk movement, bulk renaming, and all
+(13:24) kinds of other bulk actions on your
+(13:26) files in Yazy. Just like that. Super
+(13:29) simple, really straightforward, really
+(13:31) fun. So, that's just a preview of some
+(13:32) of the power that Yazi can give you and
+(13:34) some of the performance boosts it can
+(13:36) give you in your day-to-day work. You
+(13:38) see, that was super fun to just flip
+(13:40) through all my files to easily go back
+(13:42) to where I was before. And it was
+(13:44) really, really easy. And it's very
+(13:46) straightforward while memorizing only a
+(13:48) few little key commands. Now, if you
+(13:50) want to go a little bit deeper into
+(13:51) Yazi, then please check out their
+(13:52) excellent website. It has installation
+(13:54) instructions, quick starts, how to
+(13:56) configure it, all kinds of amazing
+(13:58) things. Check out Yazy and subscribe for
+(14:01) more Vim Bash and Linux tips and tricks.
+(14:03) And hey, thanks nerds.
+(14:07) [music]

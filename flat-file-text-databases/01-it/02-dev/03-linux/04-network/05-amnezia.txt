@@ -1,0 +1,44 @@
+title: AmneziaVPN and LAN access
+status: tested
+date: 2026-10-06
+tags: linux, network, vpn, ssh
+
+problem:
+  symptom:
+    При включённом AmneziaVPN локальный SSH-доступ к Windows может перестать
+    работать.
+  context:
+    VPN-интерфейс amn0 добавляет маршруты.
+
+diagnosis:
+  step:
+    Проверить интерфейсы.
+  command:
+    ip addr
+  step:
+    Проверить маршруты.
+  command:
+    ip route
+  step:
+    Проверить доступ к целевому LAN-адресу.
+  command:
+    ping <lan-host>
+
+resolution:
+  minimal:
+    Временно отключить VPN и проверить повторно.
+  result:
+    Если SSH возвращается, причина связана с маршрутизацией VPN, а не с SSH
+    daemon на Windows.
+
+principle:
+  fact:
+    Наличие поднятого Wi-Fi-интерфейса не доказывает корректность маршрута.
+  practice:
+    Сначала проверять маршрут до конкретного адреса.
+  check:
+    ip route get <lan-host>
+
+lesson:
+  rule:
+    Не менять конфигурацию сети до фиксации фактического состояния маршрутов.

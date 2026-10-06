@@ -1,0 +1,49 @@
+title: GitHub SSH access
+status: tested
+date: 2026-10-06
+tags: git, github, ssh
+
+goal:
+  Получить SSH-доступ к GitHub без постоянного ввода пароля.
+
+account:
+  provider:
+    GitHub
+  identity:
+    public username: FAEBFE
+
+key:
+  type:
+    ed25519
+  file:
+    ~/.ssh/id_ed25519
+
+config:
+  host:
+    github.com
+  identity:
+    id_ed25519
+
+verification:
+  command:
+    ssh -T git@github.com
+  expected:
+    GitHub сообщает, что аутентификация выполнена.
+
+repository:
+  remote:
+    git@github.com:FAEBFE/01-simple.git
+
+principle:
+  fact:
+    SSH-аутентификация отделена от URL репозитория.
+  practice:
+    Сначала проверяется ssh -T, затем проверяется git remote -v.
+  check:
+    git fetch
+
+lesson:
+  mistake:
+    Не следует считать наличие ключа доказательством рабочего доступа.
+  correct:
+    Проверяется весь путь: ключ -> SSH config -> GitHub account -> repository.

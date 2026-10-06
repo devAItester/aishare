@@ -1,0 +1,38 @@
+title: Jekyll Primer and site structure
+status: draft
+date: 2026-10-06
+tags: jekyll, github-pages, static-site
+
+goal:
+  Сделать статический сайт с деревом материалов без ручного поддержания большого
+  списка меню.
+
+current:
+  config:
+    title: FA EB FE
+    baseurl: ""
+    permalink: pretty
+    theme: jekyll-theme-primer
+
+problem:
+  navigation:
+    Ручные меню плохо масштабируются вместе с деревом каталогов.
+  requirement:
+    Структура файлов должна по возможности сама определять структуру сайта.
+
+principle:
+  fact:
+    Jekyll строит сайт из файлов и конфигурации, но конкретная модель
+    автоматической навигации зависит от используемого шаблона и плагинов.
+  preference:
+    Не добавлять JavaScript там, где задача решается CSS и статической
+    структурой.
+  tradeoff:
+    Полностью автоматическое дерево требует либо дополнительной генерации,
+    либо собственной логики шаблона.
+
+next:
+  experiment:
+    Сравнить стандартный Primer с собственным layout.
+  check:
+    bundle exec jekyll build

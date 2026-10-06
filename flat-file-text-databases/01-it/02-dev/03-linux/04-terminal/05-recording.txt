@@ -1,0 +1,48 @@
+title: terminal recording
+status: tested
+date: 2026-10-06
+tags: terminal, bash, history, recording
+
+goal:
+  Сохранять реальную последовательность действий в терминале, чтобы потом
+  превращать её в воспроизводимую инструкцию.
+
+switch:
+  variable:
+    FAEBFE_TERMINAL_RECORDING
+  enabled:
+    1
+
+storage:
+  root:
+    ~/history/terminal/YYYY/MM/DD/
+  session:
+    <time>-<pid>/
+  files:
+    meta
+    io.log
+    timing.log
+
+method:
+  command:
+    script --quiet --flush
+  result:
+    Сохраняется интерактивная сессия терминала.
+
+workflow:
+  raw:
+    Сначала сохраняется исходная сессия.
+  analysis:
+    Затем отделяются действия от шума.
+  publication:
+    После проверки получается короткая воспроизводимая инструкция.
+
+principle:
+  fact:
+    История shell не равна полной записи терминальной сессии.
+  practice:
+    Сырые логи сохраняются отдельно от очищенного текста.
+  tradeoff:
+    Полная запись удобна для восстановления контекста, но содержит больше шума.
+  check:
+    Открыть конкретный io.log и сверить его с выполненными действиями.

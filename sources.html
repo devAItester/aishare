@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sources and evidence — Field Notes</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html" aria-current="page">Sources</a></nav></header>
+<main>
+  <p class="eyebrow">07 / Evidence</p>
+  <h1>Keep facts, interpretation, and decisions apart.</h1>
+  <p class="intro">A useful technical notebook must let a future reader see not only what we concluded, but why the conclusion is credible and what could still be wrong.</p>
+  <h2>Evidence hierarchy</h2>
+  <ol><li><strong>Primary source:</strong> original repository, source file, specification, or browser documentation.</li><li><strong>Observed result:</strong> a command output, published page, screenshot, or reproducible test, with the conditions recorded.</li><li><strong>Interpretation:</strong> what the evidence appears to mean, explicitly labelled as analysis.</li><li><strong>Decision:</strong> the action chosen from the evidence, with scope and status.</li></ol>
+  <h2>Rules for writing</h2>
+  <ul><li>Do not infer an author's intent from code alone when the commit or documentation does not say.</li><li>Do not call a visual difference intentional without an explicit decision.</li><li>Do not say “tested” if only source files were inspected.</li><li>Preserve source URLs, dates, revisions, and relevant file paths.</li><li>When evidence conflicts, state the conflict and choose what must be rechecked.</li></ul>
+  <h2>Reference and archive</h2>
+  <p>The original project is <a href="https://github.com/XXIIVV/oscean">XXIIVV/oscean</a>. The repository's captured source material and earlier research are preserved under <a href="archive.html">Archive</a>. Those files are evidence and working history; the current decisions are summarised in <a href="decisions.html">the decision register</a>.</p>
+  <h2>When to revisit research</h2>
+  <p>Recheck upstream when a question concerns a newer revision, the archive lacks the needed file, or the available evidence cannot settle a concrete issue. Do not repeat a research pass merely because the same source is easier to open than the local record.</p>
+  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="project.html">Project purpose</a></li><li><a href="decisions.html">Decisions</a></li><li><a href="archive.html">Archive contents</a></li></ul></aside>
+</main>
+<footer><span>FIELD NOTES / SOURCES</span><span><a href="index.html">Home</a> · <a href="decisions.html">Decisions</a></span></footer>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A working notebook for building a small, linked, text-first website inspired by Oscean.">
+  <title>Field Notes — a text-first site</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="mark" href="index.html">FIELD NOTES</a>
+  <nav aria-label="Primary navigation">
+    <a href="project.html">Project</a>
+    <a href="architecture.html">Architecture</a>
+    <a href="decisions.html">Decisions</a>
+    <a href="sources.html">Sources</a>
+  </nav>
+</header>
+<main>
+  <p class="eyebrow">A small, connected knowledge site</p>
+  <h1>Build the smallest thing that stays understandable.</h1>
+  <p class="intro">These notes turn our work on the David / Oscean reference into a practical system: plain files, explicit links, a stable visual language, and decisions that can be checked rather than guessed.</p>
+  <hr>
+  <section class="index-grid" aria-label="Site map">
+    <article>
+      <p class="number">01 / PURPOSE</p>
+      <h2><a href="project.html">What this project is</a></h2>
+      <p>A text-first site and a repeatable method for copying a reference without losing the reasons behind each choice.</p>
+      <p class="related">Next: <a href="architecture.html">architecture</a></p>
+    </article>
+    <article>
+      <p class="number">02 / STRUCTURE</p>
+      <h2><a href="architecture.html">Files before machinery</a></h2>
+      <p>Keep content readable as files. Use folders to express durable relationships, not to classify every thought.</p>
+      <p class="related">See also: <a href="navigation.html">navigation and backlinks</a></p>
+    </article>
+    <article>
+      <p class="number">03 / INTERFACE</p>
+      <h2><a href="styling.html">The David design language</a></h2>
+      <p>Quiet typography, restrained color, ordinary links, little decoration, and one shared stylesheet.</p>
+      <p class="related">See also: <a href="publishing.html">publishing checks</a></p>
+    </article>
+    <article>
+      <p class="number">04 / METHOD</p>
+      <h2><a href="decisions.html">Decisions, not fragments</a></h2>
+      <p>Separate verified facts, working hypotheses, accepted choices, and unresolved differences.</p>
+      <p class="related">Read: <a href="sources.html">source policy</a></p>
+    </article>
+  </section>
+  <hr>
+  <section>
+    <h2>Current direction</h2>
+    <ul class="plain-list">
+      <li>One external stylesheet at <code>assets/main.css</code>.</li>
+      <li>Static HTML and CSS first; no JavaScript unless a real requirement appears.</li>
+      <li>Every topic points to its prerequisites, consequences, and related decisions.</li>
+      <li><code>Archive/</code> preserves previous material; this site is the curated, internally consistent layer.</li>
+    </ul>
+  </section>
+  <p class="small-note">This is a working instrument, not a claim that every historical detail has been verified. Open <a href="decisions.html">the decision register</a> to see what is settled and what remains open.</p>
+</main>
+<footer><span>FIELD NOTES / 2026</span><span><a href="archive.html">Archive index</a> · <a href="sources.html">Sources</a></span></footer>
+</body>
+</html>

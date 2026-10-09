@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visual language — Field Notes</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<main>
+  <p class="eyebrow">04 / Interface</p>
+  <h1>Quiet design, clear structure.</h1>
+  <p class="intro">The reference's strength is not a collection of effects. It is a restrained visual system in which text, spacing, and links do most of the work.</p>
+  <h2>Design rules</h2>
+  <ul><li>Use a narrow reading measure and a clear typographic hierarchy.</li><li>Keep the palette restrained; links should remain recognisable as links.</li><li>Prefer text labels to decorative icons when the label is clearer.</li><li>Use spacing and rules to separate sections instead of cards everywhere.</li><li>Preserve useful browser defaults and semantic HTML.</li><li>Keep the stylesheet shared and external at <code>assets/main.css</code>.</li></ul>
+  <h2>External, embedded, and inline CSS</h2>
+  <p>These are different delivery mechanisms. A <code>&lt;link rel="stylesheet"&gt;</code> references an external file; <code>&lt;style&gt;</code> embeds a stylesheet in a document; a <code>style</code> attribute applies declarations to one element. The original Oscean uses a shared external file. Embedding the whole stylesheet in every page repeats bytes and prevents independent caching of that stylesheet.</p>
+  <p>The decision is to use one external file without changing the CSS declarations during the first migration. Critical CSS is not justified until a measured rendering problem exists. The technical background is in <a href="decisions.html#d1">decision D-01</a> and the <a href="archive.html">preserved CSS research</a>.</p>
+  <h2>Copy first; redesign separately</h2>
+  <p>When fidelity is the goal, compare all selectors, declarations, media queries, assets, and URL paths before polishing individual details. A visual resemblance alone does not prove that layout behaviour is equivalent. Record intentional deviations separately from accidental ones.</p>
+  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="architecture.html">Site architecture</a></li><li><a href="publishing.html">Visual and technical checks</a></li><li><a href="decisions.html">Decision register</a></li></ul></aside>
+</main>
+<footer><span>FIELD NOTES / VISUAL LANGUAGE</span><span><a href="index.html">Home</a> · <a href="sources.html">Sources</a></span></footer>
+</body>
+</html>

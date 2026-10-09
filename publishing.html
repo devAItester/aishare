@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publishing checks — Field Notes</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<main>
+  <p class="eyebrow">05 / Verification</p>
+  <h1>A successful commit is not a successful site.</h1>
+  <p class="intro">The source tree, generated HTML, and deployed website are three separate things. Verify each layer before calling a change complete.</p>
+  <h2>Before publication</h2>
+  <ol><li>Check the changed files and inspect the diff.</li><li>Confirm that all pages reference the same external stylesheet.</li><li>Check internal links, filenames, capitalization, and expected <code>.html</code> URLs.</li><li>Confirm there are no missing assets or accidental copies of CSS in page heads.</li><li>Inspect a short page, a long page, and a page with a large heading.</li></ol>
+  <h2>After publication</h2>
+  <ol><li>Open the public URL, not only the repository preview.</li><li>Request the home page and stylesheet directly; check status and content type.</li><li>Follow representative internal links and refresh a nested page directly.</li><li>Inspect layout at a narrow viewport and a wide viewport.</li><li>Compare the result against the reference and record remaining differences.</li></ol>
+  <h2>Performance claims require measurement</h2>
+  <p>A separate stylesheet enables caching, but that does not by itself prove a faster first render. If performance matters, compare cold and warm cache behaviour and record the conditions. Do not attribute CSS parsing or layout work to V8: V8 is the JavaScript engine, while style and layout are browser rendering work.</p>
+  <h2>Report status precisely</h2>
+  <p>Use separate states: source changed, build passed, deployment observed, visual comparison completed. If a browser check was not possible, say so. See <a href="decisions.html">the decision register</a> for unresolved items and <a href="sources.html">source policy</a> for evidence standards.</p>
+  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="architecture.html">Architecture</a></li><li><a href="styling.html">CSS delivery</a></li><li><a href="decisions.html">Current decisions and open checks</a></li></ul></aside>
+</main>
+<footer><span>FIELD NOTES / PUBLISHING</span><span><a href="index.html">Home</a> · <a href="decisions.html">Decisions</a></span></footer>
+</body>
+</html>

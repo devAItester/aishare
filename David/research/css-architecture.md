@@ -14,8 +14,8 @@ The original Oscean keeps its main stylesheet at `links/main.css` and links it f
    See [../source/pages/styleguide.html](../source/pages/styleguide.html).
 3. The original root `index.html` also links `links/main.css`; this is documented in [../source/original-project.md](../source/original-project.md).
 4. The stylesheet is shared by the generated site pages. The local source specimen therefore demonstrates a centralized stylesheet, not CSS embedded separately in every page.
-5. The user recalls that our copy used inline/embedded CSS, but the reason for that earlier choice has not been recovered from historical conversation records in this pass. Do not invent a rationale or present it as a settled performance decision.
-6. The exact current state of every deployed Jekyll template must be checked before changing it. A search of the connected GitHub index did not reliably establish whether all current pages use `<style>`, a shared stylesheet, or both.
+5. The active `devAItester/d00-jk-bc` layout has now been inspected. `_layouts/default.html` contains `<style>{% include style.css %}</style>`, and `_includes/style.css` holds the shared CSS source. Jekyll therefore embeds the full stylesheet into each generated HTML page; the source is centralized, but the browser receives it repeatedly as part of each page response.
+6. The historical reason for introducing this arrangement has not been recovered. It may have been chosen to avoid a separate request or to keep the output self-contained, but neither motive is confirmed.
 
 ## Terminology
 
@@ -65,9 +65,9 @@ Useful primary references:
 
 ## Current conclusion
 
-**No final decision has been made yet.** The external stylesheet is the faithful baseline because it is what the inspected original source uses. The inline version in our copy must be treated as an unresolved implementation difference until we recover why it was introduced and compare the actual generated output.
+**Decision for the target copy: use one shared external stylesheet.** This matches the observed Oscean architecture, avoids repeating the full CSS in every generated HTML response, allows browser caching across pages, and keeps one source of truth. The current embedded output is an implementation discrepancy to correct; this archive update does not itself modify the website code.
 
-Provisional recommendation for the reference-copy project: keep one shared external CSS file unless a measured, documented requirement justifies a narrowly scoped embedded critical-style block. Do not inline the entire stylesheet merely because it seems faster.
+Recommended target path: `assets/main.css`, since the copy already has an `assets/` directory and only needs one shared stylesheet. Keep the CSS declarations unchanged during the delivery-method change so visual differences can be isolated. Do not add critical-CSS extraction unless later measurements show a real first-render bottleneck.
 
 ## Work required before closing the question
 
@@ -76,7 +76,7 @@ Provisional recommendation for the reference-copy project: keep one shared exter
 3. Compare generated HTML from representative short and long pages; verify whether CSS is duplicated in every page and whether any external stylesheet is still loaded.
 4. Test visual parity and responsive/dark-mode behavior after switching the delivery method without changing the CSS declarations themselves.
 5. Compare cold-cache and warm-cache loading using browser DevTools; do not use a single subjective load as proof.
-6. Decide explicitly between: A) shared external CSS, B) fully embedded CSS, or C) critical CSS embedded plus the rest external.
-7. Record the decision in `../decisions.md` and update `../changes.md` with verified implementation and test status.
-
-Until these checks are complete, the difference remains open.
+6. Move the shared source from `_includes/style.css` to the public `assets/main.css` path and change the layout to reference it with `<link rel="stylesheet">`, without changing CSS declarations.
+7. Compare generated HTML and check that it no longer contains the full `<style>` block; verify the stylesheet URL works under the configured `baseurl`.
+8. Check visual parity, dark mode, short and long pages, then compare cold-cache and warm-cache loading in DevTools if performance is still a concern.
+9. Update `../changes.md` when the implementation and published result are verified. The architecture decision is made; implementation and visual verification remain pending.

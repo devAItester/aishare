@@ -8,6 +8,7 @@
   {% if candidate.path contains base_path and parts.size == 2 %}
     {% assign folder = parts | first %}
     {% assign expected_name = folder | append: ".md" %}
+    <!-- AFTER path={{ candidate.path }} folder={{ folder }} expected={{ expected_name }} name={{ candidate.name }} eq={{ candidate.name == expected_name }} -->
     {% if candidate.name == expected_name %}
       {% assign has_folders = true %}
     {% endif %}
@@ -21,6 +22,7 @@
     {% if candidate.path contains base_path and parts.size == 2 %}
       {% assign folder = parts | first %}
       {% assign expected_name = folder | append: ".md" %}
+      <!-- AFTER2 path={{ candidate.path }} folder={{ folder }} expected={{ expected_name }} name={{ candidate.name }} eq={{ candidate.name == expected_name }} -->
       {% if candidate.name == expected_name %}
         {% capture child_base_path %}{{ base_path }}{{ folder }}/{% endcapture %}
   <li>

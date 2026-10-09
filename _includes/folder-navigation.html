@@ -1,0 +1,60 @@
+{% assign sorted_pages = site.pages | sort: "path" %}
+{% assign depth = include.depth | plus: 0 %}
+{% assign next_depth = depth | plus: 1 %}
+{% assign seen_folders = "|" %}
+{% assign has_folders = false %}
+{% for candidate in sorted_pages %}
+  {% assign candidate_prefix = candidate.path | slice: 0, include.base_path.size %}
+  {% assign parts = candidate.path | split: "/" %}
+  {% if candidate_prefix == include.base_path and parts.size > next_depth %}
+    {% assign folder = parts[depth] %}
+    {% capture marker %}|{{ folder }}|{% endcapture %}
+    {% unless seen_folders contains marker %}
+      {% assign seen_folders = seen_folders | append: marker %}
+      {% assign has_folders = true %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+{% if has_folders %}
+<ul class="folder-nav">
+  {% assign seen_folders = "|" %}
+  {% for candidate in sorted_pages %}
+    {% assign candidate_prefix = candidate.path | slice: 0, include.base_path.size %}
+    {% assign parts = candidate.path | split: "/" %}
+    {% if candidate_prefix == include.base_path and parts.size > next_depth %}
+      {% assign folder = parts[depth] %}
+      {% capture marker %}|{{ folder }}|{% endcapture %}
+      {% unless seen_folders contains marker %}
+        {% assign seen_folders = seen_folders | append: marker %}
+        {% assign folder_path = include.base_path | append: folder | append: "/" %}
+        {% assign main_path = folder_path | append: folder | append: ".md" %}
+        {% assign target_url = "" %}
+        {% assign target_title = "" %}
+        {% for item in sorted_pages %}
+          {% if item.path == main_path %}
+            {% assign target_url = item.url %}
+            {% assign target_title = item.title %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+        {% if target_url == "" %}
+          {% for item in sorted_pages %}
+            {% assign item_prefix = item.path | slice: 0, folder_path.size %}
+            {% if item_prefix == folder_path %}
+              {% assign target_url = item.url %}
+              {% assign target_title = item.title %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if target_url != "" %}
+  <li>
+    <a href="{{ target_url | relative_url }}"{% if page.url == target_url %} aria-current="page"{% endif %}>{{ target_title | default: folder | escape }}</a>
+    {% include folder-navigation.html base_path=folder_path depth=next_depth %}
+  </li>
+        {% endif %}
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</ul>
+{% endif %}

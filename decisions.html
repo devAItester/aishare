@@ -1,50 +1,50 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Decisions — Field Notes</title>
+  <title>Решения — Полевые заметки</title>
   <link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
-<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html" aria-current="page">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<header class="site-head"><a class="mark" href="index.html">ПОЛЕВЫЕ ЗАМЕТКИ</a><nav aria-label="Основная навигация"><a href="project.html">Проект</a><a href="architecture.html">Архитектура</a><a href="decisions.html" aria-current="page">Решения</a><a href="sources.html">Источники</a></nav></header>
 <main>
-  <p class="eyebrow">06 / Decision register</p>
-  <h1>Decisions must be traceable.</h1>
-  <p class="intro">This is the current curated record. Historical notes in the archive may contain earlier ideas or conflicting wording; this page defines the present direction unless marked otherwise.</p>
+  <p class="eyebrow">06 / Реестр решений</p>
+  <h1>У каждого решения должна быть история.</h1>
+  <p class="intro">Здесь собраны текущие согласованные решения. В архиве могут встречаться более ранние идеи и противоречивые формулировки; если не указано иное, текущий курс определяет эта страница.</p>
   <section id="d1" class="decision">
-    <p class="number">D-01 · ACCEPTED</p>
-    <h2>Use one shared external stylesheet.</h2>
-    <p>Publish the design through <code>assets/main.css</code> and link it from each HTML page. Do not embed the complete stylesheet into every page. During a migration, move the existing declarations without mixing in unrelated redesigns.</p>
-    <p><strong>Reason:</strong> the reference uses an external stylesheet; this keeps one source of truth and permits the browser to cache the file independently.</p>
-    <p class="related">Related: <a href="styling.html">visual language</a> · <a href="architecture.html">architecture</a> · <a href="publishing.html">verification</a></p>
+    <p class="number">D-01 · ПРИНЯТО</p>
+    <h2>Использовать одну общую внешнюю таблицу стилей.</h2>
+    <p>Подключать оформление через <code>assets/main.css</code> на каждой HTML-странице. Не встраивать полную таблицу стилей в каждую страницу. При переносе сначала перенести существующие объявления, не смешивая это с несвязанным редизайном.</p>
+    <p><strong>Причина:</strong> в референсе используется внешняя таблица стилей; так сохраняется единый источник CSS, а браузер может кэшировать файл независимо от страниц.</p>
+    <p class="related">Связано: <a href="styling.html">визуальный язык</a> · <a href="architecture.html">архитектура</a> · <a href="publishing.html">проверка</a></p>
   </section>
   <section class="decision">
-    <p class="number">D-02 · ACCEPTED PRINCIPLE</p>
-    <h2>Keep the archive separate from the reading site.</h2>
-    <p>Preserve old material under <code>Archive/</code>. Curated pages may rewrite, consolidate, or reject the material, but must not silently overwrite its historical record.</p>
-    <p class="related">Related: <a href="project.html">project purpose</a> · <a href="archive.html">archive map</a> · <a href="sources.html">evidence policy</a></p>
+    <p class="number">D-02 · ПРИНЦИП ПРИНЯТ</p>
+    <h2>Хранить архив отдельно от читаемого сайта.</h2>
+    <p>Сохранять прежние материалы в <code>Archive/</code>. Отредактированные страницы могут переписывать, объединять или отвергать их содержание, но не должны молча перезаписывать исторический источник.</p>
+    <p class="related">Связано: <a href="project.html">назначение проекта</a> · <a href="archive.html">карта архива</a> · <a href="sources.html">правила доказательств</a></p>
   </section>
   <section class="decision">
-    <p class="number">D-03 · ACCEPTED PRINCIPLE</p>
-    <h2>Use static HTML and CSS as the baseline.</h2>
-    <p>Do not add a client-side framework or JavaScript merely to render pages or navigate between them. Revisit the constraint only when a concrete requirement cannot be met simply.</p>
-    <p class="related">Related: <a href="architecture.html">architecture</a> · <a href="navigation.html">navigation</a></p>
+    <p class="number">D-03 · ПРИНЦИП ПРИНЯТ</p>
+    <h2>Взять статические HTML и CSS за основу.</h2>
+    <p>Не добавлять клиентский фреймворк или JavaScript только ради отображения страниц и навигации. Пересматривать это ограничение следует лишь тогда, когда конкретное требование нельзя просто выполнить иначе.</p>
+    <p class="related">Связано: <a href="architecture.html">архитектура</a> · <a href="navigation.html">навигация</a></p>
   </section>
   <section class="decision">
-    <p class="number">D-04 · OPEN</p>
-    <h2>Choose the long-term content generator.</h2>
-    <p>The reference uses its own Uxntal-based generation flow. Jekyll and a small custom generator have been discussed as alternatives; neither should be described as the original implementation. The choice depends on how much structure and navigation we need to generate automatically.</p>
-    <p class="related">Related: <a href="architecture.html">architecture</a> · <a href="archive.html">preserved implementation research</a></p>
+    <p class="number">D-04 · ОТКРЫТО</p>
+    <h2>Выбрать генератор содержимого на перспективу.</h2>
+    <p>В референсе используется собственный процесс генерации на основе Uxntal. Jekyll и небольшой самописный генератор обсуждались как альтернативы; ни один из них нельзя называть оригинальной реализацией. Выбор зависит от того, какую структуру и навигацию нам понадобится создавать автоматически.</p>
+    <p class="related">Связано: <a href="architecture.html">архитектура</a> · <a href="archive.html">сохранённые исследования реализации</a></p>
   </section>
   <section class="decision">
-    <p class="number">D-05 · OPEN</p>
-    <h2>Automate link and publication checks when justified.</h2>
-    <p>Explicit reciprocal links are sufficient for the first version. A link checker can be added when page count makes manual review unreliable; it should report problems rather than hide the source structure.</p>
-    <p class="related">Related: <a href="navigation.html">link model</a> · <a href="publishing.html">publication checks</a></p>
+    <p class="number">D-05 · ОТКРЫТО</p>
+    <h2>Автоматизировать проверку ссылок и публикации, когда это оправданно.</h2>
+    <p>Для первой версии достаточно явных взаимных ссылок. Проверку ссылок можно добавить, когда число страниц сделает ручной просмотр ненадёжным; инструмент должен сообщать о проблемах, а не скрывать исходную структуру.</p>
+    <p class="related">Связано: <a href="navigation.html">модель ссылок</a> · <a href="publishing.html">проверки публикации</a></p>
   </section>
-  <p class="small-note">This register describes the new Field Notes site. It does not retroactively claim that these decisions were already implemented in the separate Jekyll copy.</p>
+  <p class="small-note">Этот реестр описывает новый сайт «Полевые заметки». Он не утверждает задним числом, что эти решения уже реализованы в отдельной копии на Jekyll.</p>
 </main>
-<footer><span>FIELD NOTES / DECISIONS</span><span><a href="index.html">Home</a> · <a href="archive.html">Archive</a></span></footer>
+<footer><span>ПОЛЕВЫЕ ЗАМЕТКИ / РЕШЕНИЯ</span><span><a href="index.html">Главная</a> · <a href="archive.html">Архив</a></span></footer>
 </body>
 </html>

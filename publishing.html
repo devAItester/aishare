@@ -1,27 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Publishing checks — Field Notes</title>
+  <title>Проверки публикации — Полевые заметки</title>
   <link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
-<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<header class="site-head"><a class="mark" href="index.html">ПОЛЕВЫЕ ЗАМЕТКИ</a><nav aria-label="Основная навигация"><a href="project.html">Проект</a><a href="architecture.html">Архитектура</a><a href="decisions.html">Решения</a><a href="sources.html">Источники</a></nav></header>
 <main>
-  <p class="eyebrow">05 / Verification</p>
-  <h1>A successful commit is not a successful site.</h1>
-  <p class="intro">The source tree, generated HTML, and deployed website are three separate things. Verify each layer before calling a change complete.</p>
-  <h2>Before publication</h2>
-  <ol><li>Check the changed files and inspect the diff.</li><li>Confirm that all pages reference the same external stylesheet.</li><li>Check internal links, filenames, capitalization, and expected <code>.html</code> URLs.</li><li>Confirm there are no missing assets or accidental copies of CSS in page heads.</li><li>Inspect a short page, a long page, and a page with a large heading.</li></ol>
-  <h2>After publication</h2>
-  <ol><li>Open the public URL, not only the repository preview.</li><li>Request the home page and stylesheet directly; check status and content type.</li><li>Follow representative internal links and refresh a nested page directly.</li><li>Inspect layout at a narrow viewport and a wide viewport.</li><li>Compare the result against the reference and record remaining differences.</li></ol>
-  <h2>Performance claims require measurement</h2>
-  <p>A separate stylesheet enables caching, but that does not by itself prove a faster first render. If performance matters, compare cold and warm cache behaviour and record the conditions. Do not attribute CSS parsing or layout work to V8: V8 is the JavaScript engine, while style and layout are browser rendering work.</p>
-  <h2>Report status precisely</h2>
-  <p>Use separate states: source changed, build passed, deployment observed, visual comparison completed. If a browser check was not possible, say so. See <a href="decisions.html">the decision register</a> for unresolved items and <a href="sources.html">source policy</a> for evidence standards.</p>
-  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="architecture.html">Architecture</a></li><li><a href="styling.html">CSS delivery</a></li><li><a href="decisions.html">Current decisions and open checks</a></li></ul></aside>
+  <p class="eyebrow">05 / Проверка</p>
+  <h1>Успешный коммит — ещё не работающий сайт.</h1>
+  <p class="intro">Исходное дерево, сгенерированный HTML и опубликованный сайт — три разные вещи. Прежде чем считать изменение завершённым, проверь каждый уровень.</p>
+  <h2>Перед публикацией</h2>
+  <ol><li>Проверить изменённые файлы и просмотреть diff.</li><li>Убедиться, что все страницы подключают одну и ту же внешнюю таблицу стилей.</li><li>Проверить внутренние ссылки, имена файлов, регистр букв и ожидаемые URL с расширением <code>.html</code>.</li><li>Убедиться, что нет отсутствующих ресурсов и случайных копий CSS в заголовках страниц.</li><li>Проверить короткую страницу, длинную страницу и страницу с крупным заголовком.</li></ol>
+  <h2>После публикации</h2>
+  <ol><li>Открыть публичный URL, а не только предварительный просмотр репозитория.</li><li>Запросить главную страницу и таблицу стилей напрямую; проверить статус ответа и тип содержимого.</li><li>Перейти по нескольким внутренним ссылкам и отдельно обновить вложенную страницу.</li><li>Проверить макет на узком и широком экране.</li><li>Сравнить результат с референсом и записать оставшиеся различия.</li></ol>
+  <h2>Утверждения о производительности требуют измерений</h2>
+  <p>Отдельная таблица стилей позволяет использовать кэш, но сама по себе не доказывает ускорение первой отрисовки. Если производительность важна, сравни время с холодным и прогретым кэшем и зафиксируй условия. Не приписывай разбор CSS или расчёт макета V8: V8 — движок JavaScript, а стилизация и компоновка относятся к работе браузерного механизма отображения.</p>
+  <h2>Точно указывай статус</h2>
+  <p>Разделяй состояния: исходники изменены, сборка прошла, публикация проверена, визуальное сравнение завершено. Если проверить сайт в браузере не удалось, так и напиши. См. <a href="decisions.html">реестр решений</a> и <a href="sources.html">правила работы с источниками</a>.</p>
+  <aside class="related-box"><strong>Связанные заметки</strong><ul><li><a href="architecture.html">Архитектура</a></li><li><a href="styling.html">Подключение CSS</a></li><li><a href="decisions.html">Текущие решения и открытые проверки</a></li></ul></aside>
 </main>
-<footer><span>FIELD NOTES / PUBLISHING</span><span><a href="index.html">Home</a> · <a href="decisions.html">Decisions</a></span></footer>
+<footer><span>ПОЛЕВЫЕ ЗАМЕТКИ / ПУБЛИКАЦИЯ</span><span><a href="index.html">Главная</a> · <a href="decisions.html">Решения</a></span></footer>
 </body>
 </html>

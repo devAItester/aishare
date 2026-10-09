@@ -1,25 +1,25 @@
-# Field Notes
+# Полевые заметки
 
-A curated, text-first knowledge site about building a small, linked website inspired by [Oscean](https://github.com/XXIIVV/oscean).
+Отредактированный текстовый сайт о создании небольшого связанного сайта по мотивам [Oscean](https://github.com/XXIIVV/oscean).
 
-- **Start reading:** [index.html](index.html)
-- [Project purpose](project.html)
-- [Architecture](architecture.html)
-- [Navigation and backlinks](navigation.html)
-- [Visual language and CSS](styling.html)
-- [Publishing checks](publishing.html)
-- [Decision register](decisions.html)
-- [Sources and evidence](sources.html)
-- [Archive map](archive.html)
+- **Начать чтение:** [главная страница](index.html)
+- [Назначение проекта](project.html)
+- [Архитектура](architecture.html)
+- [Навигация и обратные ссылки](navigation.html)
+- [Визуальный язык и CSS](styling.html)
+- [Проверки публикации](publishing.html)
+- [Реестр решений](decisions.html)
+- [Источники и доказательства](sources.html)
+- [Карта архива](archive.html)
 
-## Repository layout
+## Структура репозитория
 
-- Root HTML pages and `assets/main.css` are the curated site.
-- `Archive/` preserves the files that existed before the site was created, keeping their former paths under one directory.
-- The archive is source material, not a guarantee that every old note is current or correct. Use the curated pages and decision register for the current direction.
+- HTML-страницы в корне и `assets/main.css` — отредактированный сайт.
+- `Archive/` сохраняет файлы, существовавшие до создания сайта, размещая прежние пути внутри одного каталога.
+- Архив содержит исходные материалы; это не означает, что все старые заметки актуальны или верны. Текущее направление описано на основных страницах и в реестре решений.
 
-## Publishing
+## Публикация
 
-The repository currently contains a static HTML/CSS site suitable for GitHub Pages. Enable Pages in **Settings → Pages** and select **Deploy from a branch → main → /(root)**. The `_config.yml` excludes the archive from the generated website; archive links point back to the repository.
+В репозитории находится статический сайт на HTML/CSS, подходящий для GitHub Pages. Включи Pages в **Settings → Pages** и выбери **Deploy from a branch → main → /(root)**. Файл `_config.yml` исключает архив из генерируемого сайта; ссылки на архив ведут в репозиторий.
 
-The source and link structure have been checked through the GitHub API. A live browser/deployment check is still pending until Pages is enabled and the deployment is available.
+Исходники и структура ссылок проверены через GitHub API. Проверка сайта в браузере и проверка публикации пока не выполнены: для них нужно включить Pages и дождаться появления опубликованной версии.

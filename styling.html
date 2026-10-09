@@ -1,26 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Visual language — Field Notes</title>
+  <title>Визуальный язык — Полевые заметки</title>
   <link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
-<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<header class="site-head"><a class="mark" href="index.html">ПОЛЕВЫЕ ЗАМЕТКИ</a><nav aria-label="Основная навигация"><a href="project.html">Проект</a><a href="architecture.html">Архитектура</a><a href="decisions.html">Решения</a><a href="sources.html">Источники</a></nav></header>
 <main>
-  <p class="eyebrow">04 / Interface</p>
-  <h1>Quiet design, clear structure.</h1>
-  <p class="intro">The reference's strength is not a collection of effects. It is a restrained visual system in which text, spacing, and links do most of the work.</p>
-  <h2>Design rules</h2>
-  <ul><li>Use a narrow reading measure and a clear typographic hierarchy.</li><li>Keep the palette restrained; links should remain recognisable as links.</li><li>Prefer text labels to decorative icons when the label is clearer.</li><li>Use spacing and rules to separate sections instead of cards everywhere.</li><li>Preserve useful browser defaults and semantic HTML.</li><li>Keep the stylesheet shared and external at <code>assets/main.css</code>.</li></ul>
-  <h2>External, embedded, and inline CSS</h2>
-  <p>These are different delivery mechanisms. A <code>&lt;link rel="stylesheet"&gt;</code> references an external file; <code>&lt;style&gt;</code> embeds a stylesheet in a document; a <code>style</code> attribute applies declarations to one element. The original Oscean uses a shared external file. Embedding the whole stylesheet in every page repeats bytes and prevents independent caching of that stylesheet.</p>
-  <p>The decision is to use one external file without changing the CSS declarations during the first migration. Critical CSS is not justified until a measured rendering problem exists. The technical background is in <a href="decisions.html#d1">decision D-01</a> and the <a href="archive.html">preserved CSS research</a>.</p>
-  <h2>Copy first; redesign separately</h2>
-  <p>When fidelity is the goal, compare all selectors, declarations, media queries, assets, and URL paths before polishing individual details. A visual resemblance alone does not prove that layout behaviour is equivalent. Record intentional deviations separately from accidental ones.</p>
-  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="architecture.html">Site architecture</a></li><li><a href="publishing.html">Visual and technical checks</a></li><li><a href="decisions.html">Decision register</a></li></ul></aside>
+  <p class="eyebrow">04 / Интерфейс</p>
+  <h1>Сдержанный дизайн, ясная структура.</h1>
+  <p class="intro">Сила референса не в наборе визуальных эффектов. Она в сдержанной системе, где основную работу выполняют текст, интервалы и ссылки.</p>
+  <h2>Правила оформления</h2>
+  <ul><li>Использовать умеренную ширину текстовой колонки и ясную типографическую иерархию.</li><li>Ограничить палитру; ссылки должны оставаться узнаваемыми.</li><li>Предпочитать текстовые подписи декоративным значкам, если подпись понятнее.</li><li>Разделять части страницы отступами и линиями, а не повсеместными карточками.</li><li>Сохранять полезные настройки браузера по умолчанию и использовать семантический HTML.</li><li>Хранить стили в общей внешней таблице <code>assets/main.css</code>.</li></ul>
+  <h2>Внешний, встроенный и строчный CSS</h2>
+  <p>Это разные способы подключения стилей. Элемент <code>&lt;link rel="stylesheet"&gt;</code> подключает внешний файл; <code>&lt;style&gt;</code> содержит таблицу стилей внутри документа; атрибут <code>style</code> задаёт правила для одного элемента. В оригинальном Oscean используется общий внешний файл. Встраивание всей таблицы в каждую страницу дублирует данные и не позволяет отдельно кэшировать эту таблицу.</p>
+  <p>Решение: использовать один внешний файл и на первом этапе не менять сами CSS-объявления. Критический CSS не нужен, пока не обнаружена измеримая проблема отрисовки. Техническое обоснование приведено в <a href="decisions.html#d1">решении D-01</a> и в <a href="archive.html">сохранённых исследованиях CSS</a>.</p>
+  <h2>Сначала копирование, потом редизайн</h2>
+  <p>Если цель — точное соответствие, до локальной полировки нужно сравнить все селекторы, объявления, медиавыражения, ресурсы и URL-пути. Внешнее сходство само по себе не доказывает эквивалентность поведения макета. Намеренные отклонения следует фиксировать отдельно от случайных.</p>
+  <aside class="related-box"><strong>Связанные заметки</strong><ul><li><a href="architecture.html">Архитектура сайта</a></li><li><a href="publishing.html">Визуальные и технические проверки</a></li><li><a href="decisions.html">Реестр решений</a></li></ul></aside>
 </main>
-<footer><span>FIELD NOTES / VISUAL LANGUAGE</span><span><a href="index.html">Home</a> · <a href="sources.html">Sources</a></span></footer>
+<footer><span>ПОЛЕВЫЕ ЗАМЕТКИ / ВИЗУАЛЬНЫЙ ЯЗЫК</span><span><a href="index.html">Главная</a> · <a href="sources.html">Источники</a></span></footer>
 </body>
 </html>

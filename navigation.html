@@ -1,27 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Navigation — Field Notes</title>
+  <title>Навигация — Полевые заметки</title>
   <link rel="stylesheet" href="assets/main.css">
 </head>
 <body>
-<header class="site-head"><a class="mark" href="index.html">FIELD NOTES</a><nav aria-label="Primary navigation"><a href="project.html">Project</a><a href="architecture.html">Architecture</a><a href="decisions.html">Decisions</a><a href="sources.html">Sources</a></nav></header>
+<header class="site-head"><a class="mark" href="index.html">ПОЛЕВЫЕ ЗАМЕТКИ</a><nav aria-label="Основная навигация"><a href="project.html">Проект</a><a href="architecture.html">Архитектура</a><a href="decisions.html">Решения</a><a href="sources.html">Источники</a></nav></header>
 <main>
-  <p class="eyebrow">03 / Relationships</p>
-  <h1>Links carry the meaning folders cannot.</h1>
-  <p class="intro">A useful knowledge site is a graph. Pages are nodes; ordinary links make their relationships explicit and durable.</p>
-  <h2>Minimum link contract</h2>
-  <ul><li>Every page links back to the home page.</li><li>Every topic names its prerequisites and related decisions.</li><li>Every important conclusion links to evidence or a test.</li><li>Indexes link forward into topics; topics link back to their index or parent.</li><li>Links use descriptive words, not “here” or an unexplained filename.</li></ul>
-  <h2>Backlinks without a database</h2>
-  <p>For a small static site, explicit reciprocal links are often enough. If page A links to page B because B supports a decision, B should usually link back to A in a “used by” or “related decisions” section. A generator can automate link reports later, but the relationship itself should remain understandable in plain text.</p>
-  <h2>Navigation is not a dump of all files</h2>
-  <p>The main navigation should expose stable top-level concepts. A local index can order related pages when sequence matters. Alphabetical order is a reasonable default; manual order should be an explicit exception, not hidden in fragile template logic.</p>
-  <h2>Check links as part of publishing</h2>
-  <p>Validate internal destinations after moving or renaming files, then inspect the deployed site. A source link can look correct while the published URL is wrong because of case, extension, or base-path rules. See <a href="publishing.html">the publication checklist</a>.</p>
-  <aside class="related-box"><strong>Connected notes</strong><ul><li><a href="architecture.html">Files and information architecture</a></li><li><a href="decisions.html">Decisions with evidence links</a></li><li><a href="archive.html">Archive map</a></li></ul></aside>
+  <p class="eyebrow">03 / Связи</p>
+  <h1>Ссылки передают смысл, который не выразить каталогами.</h1>
+  <p class="intro">Полезный сайт знаний — это граф. Страницы являются узлами, а обычные ссылки явно и надолго фиксируют отношения между ними.</p>
+  <h2>Минимальные требования к ссылкам</h2>
+  <ul><li>Каждая страница содержит ссылку на главную.</li><li>В каждой теме указаны предпосылки и связанные решения.</li><li>Каждый важный вывод ведёт к доказательствам или тесту.</li><li>Указатели ведут к тематическим страницам, а те — обратно к своему указателю или родительской странице.</li><li>Текст ссылки описывает назначение; вместо «здесь» или непонятного имени файла используй осмысленные слова.</li></ul>
+  <h2>Обратные ссылки без базы данных</h2>
+  <p>Для небольшого статического сайта часто достаточно явных взаимных ссылок. Если страница A ссылается на страницу B, потому что та обосновывает решение, B обычно тоже должна ссылаться на A в разделе «используется в» или «связанные решения». Позже генератор может автоматически формировать отчёты о ссылках, но сами отношения должны оставаться понятными в обычном тексте.</p>
+  <h2>Навигация — не перечень всех файлов</h2>
+  <p>Основная навигация должна показывать устойчивые понятия верхнего уровня. Локальный указатель может задавать порядок связанных страниц, если важна последовательность. По умолчанию подходит алфавитный порядок; ручная сортировка должна быть осознанным исключением, а не скрытой логикой шаблонов.</p>
+  <h2>Проверяй ссылки при публикации</h2>
+  <p>После перемещения или переименования файлов проверяй внутренние адреса, а затем сам опубликованный сайт. Ссылка может выглядеть правильной в исходнике, но вести не туда из-за регистра, расширения или базового пути сайта. См. <a href="publishing.html">список проверок публикации</a>.</p>
+  <aside class="related-box"><strong>Связанные заметки</strong><ul><li><a href="architecture.html">Файлы и информационная архитектура</a></li><li><a href="decisions.html">Решения со ссылками на доказательства</a></li><li><a href="archive.html">Карта архива</a></li></ul></aside>
 </main>
-<footer><span>FIELD NOTES / NAVIGATION</span><span><a href="index.html">Home</a> · <a href="architecture.html">Architecture</a></span></footer>
+<footer><span>ПОЛЕВЫЕ ЗАМЕТКИ / НАВИГАЦИЯ</span><span><a href="index.html">Главная</a> · <a href="architecture.html">Архитектура</a></span></footer>
 </body>
 </html>

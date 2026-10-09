@@ -6,15 +6,17 @@
 
 1. [changes.md](changes.md) — единая таблица различий, решений и статусов.
 2. [decisions.md](decisions.md) — принятые решения отдельно от неподтверждённых расхождений.
-3. [alternatives/](alternatives/README.md) — сравнение вариантов реализации: меню, компоновка, подвал, логотип, генерация страниц, URL, CSS и метаданные.
-4. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
-5. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
-6. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
-7. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
-8. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
-9. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
-10. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
-11. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
+3. [alternatives/](alternatives/README.md) — варианты реализации, нейминг, структура проекта и SSG.
+4. [alternatives/naming.md](alternatives/naming.md) — правила имён файлов, каталогов и публичных URL.
+5. [alternatives/project-structure.md](alternatives/project-structure.md) — структура оригинального Oscean, сравнение SSG и практики организации проекта.
+6. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
+7. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
+8. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
+9. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
+10. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
+11. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
+12. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
+13. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
 
 ## Правило работы
 

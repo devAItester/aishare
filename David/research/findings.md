@@ -19,7 +19,7 @@
 
 - Подтверждённый факт: оригинальный Oscean подключает общий внешний `links/main.css` через `<link rel="stylesheet">`; пример есть в сохранённом [Styleguide](../source/pages/styleguide.html), а root index описан в [original-project.md](../source/original-project.md).
 - Пользователь помнит, что в нашей копии CSS инлайнили, но причина этого шага в доступной истории не восстановлена. Не выдавать предположение за исторический факт.
-- Решение пока не принято. Исследование, термины, trade-offs и план проверки: [css-architecture.md](css-architecture.md). Варианты: [../alternatives/css-architecture.md](../alternatives/css-architecture.md). Статус расхождения — C-11 в [changes.md](../changes.md).
+- Принято решение D-05: целевая копия должна использовать один общий внешний CSS-файл `assets/main.css`; внедрение ещё ожидает отдельной правки сайта. Исследование, термины, trade-offs и план проверки: [css-architecture.md](css-architecture.md). Варианты: [../alternatives/css-architecture.md](../alternatives/css-architecture.md). Статус расхождения — C-11 в [changes.md](../changes.md).
 
 ## Зачем halftone
 

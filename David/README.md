@@ -9,6 +9,8 @@
 3. [alternatives/](alternatives/README.md) — варианты реализации, нейминг, структура проекта и SSG.
 4. [alternatives/naming.md](alternatives/naming.md) — правила имён файлов, каталогов и публичных URL.
 5. [alternatives/project-structure.md](alternatives/project-structure.md) — структура оригинального Oscean, сравнение SSG и практики организации проекта.
+4. [alternatives/naming.md](alternatives/naming.md) — правила имён файлов, каталогов и публичных URL.
+5. [alternatives/project-structure.md](alternatives/project-structure.md) — структура оригинального Oscean, сравнение SSG и практики организации проекта.
 6. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
 7. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
 8. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.

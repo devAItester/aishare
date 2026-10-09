@@ -24,10 +24,8 @@
       {% capture marker %}|{{ folder }}|{% endcapture %}
       {% unless seen_folders contains marker %}
         {% assign seen_folders = seen_folders | append: marker %}
-        {% assign folder_path = "pages/" %}
-        {% for path_part in parts limit:depth offset:1 %}
-          {% assign folder_path = folder_path | append: path_part | append: "/" %}
-        {% endfor %}
+        {% assign folder_parts = parts | slice: 0, next_depth %}
+        {% assign folder_path = folder_parts | join: "/" | append: "/" %}
         {% assign main_path = folder_path | append: folder | append: ".md" %}
         {% assign target_url = "" %}
         {% assign target_title = "" %}

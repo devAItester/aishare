@@ -83,7 +83,7 @@ etc/modalrepl/src/modal.js: bin/format-js.rom etc/modal.tal.txt
 	@ rm -f modal modal.sym
 etc/tagrepl/src/tag.js: bin/format-js.rom etc/tag.tal.txt
 	@ ${ASM} etc/tag.tal.txt tag
-	@ ${EMU} bin/format-js.rom assembler > etc/tagrepl/src/tag.js
+	@ ${EMU} bin/format-js.rom tag > etc/tagrepl/src/tag.js
 	@ rm -f tag tag.sym
 etc/pop2repl/src/pop2.js: bin/format-js.rom etc/pop2.tal.txt
 	@ ${ASM} etc/pop2.tal.txt pop2

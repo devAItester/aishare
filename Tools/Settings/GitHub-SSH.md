@@ -138,8 +138,8 @@ EOF
 Добавь условные подключения в глобальный Git config:
 
 ```bash
-git config --global 'includeIf.gitdir:~/dev/devAItester/.path' ~/.config/git/accounts/devAItester.gitconfig
-git config --global 'includeIf.gitdir:~/dev/faebfe/.path' ~/.config/git/accounts/faebfe.gitconfig
+git config --global --replace-all 'includeIf.gitdir:~/dev/devAItester/.path' ~/.config/git/accounts/devAItester.gitconfig
+git config --global --replace-all 'includeIf.gitdir:~/dev/faebfe/.path' ~/.config/git/accounts/faebfe.gitconfig
 ```
 
 Условие `gitdir` действует на Git-репозитории внутри соответствующей папки, включая вложенные каталоги. В репозиториях используются обычные SSH URL; специальный URL с псевдонимом `github-devaitester` не требуется.

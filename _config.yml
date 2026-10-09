@@ -5,9 +5,5 @@ exclude:
   - Archive
   - README.md
   - .gitignore
-  # Temporary source remnants; their organized replacements live under pages/.
-  - publishing.md
-  - sources.md
-  - styling.md
   - Gemfile
   - Gemfile.lock

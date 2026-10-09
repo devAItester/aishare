@@ -1,6 +1,8 @@
 # Oscean: project source and build notes
 
-## Original README (preserved content)
+## Original README
+
+The verbatim upstream README is archived at [README-original.md](README-original.md); its blob SHA is `2359e44418753a8a7af12b41666035979eb9a78a`.
 
 > This is the repository for the Oscean wiki. The on-site documentation is the source for more up-to-date details. Oscean is a static site written in Uxntal, a stack-machine assembly language designed for a portable virtual machine. The database tables are plain-text files designed to fit in Uxn's 64kb of memory. The `main` branch is the live version.
 
@@ -16,7 +18,7 @@ and run command:
 uxncli bin/oscean.rom
 ```
 
-The repository's actual build instructions are archived below in summarized form; the original source remains at https://github.com/XXIIVV/oscean/blob/main/makefile.
+The verbatim upstream Makefile is archived at [makefile](makefile); its blob SHA is `a2aa54f2eb1817237353930de848e7b5fc3e40bc`.
 
 ## Makefile structure (checked from upstream)
 
@@ -38,4 +40,4 @@ Original files:
 - [Oscean engine page](https://wiki.xxiivv.com/site/oscean.html)
 - [About page](https://wiki.xxiivv.com/site/about.html)
 
-This is a research digest, not a byte-for-byte copy of those three files. The exact full current CSS and a representative original HTML specimen are archived separately.
+The README and Makefile are archived verbatim. The root index is summarized here rather than copied as an executable HTML/JavaScript file. The exact full current CSS and a representative original HTML specimen are archived separately.

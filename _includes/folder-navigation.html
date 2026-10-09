@@ -4,6 +4,7 @@
 {% for candidate in sorted_pages %}
   {% assign relative_path = candidate.path | remove_first: base_path %}
   {% assign parts = relative_path | split: "/" %}
+  <!-- DEBUG path={{ candidate.path }} relative={{ relative_path }} parts={{ parts | join: "|" }} name={{ candidate.name }} dir={{ candidate.dir }} -->
   {% if candidate.path contains base_path and parts.size == 2 %}
     {% assign folder = parts[0] %}
     {% assign expected_name = folder | append: ".md" %}

@@ -6,20 +6,21 @@
 
 1. [changes.md](changes.md) — единая таблица различий, решений и статусов.
 2. [decisions.md](decisions.md) — принятые решения отдельно от неподтверждённых расхождений.
-3. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
-4. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
-5. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
-6. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
-7. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
-8. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
-9. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
-10. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
+3. [options/](options/menu-order.md) — сравнение вариантов организации порядка меню и обоснование выбранного решения.
+4. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
+5. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
+6. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
+7. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
+8. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
+9. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
+10. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
+11. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
 
 ## Правило работы
 
 Для вопросов, покрытых этим архивом, сначала используй локальные файлы. Не ходи в сеть за уже сохранённым CSS, историей или выводами. Проверяй upstream только если пользователь спрашивает о более новой версии, нужного файла нет в архиве или текущих данных недостаточно для разрешения конкретного вопроса.
 
-Не смешивай первоисточники и интерпретации: сохранённые оригинальные CSS, Styleguide, README и Makefile находятся в `source/`, исследовательские выдержки — в `research/` и `source/reference-pages.md`, решения — в `decisions.md`, реестр отличий — в `changes.md`.
+Не смешивай первоисточники и интерпретации: сохранённые оригинальные CSS, Styleguide, README и Makefile находятся в `source/`, исследовательские выдержки — в `research/` и `source/reference-pages.md`, решения — в `decisions.md`, реестр отличий — в `changes.md`, а сравнение архитектурных вариантов — в `options/`.
 
 ## Происхождение снимка
 

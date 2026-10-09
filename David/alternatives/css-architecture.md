@@ -20,8 +20,12 @@ Detailed evidence and test plan: [../research/css-architecture.md](../research/c
 - Inline style: `style="..."` on an individual element.
 - `<head>` is a document section; it is not a synonym for embedded CSS.
 
-## Status
+## Decision
 
-Open. No final decision has been recorded. The original source establishes what Oscean does, but not why our earlier copy used inline CSS. Recover the change history and measure generated output before closing the decision.
+**Choose option A: one shared external stylesheet.** The active Jekyll layout was checked and currently embeds the full `_includes/style.css` into every generated page via `<style>{% include style.css %}</style>`. The CSS source is centralized, but its bytes are repeated in every HTML response. The original Oscean also uses a shared external file. For this multi-page static wiki, the external file is the simpler, more faithful baseline and enables browser caching across page visits.
+
+Recommended path in the copy: `assets/main.css`. Keep CSS declarations unchanged while moving the delivery method. Critical CSS is not justified without measured evidence of a first-render problem.
+
+Implementation is pending; this decision does not mean the site code has already been changed. See the task list in [research/css-architecture.md](../research/css-architecture.md).
 
 See [../changes.md](../changes.md) for the discrepancy register and [../decisions.md](../decisions.md) for decision status.

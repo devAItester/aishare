@@ -11,9 +11,7 @@
 <header class="site-head">
   <a class="mark" href="index.html">{{ site.title | upcase }}</a>
   <nav aria-label="Основная навигация">
-    {% for item in site.data.navigation %}
-    <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
-    {% endfor %}
+    {% include folder-navigation.html base_path="pages/" depth=1 %}
   </nav>
 </header>
 <main>

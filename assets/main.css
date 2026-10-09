@@ -75,10 +75,44 @@ code { padding: .08em .28em; background: #e8e7e1; font-family: ui-monospace, SFM
 .small-note { margin-top: 35px; color: var(--muted); font-size: .9rem; }
 footer { display: flex; justify-content: space-between; gap: 20px; padding: 17px 0 25px; border-top: 1px solid var(--line); color: var(--muted); font-size: 11px; letter-spacing: .05em; }
 footer a { letter-spacing: 0; }
+
+/* Folder-derived navigation */
+.site-head nav { display: block; min-width: 0; }
+.folder-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.folder-nav li { position: relative; margin: 0; padding: 0; list-style: none; }
+.folder-nav li > ul {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  top: 100%;
+  left: 0;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 13rem;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.folder-nav li > ul ul { top: 0; left: 100%; }
+.folder-nav li:hover > ul,
+.folder-nav li:focus-within > ul { display: flex; }
+.folder-nav li > ul a { display: block; white-space: nowrap; }
+
 @media (max-width: 620px) {
   body { padding: 0 19px; }
   .site-head { align-items: flex-start; flex-direction: column; gap: 12px; }
-  nav { gap: 10px 14px; }
+  .folder-nav { justify-content: flex-start; gap: 10px 14px; }
+  .folder-nav li > ul { left: 0; }
+  .folder-nav li > ul ul { left: 0; top: 100%; }
   main { padding-top: 34px; }
   .index-grid { grid-template-columns: 1fr; gap: 28px; }
   .definitions { grid-template-columns: 1fr; gap: 4px; }

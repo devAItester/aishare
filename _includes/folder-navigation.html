@@ -4,11 +4,10 @@
 {% for candidate in sorted_pages %}
   {% assign relative_path = candidate.path | remove_first: base_path %}
   {% assign parts = relative_path | split: "/" %}
-  <!-- DEBUG path={{ candidate.path }} relative={{ relative_path }} parts={{ parts | join: "|" }} name={{ candidate.name }} dir={{ candidate.dir }} -->
   {% if candidate.path contains base_path and parts.size == 2 %}
     {% assign folder = parts[0] %}
     {% assign expected_name = folder | append: ".md" %}
-    {% if parts[1] == expected_name %}
+    {% if candidate.name == expected_name %}
       {% assign has_folders = true %}
     {% endif %}
   {% endif %}
@@ -21,7 +20,7 @@
     {% if candidate.path contains base_path and parts.size == 2 %}
       {% assign folder = parts[0] %}
       {% assign expected_name = folder | append: ".md" %}
-      {% if parts[1] == expected_name %}
+      {% if candidate.name == expected_name %}
         {% capture child_base_path %}{{ base_path }}{{ folder }}/{% endcapture %}
   <li>
     <a href="{{ candidate.url | relative_url }}"{% if page.url == candidate.url %} aria-current="page"{% endif %}>{{ candidate.title | default: folder | escape }}</a>

@@ -1,5 +1,6 @@
 title: Полевые заметки
 description: Текстовый сайт со связанными материалами, вдохновлённый Oscean.
+markdown: kramdown
 exclude:
   - Archive
   - README.md

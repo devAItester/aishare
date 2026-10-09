@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.description | default: site.description | escape }}">
+  <title>{{ page.title | escape }} — {{ site.title | escape }}</title>
+  <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="mark" href="index.html">{{ site.title | upcase }}</a>
+  <nav aria-label="Основная навигация">
+    {% for item in site.data.navigation %}
+    <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+</header>
+<main>
+  {% if page.section %}<p class="eyebrow">{{ page.section }}</p>{% endif %}
+  {{ content }}
+  {% if page.related %}
+  <aside class="related-box">
+    <strong>Связанные заметки</strong>
+    <ul>{% for item in page.related %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% endfor %}</ul>
+  </aside>
+  {% endif %}
+</main>
+<footer><span>{{ site.title | upcase }}</span><span><a href="index.html">Главная</a> · <a href="map.html">Карта сайта</a></span></footer>
+</body>
+</html>

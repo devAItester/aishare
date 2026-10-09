@@ -1,6 +1,6 @@
 # Historical CSS snapshots
 
-Original file: `links/main.css` in https://github.com/XXIIVV/oscean. Each block is a verbatim snapshot; commit refs and blob SHAs are listed above it.
+Original file: `links/main.css` in https://github.com/XXIIVV/oscean. Each block preserves the upstream CSS rules and declarations. Blank-line spacing and final newlines may be normalized; use the recorded upstream commit if byte-for-byte whitespace is required. Commit refs and blob SHAs are listed above each block.
 
 ## 2023 snapshot
 

@@ -6,7 +6,8 @@
 {% for candidate in sorted_pages %}
   {% assign parts = candidate.path | split: "/" %}
   {% if parts[0] == "pages" and parts.size > next_depth %}
-    {% assign folder = parts[depth] %}
+    {% assign folder_part = parts | slice: depth, 1 %}
+    {% assign folder = folder_part | first %}
     {% capture marker %}|{{ folder }}|{% endcapture %}
     {% unless seen_folders contains marker %}
       {% assign seen_folders = seen_folders | append: marker %}
@@ -20,7 +21,8 @@
   {% for candidate in sorted_pages %}
     {% assign parts = candidate.path | split: "/" %}
     {% if parts[0] == "pages" and parts.size > next_depth %}
-      {% assign folder = parts[depth] %}
+      {% assign folder_part = parts | slice: depth, 1 %}
+    {% assign folder = folder_part | first %}
       {% capture marker %}|{{ folder }}|{% endcapture %}
       {% unless seen_folders contains marker %}
         {% assign seen_folders = seen_folders | append: marker %}

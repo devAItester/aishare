@@ -37,16 +37,10 @@
             {% break %}
           {% endif %}
         {% endfor %}
-        {% if target_url == "" %}
-          {% for item in sorted_pages %}
-            {% assign item_prefix = item.path | slice: 0, folder_path.size %}
-            {% if item_prefix == folder_path %}
-              {% assign target_url = item.url %}
-              {% assign target_title = item.title %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {% endif %}
+        {% comment %}
+          No arbitrary fallback: only the folder-named page is the section's main page.
+          Its front matter permalink supplies the public URL.
+        {% endcomment %}
         {% if target_url != "" %}
   <li>
     <a href="{{ target_url | relative_url }}"{% if page.url == target_url %} aria-current="page"{% endif %}>{{ target_title | default: folder | escape }}</a>

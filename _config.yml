@@ -4,6 +4,7 @@ markdown: kramdown
 exclude:
   - Archive
   - README.md
+  - rules.md
   - .gitignore
   - Gemfile
   - Gemfile.lock

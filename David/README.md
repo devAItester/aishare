@@ -12,13 +12,13 @@
 6. [research/findings.md](research/findings.md) — результаты исследований, источники и ограничения.
 7. [research/css-architecture.md](research/css-architecture.md) — исследование внешнего CSS против embedded/inline CSS.
 8. [alternatives/css-architecture.md](alternatives/css-architecture.md) — сравнение вариантов доставки CSS.
-7. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
-8. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
-9. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
-10. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
-11. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
-12. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
-13. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
+9. [source/current-main.css](source/current-main.css) — полный, сверенный с upstream снимок актуального CSS.
+10. [source/history-css.md](source/history-css.md) — исторические версии CSS, включая период до и после появления halftone.
+11. [source/pages/styleguide.html](source/pages/styleguide.html) — полная копия HTML Styleguide, демонстрирующая типовые элементы и пустой третий список навигации.
+12. [source/README-original.md](source/README-original.md) и [source/makefile](source/makefile) — оригинальные README и Makefile; содержимое Makefile сверено с upstream.
+13. [source/reference-pages.md](source/reference-pages.md) — локальные исследовательские выдержки по About, Oscean, Shavian и другим страницам.
+14. [source/original-project.md](source/original-project.md) — объяснение архитектуры, генерации и корневого index.
+15. [source/assets/halftone.md](source/assets/halftone.md) — идентификатор и происхождение фонового GIF.
 
 ## Правило работы
 

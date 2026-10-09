@@ -1,0 +1,8 @@
+title: Field Notes
+description: A text-first, linked knowledge site inspired by Oscean.
+exclude:
+  - Archive
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock

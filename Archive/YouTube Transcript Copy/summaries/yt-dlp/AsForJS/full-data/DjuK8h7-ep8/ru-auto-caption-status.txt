@@ -1,0 +1,5 @@
+result=failed
+video=DjuK8h7-ep8
+language=ru
+exit_code=124
+reason=no_valid_json3_file

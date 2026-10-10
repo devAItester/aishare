@@ -15,6 +15,9 @@
 - [Вопросы ответы для участников Табора](https://www.youtube.com/watch?v=s2U6LYGO67o)
 - [Copy of Співбесід chatGPT на посаду Junior JavaScript Developer](https://www.youtube.com/watch?v=DtsikjAzDjA)
 
+<details>
+<summary>Streams — 253 записи</summary>
+
 ## Вкладка: Streams (253)
 
 - [Разбираем JavaScript задачи собеседований с канала ВебШтучки](https://www.youtube.com/watch?v=IMS-LVHlXuU)
@@ -271,9 +274,14 @@
 - [Остерегайся удара Зюзькой - Дональд Кнут 1972 год.](https://www.youtube.com/watch?v=iOV8Aeo-xiw)
 - [Why does everyone use var, let and const incorrectly and yet teach others to do the same?](https://www.youtube.com/watch?v=msrbSSZQApI)
 
+</details>
+
 ## Вкладка: Подкасты (21)
 
-### [Задачи с JavaScript собеседований и корректные решения к ним](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmJo-QbCvhj57cVW5JF5Nyx)
+<details>
+<summary>Задачи с JavaScript собеседований и корректные решения к ним</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmJo-QbCvhj57cVW5JF5Nyx)
 
 - [Разбираем JavaScript задачи собеседований с канала ВебШтучки](https://www.youtube.com/watch?v=IMS-LVHlXuU)
 - [Мурыч на собеседовании](https://www.youtube.com/watch?v=3BoU1jYz384)
@@ -299,7 +307,12 @@
 - [⎡msk⎦ Разбираем вопрос JavaScript собеседований о передаче по ссылке и по значению](https://www.youtube.com/watch?v=wn4O3Pq6zYE)
 - [⎡msk⎦ Задача с JavaScript собеседования о разбиении текста на строки заданной длины](https://www.youtube.com/watch?v=yfJ475DYo2w)
 
-### [В интернетах кто-то неправ.](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnHLg-IVIrS9gt8zuS-0_eS)
+</details>
+
+<details>
+<summary>В интернетах кто-то неправ.</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnHLg-IVIrS9gt8zuS-0_eS)
 
 - [Разберем видео от Isaac ReactJS про: типы и замыкания](https://www.youtube.com/watch?v=3r4X5OSQMFs)
 - [Оптимизируем главную страницу HexLet до PageSpeed 90+](https://www.youtube.com/watch?v=zXITWw0ctDM)
@@ -343,7 +356,12 @@
 - [JavaScript and the Lexical Environment. Let's look at examples. [Msk\] [JavaScript shorts\]](https://www.youtube.com/watch?v=eghLLFbTDYM)
 - [Logical Expressions in JavaScript. Let's break them down with examples. [EN\] [JavaScript Shorts\]](https://www.youtube.com/watch?v=aaoZm1yHCxw)
 
-### [JavaScript беседы](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmjS0pl_LKnhEf3H4-2dS96)
+</details>
+
+<details>
+<summary>JavaScript беседы</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmjS0pl_LKnhEf3H4-2dS96)
 
 - [Что-то типа собеседования на тему ECMAScript](https://www.youtube.com/watch?v=6curTcJF-u4)
 - [О низкоуровневой разработке при помощи высокоуровневых языков.](https://www.youtube.com/watch?v=ZFjo4Zs2YYA)
@@ -368,7 +386,12 @@
 - [⎡dlgs:02⎦   JavaScript Беседы: Reduce, For, Wasm...](https://www.youtube.com/watch?v=OQ3yaWfOfQs)
 - [⎡dlgs:01⎦   JavaScript Беседы: Service Worker-ы](https://www.youtube.com/watch?v=02KDxt_u2To)
 
-### [Производительность JavaScript кода](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkajyvG_N_ZyHA8sA2rtdph)
+</details>
+
+<details>
+<summary>Производительность JavaScript кода</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkajyvG_N_ZyHA8sA2rtdph)
 
 - [Производительность Math.trunc vs Or](https://www.youtube.com/watch?v=DjuK8h7-ep8)
 - [Производительность for, forEach и reduce](https://www.youtube.com/watch?v=OpJLmIvXs5A)
@@ -397,7 +420,12 @@
 - [[msk\] How JavaScript code impacts performance during the preparation stage for execution](https://www.youtube.com/watch?v=VZlhhFDVa24)
 - [⎡msk⎦ Введение в производительность JavaScript кода](https://www.youtube.com/watch?v=UNSjfNfvUFU)
 
-### [SEO for JavaScript-ers](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnW-lwIwrBoyhg217c5WVAf)
+</details>
+
+<details>
+<summary>SEO for JavaScript-ers</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnW-lwIwrBoyhg217c5WVAf)
 
 - [Оптимизируем главную страницу HexLet до PageSpeed 90+](https://www.youtube.com/watch?v=zXITWw0ctDM)
 - [Посмотрим вместе видео: SEO для программистов](https://www.youtube.com/watch?v=Z8fzImsl-RM)
@@ -407,7 +435,12 @@
 - [Google leaks: Разбор утечки 2500 Google документов о деталях поиска.](https://www.youtube.com/watch?v=_Uyzj7ycemc)
 - [Вся правда о Google leaks утечке 2500 Google документов](https://www.youtube.com/watch?v=7b3Qc0Q7bQ8)
 
-### [Курс: JS Vanilla - non penis canina](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km1VqYJ_UUcIfCAaGnziRdQ)
+</details>
+
+<details>
+<summary>Курс: JS Vanilla - non penis canina</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km1VqYJ_UUcIfCAaGnziRdQ)
 
 - [JavaScript курс. Part 4: Поведение](https://www.youtube.com/watch?v=y1oPhRCCxLU)
 - [AsForJS Talks: День рождения](https://www.youtube.com/watch?v=F9mPBBevqUE)
@@ -418,7 +451,12 @@
 - [AsForJS Talks: Что там за курс и еще](https://www.youtube.com/watch?v=Dtgo9uB1fxU)
 - [Анонс и запись на курс JS Vanilla - non penis canina](https://www.youtube.com/watch?v=4eyGrFv7pzM)
 
-### [JavaScript Talks](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmrKkxa0UDUo76EszgjSdr4)
+</details>
+
+<details>
+<summary>JavaScript Talks</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmrKkxa0UDUo76EszgjSdr4)
 
 - [AsForJS Talks: День рождения](https://www.youtube.com/watch?v=F9mPBBevqUE)
 - [AsForJS Talks: Когда ИИ победит программиста](https://www.youtube.com/watch?v=2HPK0dh0_K8)
@@ -458,7 +496,12 @@
 - [[msk\] [talks\] JavaScript: Pass-by-Reference and Pass-by-Value through the lens of Dmitry Soshniko...](https://www.youtube.com/watch?v=GZ0id4HE8ls)
 - [⎡msk⎦ ⎡talks⎦ Обсуждение с подписчиками вопроса о том, почему в V8 SMI 31 бит против 32 в NodeJs](https://www.youtube.com/watch?v=eULXuxZZuPw)
 
-### [JavaScript Live Coding](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlGRFSykLfDiD4rEqU7lBVZ)
+</details>
+
+<details>
+<summary>JavaScript Live Coding</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlGRFSykLfDiD4rEqU7lBVZ)
 
 - [Live Coding: Sumo на коленке - 2](https://www.youtube.com/watch?v=7-KMWtDmLYs)
 - [Live Coding: Sumo on the Go: Writing a Google Chrome Extension](https://www.youtube.com/watch?v=bPy9h7m6NzA)
@@ -487,7 +530,12 @@
 - [⎡coding: 02⎦   JavaScript Live Coding: Demimurych's head roaches, light on](https://www.youtube.com/watch?v=-kBKbg6QWug)
 - [⎡coding: 01⎦   JavaScript Live Coding: Demimurych's head roaches](https://www.youtube.com/watch?v=CcwkAS1v0bA)
 
-### [Try To Hack My JavaScript](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlXZlChcnlc0eX6eluUhuRH)
+</details>
+
+<details>
+<summary>Try To Hack My JavaScript</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlXZlChcnlc0eX6eluUhuRH)
 
 - [Try to hack My JavaScript: Ломай, ломай меня полностью](https://www.youtube.com/watch?v=vP0YZ3bNoO8)
 - [Try to hack My JavaScript: Solutions for Magic Word](https://www.youtube.com/watch?v=qe3NQ2lL2V4)
@@ -496,22 +544,42 @@
 - [Try to Hack My JavaScript: Solutions for readyState](https://www.youtube.com/watch?v=dsrPYivNgXc)
 - [Try to hack My JavaScript: readyState](https://www.youtube.com/watch?v=sj1VEnlEtQw)
 
-### [JavaScript Code Review](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn3epE38VpdI7i-amTV99Cy)
+</details>
+
+<details>
+<summary>JavaScript Code Review</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn3epE38VpdI7i-amTV99Cy)
 
 - [Code Review: Array.from и два вложенных for](https://www.youtube.com/watch?v=z6m6FT-Tj90)
 
-### [Выразительная JS черепаха](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlZgQwEJELJtzLB5AOXa-zh)
+</details>
+
+<details>
+<summary>Выразительная JS черепаха</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlZgQwEJELJtzLB5AOXa-zh)
 
 - [Выражаем себя через Rest и Spread](https://www.youtube.com/watch?v=Gz5PeNKkxwA)
 
-### [JavaScript: I Need To Know](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlBWNwhUB9glFnICVO3bqIZ)
+</details>
+
+<details>
+<summary>JavaScript: I Need To Know</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlBWNwhUB9glFnICVO3bqIZ)
 
 - [Мне нужно знать о JavaScript:  WeakRef и WeakMap](https://www.youtube.com/watch?v=5o5kv-4TyYw)
 - [Поговоримо з Дмитром про типи, змінні та хоістінг](https://www.youtube.com/watch?v=xp79fBrLlFw)
 - [Мне нужно знать о JavaScript: ArisenRising](https://www.youtube.com/watch?v=wYHO3UcHyBY)
 - [Про оптимизацию](https://www.youtube.com/watch?v=4UwH9I-l7u4)
 
-### [JavaScript: Согласно официальной спецификации...](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnTjFmZv1PvGTr1trS-dq37)
+</details>
+
+<details>
+<summary>JavaScript: Согласно официальной спецификации...</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnTjFmZv1PvGTr1trS-dq37)
 
 - [Что Вы не знаете о Assignment Patterns](https://www.youtube.com/watch?v=3LTiRS55WoQ)
 - [Why NaN is a range of 9 quadrillion numbers](https://www.youtube.com/watch?v=QxmS2ny5o3s)
@@ -530,14 +598,24 @@
 - [How this works in JavaScript. Let's look at some examples. [Short version\] [RU\]](https://www.youtube.com/watch?v=fQ7_GT8_zeM)
 - [Как работает this в javascript. Разберемся на примерах опираясь на официальную спецификацию. [RU\]](https://www.youtube.com/watch?v=4tg4qokVS9o)
 
-### [Что-нибудь полезное про JavaScript](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kkbccana_Yev9XccUGXJSAc)
+</details>
+
+<details>
+<summary>Что-нибудь полезное про JavaScript</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kkbccana_Yev9XccUGXJSAc)
 
 - [Что-нибудь полезное: Google Developer Tools Hints](https://www.youtube.com/watch?v=z_DrRM7F_24)
 - [Что-нибудь полезное: Крутим VSCode](https://www.youtube.com/watch?v=ij_PCCZVTEs)
 - [Something Useful: Tweaking Google Chrome](https://www.youtube.com/watch?v=8o4QOUvjB1k)
 - [Что-нибудь полезное: DevTools settings](https://www.youtube.com/watch?v=_On4jSu1vUQ)
 
-### [Assembler для JavaScript программиста](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnPRwqMM6CqUxr779cZZFks)
+</details>
+
+<details>
+<summary>Assembler для JavaScript программиста</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnPRwqMM6CqUxr779cZZFks)
 
 - [Asm для JS программиста:  Вирус и эвристический анализатор](https://www.youtube.com/watch?v=qjVKgy835KQ)
 - [Asm для JS программиста:  Пишем вирус](https://www.youtube.com/watch?v=nCM2-bsdnKI)
@@ -545,14 +623,24 @@
 - [Asm для JS программиста:  Введение. Часть 2.](https://www.youtube.com/watch?v=JUDPQLb7QnQ)
 - [Assembly for JS Programmers: Introduction](https://www.youtube.com/watch?v=MHNKeEo0HOQ)
 
-### [JavaScript глазами реверс-инженера](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlmntXO7FlDs91GSzBL3L2l)
+</details>
+
+<details>
+<summary>JavaScript глазами реверс-инженера</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlmntXO7FlDs91GSzBL3L2l)
 
 - [Глазами реверс-инженера: npm червь Shai-Hulud](https://www.youtube.com/watch?v=rVfNr7aYYm0)
 - [Глазами реверс-инженера: Google Docs Internals [2\]](https://www.youtube.com/watch?v=xUvdte3tzYM)
 - [Глазами реверс-инженера: Google Docs Internals](https://www.youtube.com/watch?v=2zKya01zYK4)
 - [⎡reverse:01⎦ JavaScript реверс: Ссылки в Google Docs](https://www.youtube.com/watch?v=eDkheYAsqro)
 
-### [JavaScript Tips and Tricks](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmGT6pyDRLKheyICRfD3jog)
+</details>
+
+<details>
+<summary>JavaScript Tips and Tricks</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmGT6pyDRLKheyICRfD3jog)
 
 - [Tips and Tricks: Google Developer Tools and copy](https://www.youtube.com/watch?v=pvfM_oWFs-o)
 - [⎡tips:11⎦ JavaScript Tips: Один символ и производительность](https://www.youtube.com/watch?v=u_bsXuBOO74)
@@ -567,11 +655,21 @@
 - [⎡msk⎦ JavaScript Destructuring Assignment or not all that is written is gold.](https://www.youtube.com/watch?v=98mOkxRFHYA)
 - [JavaScript and identifiers. Part of the Tips and Tricks podcast [Msk\] [JavaScript shorts\]](https://www.youtube.com/watch?v=biy50-ssgVQ)
 
-### [Мурыч идет на курсы](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kml9pm_52nX-sVapTbJwZde)
+</details>
+
+<details>
+<summary>Мурыч идет на курсы</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kml9pm_52nX-sVapTbJwZde)
 
 - [⎡course:00⎦ Udemy курс. JavaScript Pro: Mastering Advanced Concepts and Techniques](https://www.youtube.com/watch?v=65mxbswN1DM)
 
-### [JavaScript инструменты](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkaFwKLxBgpYwASiGU6wqTY)
+</details>
+
+<details>
+<summary>JavaScript инструменты</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkaFwKLxBgpYwASiGU6wqTY)
 
 - [⎡devices:04⎦ JavaScript Tools: Performance Evaluation](https://www.youtube.com/watch?v=VHzNbsR893A)
 - [⎡devices:03⎦ JavaScript инструменты: Байт-код V8 часть 2](https://www.youtube.com/watch?v=n79z4l2Qrp4)
@@ -579,7 +677,12 @@
 - [⎡devices:01⎦ JavaScript Tools: How to Run a V8 Build](https://www.youtube.com/watch?v=0_D2ox_N6hw)
 - [⎡devices:00⎦ JavaScript Tools: What to Install to Get Started](https://www.youtube.com/watch?v=cbuWLCCs1nQ)
 
-### [JavaScript: От мифов к спецификации](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnIt1JQS1FIq6WNoh7UaMhg)
+</details>
+
+<details>
+<summary>JavaScript: От мифов к спецификации</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnIt1JQS1FIq6WNoh7UaMhg)
 
 - [⎡JSbook: 04.00⎦   JavaScript: От мифов к спецификации. Как выполняется JS код.](https://www.youtube.com/watch?v=1hkPcXEE7to)
 - [⎡JSbook: 03.02⎦   JavaScript: От мифов к спецификации. Магия или ее разоблачение?](https://www.youtube.com/watch?v=bxSpi3AEshk)
@@ -592,7 +695,12 @@
 - [⎡JSbook: 01.1⎦ JavaScript: From Myths to Specification. Introduction: About the Author](https://www.youtube.com/watch?v=rvt2EdYoCq4)
 - [⎡JSbook: 01.0⎦   JavaScript: От мифов к спецификации. Введение.](https://www.youtube.com/watch?v=2JYATSfmsAs)
 
-### [⎡msk⎦ JavaScript - регулярные (RegExp) 5-ти минутки](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn58DVfrX21oVBhghkS9XS9)
+</details>
+
+<details>
+<summary>⎡msk⎦ JavaScript - регулярные (RegExp) 5-ти минутки</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn58DVfrX21oVBhghkS9XS9)
 
 - [⎡msk⎦⎡RegExp⎦⎡05⎦ JavaScript Strings и Unicode, UTF-16](https://www.youtube.com/watch?v=yGNltdKMtF8)
 - [⎡msk⎦⎡RegExp⎦⎡04⎦ Базовые символьные классы в JavaScript регулярных выражениях.](https://www.youtube.com/watch?v=bPo3KXcYYBg)
@@ -601,10 +709,14 @@
 - [⎡msk⎦⎡RegExp⎦⎡02⎦ Regular 5-minute intervals. The fundamental base of JavaScript regular expressions](https://www.youtube.com/watch?v=vZyyFMaprIY)
 - [⎡msk⎦⎡RegExp⎦⎡01⎦ Regular 5 Minutes. Or Introduction to Regular Epressions](https://www.youtube.com/watch?v=kWBHCtJwCR8)
 
+</details>
 
 ## Вкладка: Плейлисты (24)
 
-### [Курс: JS Vanilla - non penis canina](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km1VqYJ_UUcIfCAaGnziRdQ)
+<details>
+<summary>Курс: JS Vanilla - non penis canina</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km1VqYJ_UUcIfCAaGnziRdQ)
 
 - [JavaScript курс. Part 4: Поведение](https://www.youtube.com/watch?v=y1oPhRCCxLU)
 - [AsForJS Talks: День рождения](https://www.youtube.com/watch?v=F9mPBBevqUE)
@@ -615,29 +727,54 @@
 - [AsForJS Talks: Что там за курс и еще](https://www.youtube.com/watch?v=Dtgo9uB1fxU)
 - [Анонс и запись на курс JS Vanilla - non penis canina](https://www.youtube.com/watch?v=4eyGrFv7pzM)
 
-### [JavaScript Code Review](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn3epE38VpdI7i-amTV99Cy)
+</details>
+
+<details>
+<summary>JavaScript Code Review</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn3epE38VpdI7i-amTV99Cy)
 
 - [Code Review: Array.from и два вложенных for](https://www.youtube.com/watch?v=z6m6FT-Tj90)
 
-### [Выразительная JS черепаха](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlZgQwEJELJtzLB5AOXa-zh)
+</details>
+
+<details>
+<summary>Выразительная JS черепаха</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlZgQwEJELJtzLB5AOXa-zh)
 
 - [Выражаем себя через Rest и Spread](https://www.youtube.com/watch?v=Gz5PeNKkxwA)
 
-### [Что-нибудь полезное про JavaScript](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kkbccana_Yev9XccUGXJSAc)
+</details>
+
+<details>
+<summary>Что-нибудь полезное про JavaScript</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kkbccana_Yev9XccUGXJSAc)
 
 - [Что-нибудь полезное: Google Developer Tools Hints](https://www.youtube.com/watch?v=z_DrRM7F_24)
 - [Что-нибудь полезное: Крутим VSCode](https://www.youtube.com/watch?v=ij_PCCZVTEs)
 - [Something Useful: Tweaking Google Chrome](https://www.youtube.com/watch?v=8o4QOUvjB1k)
 - [Что-нибудь полезное: DevTools settings](https://www.youtube.com/watch?v=_On4jSu1vUQ)
 
-### [JavaScript: I Need To Know](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlBWNwhUB9glFnICVO3bqIZ)
+</details>
+
+<details>
+<summary>JavaScript: I Need To Know</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlBWNwhUB9glFnICVO3bqIZ)
 
 - [Мне нужно знать о JavaScript:  WeakRef и WeakMap](https://www.youtube.com/watch?v=5o5kv-4TyYw)
 - [Поговоримо з Дмитром про типи, змінні та хоістінг](https://www.youtube.com/watch?v=xp79fBrLlFw)
 - [Мне нужно знать о JavaScript: ArisenRising](https://www.youtube.com/watch?v=wYHO3UcHyBY)
 - [Про оптимизацию](https://www.youtube.com/watch?v=4UwH9I-l7u4)
 
-### [Assembler для JavaScript программиста](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnPRwqMM6CqUxr779cZZFks)
+</details>
+
+<details>
+<summary>Assembler для JavaScript программиста</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnPRwqMM6CqUxr779cZZFks)
 
 - [Asm для JS программиста:  Вирус и эвристический анализатор](https://www.youtube.com/watch?v=qjVKgy835KQ)
 - [Asm для JS программиста:  Пишем вирус](https://www.youtube.com/watch?v=nCM2-bsdnKI)
@@ -645,7 +782,12 @@
 - [Asm для JS программиста:  Введение. Часть 2.](https://www.youtube.com/watch?v=JUDPQLb7QnQ)
 - [Assembly for JS Programmers: Introduction](https://www.youtube.com/watch?v=MHNKeEo0HOQ)
 
-### [SEO for JavaScript-ers](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnW-lwIwrBoyhg217c5WVAf)
+</details>
+
+<details>
+<summary>SEO for JavaScript-ers</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnW-lwIwrBoyhg217c5WVAf)
 
 - [Оптимизируем главную страницу HexLet до PageSpeed 90+](https://www.youtube.com/watch?v=zXITWw0ctDM)
 - [Посмотрим вместе видео: SEO для программистов](https://www.youtube.com/watch?v=Z8fzImsl-RM)
@@ -655,7 +797,12 @@
 - [Google leaks: Разбор утечки 2500 Google документов о деталях поиска.](https://www.youtube.com/watch?v=_Uyzj7ycemc)
 - [Вся правда о Google leaks утечке 2500 Google документов](https://www.youtube.com/watch?v=7b3Qc0Q7bQ8)
 
-### [Try To Hack My JavaScript](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlXZlChcnlc0eX6eluUhuRH)
+</details>
+
+<details>
+<summary>Try To Hack My JavaScript</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlXZlChcnlc0eX6eluUhuRH)
 
 - [Try to hack My JavaScript: Ломай, ломай меня полностью](https://www.youtube.com/watch?v=vP0YZ3bNoO8)
 - [Try to hack My JavaScript: Solutions for Magic Word](https://www.youtube.com/watch?v=qe3NQ2lL2V4)
@@ -664,18 +811,33 @@
 - [Try to Hack My JavaScript: Solutions for readyState](https://www.youtube.com/watch?v=dsrPYivNgXc)
 - [Try to hack My JavaScript: readyState](https://www.youtube.com/watch?v=sj1VEnlEtQw)
 
-### [JavaScript глазами реверс-инженера](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlmntXO7FlDs91GSzBL3L2l)
+</details>
+
+<details>
+<summary>JavaScript глазами реверс-инженера</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlmntXO7FlDs91GSzBL3L2l)
 
 - [Глазами реверс-инженера: npm червь Shai-Hulud](https://www.youtube.com/watch?v=rVfNr7aYYm0)
 - [Глазами реверс-инженера: Google Docs Internals [2\]](https://www.youtube.com/watch?v=xUvdte3tzYM)
 - [Глазами реверс-инженера: Google Docs Internals](https://www.youtube.com/watch?v=2zKya01zYK4)
 - [⎡reverse:01⎦ JavaScript реверс: Ссылки в Google Docs](https://www.youtube.com/watch?v=eDkheYAsqro)
 
-### [Мурыч идет на курсы](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kml9pm_52nX-sVapTbJwZde)
+</details>
+
+<details>
+<summary>Мурыч идет на курсы</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kml9pm_52nX-sVapTbJwZde)
 
 - [⎡course:00⎦ Udemy курс. JavaScript Pro: Mastering Advanced Concepts and Techniques](https://www.youtube.com/watch?v=65mxbswN1DM)
 
-### [JavaScript инструменты](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkaFwKLxBgpYwASiGU6wqTY)
+</details>
+
+<details>
+<summary>JavaScript инструменты</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkaFwKLxBgpYwASiGU6wqTY)
 
 - [⎡devices:04⎦ JavaScript Tools: Performance Evaluation](https://www.youtube.com/watch?v=VHzNbsR893A)
 - [⎡devices:03⎦ JavaScript инструменты: Байт-код V8 часть 2](https://www.youtube.com/watch?v=n79z4l2Qrp4)
@@ -683,7 +845,12 @@
 - [⎡devices:01⎦ JavaScript Tools: How to Run a V8 Build](https://www.youtube.com/watch?v=0_D2ox_N6hw)
 - [⎡devices:00⎦ JavaScript Tools: What to Install to Get Started](https://www.youtube.com/watch?v=cbuWLCCs1nQ)
 
-### [JavaScript: Согласно официальной спецификации...](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnTjFmZv1PvGTr1trS-dq37)
+</details>
+
+<details>
+<summary>JavaScript: Согласно официальной спецификации...</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnTjFmZv1PvGTr1trS-dq37)
 
 - [Что Вы не знаете о Assignment Patterns](https://www.youtube.com/watch?v=3LTiRS55WoQ)
 - [Why NaN is a range of 9 quadrillion numbers](https://www.youtube.com/watch?v=QxmS2ny5o3s)
@@ -702,7 +869,12 @@
 - [How this works in JavaScript. Let's look at some examples. [Short version\] [RU\]](https://www.youtube.com/watch?v=fQ7_GT8_zeM)
 - [Как работает this в javascript. Разберемся на примерах опираясь на официальную спецификацию. [RU\]](https://www.youtube.com/watch?v=4tg4qokVS9o)
 
-### [JavaScript беседы](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmjS0pl_LKnhEf3H4-2dS96)
+</details>
+
+<details>
+<summary>JavaScript беседы</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmjS0pl_LKnhEf3H4-2dS96)
 
 - [Что-то типа собеседования на тему ECMAScript](https://www.youtube.com/watch?v=6curTcJF-u4)
 - [О низкоуровневой разработке при помощи высокоуровневых языков.](https://www.youtube.com/watch?v=ZFjo4Zs2YYA)
@@ -727,7 +899,12 @@
 - [⎡dlgs:02⎦   JavaScript Беседы: Reduce, For, Wasm...](https://www.youtube.com/watch?v=OQ3yaWfOfQs)
 - [⎡dlgs:01⎦   JavaScript Беседы: Service Worker-ы](https://www.youtube.com/watch?v=02KDxt_u2To)
 
-### [JavaScript: От мифов к спецификации](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnIt1JQS1FIq6WNoh7UaMhg)
+</details>
+
+<details>
+<summary>JavaScript: От мифов к спецификации</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnIt1JQS1FIq6WNoh7UaMhg)
 
 - [⎡JSbook: 04.00⎦   JavaScript: От мифов к спецификации. Как выполняется JS код.](https://www.youtube.com/watch?v=1hkPcXEE7to)
 - [⎡JSbook: 03.02⎦   JavaScript: От мифов к спецификации. Магия или ее разоблачение?](https://www.youtube.com/watch?v=bxSpi3AEshk)
@@ -740,7 +917,12 @@
 - [⎡JSbook: 01.1⎦ JavaScript: From Myths to Specification. Introduction: About the Author](https://www.youtube.com/watch?v=rvt2EdYoCq4)
 - [⎡JSbook: 01.0⎦   JavaScript: От мифов к спецификации. Введение.](https://www.youtube.com/watch?v=2JYATSfmsAs)
 
-### [JavaScript Live Coding](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlGRFSykLfDiD4rEqU7lBVZ)
+</details>
+
+<details>
+<summary>JavaScript Live Coding</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KlGRFSykLfDiD4rEqU7lBVZ)
 
 - [Live Coding: Sumo на коленке - 2](https://www.youtube.com/watch?v=7-KMWtDmLYs)
 - [Live Coding: Sumo on the Go: Writing a Google Chrome Extension](https://www.youtube.com/watch?v=bPy9h7m6NzA)
@@ -769,7 +951,12 @@
 - [⎡coding: 02⎦   JavaScript Live Coding: Demimurych's head roaches, light on](https://www.youtube.com/watch?v=-kBKbg6QWug)
 - [⎡coding: 01⎦   JavaScript Live Coding: Demimurych's head roaches](https://www.youtube.com/watch?v=CcwkAS1v0bA)
 
-### [JavaScript Talks](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmrKkxa0UDUo76EszgjSdr4)
+</details>
+
+<details>
+<summary>JavaScript Talks</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmrKkxa0UDUo76EszgjSdr4)
 
 - [AsForJS Talks: День рождения](https://www.youtube.com/watch?v=F9mPBBevqUE)
 - [AsForJS Talks: Когда ИИ победит программиста](https://www.youtube.com/watch?v=2HPK0dh0_K8)
@@ -809,7 +996,12 @@
 - [[msk\] [talks\] JavaScript: Pass-by-Reference and Pass-by-Value through the lens of Dmitry Soshniko...](https://www.youtube.com/watch?v=GZ0id4HE8ls)
 - [⎡msk⎦ ⎡talks⎦ Обсуждение с подписчиками вопроса о том, почему в V8 SMI 31 бит против 32 в NodeJs](https://www.youtube.com/watch?v=eULXuxZZuPw)
 
-### [⎡msk⎦ JavaScript - регулярные (RegExp) 5-ти минутки](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn58DVfrX21oVBhghkS9XS9)
+</details>
+
+<details>
+<summary>⎡msk⎦ JavaScript - регулярные (RegExp) 5-ти минутки</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn58DVfrX21oVBhghkS9XS9)
 
 - [⎡msk⎦⎡RegExp⎦⎡05⎦ JavaScript Strings и Unicode, UTF-16](https://www.youtube.com/watch?v=yGNltdKMtF8)
 - [⎡msk⎦⎡RegExp⎦⎡04⎦ Базовые символьные классы в JavaScript регулярных выражениях.](https://www.youtube.com/watch?v=bPo3KXcYYBg)
@@ -818,7 +1010,12 @@
 - [⎡msk⎦⎡RegExp⎦⎡02⎦ Regular 5-minute intervals. The fundamental base of JavaScript regular expressions](https://www.youtube.com/watch?v=vZyyFMaprIY)
 - [⎡msk⎦⎡RegExp⎦⎡01⎦ Regular 5 Minutes. Or Introduction to Regular Epressions](https://www.youtube.com/watch?v=kWBHCtJwCR8)
 
-### [Задачи с JavaScript собеседований и корректные решения к ним](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmJo-QbCvhj57cVW5JF5Nyx)
+</details>
+
+<details>
+<summary>Задачи с JavaScript собеседований и корректные решения к ним</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmJo-QbCvhj57cVW5JF5Nyx)
 
 - [Разбираем JavaScript задачи собеседований с канала ВебШтучки](https://www.youtube.com/watch?v=IMS-LVHlXuU)
 - [Мурыч на собеседовании](https://www.youtube.com/watch?v=3BoU1jYz384)
@@ -844,7 +1041,12 @@
 - [⎡msk⎦ Разбираем вопрос JavaScript собеседований о передаче по ссылке и по значению](https://www.youtube.com/watch?v=wn4O3Pq6zYE)
 - [⎡msk⎦ Задача с JavaScript собеседования о разбиении текста на строки заданной длины](https://www.youtube.com/watch?v=yfJ475DYo2w)
 
-### [Производительность JavaScript кода](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkajyvG_N_ZyHA8sA2rtdph)
+</details>
+
+<details>
+<summary>Производительность JavaScript кода</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KkajyvG_N_ZyHA8sA2rtdph)
 
 - [Производительность Math.trunc vs Or](https://www.youtube.com/watch?v=DjuK8h7-ep8)
 - [Производительность for, forEach и reduce](https://www.youtube.com/watch?v=OpJLmIvXs5A)
@@ -873,7 +1075,12 @@
 - [[msk\] How JavaScript code impacts performance during the preparation stage for execution](https://www.youtube.com/watch?v=VZlhhFDVa24)
 - [⎡msk⎦ Введение в производительность JavaScript кода](https://www.youtube.com/watch?v=UNSjfNfvUFU)
 
-### [JavaScript Tips and Tricks](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmGT6pyDRLKheyICRfD3jog)
+</details>
+
+<details>
+<summary>JavaScript Tips and Tricks</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KmGT6pyDRLKheyICRfD3jog)
 
 - [Tips and Tricks: Google Developer Tools and copy](https://www.youtube.com/watch?v=pvfM_oWFs-o)
 - [⎡tips:11⎦ JavaScript Tips: Один символ и производительность](https://www.youtube.com/watch?v=u_bsXuBOO74)
@@ -888,7 +1095,12 @@
 - [⎡msk⎦ JavaScript Destructuring Assignment or not all that is written is gold.](https://www.youtube.com/watch?v=98mOkxRFHYA)
 - [JavaScript and identifiers. Part of the Tips and Tricks podcast [Msk\] [JavaScript shorts\]](https://www.youtube.com/watch?v=biy50-ssgVQ)
 
-### [В интернетах кто-то неправ.](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnHLg-IVIrS9gt8zuS-0_eS)
+</details>
+
+<details>
+<summary>В интернетах кто-то неправ.</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7KnHLg-IVIrS9gt8zuS-0_eS)
 
 - [Разберем видео от Isaac ReactJS про: типы и замыкания](https://www.youtube.com/watch?v=3r4X5OSQMFs)
 - [Оптимизируем главную страницу HexLet до PageSpeed 90+](https://www.youtube.com/watch?v=zXITWw0ctDM)
@@ -932,21 +1144,38 @@
 - [JavaScript and the Lexical Environment. Let's look at examples. [Msk\] [JavaScript shorts\]](https://www.youtube.com/watch?v=eghLLFbTDYM)
 - [Logical Expressions in JavaScript. Let's break them down with examples. [EN\] [JavaScript Shorts\]](https://www.youtube.com/watch?v=aaoZm1yHCxw)
 
-### [Оптимизация кода в JavaScript [RU\]](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kk5XLcDnl73jiLZysHDjCZC)
+</details>
+
+<details>
+<summary>Оптимизация кода в JavaScript [RU\]</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kk5XLcDnl73jiLZysHDjCZC)
 
 - [How to get maximum performance when working with JavaScript arrays.](https://www.youtube.com/watch?v=wnfZnnrsL1Q)
 
-### [As for JavaScript - Українською 🇺🇦](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km7NHgX4jhZ5fOo2Xy8zZ51)
+</details>
+
+<details>
+<summary>As for JavaScript - Українською 🇺🇦</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Km7NHgX4jhZ5fOo2Xy8zZ51)
 
 - [Співбесід chatGPT на посаду Junior JavaScript Developer](https://www.youtube.com/watch?v=g_VO2ioDsnA)
 - [Огляд співбесіду з JS.](https://www.youtube.com/watch?v=XIVd2jwrpy4)
 - [Огляд співбесіду з JS.](https://www.youtube.com/watch?v=nID_kz4a89A)
 - [⎡UA⎦ JavaScript та this. Розбираємося на прикладах спираючись на специфікацію.](https://www.youtube.com/watch?v=T3fb_VKdZJA)
 
-### [Mast see [ performance \]](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn-GfNVdRnse2f4EmC6AcXa)
+</details>
+
+<details>
+<summary>Mast see [ performance \]</summary>
+
+[Открыть плейлист на YouTube](https://www.youtube.com/playlist?list=PL3ziSA8uO7Kn-GfNVdRnse2f4EmC6AcXa)
 
 - [GDC 2012: From Console to Chrome](https://www.youtube.com/watch?v=XAqIpGU8ZZk)
 - [Watching together YT: Performance and Clean Code](https://www.youtube.com/watch?v=vGm-FPhPwcs)
+
+</details>
 
 ## Контроль полноты данных
 

@@ -1,0 +1,3088 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:59.567 --> 00:02:00.222 align:start position:0%
+ 
+Ah<00:00:59.796><c>.</c><00:01:54.844><c> JavaScript</c><00:01:58.819><c> JSON</c><00:01:59.138><c> as</c><00:01:59.329><c> a</c><00:01:59.457><c> form</c><00:01:59.776><c> of</c><00:01:59.967><c> cold</c>
+
+00:02:00.222 --> 00:02:00.286 align:start position:0%
+Ah. JavaScript JSON as a form of cold
+ 
+
+00:02:00.286 --> 00:02:13.045 align:start position:0%
+Ah. JavaScript JSON as a form of cold
+ start<00:02:00.669><c> optimization</c><00:02:01.435><c>.</c><00:02:12.301><c> What</c><00:02:12.566><c> is</c><00:02:12.726><c> a</c><00:02:12.832><c> cold</c>
+
+00:02:13.045 --> 00:02:13.098 align:start position:0%
+ start optimization. What is a cold
+ 
+
+00:02:13.098 --> 00:02:16.666 align:start position:0%
+ start optimization. What is a cold
+ start<00:02:13.363><c>?</c><00:02:15.069><c> A</c><00:02:15.187><c> cold</c><00:02:15.483><c> start</c><00:02:15.838><c> is</c><00:02:16.015><c> programming</c>
+
+00:02:16.666 --> 00:02:16.726 align:start position:0%
+ start? A cold start is programming
+ 
+
+00:02:16.726 --> 00:02:24.638 align:start position:0%
+ start? A cold start is programming
+ jargon<00:02:17.140><c> that</c><00:02:17.436><c> refers</c><00:02:17.850><c> to</c><00:02:23.873><c> code</c><00:02:24.128><c> running</c><00:02:24.536><c> in</c>
+
+00:02:24.638 --> 00:02:24.689 align:start position:0%
+ jargon that refers to code running in
+ 
+
+00:02:24.689 --> 00:02:26.526 align:start position:0%
+ jargon that refers to code running in
+ an<00:02:24.842><c> environment</c><00:02:25.454><c> that</c><00:02:25.710><c> doesn't</c><00:02:26.118><c> have</c><00:02:26.373><c> any</c>
+
+00:02:26.526 --> 00:02:26.577 align:start position:0%
+ an environment that doesn't have any
+ 
+
+00:02:26.577 --> 00:02:32.731 align:start position:0%
+ an environment that doesn't have any
+ populated<00:02:27.087><c> caches</c><00:02:27.393><c>.</c><00:02:31.676><c> In</c><00:02:31.851><c> JavaScript</c><00:02:32.438><c>,</c><00:02:32.555><c> the</c>
+
+00:02:32.731 --> 00:02:32.790 align:start position:0%
+ populated caches. In JavaScript, the
+ 
+
+00:02:32.790 --> 00:02:35.018 align:start position:0%
+ populated caches. In JavaScript, the
+ phrase<00:02:33.200><c> "</c><00:02:33.259><c>cold</c><00:02:33.552><c> start</c><00:02:33.845><c>"</c><00:02:33.962><c> is</c><00:02:34.138><c> most</c><00:02:34.431><c> often</c><00:02:34.783><c> used</c>
+
+00:02:35.018 --> 00:02:35.076 align:start position:0%
+ phrase "cold start" is most often used
+ 
+
+00:02:35.076 --> 00:02:37.305 align:start position:0%
+ phrase "cold start" is most often used
+ to<00:02:35.252><c> refer</c><00:02:35.604><c> to</c><00:02:35.780><c> the</c><00:02:36.015><c> situation</c><00:02:36.601><c> in</c><00:02:36.777><c> which</c><00:02:37.129><c> the</c>
+
+00:02:37.305 --> 00:02:37.363 align:start position:0%
+ to refer to the situation in which the
+ 
+
+00:02:37.363 --> 00:02:42.386 align:start position:0%
+ to refer to the situation in which the
+ runtime<00:02:37.832><c> that</c><00:02:38.126><c> executes</c><00:02:38.653><c> the</c><00:02:38.888><c> code</c><00:02:41.971><c> compiles</c>
+
+00:02:42.386 --> 00:02:42.438 align:start position:0%
+ runtime that executes the code compiles
+ 
+
+00:02:42.438 --> 00:02:44.307 align:start position:0%
+ runtime that executes the code compiles
+ or<00:02:42.593><c> interprets</c><00:02:43.164><c> it</c><00:02:43.320><c> for</c><00:02:43.528><c> the</c><00:02:43.735><c> first</c><00:02:44.047><c> time</c><00:02:44.255><c>.</c>
+
+00:02:44.307 --> 00:02:45.167 align:start position:0%
+ or interprets it for the first time.
+ 
+
+00:02:45.167 --> 00:02:47.631 align:start position:0%
+ or interprets it for the first time.
+ The<00:02:45.433><c> word</c><00:02:45.766><c> "</c><00:02:45.832><c>compile</c><00:02:46.299><c>"</c><00:02:46.432><c> is</c><00:02:46.632><c> not</c><00:02:46.898><c> accidental</c><00:02:47.564><c>.</c>
+
+00:02:47.631 --> 00:02:52.749 align:start position:0%
+ The word "compile" is not accidental.
+ 
+
+00:02:52.749 --> 00:02:54.588 align:start position:0%
+ 
+ The<00:02:52.947><c> easiest</c><00:02:53.345><c> way</c><00:02:53.544><c> to</c><00:02:53.693><c> understand</c><00:02:54.240><c> this</c><00:02:54.488><c> is</c>
+
+00:02:54.588 --> 00:02:54.637 align:start position:0%
+ The easiest way to understand this is
+ 
+
+00:02:54.637 --> 00:03:06.483 align:start position:0%
+ The easiest way to understand this is
+ with<00:02:54.886><c> an</c><00:02:55.035><c> example</c><00:02:55.383><c>.</c><00:03:05.383><c> Every</c><00:03:05.713><c> time</c><00:03:05.988><c> you</c><00:03:06.208><c> write</c>
+
+00:03:06.483 --> 00:03:06.538 align:start position:0%
+ with an example. Every time you write
+ 
+
+00:03:06.538 --> 00:03:08.189 align:start position:0%
+ with an example. Every time you write
+ JavaScript<00:03:07.144><c> code</c><00:03:07.364><c>,</c><00:03:07.474><c> you</c><00:03:07.694><c> encounter</c>
+
+00:03:08.189 --> 00:03:08.244 align:start position:0%
+ JavaScript code, you encounter
+ 
+
+00:03:08.244 --> 00:03:10.336 align:start position:0%
+ JavaScript code, you encounter
+ situations<00:03:08.850><c> where</c><00:03:09.180><c> you</c><00:03:09.400><c> define</c><00:03:09.785><c> objects</c><00:03:10.226><c> or</c>
+
+00:03:10.336 --> 00:03:10.391 align:start position:0%
+ situations where you define objects or
+ 
+
+00:03:10.391 --> 00:03:12.482 align:start position:0%
+ situations where you define objects or
+ some<00:03:10.666><c> other</c><00:03:10.996><c> structure</c><00:03:11.547><c> that</c><00:03:11.767><c>,</c><00:03:11.877><c> in</c><00:03:12.042><c> essence</c><00:03:12.427><c>,</c>
+
+00:03:12.482 --> 00:03:12.537 align:start position:0%
+ some other structure that, in essence,
+ 
+
+00:03:12.537 --> 00:03:14.574 align:start position:0%
+ some other structure that, in essence,
+ means<00:03:12.868><c> nothing</c><00:03:13.308><c> more</c><00:03:13.583><c> to</c><00:03:13.748><c> you</c><00:03:13.968><c> than</c><00:03:14.243><c> a</c><00:03:14.354><c> hash</c>
+
+00:03:14.574 --> 00:03:14.629 align:start position:0%
+ means nothing more to you than a hash
+ 
+
+00:03:14.629 --> 00:03:16.280 align:start position:0%
+ means nothing more to you than a hash
+ key<00:03:14.849><c> value</c><00:03:15.124><c>,</c><00:03:15.234><c> where</c><00:03:15.564><c> you</c><00:03:15.785><c> have</c><00:03:16.060><c> some</c>
+
+00:03:16.280 --> 00:03:16.335 align:start position:0%
+ key value, where you have some
+ 
+
+00:03:16.335 --> 00:03:25.555 align:start position:0%
+ key value, where you have some
+ important<00:03:16.885><c> parts</c><00:03:17.160><c>.</c><00:03:24.758><c> Because</c><00:03:25.213><c> of</c><00:03:25.384><c> how</c>
+
+00:03:25.555 --> 00:03:25.612 align:start position:0%
+ important parts. Because of how
+ 
+
+00:03:25.612 --> 00:03:27.720 align:start position:0%
+ important parts. Because of how
+ JavaScript<00:03:26.239><c> code</c><00:03:26.523><c> is</c><00:03:26.694><c> structured</c><00:03:27.321><c> and</c><00:03:27.549><c> how</c>
+
+00:03:27.720 --> 00:03:27.777 align:start position:0%
+ JavaScript code is structured and how
+ 
+
+00:03:27.777 --> 00:03:40.863 align:start position:0%
+ JavaScript code is structured and how
+ Runtime<00:03:28.232><c> works</c><00:03:28.517><c>,</c><00:03:28.631><c> it</c><00:03:28.802><c> turns</c><00:03:29.144><c> out</c><00:03:29.372><c> that</c><00:03:40.639><c> when</c>
+
+00:03:40.863 --> 00:03:40.920 align:start position:0%
+ Runtime works, it turns out that when
+ 
+
+00:03:40.920 --> 00:03:43.057 align:start position:0%
+ Runtime works, it turns out that when
+ you<00:03:41.145><c> use</c><00:03:41.370><c> a</c><00:03:41.482><c> string</c><00:03:41.820><c>,</c><00:03:41.932><c> which</c><00:03:42.270><c> you</c><00:03:42.495><c> then</c><00:03:42.776><c> parse</c>
+
+00:03:43.057 --> 00:03:43.113 align:start position:0%
+ you use a string, which you then parse
+ 
+
+00:03:43.113 --> 00:03:44.857 align:start position:0%
+ you use a string, which you then parse
+ with<00:03:43.394><c> Jon</c><00:03:43.619><c> Pars</c><00:03:43.901><c> when</c><00:03:44.182><c> you</c><00:03:44.407><c> need</c><00:03:44.688><c> it</c><00:03:44.801><c>,</c>
+
+00:03:44.857 --> 00:03:44.913 align:start position:0%
+ with Jon Pars when you need it,
+ 
+
+00:03:44.913 --> 00:03:46.882 align:start position:0%
+ with Jon Pars when you need it,
+ transforming<00:03:45.644><c> it</c><00:03:45.757><c>,</c><00:03:45.869><c> converting</c><00:03:46.488><c> it</c><00:03:46.657><c> to</c><00:03:46.825><c> a</c>
+
+00:03:46.882 --> 00:03:46.938 align:start position:0%
+ transforming it, converting it to a
+ 
+
+00:03:46.938 --> 00:03:48.906 align:start position:0%
+ transforming it, converting it to a
+ specific<00:03:47.444><c> object</c><00:03:47.838><c> encoded</c><00:03:48.288><c> in</c><00:03:48.456><c> that</c><00:03:48.738><c> Jon</c>
+
+00:03:48.906 --> 00:03:48.963 align:start position:0%
+ specific object encoded in that Jon
+ 
+
+00:03:48.963 --> 00:03:51.100 align:start position:0%
+ specific object encoded in that Jon
+ string<00:03:49.300><c>,</c><00:03:49.413><c> the</c><00:03:49.637><c> speed</c><00:03:49.975><c> of</c><00:03:50.144><c> parsing</c><00:03:50.594><c> this</c><00:03:50.875><c> kind</c>
+
+00:03:51.100 --> 00:03:51.156 align:start position:0%
+ string, the speed of parsing this kind
+ 
+
+00:03:51.156 --> 00:04:09.658 align:start position:0%
+ string, the speed of parsing this kind
+ of<00:03:51.325><c> data</c><00:03:51.550><c>—</c><00:04:07.638><c>depending</c><00:04:08.334><c> on</c><00:04:08.543><c> who's</c><00:04:08.961><c> evaluating</c>
+
+00:04:09.658 --> 00:04:09.727 align:start position:0%
+ of data—depending on who's evaluating
+ 
+
+00:04:09.727 --> 00:04:12.026 align:start position:0%
+ of data—depending on who's evaluating
+ the<00:04:10.006><c> difference</c><00:04:10.703><c>,</c><00:04:10.842><c> like</c><00:04:11.190><c> me</c><00:04:11.330><c>,</c><00:04:11.469><c> the</c><00:04:11.748><c> most</c>
+
+00:04:12.026 --> 00:04:12.096 align:start position:0%
+ the difference, like me, the most
+ 
+
+00:04:12.096 --> 00:04:14.673 align:start position:0%
+ the difference, like me, the most
+ famous<00:04:12.583><c> objective</c><00:04:13.280><c> person</c><00:04:13.768><c> in</c><00:04:13.977><c> the</c><00:04:14.255><c> world</c><00:04:14.604><c>,</c>
+
+00:04:14.673 --> 00:04:14.743 align:start position:0%
+ famous objective person in the world,
+ 
+
+00:04:14.743 --> 00:04:17.320 align:start position:0%
+ famous objective person in the world,
+ or<00:04:14.882><c>,</c><00:04:15.022><c> for</c><00:04:15.300><c> example</c><00:04:15.788><c>,</c><00:04:15.927><c> the</c><00:04:16.206><c> people</c><00:04:16.694><c> who</c><00:04:16.972><c> write</c>
+
+00:04:17.320 --> 00:04:17.390 align:start position:0%
+ or, for example, the people who write
+ 
+
+00:04:17.390 --> 00:04:20.107 align:start position:0%
+ or, for example, the people who write
+ Runtime<00:04:17.947><c> V</c><00:04:18.087><c> 8</c><00:04:18.156><c>—</c><00:04:18.365><c>is</c><00:04:18.574><c> estimated</c><00:04:19.271><c> differently</c><00:04:20.037><c>:</c>
+
+00:04:20.107 --> 00:04:20.177 align:start position:0%
+ Runtime V 8—is estimated differently:
+ 
+
+00:04:20.177 --> 00:04:31.170 align:start position:0%
+ Runtime V 8—is estimated differently:
+ from<00:04:20.525><c> 10-15</c><00:04:20.873><c>%</c><00:04:20.943><c>to</c><00:04:21.152><c> 50-70</c><00:04:21.500><c>%</c><00:04:21.570><c>.</c><00:04:30.268><c> When</c><00:04:30.549><c> our</c><00:04:30.775><c> code</c><00:04:31.057><c> is</c>
+
+00:04:31.170 --> 00:04:31.226 align:start position:0%
+ from 10-15%to 50-70%. When our code is
+ 
+
+00:04:31.226 --> 00:04:33.144 align:start position:0%
+ from 10-15%to 50-70%. When our code is
+ run<00:04:31.452><c> by</c><00:04:31.621><c> JavaScript</c><00:04:32.185><c>,</c><00:04:32.298><c> it</c><00:04:32.467><c> goes</c><00:04:32.749><c> through</c>
+
+00:04:33.144 --> 00:04:33.200 align:start position:0%
+ run by JavaScript, it goes through
+ 
+
+00:04:33.200 --> 00:04:35.230 align:start position:0%
+ run by JavaScript, it goes through
+ several<00:04:33.651><c> phases</c><00:04:34.046><c> before</c><00:04:34.441><c> it</c><00:04:34.610><c> even</c><00:04:34.892><c> starts</c>
+
+00:04:35.230 --> 00:04:35.287 align:start position:0%
+ several phases before it even starts
+ 
+
+00:04:35.287 --> 00:04:40.765 align:start position:0%
+ several phases before it even starts
+ executing<00:04:35.794><c>.</c><00:04:39.456><c> One</c><00:04:39.665><c> of</c><00:04:39.822><c> the</c><00:04:40.032><c> most</c><00:04:40.293><c> difficult</c>
+
+00:04:40.765 --> 00:04:40.817 align:start position:0%
+ executing. One of the most difficult
+ 
+
+00:04:40.817 --> 00:04:42.859 align:start position:0%
+ executing. One of the most difficult
+ phases<00:04:41.184><c> during</c><00:04:41.550><c> the</c><00:04:41.760><c> execution</c><00:04:42.283><c> of</c><00:04:42.440><c> our</c><00:04:42.650><c> code</c>
+
+00:04:42.859 --> 00:04:42.912 align:start position:0%
+ phases during the execution of our code
+ 
+
+00:04:42.912 --> 00:04:44.902 align:start position:0%
+ phases during the execution of our code
+ is<00:04:43.069><c> the</c><00:04:43.278><c> moment</c><00:04:43.645><c> of</c><00:04:43.802><c> parsing</c><00:04:44.221><c> this</c><00:04:44.483><c> code</c><00:04:44.744><c> and</c>
+
+00:04:44.902 --> 00:04:48.540 align:start position:0%
+ is the moment of parsing this code and
+ 
+
+00:04:48.540 --> 00:04:50.540 align:start position:0%
+ 
+ parsing<00:04:48.950><c> the</c><00:04:49.155><c> syntax</c><00:04:49.514><c> of</c><00:04:49.668><c> what</c><00:04:49.924><c> is</c><00:04:50.078><c> happening</c>
+
+00:04:50.540 --> 00:04:50.591 align:start position:0%
+ parsing the syntax of what is happening
+ 
+
+00:04:50.591 --> 00:04:55.724 align:start position:0%
+ parsing the syntax of what is happening
+ in<00:04:50.745><c> this</c><00:04:51.001><c> code</c><00:04:51.206><c>.</c><00:04:54.532><c> The</c><00:04:54.748><c> literal</c><00:04:55.182><c> form</c><00:04:55.453><c> of</c><00:04:55.616><c> an</c>
+
+00:04:55.724 --> 00:04:55.778 align:start position:0%
+ in this code. The literal form of an
+ 
+
+00:04:55.778 --> 00:04:57.567 align:start position:0%
+ in this code. The literal form of an
+ object<00:04:56.104><c>,</c><00:04:56.212><c> which</c><00:04:56.537><c> we</c><00:04:56.700><c> can</c><00:04:56.917><c> often</c><00:04:57.242><c> use</c><00:04:57.459><c> to</c>
+
+00:04:57.567 --> 00:04:57.622 align:start position:0%
+ object, which we can often use to
+ 
+
+00:04:57.622 --> 00:04:59.628 align:start position:0%
+ object, which we can often use to
+ define<00:04:58.001><c> certain</c><00:04:58.435><c> data</c><00:04:58.706><c> within</c><00:04:59.085><c> the</c><00:04:59.302><c> syntax</c>
+
+00:04:59.628 --> 00:04:59.682 align:start position:0%
+ define certain data within the syntax
+ 
+
+00:04:59.682 --> 00:05:07.334 align:start position:0%
+ define certain data within the syntax
+ of<00:04:59.844><c> the</c><00:05:00.061><c> JavaScript</c><00:05:00.658><c> language</c><00:05:01.091><c>.</c><00:05:06.801><c> If</c><00:05:06.946><c> you</c><00:05:07.140><c> look</c>
+
+00:05:07.334 --> 00:05:07.382 align:start position:0%
+ of the JavaScript language. If you look
+ 
+
+00:05:07.382 --> 00:05:09.272 align:start position:0%
+ of the JavaScript language. If you look
+ at<00:05:07.528><c> the</c><00:05:07.721><c> screen</c><00:05:08.061><c> now</c><00:05:08.206><c>,</c><00:05:08.303><c> you'll</c><00:05:08.642><c> see</c><00:05:08.836><c> that</c><00:05:09.030><c>,</c><00:05:09.127><c> for</c>
+
+00:05:09.272 --> 00:05:09.321 align:start position:0%
+ at the screen now, you'll see that, for
+ 
+
+00:05:09.321 --> 00:05:11.211 align:start position:0%
+ at the screen now, you'll see that, for
+ example<00:05:09.660><c>,</c><00:05:09.757><c> the</c><00:05:09.951><c> same</c><00:05:10.193><c> thing</c><00:05:10.484><c> could</c><00:05:10.775><c> have</c><00:05:11.017><c> been</c>
+
+00:05:11.211 --> 00:05:11.260 align:start position:0%
+ example, the same thing could have been
+ 
+
+00:05:11.260 --> 00:05:21.146 align:start position:0%
+ example, the same thing could have been
+ written<00:05:11.647><c> in</c><00:05:11.793><c> this</c><00:05:12.035><c> form</c><00:05:12.229><c>.</c><00:05:20.381><c> This</c><00:05:20.654><c> is</c><00:05:20.818><c> a</c><00:05:20.927><c> much</c>
+
+00:05:21.146 --> 00:05:21.201 align:start position:0%
+ written in this form. This is a much
+ 
+
+00:05:21.201 --> 00:05:23.224 align:start position:0%
+ written in this form. This is a much
+ more<00:05:21.474><c> complex</c><00:05:21.912><c> task</c><00:05:22.185><c> for</c><00:05:22.404><c> the</c><00:05:22.623><c> interpreter</c>
+
+00:05:23.224 --> 00:05:23.279 align:start position:0%
+ more complex task for the interpreter
+ 
+
+00:05:23.279 --> 00:05:32.687 align:start position:0%
+ more complex task for the interpreter
+ than<00:05:30.769><c> the</c><00:05:30.994><c> story</c><00:05:31.333><c> where</c><00:05:31.671><c> the</c><00:05:31.897><c> same</c><00:05:32.179><c> object</c><00:05:32.574><c> is</c>
+
+00:05:32.687 --> 00:05:32.743 align:start position:0%
+ than the story where the same object is
+ 
+
+00:05:32.743 --> 00:05:34.548 align:start position:0%
+ than the story where the same object is
+ created<00:05:33.194><c> by</c><00:05:33.364><c> parsing</c><00:05:33.815><c> a</c><00:05:33.928><c> string</c><00:05:34.323><c> that</c>
+
+00:05:34.548 --> 00:05:34.605 align:start position:0%
+ created by parsing a string that
+ 
+
+00:05:34.605 --> 00:05:36.749 align:start position:0%
+ created by parsing a string that
+ describes<00:05:35.169><c> the</c><00:05:35.395><c> object</c><00:05:35.789><c> in</c><00:05:35.959><c> JSON</c><00:05:36.241><c> notation</c><00:05:36.692><c>.</c>
+
+00:05:36.749 --> 00:05:43.773 align:start position:0%
+ describes the object in JSON notation.
+ 
+
+00:05:43.773 --> 00:05:45.956 align:start position:0%
+ 
+ This<00:05:44.060><c> seemed</c><00:05:44.462><c> so</c><00:05:44.634><c> important</c><00:05:45.151><c>,</c><00:05:45.266><c> including</c><00:05:45.841><c> to</c>
+
+00:05:45.956 --> 00:05:46.013 align:start position:0%
+ This seemed so important, including to
+ 
+
+00:05:46.013 --> 00:05:48.196 align:start position:0%
+ This seemed so important, including to
+ the<00:05:46.243><c> V8</c><00:05:46.415><c> engineers</c><00:05:46.932><c>,</c><00:05:47.047><c> that</c><00:05:47.335><c> a</c><00:05:47.450><c> few</c><00:05:47.679><c> years</c><00:05:48.024><c> ago</c>
+
+00:05:48.196 --> 00:05:48.254 align:start position:0%
+ the V8 engineers, that a few years ago
+ 
+
+00:05:48.254 --> 00:05:50.265 align:start position:0%
+ the V8 engineers, that a few years ago
+ they<00:05:48.541><c> even</c><00:05:48.828><c> indirectly</c><00:05:49.460><c> mentioned</c><00:05:50.035><c> this</c>
+
+00:05:50.265 --> 00:05:50.322 align:start position:0%
+ they even indirectly mentioned this
+ 
+
+00:05:50.322 --> 00:05:52.506 align:start position:0%
+ they even indirectly mentioned this
+ feature<00:05:50.782><c> in</c><00:05:50.954><c> a</c><00:05:51.069><c> blog</c><00:05:51.356><c> post</c><00:05:51.586><c>,</c><00:05:51.701><c> in</c><00:05:51.874><c> their</c><00:05:52.218><c> blog</c><00:05:52.448><c>.</c>
+
+00:05:52.506 --> 00:05:54.337 align:start position:0%
+ feature in a blog post, in their blog.
+ 
+
+00:05:54.337 --> 00:06:00.090 align:start position:0%
+ 
+ I'll<00:05:54.544><c> show</c><00:05:54.752><c> you</c><00:05:54.918><c> a</c><00:05:55.001><c> little</c><00:05:55.292><c> later</c><00:05:55.500><c>.</c><00:05:59.792><c> Why</c><00:05:59.991><c> is</c>
+
+00:06:00.090 --> 00:06:00.140 align:start position:0%
+ I'll show you a little later. Why is
+ 
+
+00:06:00.140 --> 00:06:03.205 align:start position:0%
+ I'll show you a little later. Why is
+ this<00:06:00.389><c> happening</c><00:06:00.837><c>?</c><00:06:02.076><c> It</c><00:06:02.264><c> happens</c><00:06:02.766><c> because</c>
+
+00:06:03.205 --> 00:06:03.268 align:start position:0%
+ this happening? It happens because
+ 
+
+00:06:03.268 --> 00:06:05.152 align:start position:0%
+ this happening? It happens because
+ parsing<00:06:03.770><c> JavaScript</c><00:06:04.461><c> syntax</c><00:06:04.900><c> is</c><00:06:05.089><c> a</c>
+
+00:06:05.152 --> 00:06:05.214 align:start position:0%
+ parsing JavaScript syntax is a
+ 
+
+00:06:05.214 --> 00:06:12.117 align:start position:0%
+ parsing JavaScript syntax is a
+ non-trivial<00:06:05.968><c> task</c><00:06:06.219><c>.</c><00:06:11.179><c> For</c><00:06:11.387><c> anyone</c><00:06:11.752><c> who</c><00:06:11.960><c> has</c>
+
+00:06:12.117 --> 00:06:12.169 align:start position:0%
+ non-trivial task. For anyone who has
+ 
+
+00:06:12.169 --> 00:06:14.202 align:start position:0%
+ non-trivial task. For anyone who has
+ tried<00:06:12.482><c> to</c><00:06:12.638><c> get</c><00:06:12.847><c> acquainted</c><00:06:13.420><c> with</c><00:06:13.681><c> the</c><00:06:13.889><c> theory</c>
+
+00:06:14.202 --> 00:06:14.254 align:start position:0%
+ tried to get acquainted with the theory
+ 
+
+00:06:14.254 --> 00:06:16.131 align:start position:0%
+ tried to get acquainted with the theory
+ of<00:06:14.411><c> finite</c><00:06:14.776><c> automata</c><00:06:15.245><c> or</c><00:06:15.401><c> tried</c><00:06:15.714><c> to</c><00:06:15.870><c> write</c>
+
+00:06:16.131 --> 00:06:16.183 align:start position:0%
+ of finite automata or tried to write
+ 
+
+00:06:16.183 --> 00:06:17.956 align:start position:0%
+ of finite automata or tried to write
+ something<00:06:16.705><c> that</c><00:06:16.965><c> parses</c><00:06:17.330><c> something</c><00:06:17.851><c> on</c>
+
+00:06:17.956 --> 00:06:18.008 align:start position:0%
+ something that parses something on
+ 
+
+00:06:18.008 --> 00:06:19.989 align:start position:0%
+ something that parses something on
+ their<00:06:18.321><c> own</c><00:06:18.477><c>,</c><00:06:18.581><c> without</c><00:06:18.998><c> knowing</c><00:06:19.415><c> any</c><00:06:19.624><c> theory</c><00:06:19.937><c>,</c>
+
+00:06:19.989 --> 00:06:20.041 align:start position:0%
+ their own, without knowing any theory,
+ 
+
+00:06:20.041 --> 00:06:21.918 align:start position:0%
+ their own, without knowing any theory,
+ the<00:06:20.249><c> moment</c><00:06:20.614><c> they</c><00:06:20.875><c> start</c><00:06:21.188><c> thinking</c><00:06:21.657><c> about</c>
+
+00:06:21.918 --> 00:06:21.970 align:start position:0%
+ the moment they start thinking about
+ 
+
+00:06:21.970 --> 00:06:23.899 align:start position:0%
+ the moment they start thinking about
+ how<00:06:22.178><c> they</c><00:06:22.439><c> would</c><00:06:22.752><c> parse</c><00:06:23.065><c> JavaScript</c><00:06:23.638><c> code</c><00:06:23.847><c>,</c>
+
+00:06:23.899 --> 00:06:23.951 align:start position:0%
+ how they would parse JavaScript code,
+ 
+
+00:06:23.951 --> 00:06:25.880 align:start position:0%
+ how they would parse JavaScript code,
+ it<00:06:24.107><c> becomes</c><00:06:24.524><c> obvious</c><00:06:24.941><c> that</c><00:06:25.202><c> this</c><00:06:25.463><c> is</c><00:06:25.619><c> not</c><00:06:25.828><c> a</c>
+
+00:06:25.880 --> 00:06:25.932 align:start position:0%
+ it becomes obvious that this is not a
+ 
+
+00:06:25.932 --> 00:06:27.965 align:start position:0%
+ it becomes obvious that this is not a
+ very<00:06:26.193><c> simple</c><00:06:26.557><c> task</c><00:06:26.818><c> in</c><00:06:26.975><c> terms</c><00:06:27.287><c> of</c><00:06:27.444><c> writing</c><00:06:27.861><c> an</c>
+
+00:06:27.965 --> 00:06:28.017 align:start position:0%
+ very simple task in terms of writing an
+ 
+
+00:06:28.017 --> 00:06:35.168 align:start position:0%
+ very simple task in terms of writing an
+ algorithm<00:06:28.486><c>.</c><00:06:33.621><c> And</c><00:06:33.850><c> at</c><00:06:34.022><c> the</c><00:06:34.251><c> same</c><00:06:34.538><c> time</c><00:06:34.767><c>,</c><00:06:34.882><c> it</c><00:06:35.054><c> is</c>
+
+00:06:35.168 --> 00:06:35.226 align:start position:0%
+ algorithm. And at the same time, it is
+ 
+
+00:06:35.226 --> 00:06:37.117 align:start position:0%
+ algorithm. And at the same time, it is
+ a<00:06:35.340><c> very</c><00:06:35.627><c> difficult</c><00:06:36.200><c> task</c><00:06:36.487><c> in</c><00:06:36.659><c> terms</c><00:06:37.003><c> of</c>
+
+00:06:37.117 --> 00:06:37.175 align:start position:0%
+ a very difficult task in terms of
+ 
+
+00:06:37.175 --> 00:06:39.009 align:start position:0%
+ a very difficult task in terms of
+ making<00:06:37.576><c> this</c><00:06:37.862><c> algorithm</c><00:06:38.436><c> execute</c><00:06:38.894><c> or</c>
+
+00:06:39.009 --> 00:06:39.066 align:start position:0%
+ making this algorithm execute or
+ 
+
+00:06:39.066 --> 00:06:40.901 align:start position:0%
+ making this algorithm execute or
+ interpret<00:06:39.639><c> or</c><00:06:39.811><c> parse</c><00:06:40.155><c> our</c><00:06:40.385><c> code</c><00:06:40.671><c> very</c>
+
+00:06:40.901 --> 00:06:40.958 align:start position:0%
+ interpret or parse our code very
+ 
+
+00:06:40.958 --> 00:06:47.409 align:start position:0%
+ interpret or parse our code very
+ quickly<00:06:41.359><c>.</c><00:06:46.037><c> It</c><00:06:46.201><c> turns</c><00:06:46.531><c> out</c><00:06:46.750><c> that</c><00:06:47.025><c> this</c><00:06:47.299><c> is</c>
+
+00:06:47.409 --> 00:06:47.464 align:start position:0%
+ quickly. It turns out that this is
+ 
+
+00:06:47.464 --> 00:06:49.496 align:start position:0%
+ quickly. It turns out that this is
+ precisely<00:06:48.013><c> why</c><00:06:48.178><c>,</c><00:06:48.288><c> when</c><00:06:48.562><c> we</c><00:06:48.727><c> have</c><00:06:49.002><c> data</c><00:06:49.276><c> that</c>
+
+00:06:49.496 --> 00:06:49.551 align:start position:0%
+ precisely why, when we have data that
+ 
+
+00:06:49.551 --> 00:06:51.692 align:start position:0%
+ precisely why, when we have data that
+ we<00:06:49.716><c> can</c><00:06:49.935><c> wrap</c><00:06:50.210><c> in</c><00:06:50.374><c> a</c><00:06:50.484><c> regular</c><00:06:50.924><c> string</c><00:06:51.253><c>,</c><00:06:51.363><c> as</c><00:06:51.528><c> you</c>
+
+00:06:51.692 --> 00:06:51.747 align:start position:0%
+ we can wrap in a regular string, as you
+ 
+
+00:06:51.747 --> 00:06:58.325 align:start position:0%
+ we can wrap in a regular string, as you
+ see<00:06:51.967><c> in</c><00:06:52.132><c> the</c><00:06:52.351><c> example</c><00:06:52.736><c>,</c><00:06:56.955><c> and</c><00:06:57.243><c> parse</c><00:06:57.604><c>,</c><00:06:57.748><c> that</c><00:06:58.109><c> is</c><00:06:58.253><c>,</c>
+
+00:06:58.325 --> 00:06:58.397 align:start position:0%
+ see in the example, and parse, that is,
+ 
+
+00:06:58.397 --> 00:07:01.210 align:start position:0%
+ see in the example, and parse, that is,
+ convert<00:06:58.974><c> it</c><00:06:59.191><c> to</c><00:06:59.407><c> an</c><00:06:59.623><c> object</c><00:07:00.056><c>,</c><00:07:00.201><c> using</c><00:07:00.633><c> Jon</c><00:07:00.922><c> Pars</c>
+
+00:07:01.210 --> 00:07:06.464 align:start position:0%
+ convert it to an object, using Jon Pars
+.<00:07:04.276><c> This</c><00:07:04.571><c> API</c><00:07:04.808><c> is</c><00:07:04.985><c> present</c><00:07:05.459><c> in</c><00:07:05.636><c> the</c><00:07:05.873><c> JavaScript</c>
+
+00:07:06.464 --> 00:07:06.523 align:start position:0%
+. This API is present in the JavaScript
+ 
+
+00:07:06.523 --> 00:07:08.653 align:start position:0%
+. This API is present in the JavaScript
+ language<00:07:07.056><c> specification</c><00:07:07.825><c>,</c><00:07:07.943><c> meaning</c><00:07:08.416><c> it's</c>
+
+00:07:08.653 --> 00:07:08.712 align:start position:0%
+ language specification, meaning it's
+ 
+
+00:07:08.712 --> 00:07:10.842 align:start position:0%
+ language specification, meaning it's
+ present<00:07:09.185><c> in</c><00:07:09.363><c> absolutely</c><00:07:10.013><c> every</c><00:07:10.368><c> runtime</c><00:07:10.782><c>.</c>
+
+00:07:10.842 --> 00:07:14.893 align:start position:0%
+ present in absolutely every runtime.
+ 
+
+00:07:14.893 --> 00:07:16.943 align:start position:0%
+ 
+ This<00:07:15.177><c> suddenly</c><00:07:15.690><c> turns</c><00:07:16.032><c> out</c><00:07:16.259><c> to</c><00:07:16.430><c> be</c><00:07:16.601><c> a</c><00:07:16.715><c> much</c>
+
+00:07:16.943 --> 00:07:17.000 align:start position:0%
+ This suddenly turns out to be a much
+ 
+
+00:07:17.000 --> 00:07:18.936 align:start position:0%
+ This suddenly turns out to be a much
+ more<00:07:17.285><c> efficient</c><00:07:17.854><c> way</c><00:07:18.082><c> to</c><00:07:18.253><c> define</c><00:07:18.651><c> data</c><00:07:18.879><c>,</c>
+
+00:07:18.936 --> 00:07:18.993 align:start position:0%
+ more efficient way to define data,
+ 
+
+00:07:18.993 --> 00:07:20.702 align:start position:0%
+ more efficient way to define data,
+ efficient<00:07:19.563><c> in</c><00:07:19.734><c> terms</c><00:07:20.075><c> of</c><00:07:20.246><c> how</c><00:07:20.474><c> many</c>
+
+00:07:20.702 --> 00:07:20.759 align:start position:0%
+ efficient in terms of how many
+ 
+
+00:07:20.759 --> 00:07:22.695 align:start position:0%
+ efficient in terms of how many
+ resources<00:07:21.328><c> are</c><00:07:21.556><c> expended</c><00:07:22.069><c> on</c><00:07:22.240><c> it</c><00:07:22.353><c>,</c><00:07:22.467><c> than</c>
+
+00:07:22.695 --> 00:07:22.752 align:start position:0%
+ resources are expended on it, than
+ 
+
+00:07:22.752 --> 00:07:24.916 align:start position:0%
+ resources are expended on it, than
+ trying<00:07:23.151><c> to</c><00:07:23.322><c> define</c><00:07:23.720><c> the</c><00:07:23.948><c> same</c><00:07:24.233><c> thing</c><00:07:24.575><c> or</c><00:07:24.746><c> the</c>
+
+00:07:24.916 --> 00:07:24.973 align:start position:0%
+ trying to define the same thing or the
+ 
+
+00:07:24.973 --> 00:07:27.024 align:start position:0%
+ trying to define the same thing or the
+ same<00:07:25.258><c> object</c><00:07:25.657><c> in</c><00:07:25.828><c> literal</c><00:07:26.283><c> form</c><00:07:26.568><c> directly</c>
+
+00:07:27.024 --> 00:07:27.081 align:start position:0%
+ same object in literal form directly
+ 
+
+00:07:27.081 --> 00:07:36.721 align:start position:0%
+ same object in literal form directly
+ within<00:07:27.479><c> JavaScript</c><00:07:28.106><c> syntax</c><00:07:28.448><c>.</c><00:07:36.105><c> Even</c><00:07:36.385><c> from</c><00:07:36.665><c> a</c>
+
+00:07:36.721 --> 00:07:36.777 align:start position:0%
+ within JavaScript syntax. Even from a
+ 
+
+00:07:36.777 --> 00:07:38.965 align:start position:0%
+ within JavaScript syntax. Even from a
+ formal<00:07:37.170><c> logic</c><00:07:37.507><c> perspective</c><00:07:38.123><c>,</c><00:07:38.236><c> if</c><00:07:38.404><c> you</c><00:07:38.628><c> simply</c>
+
+00:07:38.965 --> 00:07:39.021 align:start position:0%
+ formal logic perspective, if you simply
+ 
+
+00:07:39.021 --> 00:07:41.208 align:start position:0%
+ formal logic perspective, if you simply
+ look<00:07:39.301><c> and</c><00:07:39.526><c> try</c><00:07:39.750><c> to</c><00:07:39.918><c> intuitively</c><00:07:40.591><c> think</c><00:07:40.928><c> about</c>
+
+00:07:41.208 --> 00:07:41.264 align:start position:0%
+ look and try to intuitively think about
+ 
+
+00:07:41.264 --> 00:07:43.339 align:start position:0%
+ look and try to intuitively think about
+ why<00:07:41.488><c> this</c><00:07:41.769><c> happens</c><00:07:42.161><c>,</c><00:07:42.274><c> then</c><00:07:42.554><c> in</c><00:07:42.722><c> a</c><00:07:42.834><c> situation</c>
+
+00:07:43.339 --> 00:07:43.395 align:start position:0%
+ why this happens, then in a situation
+ 
+
+00:07:43.395 --> 00:07:51.792 align:start position:0%
+ why this happens, then in a situation
+ where<00:07:43.732><c> this</c><00:07:44.012><c> code</c><00:07:44.236><c>,</c><00:07:48.734><c> by</c><00:07:48.900><c> the</c><00:07:49.122><c> way</c><00:07:49.288><c>,</c><00:07:51.366><c> is</c>
+
+00:07:51.792 --> 00:07:57.596 align:start position:0%
+ where this code, by the way, is
+ 
+
+00:07:57.596 --> 00:07:59.709 align:start position:0%
+ 
+ definitely<00:07:58.275><c> visible</c><00:07:58.707><c>,</c><00:07:58.831><c> right</c><00:07:59.140><c>?</c><00:07:59.374><c> Surely</c>
+
+00:07:59.709 --> 00:07:59.764 align:start position:0%
+ definitely visible, right? Surely
+ 
+
+00:07:59.764 --> 00:08:04.541 align:start position:0%
+ definitely visible, right? Surely
+ everything<00:08:00.379><c> is</c><00:08:00.546><c> visible</c><00:08:00.937><c>,</c><00:08:01.049><c> right</c><00:08:01.328><c>?</c><00:08:04.217><c> This</c><00:08:04.448><c> is</c>
+
+00:08:04.541 --> 00:08:04.587 align:start position:0%
+ everything is visible, right? This is
+ 
+
+00:08:04.587 --> 00:08:06.210 align:start position:0%
+ everything is visible, right? This is
+ the<00:08:04.773><c> code</c><00:08:05.005><c> that</c><00:08:05.236><c> will</c><00:08:05.468><c> be</c><00:08:05.607><c> parsed</c><00:08:05.932><c> by</c><00:08:06.071><c> the</c>
+
+00:08:06.210 --> 00:08:06.256 align:start position:0%
+ the code that will be parsed by the
+ 
+
+00:08:06.256 --> 00:08:07.693 align:start position:0%
+ the code that will be parsed by the
+ interpreter<00:08:06.813><c> at</c><00:08:06.952><c> the</c><00:08:07.137><c> level</c><00:08:07.415><c> of</c><00:08:07.554><c> the</c>
+
+00:08:07.693 --> 00:08:07.740 align:start position:0%
+ interpreter at the level of the
+ 
+
+00:08:07.740 --> 00:08:17.666 align:start position:0%
+ interpreter at the level of the
+ simplest<00:08:08.157><c> reasoning</c><00:08:08.574><c>.</c><00:08:16.564><c> It's</c><00:08:16.854><c> clear</c><00:08:17.202><c> that</c><00:08:17.492><c> if</c><00:08:17.608><c>,</c>
+
+00:08:17.666 --> 00:08:17.724 align:start position:0%
+ simplest reasoning. It's clear that if,
+ 
+
+00:08:17.724 --> 00:08:19.870 align:start position:0%
+ simplest reasoning. It's clear that if,
+ for<00:08:17.956><c> example</c><00:08:18.362><c>,</c><00:08:18.478><c> this</c><00:08:18.768><c> code</c><00:08:19.058><c> were</c><00:08:19.348><c> to</c><00:08:19.522><c> end</c><00:08:19.754><c> up</c>
+
+00:08:19.870 --> 00:08:19.928 align:start position:0%
+ for example, this code were to end up
+ 
+
+00:08:19.928 --> 00:08:21.668 align:start position:0%
+ for example, this code were to end up
+ inside<00:08:20.334><c> a</c><00:08:20.450><c> function</c><00:08:20.914><c>,</c><00:08:21.030><c> a</c><00:08:21.146><c> class</c><00:08:21.436><c>,</c><00:08:21.552><c> or</c>
+
+00:08:21.668 --> 00:08:21.726 align:start position:0%
+ inside a function, a class, or
+ 
+
+00:08:21.726 --> 00:08:23.757 align:start position:0%
+ inside a function, a class, or
+ something<00:08:22.307><c> else</c><00:08:22.539><c>,</c><00:08:22.655><c> before</c><00:08:23.061><c> the</c><00:08:23.293><c> Jon</c><00:08:23.525><c> Pars</c>
+
+00:08:23.757 --> 00:08:23.815 align:start position:0%
+ something else, before the Jon Pars
+ 
+
+00:08:23.815 --> 00:08:25.903 align:start position:0%
+ something else, before the Jon Pars
+ function<00:08:24.279><c>,</c><00:08:24.395><c> or</c><00:08:24.569><c> more</c><00:08:24.859><c> precisely</c><00:08:25.439><c> the</c><00:08:25.671><c> Pars</c>
+
+00:08:25.903 --> 00:08:25.961 align:start position:0%
+ function, or more precisely the Pars
+ 
+
+00:08:25.961 --> 00:08:28.166 align:start position:0%
+ function, or more precisely the Pars
+ method<00:08:26.367><c> of</c><00:08:26.541><c> the</c><00:08:26.773><c> Jon</c><00:08:27.005><c> object</c><00:08:27.353><c>,</c><00:08:27.469><c> is</c><00:08:27.643><c> executed</c><00:08:28.108><c>,</c>
+
+00:08:28.166 --> 00:08:28.224 align:start position:0%
+ method of the Jon object, is executed,
+ 
+
+00:08:28.224 --> 00:08:30.312 align:start position:0%
+ method of the Jon object, is executed,
+ anything<00:08:28.746><c> in</c><00:08:28.920><c> the</c><00:08:29.152><c> middle</c><00:08:29.558><c> of</c><00:08:29.732><c> our</c><00:08:29.964><c> string</c>
+
+00:08:30.312 --> 00:08:30.370 align:start position:0%
+ anything in the middle of our string
+ 
+
+00:08:30.370 --> 00:08:32.632 align:start position:0%
+ anything in the middle of our string
+ will<00:08:30.660><c> have</c><00:08:30.950><c> no</c><00:08:31.124><c> effect</c><00:08:31.530><c> on</c><00:08:31.704><c> what's</c><00:08:32.110><c> happening</c>
+
+00:08:32.632 --> 00:08:32.690 align:start position:0%
+ will have no effect on what's happening
+ 
+
+00:08:32.690 --> 00:08:45.001 align:start position:0%
+ will have no effect on what's happening
+ in<00:08:32.864><c> our</c><00:08:33.096><c> JavaScript</c><00:08:33.676><c>.</c><00:08:43.951><c> Not</c><00:08:44.172><c> to</c><00:08:44.338><c> mention</c><00:08:44.780><c> that</c>
+
+00:08:45.001 --> 00:08:45.056 align:start position:0%
+ in our JavaScript. Not to mention that
+ 
+
+00:08:45.056 --> 00:08:47.157 align:start position:0%
+ in our JavaScript. Not to mention that
+ Jon<00:08:45.278><c> syntax</c><00:08:45.665><c> itself</c><00:08:46.052><c> is</c><00:08:46.217><c> a</c><00:08:46.328><c> stricter</c><00:08:46.826><c> syntax</c>
+
+00:08:47.157 --> 00:08:47.213 align:start position:0%
+ Jon syntax itself is a stricter syntax
+ 
+
+00:08:47.213 --> 00:08:49.369 align:start position:0%
+ Jon syntax itself is a stricter syntax
+ than<00:08:47.489><c> JavaScript</c><00:08:48.097><c> syntax</c><00:08:48.429><c>,</c><00:08:48.540><c> which</c><00:08:48.871><c> allows</c><00:08:49.259><c> us</c>
+
+00:08:49.369 --> 00:08:49.424 align:start position:0%
+ than JavaScript syntax, which allows us
+ 
+
+00:08:49.424 --> 00:08:51.526 align:start position:0%
+ than JavaScript syntax, which allows us
+ to<00:08:49.590><c> write</c><00:08:49.922><c> a</c><00:08:50.033><c> faster</c><00:08:50.420><c> parser</c><00:08:50.807><c> than</c><00:08:51.083><c> one</c><00:08:51.304><c> that</c>
+
+00:08:51.526 --> 00:08:51.581 align:start position:0%
+ to write a faster parser than one that
+ 
+
+00:08:51.581 --> 00:08:53.240 align:start position:0%
+ to write a faster parser than one that
+ would<00:08:51.913><c> have</c><00:08:52.189><c> to</c><00:08:52.355><c> parse</c><00:08:52.687><c> all</c><00:08:52.908><c> of</c><00:08:53.074><c> the</c>
+
+00:08:53.240 --> 00:08:53.295 align:start position:0%
+ would have to parse all of the
+ 
+
+00:08:53.295 --> 00:08:55.396 align:start position:0%
+ would have to parse all of the
+ JavaScript<00:08:53.903><c> code</c><00:08:54.124><c>,</c><00:08:54.235><c> including</c><00:08:54.788><c> the</c><00:08:55.009><c> literal</c>
+
+00:08:55.396 --> 00:08:55.451 align:start position:0%
+ JavaScript code, including the literal
+ 
+
+00:08:55.451 --> 00:09:05.136 align:start position:0%
+ JavaScript code, including the literal
+ form<00:08:55.728><c> of</c><00:08:55.894><c> an</c><00:08:56.059><c> object</c><00:08:56.391><c>.</c><00:09:04.088><c> For</c><00:09:04.297><c> this</c><00:09:04.559><c> very</c><00:09:04.822><c> reason</c>
+
+00:09:05.136 --> 00:09:07.182 align:start position:0%
+ form of an object. For this very reason
+,<00:09:05.241><c> if</c><00:09:05.399><c> you</c><00:09:05.608><c> have</c><00:09:05.871><c> something</c><00:09:06.395><c> that</c><00:09:06.657><c> allows</c><00:09:07.024><c> you</c>
+
+00:09:07.182 --> 00:09:07.234 align:start position:0%
+, if you have something that allows you
+ 
+
+00:09:07.234 --> 00:09:16.749 align:start position:0%
+, if you have something that allows you
+ to<00:09:07.391><c> define</c><00:09:07.759><c> it</c><00:09:07.916><c> within</c><00:09:15.668><c> JON</c><00:09:15.895><c> notation</c><00:09:16.351><c>,</c><00:09:16.464><c> which</c>
+
+00:09:16.749 --> 00:09:16.806 align:start position:0%
+ to define it within JON notation, which
+ 
+
+00:09:16.806 --> 00:09:19.026 align:start position:0%
+ to define it within JON notation, which
+ you<00:09:17.034><c> can</c><00:09:17.261><c> then</c><00:09:17.546><c> parse</c><00:09:17.888><c> using</c><00:09:18.229><c> Jon</c><00:09:18.457><c> Pars</c><00:09:18.685><c>,</c><00:09:18.798><c> it's</c>
+
+00:09:19.026 --> 00:09:19.083 align:start position:0%
+ you can then parse using Jon Pars, it's
+ 
+
+00:09:19.083 --> 00:09:21.246 align:start position:0%
+ you can then parse using Jon Pars, it's
+ recommended<00:09:19.766><c> that</c><00:09:20.051><c> you</c><00:09:20.279><c> interpret</c><00:09:20.848><c> and</c><00:09:21.076><c> use</c>
+
+00:09:21.246 --> 00:09:21.303 align:start position:0%
+ recommended that you interpret and use
+ 
+
+00:09:21.303 --> 00:09:23.410 align:start position:0%
+ recommended that you interpret and use
+ all<00:09:21.531><c> of</c><00:09:21.702><c> this</c><00:09:21.986><c> data</c><00:09:22.271><c> in</c><00:09:22.442><c> exactly</c><00:09:22.897><c> that</c><00:09:23.182><c> way</c><00:09:23.353><c>.</c>
+
+00:09:23.410 --> 00:09:30.908 align:start position:0%
+ all of this data in exactly that way.
+ 
+
+00:09:30.908 --> 00:09:33.060 align:start position:0%
+ 
+ Uh<00:09:31.021><c>,</c><00:09:31.134><c> so</c><00:09:31.304><c> as</c><00:09:31.474><c> not</c><00:09:31.701><c> to</c><00:09:31.870><c> be</c><00:09:32.040><c> the</c><00:09:32.267><c> most</c><00:09:32.550><c> objective</c>
+
+00:09:33.060 --> 00:09:33.117 align:start position:0%
+ Uh, so as not to be the most objective
+ 
+
+00:09:33.117 --> 00:09:39.404 align:start position:0%
+ Uh, so as not to be the most objective
+ person<00:09:33.513><c> in</c><00:09:33.683><c> the</c><00:09:33.910><c> world</c><00:09:34.193><c>.</c><00:09:37.906><c> Um</c><00:09:38.082><c>,</c><00:09:38.258><c> not</c><00:09:38.611><c> that</c><00:09:38.963><c>,</c><00:09:39.139><c> not</c>
+
+00:09:39.404 --> 00:09:39.492 align:start position:0%
+ person in the world. Um, not that, not
+ 
+
+00:09:39.492 --> 00:09:45.481 align:start position:0%
+ person in the world. Um, not that, not
+ that<00:09:39.844><c>,</c><00:09:42.922><c> yes</c><00:09:43.307><c>.</c><00:09:43.536><c> Well</c><00:09:43.777><c>,</c><00:09:43.898><c> that's</c><00:09:44.320><c> it</c><00:09:44.441><c>.</c><00:09:44.917><c> I'll</c><00:09:45.230><c> show</c>
+
+00:09:45.481 --> 00:09:48.535 align:start position:0%
+ that, yes. Well, that's it. I'll show
+ 
+
+00:09:48.535 --> 00:09:50.488 align:start position:0%
+ 
+ you<00:09:48.735><c> the</c><00:09:48.935><c> same</c><00:09:49.186><c> remark</c><00:09:49.536><c> that</c><00:09:49.787><c> was</c><00:09:49.987><c> made</c><00:09:50.237><c> a</c><00:09:50.337><c> few</c>
+
+00:09:50.488 --> 00:09:50.538 align:start position:0%
+ you the same remark that was made a few
+ 
+
+00:09:50.538 --> 00:10:04.074 align:start position:0%
+ you the same remark that was made a few
+ years<00:09:50.838><c> ago</c><00:09:50.988><c>.</c><00:09:54.177><c> Here</c><00:09:54.468><c>.</c><00:09:55.683><c> By</c><00:09:55.929><c> V8</c><00:09:56.175><c> engineers</c><00:09:56.913><c>.</c><00:10:03.862><c> Mm</c><00:10:04.003><c>,</c>
+
+00:10:04.074 --> 00:10:04.145 align:start position:0%
+ years ago. Here. By V8 engineers. Mm,
+ 
+
+00:10:04.145 --> 00:10:09.628 align:start position:0%
+ years ago. Here. By V8 engineers. Mm,
+ wait<00:10:04.499><c> a</c><00:10:04.640><c> minute</c><00:10:05.065><c>.</c><00:10:05.720><c> Here</c><00:10:06.046><c> it</c><00:10:06.242><c> is</c><00:10:06.373><c>.</c><00:10:09.181><c> Here's</c><00:10:09.494><c> the</c>
+
+00:10:09.628 --> 00:10:09.673 align:start position:0%
+ wait a minute. Here it is. Here's the
+ 
+
+00:10:09.673 --> 00:10:11.640 align:start position:0%
+ wait a minute. Here it is. Here's the
+ link<00:10:09.852><c>.</c><00:10:10.334><c> I'll</c><00:10:10.551><c> add</c><00:10:10.725><c> it</c><00:10:10.856><c> to</c><00:10:10.987><c> the</c><00:10:11.161><c> description</c>
+
+00:10:11.640 --> 00:10:11.683 align:start position:0%
+ link. I'll add it to the description
+ 
+
+00:10:11.683 --> 00:10:15.114 align:start position:0%
+ link. I'll add it to the description
+ later<00:10:11.901><c>.</c><00:10:14.053><c> You</c><00:10:14.255><c> can</c><00:10:14.457><c> see</c><00:10:14.659><c> where</c><00:10:14.962><c> the</c>
+
+00:10:15.114 --> 00:10:15.164 align:start position:0%
+ later. You can see where the
+ 
+
+00:10:15.164 --> 00:10:16.781 align:start position:0%
+ later. You can see where the
+ programmers<00:10:15.771><c> are</c><00:10:15.973><c> who</c><00:10:16.175><c> wrote</c><00:10:16.478><c> or</c><00:10:16.630><c> are</c>
+
+00:10:16.781 --> 00:10:16.832 align:start position:0%
+ programmers are who wrote or are
+ 
+
+00:10:16.832 --> 00:10:18.702 align:start position:0%
+ programmers are who wrote or are
+ writing<00:10:17.236><c> Runtime</c><00:10:17.590><c>,</c><00:10:17.691><c> which</c><00:10:17.994><c> interprets</c><00:10:18.550><c> our</c>
+
+00:10:18.702 --> 00:10:18.752 align:start position:0%
+ writing Runtime, which interprets our
+ 
+
+00:10:18.752 --> 00:10:20.673 align:start position:0%
+ writing Runtime, which interprets our
+ code<00:10:19.005><c> using</c><00:10:19.308><c> their</c><00:10:19.611><c> own</c><00:10:19.814><c> example</c><00:10:20.218><c> and</c><00:10:20.420><c> their</c>
+
+00:10:20.673 --> 00:10:20.723 align:start position:0%
+ code using their own example and their
+ 
+
+00:10:20.723 --> 00:10:24.150 align:start position:0%
+ code using their own example and their
+ tests<00:10:20.976><c>.</c><00:10:22.534><c> Of</c><00:10:22.701><c> course</c><00:10:23.035><c>,</c><00:10:23.147><c> they're</c><00:10:23.592><c> completely</c>
+
+00:10:24.150 --> 00:10:24.205 align:start position:0%
+ tests. Of course, they're completely
+ 
+
+00:10:24.205 --> 00:10:25.916 align:start position:0%
+ tests. Of course, they're completely
+ biased<00:10:24.540><c>.</c><00:10:24.696><c> I'm</c><00:10:24.870><c> much</c><00:10:25.088><c> more</c><00:10:25.306><c> objective</c><00:10:25.742><c> than</c>
+
+00:10:25.916 --> 00:10:25.960 align:start position:0%
+ biased. I'm much more objective than
+ 
+
+00:10:25.960 --> 00:10:27.996 align:start position:0%
+ biased. I'm much more objective than
+ they<00:10:26.178><c> are</c><00:10:26.309><c>.</c><00:10:26.453><c> Well</c><00:10:26.690><c>,</c><00:10:26.809><c> everyone</c><00:10:27.343><c> knows</c><00:10:27.699><c> that</c><00:10:27.936><c>.</c>
+
+00:10:27.996 --> 00:10:28.096 align:start position:0%
+ they are. Well, everyone knows that.
+ 
+
+00:10:28.096 --> 00:10:35.249 align:start position:0%
+ they are. Well, everyone knows that.
+ And<00:10:28.304><c> all</c><00:10:28.512><c> this</c><00:10:28.772><c> is</c><00:10:28.929><c> me</c><00:10:29.085><c> and</c><00:10:29.293><c> my</c><00:10:29.449><c> code</c><00:10:29.657><c>.</c><00:10:35.048><c> They</c>
+
+00:10:35.249 --> 00:10:35.300 align:start position:0%
+ And all this is me and my code. They
+ 
+
+00:10:35.300 --> 00:10:36.966 align:start position:0%
+ And all this is me and my code. They
+ show<00:10:35.552><c> how</c><00:10:35.754><c> and</c><00:10:35.956><c> at</c><00:10:36.108><c> what</c><00:10:36.360><c> volumes</c><00:10:36.764><c> this</c>
+
+00:10:36.966 --> 00:10:37.017 align:start position:0%
+ show how and at what volumes this
+ 
+
+00:10:37.017 --> 00:10:38.885 align:start position:0%
+ show how and at what volumes this
+ begins<00:10:37.370><c> to</c><00:10:37.522><c> make</c><00:10:37.774><c> a</c><00:10:37.875><c> difference</c><00:10:38.380><c>,</c><00:10:38.481><c> which</c><00:10:38.784><c> is</c>
+
+00:10:38.885 --> 00:10:38.936 align:start position:0%
+ begins to make a difference, which is
+ 
+
+00:10:38.936 --> 00:10:44.665 align:start position:0%
+ begins to make a difference, which is
+ noticeable<00:10:39.491><c> to</c><00:10:39.643><c> the</c><00:10:39.845><c> naked</c><00:10:40.148><c> eye</c><00:10:40.299><c>.</c><00:10:44.016><c> For</c><00:10:44.304><c> them</c><00:10:44.593><c>,</c>
+
+00:10:44.665 --> 00:10:44.737 align:start position:0%
+ noticeable to the naked eye. For them,
+ 
+
+00:10:44.737 --> 00:10:47.262 align:start position:0%
+ noticeable to the naked eye. For them,
+ it<00:10:44.953><c> starts</c><00:10:45.458><c> with</c><00:10:45.819><c> 10</c><00:10:46.035><c> KB</c><00:10:46.252><c> of</c><00:10:46.468><c> Jon's</c><00:10:46.901><c> code</c><00:10:47.189><c>.</c>
+
+00:10:47.262 --> 00:10:51.303 align:start position:0%
+ it starts with 10 KB of Jon's code.
+ 
+
+00:10:51.303 --> 00:10:53.423 align:start position:0%
+ 
+ Well<00:10:51.538><c>,</c><00:10:51.656><c> that</c><00:10:51.950><c> is</c><00:10:52.068><c>,</c><00:10:52.186><c> if</c><00:10:52.363><c> you</c><00:10:52.598><c> have</c><00:10:52.893><c> some</c><00:10:53.187><c> data</c>
+
+00:10:53.423 --> 00:10:53.482 align:start position:0%
+ Well, that is, if you have some data
+ 
+
+00:10:53.482 --> 00:10:55.661 align:start position:0%
+ Well, that is, if you have some data
+ that<00:10:53.776><c> you</c><00:10:54.012><c> define</c><00:10:54.424><c> in</c><00:10:54.601><c> an</c><00:10:54.778><c> object</c><00:10:55.190><c> literal</c><00:10:55.602><c>,</c>
+
+00:10:55.661 --> 00:10:55.720 align:start position:0%
+ that you define in an object literal,
+ 
+
+00:10:55.720 --> 00:10:57.605 align:start position:0%
+ that you define in an object literal,
+ and<00:10:55.956><c> this</c><00:10:56.250><c> data</c><00:10:56.486><c>,</c><00:10:56.604><c> in</c><00:10:56.780><c> text</c><00:10:57.075><c> terms</c><00:10:57.369><c>,</c><00:10:57.487><c> is</c>
+
+00:10:57.605 --> 00:10:57.664 align:start position:0%
+ and this data, in text terms, is
+ 
+
+00:10:57.664 --> 00:10:59.961 align:start position:0%
+ and this data, in text terms, is
+ approximately<00:10:58.489><c> 10</c><00:10:58.665><c> KB</c><00:10:58.842><c> in</c><00:10:59.019><c> volume</c><00:10:59.372><c>,</c><00:10:59.490><c> then</c><00:10:59.784><c> the</c>
+
+00:10:59.961 --> 00:11:00.020 align:start position:0%
+ approximately 10 KB in volume, then the
+ 
+
+00:11:00.020 --> 00:11:02.258 align:start position:0%
+ approximately 10 KB in volume, then the
+ moment<00:11:00.432><c> you</c><00:11:00.668><c> try</c><00:11:00.904><c> to</c><00:11:01.080><c> define</c><00:11:01.493><c> it</c><00:11:01.669><c> using</c><00:11:01.964><c>,</c><00:11:02.082><c> uh</c><00:11:02.199><c>,</c>
+
+00:11:02.258 --> 00:11:02.317 align:start position:0%
+ moment you try to define it using, uh,
+ 
+
+00:11:02.317 --> 00:11:04.555 align:start position:0%
+ moment you try to define it using, uh,
+ a<00:11:02.435><c> string</c><00:11:02.847><c> that</c><00:11:03.142><c> Jon</c><00:11:03.377><c> Pars</c><00:11:03.672><c> will</c><00:11:03.966><c> parse</c><00:11:04.261><c>,</c><00:11:04.379><c> you</c>
+
+00:11:04.555 --> 00:11:04.614 align:start position:0%
+ a string that Jon Pars will parse, you
+ 
+
+00:11:04.614 --> 00:11:06.912 align:start position:0%
+ a string that Jon Pars will parse, you
+ will<00:11:04.909><c> notice</c><00:11:05.321><c> a</c><00:11:05.439><c> significant</c><00:11:06.146><c> difference</c><00:11:06.794><c> in</c>
+
+00:11:06.912 --> 00:11:06.970 align:start position:0%
+ will notice a significant difference in
+ 
+
+00:11:06.970 --> 00:11:09.150 align:start position:0%
+ will notice a significant difference in
+ terms<00:11:07.324><c> of</c><00:11:07.501><c> statistics</c><00:11:08.149><c> in</c><00:11:08.325><c> the</c><00:11:08.561><c> completion</c>
+
+00:11:09.150 --> 00:11:09.209 align:start position:0%
+ terms of statistics in the completion
+ 
+
+00:11:09.209 --> 00:11:16.029 align:start position:0%
+ terms of statistics in the completion
+ of<00:11:09.385><c> your</c><00:11:09.680><c> code</c><00:11:09.916><c>.</c><00:11:14.529><c> They</c><00:11:14.829><c> call</c><00:11:15.129><c> it</c><00:11:15.309><c> "</c><00:11:15.369><c>much</c><00:11:15.669><c> faster</c>
+
+00:11:16.029 --> 00:11:21.348 align:start position:0%
+ of your code. They call it "much faster
+.<00:11:16.089><c>"</c><00:11:18.860><c> Well</c><00:11:19.136><c>,</c><00:11:19.274><c> I</c><00:11:19.413><c> simply</c><00:11:19.897><c> call</c><00:11:20.242><c> it</c><00:11:20.450><c> "</c><00:11:20.519><c>much</c><00:11:20.864><c> faster</c><00:11:21.279><c>.</c>
+
+00:11:21.348 --> 00:11:29.992 align:start position:0%
+." Well, I simply call it "much faster.
+"<00:11:26.041><c> And</c><00:11:26.217><c> that's</c><00:11:26.525><c> not</c><00:11:26.701><c> all</c><00:11:26.833><c>.</c><00:11:29.147><c> The</c><00:11:29.358><c> continuation</c>
+
+00:11:29.992 --> 00:11:30.045 align:start position:0%
+" And that's not all. The continuation
+ 
+
+00:11:30.045 --> 00:11:31.842 align:start position:0%
+" And that's not all. The continuation
+ of<00:11:30.204><c> all</c><00:11:30.415><c> this</c><00:11:30.679><c> is</c><00:11:30.838><c> the</c><00:11:31.049><c> situation</c><00:11:31.578><c> where</c>
+
+00:11:31.842 --> 00:11:31.895 align:start position:0%
+ of all this is the situation where
+ 
+
+00:11:31.895 --> 00:11:39.023 align:start position:0%
+ of all this is the situation where
+ those<00:11:32.212><c> who</c><00:11:37.547><c> optimize</c><00:11:38.100><c> JavaScript</c><00:11:38.777><c> code</c>
+
+00:11:39.023 --> 00:11:39.084 align:start position:0%
+ those who optimize JavaScript code
+ 
+
+00:11:39.084 --> 00:11:41.422 align:start position:0%
+ those who optimize JavaScript code
+ execution<00:11:39.699><c> know</c><00:11:40.007><c> that</c><00:11:40.315><c> for</c><00:11:40.561><c> an</c><00:11:40.745><c> object</c><00:11:41.114><c>,</c><00:11:41.237><c> for</c>
+
+00:11:41.422 --> 00:11:41.483 align:start position:0%
+ execution know that for an object, for
+ 
+
+00:11:41.483 --> 00:11:43.513 align:start position:0%
+ execution know that for an object, for
+ a<00:11:41.606><c> JavaScript</c><00:11:42.283><c> object</c><00:11:42.714><c> within</c><00:11:43.144><c> the</c><00:11:43.390><c> V8</c>
+
+00:11:43.513 --> 00:11:43.575 align:start position:0%
+ a JavaScript object within the V8
+ 
+
+00:11:43.575 --> 00:11:45.789 align:start position:0%
+ a JavaScript object within the V8
+ runtime<00:11:44.005><c>,</c><00:11:44.128><c> this</c><00:11:44.436><c> is</c><00:11:44.621><c> true</c><00:11:44.928><c> for</c><00:11:45.174><c> absolutely</c>
+
+00:11:45.789 --> 00:11:45.851 align:start position:0%
+ runtime, this is true for absolutely
+ 
+
+00:11:45.851 --> 00:11:50.270 align:start position:0%
+ runtime, this is true for absolutely
+ all<00:11:46.097><c> runtimes</c><00:11:46.589><c>.</c><00:11:49.048><c> But</c><00:11:49.260><c> since</c><00:11:49.579><c> I'm</c><00:11:49.792><c> now</c><00:11:50.004><c> going</c>
+
+00:11:50.270 --> 00:11:50.323 align:start position:0%
+ all runtimes. But since I'm now going
+ 
+
+00:11:50.323 --> 00:11:52.183 align:start position:0%
+ all runtimes. But since I'm now going
+ to<00:11:50.482><c> talk</c><00:11:50.748><c> about</c><00:11:51.067><c> specific</c><00:11:51.545><c> things</c><00:11:51.864><c>,</c><00:11:51.971><c> I'll</c>
+
+00:11:52.183 --> 00:11:52.236 align:start position:0%
+ to talk about specific things, I'll
+ 
+
+00:11:52.236 --> 00:11:55.156 align:start position:0%
+ to talk about specific things, I'll
+ primarily<00:11:52.768><c> talk</c><00:11:53.033><c> about</c><00:11:53.352><c> the</c><00:11:53.565><c> V8</c><00:11:53.724><c> runtime</c><00:11:54.096><c>.</c><00:11:55.090><c> A</c>
+
+00:11:55.156 --> 00:11:55.222 align:start position:0%
+ primarily talk about the V8 runtime. A
+ 
+
+00:11:55.222 --> 00:11:57.601 align:start position:0%
+ primarily talk about the V8 runtime. A
+ similar<00:11:55.684><c>,</c><00:11:55.817><c> similar</c><00:11:56.345><c> situation</c><00:11:57.006><c> occurs</c><00:11:57.469><c> in</c>
+
+00:11:57.601 --> 00:11:57.667 align:start position:0%
+ similar, similar situation occurs in
+ 
+
+00:11:57.667 --> 00:12:01.244 align:start position:0%
+ similar, similar situation occurs in
+ absolutely<00:11:58.394><c> any</c><00:11:58.659><c> runtime</c><00:11:59.121><c>.</c><00:12:00.272><c> Oh</c><00:12:00.410><c>,</c><00:12:00.549><c> forgive</c><00:12:01.105><c> my</c>
+
+00:12:01.244 --> 00:12:01.313 align:start position:0%
+ absolutely any runtime. Oh, forgive my
+ 
+
+00:12:01.313 --> 00:12:08.406 align:start position:0%
+ absolutely any runtime. Oh, forgive my
+ morgangie<00:12:01.938><c>.</c><00:12:06.690><c> Then</c><00:12:06.935><c>,</c><00:12:07.057><c> when</c><00:12:07.364><c> parsing</c><00:12:07.854><c> this</c><00:12:08.161><c> code</c>
+
+00:12:08.406 --> 00:12:20.619 align:start position:0%
+ morgangie. Then, when parsing this code
+,<00:12:18.819><c> code</c><00:12:19.100><c> that</c><00:12:19.381><c> is</c><00:12:19.550><c> transformed</c><00:12:20.225><c> into</c><00:12:20.507><c> an</c>
+
+00:12:20.619 --> 00:12:20.675 align:start position:0%
+, code that is transformed into an
+ 
+
+00:12:20.675 --> 00:12:36.638 align:start position:0%
+, code that is transformed into an
+ object<00:12:21.069><c> thanks</c><00:12:21.463><c> to</c><00:12:21.632><c> Jon</c><00:12:21.857><c> Pars</c><00:12:22.082><c>.</c><00:12:23.622><c> All</c><00:12:36.477><c> the</c>
+
+00:12:36.638 --> 00:12:36.692 align:start position:0%
+ object thanks to Jon Pars. All the
+ 
+
+00:12:36.692 --> 00:12:38.309 align:start position:0%
+ object thanks to Jon Pars. All the
+ properties<00:12:37.285><c> of</c><00:12:37.447><c> objects</c><00:12:37.878><c> that</c><00:12:38.147><c> are</c>
+
+00:12:38.309 --> 00:12:38.363 align:start position:0%
+ properties of objects that are
+ 
+
+00:12:38.363 --> 00:12:40.087 align:start position:0%
+ properties of objects that are
+ described<00:12:38.902><c> within</c><00:12:39.279><c> Jon</c><00:12:39.495><c> lead</c><00:12:39.764><c> to</c><00:12:39.926><c> the</c>
+
+00:12:40.087 --> 00:12:40.141 align:start position:0%
+ described within Jon lead to the
+ 
+
+00:12:40.141 --> 00:12:41.920 align:start position:0%
+ described within Jon lead to the
+ creation<00:12:40.626><c> of</c><00:12:40.788><c> an</c><00:12:40.950><c> object</c><00:12:41.327><c> in</c><00:12:41.489><c> the</c><00:12:41.704><c> most</c>
+
+00:12:41.920 --> 00:12:41.974 align:start position:0%
+ creation of an object in the most
+ 
+
+00:12:41.974 --> 00:12:44.075 align:start position:0%
+ creation of an object in the most
+ performant<00:12:42.566><c> form</c><00:12:42.782><c>,</c><00:12:42.890><c> which</c><00:12:43.213><c> exists</c><00:12:43.590><c> in</c><00:12:43.752><c> the</c><00:12:43.968><c> V8</c>
+
+00:12:44.075 --> 00:12:44.129 align:start position:0%
+ performant form, which exists in the V8
+ 
+
+00:12:44.129 --> 00:12:48.722 align:start position:0%
+ performant form, which exists in the V8
+ runtime<00:12:44.507><c>.</c><00:12:47.151><c> And</c><00:12:47.375><c> in</c><00:12:47.543><c> the</c><00:12:47.768><c> V8</c><00:12:47.936><c> runtime</c><00:12:48.329><c>,</c><00:12:48.442><c> there</c>
+
+00:12:48.722 --> 00:12:48.779 align:start position:0%
+ runtime. And in the V8 runtime, there
+ 
+
+00:12:48.779 --> 00:12:53.250 align:start position:0%
+ runtime. And in the V8 runtime, there
+ are<00:12:49.003><c> three</c><00:12:49.340><c> forms</c><00:12:49.677><c> of</c><00:12:49.845><c> an</c><00:12:50.014><c> object</c><00:12:50.350><c>.</c><00:12:52.742><c> The</c><00:12:52.967><c> first</c>
+
+00:12:53.250 --> 00:12:53.306 align:start position:0%
+ are three forms of an object. The first
+ 
+
+00:12:53.306 --> 00:12:55.508 align:start position:0%
+ are three forms of an object. The first
+ is<00:12:53.475><c> the</c><00:12:53.701><c> object</c><00:12:54.096><c> form</c><00:12:54.322><c>,</c><00:12:54.435><c> when</c><00:12:54.717><c> properties</c><00:12:55.338><c> and</c>
+
+00:12:55.508 --> 00:12:55.564 align:start position:0%
+ is the object form, when properties and
+ 
+
+00:12:55.564 --> 00:12:57.370 align:start position:0%
+ is the object form, when properties and
+ their<00:12:55.903><c> values</c><00:12:56.298><c> are</c><00:12:56.524><c> attempted</c><00:12:57.088><c> to</c><00:12:57.257><c> be</c>
+
+00:12:57.370 --> 00:12:57.427 align:start position:0%
+ their values are attempted to be
+ 
+
+00:12:57.427 --> 00:12:59.572 align:start position:0%
+ their values are attempted to be
+ described<00:12:57.991><c> directly</c><00:12:58.499><c> in</c><00:12:58.669><c> the</c><00:12:58.895><c> structure</c><00:12:59.459><c> of</c>
+
+00:12:59.572 --> 00:12:59.628 align:start position:0%
+ described directly in the structure of
+ 
+
+00:12:59.628 --> 00:13:01.661 align:start position:0%
+ described directly in the structure of
+ the<00:12:59.854><c> object</c><00:13:00.249><c> that</c><00:13:00.532><c> they</c><00:13:00.814><c> describe</c><00:13:01.322><c> within</c>
+
+00:13:01.661 --> 00:13:01.717 align:start position:0%
+ the object that they describe within
+ 
+
+00:13:01.717 --> 00:13:03.919 align:start position:0%
+ the object that they describe within
+ themselves<00:13:02.281><c>,</c><00:13:02.394><c> the</c><00:13:02.620><c> object</c><00:13:03.015><c> that</c><00:13:03.298><c> they</c><00:13:03.580><c> create</c>
+
+00:13:03.919 --> 00:13:03.975 align:start position:0%
+ themselves, the object that they create
+ 
+
+00:13:03.975 --> 00:13:06.177 align:start position:0%
+ themselves, the object that they create
+ thanks<00:13:04.370><c> to</c><00:13:04.539><c> their</c><00:13:04.878><c> CCC</c><00:13:05.104><c> ++</c><00:13:05.273><c> code</c><00:13:05.499><c>,</c><00:13:05.612><c> and</c><00:13:05.838><c> so</c><00:13:06.007><c> on</c><00:13:06.120><c>.</c>
+
+00:13:06.177 --> 00:13:09.854 align:start position:0%
+ thanks to their CCC ++ code, and so on.
+ 
+
+00:13:09.854 --> 00:13:12.584 align:start position:0%
+ 
+ Here<00:13:10.204><c> we</c><00:13:10.414><c> can</c><00:13:10.694><c> notice</c><00:13:11.184><c> that</c><00:13:11.534><c> we</c><00:13:11.744><c> have</c><00:13:12.094><c> a</c><00:13:12.234><c> name</c><00:13:12.514><c>,</c>
+
+00:13:12.584 --> 00:13:12.654 align:start position:0%
+ Here we can notice that we have a name,
+ 
+
+00:13:12.654 --> 00:13:15.244 align:start position:0%
+ Here we can notice that we have a name,
+ age<00:13:12.864><c>,</c><00:13:13.004><c> sub</c><00:13:13.214><c>,</c><00:13:13.354><c> and</c><00:13:13.634><c> within</c><00:13:14.124><c> it</c><00:13:14.264><c>,</c><00:13:14.404><c> a</c><00:13:14.544><c> subobject</c><00:13:15.174><c>,</c>
+
+00:13:15.244 --> 00:13:15.314 align:start position:0%
+ age, sub, and within it, a subobject,
+ 
+
+00:13:15.314 --> 00:13:25.437 align:start position:0%
+ age, sub, and within it, a subobject,
+ name<00:13:15.594><c>.</c><00:13:23.507><c> And</c><00:13:23.748><c> if</c><00:13:23.868><c>,</c><00:13:23.989><c> as</c><00:13:24.170><c> I'm</c><00:13:24.411><c> used</c><00:13:24.713><c> to</c><00:13:24.834><c>,</c><00:13:24.954><c> all</c><00:13:25.196><c> this</c>
+
+00:13:25.437 --> 00:13:25.497 align:start position:0%
+ name. And if, as I'm used to, all this
+ 
+
+00:13:25.497 --> 00:13:27.730 align:start position:0%
+ name. And if, as I'm used to, all this
+ must<00:13:25.799><c> be</c><00:13:25.980><c> checked</c><00:13:26.463><c> at</c><00:13:26.644><c> the</c><00:13:26.885><c> lowest</c><00:13:27.307><c> level</c><00:13:27.669><c> (</c>
+
+00:13:27.730 --> 00:13:30.022 align:start position:0%
+ must be checked at the lowest level (
+and<00:13:27.971><c> for</c><00:13:28.212><c> us</c><00:13:28.393><c> right</c><00:13:28.755><c> now</c><00:13:28.936><c>,</c><00:13:29.057><c> the</c><00:13:29.298><c> lowest</c><00:13:29.721><c> level</c>
+
+00:13:30.022 --> 00:13:30.083 align:start position:0%
+and for us right now, the lowest level
+ 
+
+00:13:30.083 --> 00:13:32.315 align:start position:0%
+and for us right now, the lowest level
+ is<00:13:30.264><c> primarily</c><00:13:30.867><c> important</c><00:13:31.410><c>—</c><00:13:31.591><c>the</c><00:13:31.832><c> bytecode</c>
+
+00:13:32.315 --> 00:13:32.375 align:start position:0%
+ is primarily important—the bytecode
+ 
+
+00:13:32.375 --> 00:13:34.728 align:start position:0%
+ is primarily important—the bytecode
+ representation<00:13:33.280><c> level</c><00:13:33.582><c>,</c><00:13:33.703><c> where</c><00:13:34.065><c> most</c><00:13:34.366><c> of</c><00:13:34.547><c> our</c>
+
+00:13:34.728 --> 00:13:34.789 align:start position:0%
+ representation level, where most of our
+ 
+
+00:13:34.789 --> 00:13:37.142 align:start position:0%
+ representation level, where most of our
+ code<00:13:35.090><c> is</c><00:13:35.271><c> executed</c><00:13:35.754><c>)</c><00:13:35.814><c>,</c><00:13:35.935><c> then</c><00:13:36.237><c> we</c><00:13:36.418><c> can</c><00:13:36.659><c> see</c><00:13:36.900><c> that</c>
+
+00:13:37.142 --> 00:13:37.202 align:start position:0%
+ code is executed), then we can see that
+ 
+
+00:13:37.202 --> 00:13:39.193 align:start position:0%
+ code is executed), then we can see that
+ the<00:13:37.443><c> object</c><00:13:37.866><c> that</c><00:13:38.167><c> was</c><00:13:38.409><c> created</c><00:13:38.891><c> has</c><00:13:39.133><c> a</c>
+
+00:13:39.193 --> 00:13:39.253 align:start position:0%
+ the object that was created has a
+ 
+
+00:13:39.253 --> 00:13:41.606 align:start position:0%
+ the object that was created has a
+ number<00:13:39.676><c> of</c><00:13:39.857><c> in-object</c><00:13:40.460><c> properties</c><00:13:41.063><c>,</c><00:13:41.184><c> namely</c><00:13:41.546><c>:</c>
+
+00:13:41.606 --> 00:13:41.667 align:start position:0%
+ number of in-object properties, namely:
+ 
+
+00:13:41.667 --> 00:13:49.195 align:start position:0%
+ number of in-object properties, namely:
+ name<00:13:41.908><c>,</c><00:13:42.029><c> age</c><00:13:42.210><c>,</c><00:13:42.330><c> sub</c><00:13:42.511><c>.</c><00:13:48.126><c> This</c><00:13:48.407><c> is</c><00:13:48.576><c> a</c><00:13:48.689><c> situation</c>
+
+00:13:49.195 --> 00:13:49.252 align:start position:0%
+ name, age, sub. This is a situation
+ 
+
+00:13:49.252 --> 00:13:51.391 align:start position:0%
+ name, age, sub. This is a situation
+ where<00:13:49.589><c> the</c><00:13:49.815><c> object</c><00:13:50.209><c> created</c><00:13:50.659><c> with</c><00:13:50.941><c> Jon</c><00:13:51.166><c> Pars</c>
+
+00:13:51.391 --> 00:13:51.448 align:start position:0%
+ where the object created with Jon Pars
+ 
+
+00:13:51.448 --> 00:13:54.614 align:start position:0%
+ where the object created with Jon Pars
+ contains<00:13:51.954><c> three</c><00:13:52.292><c> properties</c><00:13:52.855><c>.</c><00:13:53.980><c> Here</c><00:13:54.332><c> they</c>
+
+00:13:54.614 --> 00:13:54.684 align:start position:0%
+ contains three properties. Here they
+ 
+
+00:13:54.684 --> 00:13:57.292 align:start position:0%
+ contains three properties. Here they
+ are<00:13:54.966><c> described</c><00:13:55.600><c>:</c><00:13:55.741><c> age</c><00:13:55.953><c>,</c><00:13:56.094><c> sub</c><00:13:56.305><c>,</c><00:13:56.446><c> and</c><00:13:56.728><c> here</c><00:13:57.080><c> and</c>
+
+00:13:57.292 --> 00:13:57.362 align:start position:0%
+ are described: age, sub, and here and
+ 
+
+00:13:57.362 --> 00:14:01.580 align:start position:0%
+ are described: age, sub, and here and
+ here<00:13:57.715><c> it</c><00:13:57.926><c> is</c><00:13:58.067><c>.</c><00:14:00.447><c> The</c><00:14:00.653><c> two</c><00:14:00.859><c> other</c><00:14:01.168><c> forms</c><00:14:01.477><c> of</c>
+
+00:14:01.580 --> 00:14:01.632 align:start position:0%
+ here it is. The two other forms of
+ 
+
+00:14:01.632 --> 00:14:03.487 align:start position:0%
+ here it is. The two other forms of
+ object<00:14:01.992><c> representation</c><00:14:02.765><c> are</c><00:14:02.971><c> forms</c><00:14:03.281><c> that</c>
+
+00:14:03.487 --> 00:14:03.538 align:start position:0%
+ object representation are forms that
+ 
+
+00:14:03.538 --> 00:14:05.239 align:start position:0%
+ object representation are forms that
+ have<00:14:03.796><c> a</c><00:14:03.899><c> separate</c><00:14:04.363><c> additional</c><00:14:04.929><c> nested</c>
+
+00:14:05.239 --> 00:14:05.290 align:start position:0%
+ have a separate additional nested
+ 
+
+00:14:05.290 --> 00:14:08.019 align:start position:0%
+ have a separate additional nested
+ structure<00:14:05.805><c> called</c><00:14:06.166><c> a</c><00:14:06.269><c> fast</c><00:14:06.527><c> property</c><00:14:06.939><c>.</c><00:14:07.736><c> It</c><00:14:07.906><c> is</c>
+
+00:14:08.019 --> 00:14:08.076 align:start position:0%
+ structure called a fast property. It is
+ 
+
+00:14:08.076 --> 00:14:10.174 align:start position:0%
+ structure called a fast property. It is
+ also<00:14:08.359><c> quite</c><00:14:08.699><c> fast</c><00:14:08.926><c>,</c><00:14:09.040><c> but</c><00:14:09.266><c> nothing</c><00:14:09.720><c> compared</c>
+
+00:14:10.174 --> 00:14:10.230 align:start position:0%
+ also quite fast, but nothing compared
+ 
+
+00:14:10.230 --> 00:14:14.996 align:start position:0%
+ also quite fast, but nothing compared
+ to<00:14:10.400><c> what</c><00:14:10.684><c> an</c><00:14:10.854><c> in-object</c><00:14:11.421><c> property</c><00:14:11.931><c> is</c><00:14:12.045><c>.</c><00:14:14.834><c> And</c>
+
+00:14:14.996 --> 00:14:15.051 align:start position:0%
+ to what an in-object property is. And
+ 
+
+00:14:15.051 --> 00:14:16.353 align:start position:0%
+ to what an in-object property is. And
+ there<00:14:15.376><c> is</c><00:14:15.539><c> a</c><00:14:15.648><c> dictionary</c><00:14:16.190><c>,</c><00:14:16.299><c> a</c>
+
+00:14:16.353 --> 00:14:16.408 align:start position:0%
+ there is a dictionary, a
+ 
+
+00:14:16.408 --> 00:14:18.090 align:start position:0%
+ there is a dictionary, a
+ dictionary-based<00:14:17.330><c> form</c><00:14:17.602><c> of</c><00:14:17.764><c> object</c>
+
+00:14:18.090 --> 00:14:18.144 align:start position:0%
+ dictionary-based form of object
+ 
+
+00:14:18.144 --> 00:14:19.664 align:start position:0%
+ dictionary-based form of object
+ representation<00:14:18.904><c>,</c><00:14:19.013><c> which</c><00:14:19.339><c> in</c><00:14:19.501><c> its</c>
+
+00:14:19.664 --> 00:14:19.718 align:start position:0%
+ representation, which in its
+ 
+
+00:14:19.718 --> 00:14:21.781 align:start position:0%
+ representation, which in its
+ performance<00:14:20.370><c> is</c><00:14:20.533><c> absolutely</c><00:14:21.130><c> identical</c><00:14:21.672><c> to</c>
+
+00:14:21.781 --> 00:14:21.835 align:start position:0%
+ performance is absolutely identical to
+ 
+
+00:14:21.835 --> 00:14:23.844 align:start position:0%
+ performance is absolutely identical to
+ what<00:14:22.107><c> you</c><00:14:22.324><c> are</c><00:14:22.541><c> used</c><00:14:22.812><c> to</c><00:14:22.975><c> when</c><00:14:23.246><c> using</c><00:14:23.572><c> a</c><00:14:23.681><c> map</c>
+
+00:14:23.844 --> 00:14:28.321 align:start position:0%
+ what you are used to when using a map
+ 
+
+00:14:28.321 --> 00:14:31.464 align:start position:0%
+ 
+ hash<00:14:28.682><c> value</c><00:14:29.044><c>.</c><00:14:30.124><c> The</c><00:14:30.367><c> hash</c><00:14:30.672><c> value</c><00:14:31.038><c> in</c><00:14:31.220><c> both</c>
+
+00:14:31.464 --> 00:14:31.525 align:start position:0%
+ hash value. The hash value in both
+ 
+
+00:14:31.525 --> 00:14:36.933 align:start position:0%
+ hash value. The hash value in both
+ cases<00:14:31.891><c> uses</c><00:14:32.196><c> the</c><00:14:32.439><c> same</c><00:14:32.744><c> algorithm</c><00:14:33.293><c>.</c><00:14:36.726><c> There</c>
+
+00:14:36.933 --> 00:14:36.974 align:start position:0%
+ cases uses the same algorithm. There
+ 
+
+00:14:36.974 --> 00:14:41.664 align:start position:0%
+ cases uses the same algorithm. There
+ you<00:14:37.140><c> have</c><00:14:37.347><c> it</c><00:14:37.430><c>.</c><00:14:40.402><c> So</c><00:14:40.516><c>,</c><00:14:40.631><c> uh</c><00:14:40.746><c>,</c><00:14:40.861><c> not</c><00:14:41.090><c> only</c><00:14:41.377><c> is</c><00:14:41.549><c> it</c>
+
+00:14:41.664 --> 00:14:41.721 align:start position:0%
+ you have it. So, uh, not only is it
+ 
+
+00:14:41.721 --> 00:14:43.959 align:start position:0%
+ you have it. So, uh, not only is it
+ true<00:14:42.008><c> that</c><00:14:42.295><c> during</c><00:14:42.697><c> a</c><00:14:42.812><c> cold</c><00:14:43.099><c> start</c><00:14:43.386><c>—</c><00:14:43.558><c>that</c><00:14:43.845><c> is</c>
+
+00:14:43.959 --> 00:14:46.140 align:start position:0%
+ true that during a cold start—that is
+,<00:14:44.074><c> when</c><00:14:44.361><c> the</c><00:14:44.591><c> kernel</c><00:14:44.992><c> hasn't</c><00:14:45.394><c> yet</c><00:14:45.624><c> warmed</c><00:14:46.025><c> up</c>
+
+00:14:46.140 --> 00:14:48.263 align:start position:0%
+, when the kernel hasn't yet warmed up
+—<00:14:46.312><c>the</c><00:14:46.542><c> enormous</c><00:14:47.058><c> amount</c><00:14:47.460><c> of</c><00:14:47.632><c> data</c><00:14:47.919><c> simply</c>
+
+00:14:48.263 --> 00:14:48.321 align:start position:0%
+—the enormous amount of data simply
+ 
+
+00:14:48.321 --> 00:14:50.444 align:start position:0%
+—the enormous amount of data simply
+ doesn't<00:14:48.780><c> affect</c><00:14:49.181><c> parsing</c><00:14:49.640><c> speed</c><00:14:49.927><c>,</c><00:14:50.042><c> because</c>
+
+00:14:50.444 --> 00:14:50.501 align:start position:0%
+ doesn't affect parsing speed, because
+ 
+
+00:14:50.501 --> 00:14:52.280 align:start position:0%
+ doesn't affect parsing speed, because
+ it<00:14:50.673><c> only</c><00:14:50.960><c> starts</c><00:14:51.362><c> parsing</c><00:14:51.821><c> when</c><00:14:52.108><c> the</c>
+
+00:14:52.280 --> 00:14:52.338 align:start position:0%
+ it only starts parsing when the
+ 
+
+00:14:52.338 --> 00:14:54.117 align:start position:0%
+ it only starts parsing when the
+ corresponding<00:14:53.141><c> method</c><00:14:53.543><c> is</c><00:14:53.715><c> called</c><00:14:54.059><c>.</c>
+
+00:14:54.117 --> 00:14:59.558 align:start position:0%
+ corresponding method is called.
+ 
+
+00:14:59.558 --> 00:15:01.654 align:start position:0%
+ 
+ Furthermore<00:15:00.181><c>,</c><00:15:00.294><c> this</c><00:15:00.577><c> method</c><00:15:00.974><c> itself</c><00:15:01.371><c> is</c><00:15:01.540><c> at</c>
+
+00:15:01.654 --> 00:15:01.710 align:start position:0%
+ Furthermore, this method itself is at
+ 
+
+00:15:01.710 --> 00:15:03.750 align:start position:0%
+ Furthermore, this method itself is at
+ the<00:15:01.937><c> V8</c><00:15:02.107><c> runtime</c><00:15:02.560><c> level</c><00:15:02.844><c>,</c><00:15:02.957><c> and</c><00:15:03.184><c> I'm</c><00:15:03.410><c> fairly</c>
+
+00:15:03.750 --> 00:15:03.807 align:start position:0%
+ the V8 runtime level, and I'm fairly
+ 
+
+00:15:03.807 --> 00:15:05.790 align:start position:0%
+ the V8 runtime level, and I'm fairly
+ certain<00:15:04.260><c> that</c><00:15:04.543><c> exactly</c><00:15:04.997><c> the</c><00:15:05.223><c> same</c><00:15:05.506><c> thing</c>
+
+00:15:05.790 --> 00:15:05.846 align:start position:0%
+ certain that exactly the same thing
+ 
+
+00:15:05.846 --> 00:15:12.167 align:start position:0%
+ certain that exactly the same thing
+ happens<00:15:06.300><c> in</c><00:15:06.470><c> other</c><00:15:06.810><c> runtimes</c><00:15:07.263><c>.</c><00:15:11.529><c> This</c><00:15:11.794><c> results</c>
+
+00:15:12.167 --> 00:15:12.220 align:start position:0%
+ happens in other runtimes. This results
+ 
+
+00:15:12.220 --> 00:15:14.187 align:start position:0%
+ happens in other runtimes. This results
+ in<00:15:12.379><c> the</c><00:15:12.592><c> created</c><00:15:13.017><c> object's</c><00:15:13.496><c> form</c><00:15:13.762><c> having</c><00:15:14.134><c> a</c>
+
+00:15:14.187 --> 00:15:14.240 align:start position:0%
+ in the created object's form having a
+ 
+
+00:15:14.240 --> 00:15:16.261 align:start position:0%
+ in the created object's form having a
+ very<00:15:14.453><c>,</c><00:15:14.560><c> very</c><00:15:14.825><c> efficient</c><00:15:15.357><c> form</c><00:15:15.623><c> of</c><00:15:15.783><c> accessing</c>
+
+00:15:16.261 --> 00:15:16.314 align:start position:0%
+ very, very efficient form of accessing
+ 
+
+00:15:16.314 --> 00:15:18.282 align:start position:0%
+ very, very efficient form of accessing
+ the<00:15:16.527><c> values</c><00:15:16.899><c> of</c><00:15:17.059><c> these</c><00:15:17.378><c> properties</c><00:15:17.910><c>,</c><00:15:18.016><c> which</c>
+
+00:15:18.282 --> 00:15:18.335 align:start position:0%
+ the values of these properties, which
+ 
+
+00:15:18.335 --> 00:15:20.409 align:start position:0%
+ the values of these properties, which
+ is<00:15:18.495><c> confirmed</c><00:15:19.026><c> by</c><00:15:19.186><c> what</c><00:15:19.452><c> you</c><00:15:19.664><c> can</c><00:15:19.877><c> see</c><00:15:20.090><c> on</c><00:15:20.249><c> the</c>
+
+00:15:20.409 --> 00:15:20.462 align:start position:0%
+ is confirmed by what you can see on the
+ 
+
+00:15:20.462 --> 00:15:22.270 align:start position:0%
+ is confirmed by what you can see on the
+ screen<00:15:20.834><c> right</c><00:15:21.153><c> now</c><00:15:21.313><c>,</c><00:15:21.419><c> where</c><00:15:21.738><c> those</c><00:15:22.057><c> same</c>
+
+00:15:22.270 --> 00:15:22.323 align:start position:0%
+ screen right now, where those same
+ 
+
+00:15:22.323 --> 00:15:24.078 align:start position:0%
+ screen right now, where those same
+ three<00:15:22.642><c> properties</c><00:15:23.227><c> appear</c><00:15:23.599><c> in</c><00:15:23.759><c> object</c>
+
+00:15:24.078 --> 00:15:24.131 align:start position:0%
+ three properties appear in object
+ 
+
+00:15:24.131 --> 00:15:26.045 align:start position:0%
+ three properties appear in object
+ properties<00:15:24.663><c>,</c><00:15:24.769><c> meaning</c><00:15:25.195><c> they're</c><00:15:25.620><c> directly</c>
+
+00:15:26.045 --> 00:15:26.099 align:start position:0%
+ properties, meaning they're directly
+ 
+
+00:15:26.099 --> 00:15:29.626 align:start position:0%
+ properties, meaning they're directly
+ defined<00:15:26.524><c> in</c><00:15:26.684><c> the</c><00:15:26.896><c> object</c><00:15:27.215><c>.</c><00:15:28.981><c> But</c><00:15:29.165><c> that's</c><00:15:29.488><c> not</c>
+
+00:15:29.626 --> 00:15:29.672 align:start position:0%
+ defined in the object. But that's not
+ 
+
+00:15:29.672 --> 00:15:31.459 align:start position:0%
+ defined in the object. But that's not
+ all<00:15:29.810><c>.</c><00:15:29.999><c> It's</c><00:15:30.269><c> not</c><00:15:30.485><c> for</c><00:15:30.702><c> nothing</c><00:15:31.135><c> that</c><00:15:31.405><c> I</c>
+
+00:15:31.459 --> 00:15:31.513 align:start position:0%
+ all. It's not for nothing that I
+ 
+
+00:15:31.513 --> 00:15:33.407 align:start position:0%
+ all. It's not for nothing that I
+ defined<00:15:31.946><c> a</c><00:15:32.054><c> subobject</c><00:15:32.595><c> here</c><00:15:32.812><c>,</c><00:15:32.920><c> because</c><00:15:33.353><c> I</c>
+
+00:15:33.407 --> 00:15:33.461 align:start position:0%
+ defined a subobject here, because I
+ 
+
+00:15:33.461 --> 00:15:35.463 align:start position:0%
+ defined a subobject here, because I
+ wanted<00:15:33.840><c> to</c><00:15:34.002><c> demonstrate</c><00:15:34.651><c> that</c><00:15:34.922><c> all</c><00:15:35.138><c> nested</c>
+
+00:15:35.463 --> 00:15:35.517 align:start position:0%
+ wanted to demonstrate that all nested
+ 
+
+00:15:35.517 --> 00:15:41.247 align:start position:0%
+ wanted to demonstrate that all nested
+ objects<00:15:39.491><c> have</c><00:15:39.774><c> exactly</c><00:15:40.227><c> the</c><00:15:40.454><c> same</c><00:15:40.737><c> beautiful</c>
+
+00:15:41.247 --> 00:15:41.303 align:start position:0%
+ objects have exactly the same beautiful
+ 
+
+00:15:41.303 --> 00:15:48.292 align:start position:0%
+ objects have exactly the same beautiful
+ form<00:15:41.530><c>.</c><00:15:41.691><c> So</c><00:15:41.880><c>,</c><00:15:42.069><c> we</c><00:15:42.352><c> have</c><00:15:42.825><c> Jon</c><00:15:43.203><c> pars</c><00:15:43.581><c>,</c><00:15:43.770><c> yes</c><00:15:44.053><c>,</c><00:15:47.866><c> sub</c><00:15:48.185><c>,</c>
+
+00:15:48.292 --> 00:15:52.843 align:start position:0%
+ form. So, we have Jon pars, yes, sub,
+ 
+
+00:15:52.843 --> 00:15:54.898 align:start position:0%
+ 
+ here's<00:15:53.242><c> our</c><00:15:53.471><c> object</c><00:15:53.813><c>,</c><00:15:53.927><c> which</c><00:15:54.270><c> is</c><00:15:54.441><c> a</c><00:15:54.555><c> nested</c>
+
+00:15:54.898 --> 00:15:54.955 align:start position:0%
+ here's our object, which is a nested
+ 
+
+00:15:54.955 --> 00:16:01.454 align:start position:0%
+ here's our object, which is a nested
+ object<00:15:55.355><c> for</c><00:15:55.583><c> us</c><00:15:55.697><c>.</c><00:16:00.051><c> And</c><00:16:00.295><c> we</c><00:16:00.478><c> can</c><00:16:00.722><c> see</c><00:16:00.966><c> that</c><00:16:01.210><c>,</c><00:16:01.332><c> in</c>
+
+00:16:01.454 --> 00:16:01.515 align:start position:0%
+ object for us. And we can see that, in
+ 
+
+00:16:01.515 --> 00:16:03.834 align:start position:0%
+ object for us. And we can see that, in
+ accordance<00:16:02.186><c> with</c><00:16:02.491><c> this</c><00:16:02.735><c>,</c><00:16:02.857><c> with</c><00:16:03.162><c> what</c><00:16:03.467><c> I</c><00:16:03.589><c> said</c>
+
+00:16:03.834 --> 00:16:03.895 align:start position:0%
+ accordance with this, with what I said
+ 
+
+00:16:03.895 --> 00:16:06.274 align:start position:0%
+ accordance with this, with what I said
+ above<00:16:04.200><c>,</c><00:16:04.322><c> this</c><00:16:04.627><c> nested</c><00:16:05.054><c> object</c><00:16:05.420><c>,</c><00:16:05.542><c> exactly</c><00:16:06.030><c> like</c>
+
+00:16:06.274 --> 00:16:06.335 align:start position:0%
+ above, this nested object, exactly like
+ 
+
+00:16:06.335 --> 00:16:08.471 align:start position:0%
+ above, this nested object, exactly like
+ its<00:16:06.579><c> parent</c><00:16:07.006><c> object</c><00:16:07.373><c>,</c><00:16:07.495><c> has</c><00:16:07.739><c> a</c><00:16:07.861><c> history</c><00:16:08.349><c> in</c>
+
+00:16:08.471 --> 00:16:08.532 align:start position:0%
+ its parent object, has a history in
+ 
+
+00:16:08.532 --> 00:16:10.729 align:start position:0%
+ its parent object, has a history in
+ which<00:16:08.898><c> the</c><00:16:09.142><c> object's</c><00:16:09.691><c> properties</c><00:16:10.301><c>—</c><00:16:10.484><c>one</c><00:16:10.667><c>,</c>
+
+00:16:10.729 --> 00:16:10.790 align:start position:0%
+ which the object's properties—one,
+ 
+
+00:16:10.790 --> 00:16:13.047 align:start position:0%
+ which the object's properties—one,
+ the<00:16:11.034><c> very</c><00:16:11.339><c> property</c><00:16:11.888><c> I've</c><00:16:12.193><c> provided</c><00:16:12.742><c> here</c><00:16:12.986><c>,</c>
+
+00:16:13.047 --> 00:16:13.108 align:start position:0%
+ the very property I've provided here,
+ 
+
+00:16:13.108 --> 00:16:21.808 align:start position:0%
+ the very property I've provided here,
+ here<00:16:13.413><c> it</c><00:16:13.596><c> is</c><00:16:13.718><c>:</c><00:16:13.840><c> name</c><00:16:14.084><c>—</c><00:16:20.869><c>are</c><00:16:21.077><c> in</c><00:16:21.234><c> a</c><00:16:21.338><c> form</c><00:16:21.599><c> that</c>
+
+00:16:21.808 --> 00:16:21.860 align:start position:0%
+ here it is: name—are in a form that
+ 
+
+00:16:21.860 --> 00:16:23.844 align:start position:0%
+ here it is: name—are in a form that
+ allows<00:16:22.226><c> for</c><00:16:22.435><c> the</c><00:16:22.644><c> fastest</c><00:16:23.061><c> possible</c><00:16:23.531><c> access</c>
+
+00:16:23.844 --> 00:16:23.896 align:start position:0%
+ allows for the fastest possible access
+ 
+
+00:16:23.896 --> 00:16:25.932 align:start position:0%
+ allows for the fastest possible access
+ to<00:16:24.053><c> this</c><00:16:24.314><c> property's</c><00:16:24.888><c> data</c><00:16:25.149><c> compared</c><00:16:25.619><c> to</c><00:16:25.776><c> any</c>
+
+00:16:25.932 --> 00:16:25.985 align:start position:0%
+ to this property's data compared to any
+ 
+
+00:16:25.985 --> 00:16:27.969 align:start position:0%
+ to this property's data compared to any
+ other<00:16:26.298><c> form</c><00:16:26.559><c> of</c><00:16:26.716><c> representing</c><00:16:27.394><c> our</c><00:16:27.603><c> object</c><00:16:27.916><c>.</c>
+
+00:16:27.969 --> 00:16:33.219 align:start position:0%
+ other form of representing our object.
+ 
+
+00:16:33.219 --> 00:16:34.821 align:start position:0%
+ 
+ Well<00:16:33.432><c>,</c><00:16:33.539><c> before</c><00:16:33.913><c> I</c><00:16:34.020><c> try</c><00:16:34.233><c> to</c><00:16:34.393><c> read</c><00:16:34.660><c> the</c>
+
+00:16:34.821 --> 00:16:34.874 align:start position:0%
+ Well, before I try to read the
+ 
+
+00:16:34.874 --> 00:16:36.850 align:start position:0%
+ Well, before I try to read the
+ questions<00:16:35.408><c> before</c><00:16:35.782><c> these</c><00:16:36.102><c> questions</c><00:16:36.583><c>,</c><00:16:36.690><c> the</c>
+
+00:16:36.850 --> 00:16:36.903 align:start position:0%
+ questions before these questions, the
+ 
+
+00:16:36.903 --> 00:16:38.826 align:start position:0%
+ questions before these questions, the
+ most<00:16:37.170><c> important</c><00:16:37.704><c> thing</c><00:16:38.025><c> I'll</c><00:16:38.292><c> say</c><00:16:38.506><c> now</c><00:16:38.719><c> is</c>
+
+00:16:38.826 --> 00:16:38.879 align:start position:0%
+ most important thing I'll say now is
+ 
+
+00:16:38.879 --> 00:16:40.855 align:start position:0%
+ most important thing I'll say now is
+ not<00:16:39.093><c> the</c><00:16:39.307><c> most</c><00:16:39.574><c> important</c><00:16:40.108><c> thing</c><00:16:40.375><c>,</c><00:16:40.482><c> my</c><00:16:40.642><c> God</c><00:16:40.802><c>,</c>
+
+00:16:40.855 --> 00:16:40.909 align:start position:0%
+ not the most important thing, my God,
+ 
+
+00:16:40.909 --> 00:16:42.902 align:start position:0%
+ not the most important thing, my God,
+ why<00:16:41.122><c> is</c><00:16:41.283><c> it</c><00:16:41.443><c> the</c><00:16:41.656><c> most</c><00:16:41.923><c> important</c><00:16:42.404><c>?</c><00:16:42.558><c> It's</c><00:16:42.773><c> the</c>
+
+00:16:42.902 --> 00:16:42.945 align:start position:0%
+ why is it the most important? It's the
+ 
+
+00:16:42.945 --> 00:16:44.697 align:start position:0%
+ why is it the most important? It's the
+ most<00:16:43.160><c> interesting</c><00:16:43.633><c>.</c><00:16:43.776><c> No</c><00:16:43.884><c>,</c><00:16:43.992><c> why</c><00:16:44.209><c> is</c><00:16:44.372><c> it</c><00:16:44.535><c> the</c>
+
+00:16:44.697 --> 00:16:44.752 align:start position:0%
+ most interesting. No, why is it the
+ 
+
+00:16:44.752 --> 00:16:46.573 align:start position:0%
+ most interesting. No, why is it the
+ most<00:16:45.023><c> interesting</c><00:16:45.619><c>?</c><00:16:45.774><c> It's</c><00:16:46.009><c> not</c><00:16:46.197><c> the</c><00:16:46.385><c> most</c>
+
+00:16:46.573 --> 00:16:46.620 align:start position:0%
+ most interesting? It's not the most
+ 
+
+00:16:46.620 --> 00:16:48.266 align:start position:0%
+ most interesting? It's not the most
+ interesting<00:16:47.137><c>,</c><00:16:47.231><c> it's</c><00:16:47.466><c> just</c><00:16:47.701><c> interesting</c><00:16:48.218><c>.</c>
+
+00:16:48.266 --> 00:16:50.886 align:start position:0%
+ interesting, it's just interesting.
+ 
+
+00:16:50.886 --> 00:16:52.650 align:start position:0%
+ 
+ Many<00:16:51.138><c> of</c><00:16:51.289><c> you</c><00:16:51.490><c> have</c><00:16:51.742><c> probably</c><00:16:52.196><c> heard</c><00:16:52.498><c> the</c>
+
+00:16:52.650 --> 00:16:52.700 align:start position:0%
+ Many of you have probably heard the
+ 
+
+00:16:52.700 --> 00:16:54.615 align:start position:0%
+ Many of you have probably heard the
+ phrase<00:16:53.053><c> attributed</c><00:16:53.607><c> to</c><00:16:53.759><c> Donald</c><00:16:54.111><c> Knuth</c><00:16:54.363><c>,</c><00:16:54.464><c> the</c>
+
+00:16:54.615 --> 00:16:54.666 align:start position:0%
+ phrase attributed to Donald Knuth, the
+ 
+
+00:16:54.666 --> 00:16:56.632 align:start position:0%
+ phrase attributed to Donald Knuth, the
+ man<00:16:54.867><c> who</c><00:16:55.069><c> authored</c><00:16:55.523><c> The</c><00:16:55.724><c> Programming</c><00:16:56.329><c> Bible</c><00:16:56.581><c>.</c>
+
+00:16:56.632 --> 00:16:58.559 align:start position:0%
+ man who authored The Programming Bible.
+ 
+
+00:16:58.559 --> 00:17:02.461 align:start position:0%
+ 
+ This<00:16:58.867><c> is</c><00:16:59.052><c> absolutely</c><00:16:59.730><c> true</c><00:16:59.977><c>.</c><00:17:01.824><c> He</c><00:17:01.983><c> is</c><00:17:02.142><c> indeed</c>
+
+00:17:02.461 --> 00:17:02.515 align:start position:0%
+ This is absolutely true. He is indeed
+ 
+
+00:17:02.515 --> 00:17:04.588 align:start position:0%
+ This is absolutely true. He is indeed
+ the<00:17:02.727><c> author</c><00:17:03.099><c> of</c><00:17:03.259><c> The</c><00:17:03.472><c> Programming</c><00:17:04.109><c> Bible</c><00:17:04.428><c> and</c>
+
+00:17:04.588 --> 00:17:04.641 align:start position:0%
+ the author of The Programming Bible and
+ 
+
+00:17:04.641 --> 00:17:06.714 align:start position:0%
+ the author of The Programming Bible and
+ of<00:17:04.801><c> programming</c><00:17:05.385><c>,</c><00:17:05.492><c> and</c><00:17:05.704><c> is</c><00:17:05.864><c> now</c><00:17:06.076><c> a</c><00:17:06.183><c> recognized</c>
+
+00:17:06.714 --> 00:17:06.768 align:start position:0%
+ of programming, and is now a recognized
+ 
+
+00:17:06.768 --> 00:17:08.362 align:start position:0%
+ of programming, and is now a recognized
+ authority<00:17:07.299><c> in</c><00:17:07.459><c> terms</c><00:17:07.778><c> of</c><00:17:07.937><c> academic</c>
+
+00:17:08.362 --> 00:17:08.416 align:start position:0%
+ authority in terms of academic
+ 
+
+00:17:08.416 --> 00:17:13.905 align:start position:0%
+ authority in terms of academic
+ programming<00:17:09.000><c>.</c><00:17:12.495><c> In</c><00:17:12.657><c> one</c><00:17:12.874><c> of</c><00:17:13.037><c> his</c><00:17:13.254><c> articles</c><00:17:13.688><c>,</c><00:17:13.797><c> he</c>
+
+00:17:13.905 --> 00:17:13.959 align:start position:0%
+ programming. In one of his articles, he
+ 
+
+00:17:13.959 --> 00:17:15.641 align:start position:0%
+ programming. In one of his articles, he
+ wrote<00:17:14.285><c> the</c><00:17:14.502><c> phrase</c><00:17:14.882><c> that</c><00:17:15.153><c> premature</c>
+
+00:17:15.641 --> 00:17:15.695 align:start position:0%
+ wrote the phrase that premature
+ 
+
+00:17:15.695 --> 00:17:17.703 align:start position:0%
+ wrote the phrase that premature
+ optimization<00:17:16.401><c> is</c><00:17:16.563><c> the</c><00:17:16.780><c> root</c><00:17:17.052><c> of</c><00:17:17.214><c> all</c><00:17:17.431><c> evil</c><00:17:17.648><c>.</c>
+
+00:17:17.703 --> 00:17:21.678 align:start position:0%
+ optimization is the root of all evil.
+ 
+
+00:17:21.678 --> 00:17:23.582 align:start position:0%
+ 
+ This<00:17:21.966><c> phrase</c><00:17:22.370><c> is</c><00:17:22.543><c> constantly</c><00:17:23.178><c> used</c><00:17:23.466><c> by</c>
+
+00:17:23.582 --> 00:17:23.640 align:start position:0%
+ This phrase is constantly used by
+ 
+
+00:17:23.640 --> 00:17:25.602 align:start position:0%
+ This phrase is constantly used by
+ narrow-minded<00:17:24.447><c> people</c><00:17:24.851><c> as</c><00:17:25.024><c> a</c><00:17:25.140><c> supposed</c>
+
+00:17:25.602 --> 00:17:30.135 align:start position:0%
+ narrow-minded people as a supposed
+ 
+
+00:17:30.135 --> 00:17:32.187 align:start position:0%
+ 
+ license<00:17:30.556><c> to</c><00:17:30.713><c> write</c><00:17:31.029><c> code</c><00:17:31.292><c> anyhow</c><00:17:31.608><c>,</c><00:17:31.713><c> like</c><00:17:31.976><c> when</c>
+
+00:17:32.187 --> 00:17:32.240 align:start position:0%
+ license to write code anyhow, like when
+ 
+
+00:17:32.240 --> 00:17:34.239 align:start position:0%
+ license to write code anyhow, like when
+ you<00:17:32.450><c> need</c><00:17:32.713><c> to</c><00:17:32.871><c> optimize</c><00:17:33.345><c> this</c><00:17:33.608><c> code</c><00:17:33.871><c> because</c>
+
+00:17:34.239 --> 00:17:34.292 align:start position:0%
+ you need to optimize this code because
+ 
+
+00:17:34.292 --> 00:17:35.766 align:start position:0%
+ you need to optimize this code because
+ your<00:17:34.555><c> machine's</c><00:17:35.082><c> resources</c><00:17:35.608><c> are</c>
+
+00:17:35.766 --> 00:17:35.818 align:start position:0%
+ your machine's resources are
+ 
+
+00:17:35.818 --> 00:17:39.091 align:start position:0%
+ your machine's resources are
+ insufficient<00:17:36.450><c>.</c><00:17:38.119><c> That's</c><00:17:38.428><c> when</c><00:17:38.649><c> you</c><00:17:38.826><c> should</c>
+
+00:17:39.091 --> 00:17:39.135 align:start position:0%
+ insufficient. That's when you should
+ 
+
+00:17:39.135 --> 00:17:40.859 align:start position:0%
+ insufficient. That's when you should
+ start<00:17:39.400><c> working</c><00:17:39.754><c> on</c><00:17:39.886><c> the</c><00:17:40.063><c> optimization</c><00:17:40.638><c> code</c><00:17:40.814><c>.</c>
+
+00:17:40.859 --> 00:17:40.959 align:start position:0%
+ start working on the optimization code.
+ 
+
+00:17:40.959 --> 00:17:43.783 align:start position:0%
+ start working on the optimization code.
+ Well<00:17:41.209><c>,</c><00:17:41.334><c> that's</c><00:17:41.772><c> complete</c><00:17:42.336><c> nonsense</c><00:17:42.837><c>.</c><00:17:43.460><c> Donald</c>
+
+00:17:43.783 --> 00:17:43.837 align:start position:0%
+ Well, that's complete nonsense. Donald
+ 
+
+00:17:43.837 --> 00:17:45.943 align:start position:0%
+ Well, that's complete nonsense. Donald
+ Knuth<00:17:44.161><c> wasn't</c><00:17:44.539><c> talking</c><00:17:44.971><c> about</c><00:17:45.295><c> that</c><00:17:45.565><c> at</c><00:17:45.727><c> all</c><00:17:45.889><c>,</c>
+
+00:17:45.943 --> 00:17:45.997 align:start position:0%
+ Knuth wasn't talking about that at all,
+ 
+
+00:17:45.997 --> 00:17:47.940 align:start position:0%
+ Knuth wasn't talking about that at all,
+ as<00:17:46.159><c> he</c><00:17:46.321><c> emphasized</c><00:17:46.914><c> in</c><00:17:47.076><c> this</c><00:17:47.346><c> article</c><00:17:47.778><c> and</c>
+
+00:17:47.940 --> 00:17:47.994 align:start position:0%
+ as he emphasized in this article and
+ 
+
+00:17:47.994 --> 00:17:49.938 align:start position:0%
+ as he emphasized in this article and
+ repeatedly<00:17:48.588><c> in</c><00:17:48.750><c> subsequent</c><00:17:49.344><c> interviews</c><00:17:49.884><c>.</c>
+
+00:17:49.938 --> 00:17:55.636 align:start position:0%
+ repeatedly in subsequent interviews.
+ 
+
+00:17:55.636 --> 00:17:57.679 align:start position:0%
+ 
+ Donald<00:17:56.022><c> Knuth</c><00:17:56.353><c> was</c><00:17:56.574><c> simply</c><00:17:56.961><c> saying</c><00:17:57.292><c>,</c><00:17:57.403><c> based</c>
+
+00:17:57.679 --> 00:17:57.734 align:start position:0%
+ Donald Knuth was simply saying, based
+ 
+
+00:17:57.734 --> 00:17:59.722 align:start position:0%
+ Donald Knuth was simply saying, based
+ on<00:17:57.899><c> the</c><00:17:58.120><c> article</c><00:17:58.562><c> where</c><00:17:58.893><c> this</c><00:17:59.170><c> phrase</c><00:17:59.556><c> was</c>
+
+00:17:59.722 --> 00:17:59.777 align:start position:0%
+ on the article where this phrase was
+ 
+
+00:17:59.777 --> 00:18:01.765 align:start position:0%
+ on the article where this phrase was
+ used<00:17:59.998><c>,</c><00:18:00.108><c> that</c><00:18:00.384><c> a</c><00:18:00.495><c> programmer</c><00:18:01.102><c> should</c><00:18:01.489><c> write</c>
+
+00:18:01.765 --> 00:18:01.820 align:start position:0%
+ used, that a programmer should write
+ 
+
+00:18:01.820 --> 00:18:03.753 align:start position:0%
+ used, that a programmer should write
+ code<00:18:02.096><c> in</c><00:18:02.262><c> such</c><00:18:02.538><c> a</c><00:18:02.648><c> way</c><00:18:02.869><c> that</c><00:18:03.145><c> a</c><00:18:03.256><c> compiler</c><00:18:03.698><c>,</c>
+
+00:18:03.753 --> 00:18:03.808 align:start position:0%
+ code in such a way that a compiler,
+ 
+
+00:18:03.808 --> 00:18:05.962 align:start position:0%
+ code in such a way that a compiler,
+ taking<00:18:04.195><c> this</c><00:18:04.471><c> code</c><00:18:04.691><c>,</c><00:18:04.802><c> can</c><00:18:05.023><c> easily</c><00:18:05.409><c> understand</c>
+
+00:18:05.962 --> 00:18:06.017 align:start position:0%
+ taking this code, can easily understand
+ 
+
+00:18:06.017 --> 00:18:07.839 align:start position:0%
+ taking this code, can easily understand
+ how<00:18:06.238><c> to</c><00:18:06.403><c> transform</c><00:18:06.955><c> it</c><00:18:07.121><c> into</c><00:18:07.397><c> the</c><00:18:07.618><c> most</c>
+
+00:18:07.839 --> 00:18:07.894 align:start position:0%
+ how to transform it into the most
+ 
+
+00:18:07.894 --> 00:18:19.328 align:start position:0%
+ how to transform it into the most
+ efficient<00:18:08.446><c> form</c><00:18:08.667><c>.</c><00:18:18.008><c> The</c><00:18:18.272><c> article</c><00:18:18.800><c> in</c><00:18:18.998><c> which</c>
+
+00:18:19.328 --> 00:18:19.394 align:start position:0%
+ efficient form. The article in which
+ 
+
+00:18:19.394 --> 00:18:21.968 align:start position:0%
+ efficient form. The article in which
+ this<00:18:19.724><c> phrase</c><00:18:20.186><c> was</c><00:18:20.450><c> mentioned</c><00:18:21.110><c> concerned</c><00:18:21.770><c> the</c>
+
+00:18:21.968 --> 00:18:22.034 align:start position:0%
+ this phrase was mentioned concerned the
+ 
+
+00:18:22.034 --> 00:18:24.212 align:start position:0%
+ this phrase was mentioned concerned the
+ situation<00:18:22.694><c> where</c><00:18:23.024><c>,</c><00:18:23.156><c> in</c><00:18:23.354><c> the</c><00:18:23.618><c> languages</c>
+
+00:18:24.212 --> 00:18:24.278 align:start position:0%
+ situation where, in the languages
+ 
+
+00:18:24.278 --> 00:18:26.654 align:start position:0%
+ situation where, in the languages
+ common<00:18:24.740><c> at</c><00:18:24.938><c> the</c><00:18:25.202><c> time</c><00:18:25.466><c>—</c><00:18:25.664><c>this</c><00:18:25.994><c> was</c><00:18:26.258><c> in</c><00:18:26.456><c> the</c>
+
+00:18:26.654 --> 00:18:26.720 align:start position:0%
+ common at the time—this was in the
+ 
+
+00:18:26.720 --> 00:18:29.097 align:start position:0%
+ common at the time—this was in the
+ 1970s<00:18:27.050><c>,</c><00:18:27.182><c> '76</c><00:18:27.380><c>,</c><00:18:27.512><c> I</c><00:18:27.644><c> think</c><00:18:27.974><c>,</c><00:18:28.106><c> or</c><00:18:28.305><c> '75</c><00:18:28.503><c>—</c><00:18:28.701><c>people</c>
+
+00:18:29.097 --> 00:18:29.163 align:start position:0%
+ 1970s, '76, I think, or '75—people
+ 
+
+00:18:29.163 --> 00:18:31.737 align:start position:0%
+ 1970s, '76, I think, or '75—people
+ deeply<00:18:29.625><c> immersed</c><00:18:30.219><c> in</c><00:18:30.417><c> programming</c><00:18:31.143><c>,</c><00:18:31.275><c> knowing</c>
+
+00:18:31.737 --> 00:18:31.803 align:start position:0%
+ deeply immersed in programming, knowing
+ 
+
+00:18:31.803 --> 00:18:34.245 align:start position:0%
+ deeply immersed in programming, knowing
+ how<00:18:32.001><c>,</c><00:18:32.133><c> for</c><00:18:32.397><c> example</c><00:18:32.859><c>,</c><00:18:32.991><c> processor</c><00:18:33.651><c> pipelines</c>
+
+00:18:34.245 --> 00:18:34.311 align:start position:0%
+ how, for example, processor pipelines
+ 
+
+00:18:34.311 --> 00:18:36.357 align:start position:0%
+ how, for example, processor pipelines
+ worked<00:18:34.707><c>,</c><00:18:34.839><c> used</c><00:18:35.169><c> unconditional</c><00:18:36.093><c> jump</c>
+
+00:18:36.357 --> 00:18:36.423 align:start position:0%
+ worked, used unconditional jump
+ 
+
+00:18:36.423 --> 00:18:44.249 align:start position:0%
+ worked, used unconditional jump
+ operators<00:18:37.083><c> or</c><00:18:37.281><c> conditional</c><00:18:38.073><c> jumps</c><00:18:38.403><c>.</c><00:18:44.134><c> In</c>
+
+00:18:44.249 --> 00:18:44.307 align:start position:0%
+ operators or conditional jumps. In
+ 
+
+00:18:44.307 --> 00:18:46.154 align:start position:0%
+ operators or conditional jumps. In
+ JavaScript<00:18:44.884><c>,</c><00:18:45.000><c> they</c><00:18:45.288><c> don't</c><00:18:45.635><c> exist</c><00:18:45.923><c>,</c><00:18:46.039><c> as</c>
+
+00:18:46.154 --> 00:18:46.212 align:start position:0%
+ JavaScript, they don't exist, as
+ 
+
+00:18:46.212 --> 00:18:48.233 align:start position:0%
+ JavaScript, they don't exist, as
+ something<00:18:46.789><c> that</c><00:18:47.078><c> allows</c><00:18:47.482><c> for</c><00:18:47.713><c> effective</c>
+
+00:18:48.233 --> 00:18:48.291 align:start position:0%
+ something that allows for effective
+ 
+
+00:18:48.291 --> 00:18:50.484 align:start position:0%
+ something that allows for effective
+ code<00:18:48.579><c> optimization</c><00:18:49.330><c> to</c><00:18:49.503><c> avoid</c><00:18:49.849><c> a</c><00:18:49.965><c> situation</c>
+
+00:18:50.484 --> 00:18:50.542 align:start position:0%
+ code optimization to avoid a situation
+ 
+
+00:18:50.542 --> 00:18:52.217 align:start position:0%
+ code optimization to avoid a situation
+ where<00:18:50.889><c> processor</c><00:18:51.466><c> pipelines</c><00:18:52.043><c> are</c>
+
+00:18:52.217 --> 00:18:52.274 align:start position:0%
+ where processor pipelines are
+ 
+
+00:18:52.274 --> 00:18:57.664 align:start position:0%
+ where processor pipelines are
+ constantly<00:18:52.909><c> overloaded</c><00:18:53.487><c>.</c><00:18:57.291><c> This</c><00:18:57.557><c> is</c>
+
+00:18:57.664 --> 00:18:57.718 align:start position:0%
+ constantly overloaded. This is
+ 
+
+00:18:57.718 --> 00:18:59.319 align:start position:0%
+ constantly overloaded. This is
+ undoubtedly<00:18:58.358><c> the</c><00:18:58.572><c> most</c><00:18:58.839><c> effective</c>
+
+00:18:59.319 --> 00:18:59.373 align:start position:0%
+ undoubtedly the most effective
+ 
+
+00:18:59.373 --> 00:19:04.271 align:start position:0%
+ undoubtedly the most effective
+ optimization<00:19:00.067><c> method</c><00:19:00.440><c> even</c><00:19:00.707><c> today</c><00:19:00.974><c>.</c><00:19:03.878><c> However</c>
+
+00:19:04.271 --> 00:19:06.236 align:start position:0%
+ optimization method even today. However
+,<00:19:04.383><c> to</c><00:19:04.551><c> do</c><00:19:04.720><c> this</c><00:19:04.945><c>,</c><00:19:05.057><c> you</c><00:19:05.281><c> need</c><00:19:05.562><c> to</c><00:19:05.731><c> be</c><00:19:05.899><c> a</c><00:19:06.012><c> very</c>
+
+00:19:06.236 --> 00:19:06.292 align:start position:0%
+, to do this, you need to be a very
+ 
+
+00:19:06.292 --> 00:19:08.258 align:start position:0%
+, to do this, you need to be a very
+ deep<00:19:06.573><c> specialist</c><00:19:07.191><c> and</c><00:19:07.416><c> spend</c><00:19:07.753><c> much</c><00:19:08.033><c> more</c>
+
+00:19:08.258 --> 00:19:08.314 align:start position:0%
+ deep specialist and spend much more
+ 
+
+00:19:08.314 --> 00:19:10.504 align:start position:0%
+ deep specialist and spend much more
+ time<00:19:08.595><c> on</c><00:19:08.763><c> it</c><00:19:08.932><c> than</c><00:19:09.213><c> writing</c><00:19:09.662><c> the</c><00:19:09.887><c> code</c><00:19:10.167><c> itself</c>
+
+00:19:10.504 --> 00:19:13.218 align:start position:0%
+ time on it than writing the code itself
+.<00:19:11.531><c> Donald</c><00:19:11.924><c> Zhiknut</c><00:19:12.374><c> insisted</c><00:19:12.880><c> in</c><00:19:13.049><c> his</c>
+
+00:19:13.218 --> 00:19:13.274 align:start position:0%
+. Donald Zhiknut insisted in his
+ 
+
+00:19:13.274 --> 00:19:18.451 align:start position:0%
+. Donald Zhiknut insisted in his
+ article<00:19:17.143><c> that</c><00:19:17.404><c> you</c><00:19:17.613><c> shouldn't</c><00:19:18.137><c> bother</c>
+
+00:19:18.451 --> 00:19:18.503 align:start position:0%
+ article that you shouldn't bother
+ 
+
+00:19:18.503 --> 00:19:20.021 align:start position:0%
+ article that you shouldn't bother
+ figuring<00:19:18.974><c> out</c><00:19:19.183><c> how</c><00:19:19.393><c> to</c><00:19:19.550><c> use</c><00:19:19.759><c> these</c>
+
+00:19:20.021 --> 00:19:20.073 align:start position:0%
+ figuring out how to use these
+ 
+
+00:19:20.073 --> 00:19:21.852 align:start position:0%
+ figuring out how to use these
+ conditional<00:19:20.701><c> or</c><00:19:20.858><c> unconditional</c><00:19:21.590><c> jumps</c>
+
+00:19:21.852 --> 00:19:21.904 align:start position:0%
+ conditional or unconditional jumps
+ 
+
+00:19:21.904 --> 00:19:23.945 align:start position:0%
+ conditional or unconditional jumps
+ yourself<00:19:22.323><c>,</c><00:19:22.428><c> but</c><00:19:22.637><c> try</c><00:19:22.846><c> to</c><00:19:23.003><c> write</c><00:19:23.317><c> your</c><00:19:23.579><c> code</c><00:19:23.841><c> in</c>
+
+00:19:23.945 --> 00:19:23.998 align:start position:0%
+ yourself, but try to write your code in
+ 
+
+00:19:23.998 --> 00:19:25.777 align:start position:0%
+ yourself, but try to write your code in
+ such<00:19:24.259><c> a</c><00:19:24.364><c> way</c><00:19:24.573><c> that</c><00:19:24.835><c> the</c><00:19:25.044><c> compiler</c><00:19:25.463><c>,</c><00:19:25.567><c> upon</c>
+
+00:19:25.777 --> 00:19:25.829 align:start position:0%
+ such a way that the compiler, upon
+ 
+
+00:19:25.829 --> 00:19:27.713 align:start position:0%
+ such a way that the compiler, upon
+ seeing<00:19:26.195><c> your</c><00:19:26.457><c> code</c><00:19:26.666><c>,</c><00:19:26.771><c> will</c><00:19:27.033><c> do</c><00:19:27.190><c> it</c><00:19:27.347><c> all</c><00:19:27.556><c> for</c>
+
+00:19:27.713 --> 00:19:27.765 align:start position:0%
+ seeing your code, will do it all for
+ 
+
+00:19:27.765 --> 00:19:33.902 align:start position:0%
+ seeing your code, will do it all for
+ you<00:19:27.922><c>.</c><00:19:31.853><c> JavaScript</c><00:19:32.516><c> and</c><00:19:32.757><c> Jon</c><00:19:32.998><c> Pass</c><00:19:33.299><c> are</c><00:19:33.540><c> a</c><00:19:33.661><c> case</c>
+
+00:19:33.902 --> 00:19:33.962 align:start position:0%
+ you. JavaScript and Jon Pass are a case
+ 
+
+00:19:33.962 --> 00:19:39.709 align:start position:0%
+ you. JavaScript and Jon Pass are a case
+ in<00:19:34.143><c> point</c><00:19:34.444><c>.</c><00:19:38.484><c> JavaScript</c><00:19:39.045><c> can't</c><00:19:39.351><c> know</c><00:19:39.606><c> in</c>
+
+00:19:39.709 --> 00:19:39.760 align:start position:0%
+ in point. JavaScript can't know in
+ 
+
+00:19:39.760 --> 00:19:41.546 align:start position:0%
+ in point. JavaScript can't know in
+ advance<00:19:40.168><c> which</c><00:19:40.474><c> of</c><00:19:40.627><c> the</c><00:19:40.832><c> literal</c><00:19:41.240><c> object</c>
+
+00:19:41.546 --> 00:19:41.597 align:start position:0%
+ advance which of the literal object
+ 
+
+00:19:41.597 --> 00:19:43.486 align:start position:0%
+ advance which of the literal object
+ forms<00:19:41.903><c> you</c><00:19:42.108><c> use</c><00:19:42.312><c> will</c><00:19:42.567><c> actually</c><00:19:43.026><c> be</c><00:19:43.180><c> needed</c>
+
+00:19:43.486 --> 00:19:43.537 align:start position:0%
+ forms you use will actually be needed
+ 
+
+00:19:43.537 --> 00:19:50.503 align:start position:0%
+ forms you use will actually be needed
+ and<00:19:43.741><c> which</c><00:19:44.047><c> won't</c><00:19:44.302><c>.</c><00:19:49.305><c> Moreover</c><00:19:49.784><c>,</c><00:19:49.904><c> the</c><00:19:50.144><c> syntax</c>
+
+00:19:50.503 --> 00:19:50.563 align:start position:0%
+ and which won't. Moreover, the syntax
+ 
+
+00:19:50.563 --> 00:19:52.721 align:start position:0%
+ and which won't. Moreover, the syntax
+ of<00:19:50.743><c> JavaScript</c><00:19:51.402><c> itself</c><00:19:51.762><c>,</c><00:19:51.882><c> as</c><00:19:52.062><c> I</c><00:19:52.182><c> mentioned</c>
+
+00:19:52.721 --> 00:19:52.781 align:start position:0%
+ of JavaScript itself, as I mentioned
+ 
+
+00:19:52.781 --> 00:19:54.939 align:start position:0%
+ of JavaScript itself, as I mentioned
+ earlier<00:19:53.200><c>,</c><00:19:53.320><c> is</c><00:19:53.500><c> very</c><00:19:53.800><c> complex</c><00:19:54.279><c> in</c><00:19:54.459><c> terms</c><00:19:54.819><c> of</c>
+
+00:19:54.939 --> 00:19:54.999 align:start position:0%
+ earlier, is very complex in terms of
+ 
+
+00:19:54.999 --> 00:19:57.336 align:start position:0%
+ earlier, is very complex in terms of
+ how<00:19:55.238><c> to</c><00:19:55.418><c> quickly</c><00:19:55.898><c> parse</c><00:19:56.257><c> this</c><00:19:56.557><c> construct</c><00:19:57.156><c> and</c>
+
+00:19:57.336 --> 00:19:57.396 align:start position:0%
+ how to quickly parse this construct and
+ 
+
+00:19:57.396 --> 00:19:59.014 align:start position:0%
+ how to quickly parse this construct and
+ convert<00:19:57.876><c> it</c><00:19:58.055><c> to</c><00:19:58.235><c> some</c><00:19:58.535><c> internal</c>
+
+00:19:59.014 --> 00:19:59.074 align:start position:0%
+ convert it to some internal
+ 
+
+00:19:59.074 --> 00:20:06.784 align:start position:0%
+ convert it to some internal
+ representation<00:19:59.973><c> for</c><00:20:00.213><c> use</c><00:20:00.453><c> in</c><00:20:00.633><c> code</c><00:20:00.873><c>.</c><00:20:06.663><c> In</c>
+
+00:20:06.784 --> 00:20:06.845 align:start position:0%
+ representation for use in code. In
+ 
+
+00:20:06.845 --> 00:20:09.221 align:start position:0%
+ representation for use in code. In
+ contrast<00:20:07.333><c>,</c><00:20:07.454><c> the</c><00:20:07.698><c> string</c><00:20:08.124><c> that</c><00:20:08.429><c> Jon</c><00:20:08.673><c> parses</c><00:20:09.038><c>—</c>
+
+00:20:09.221 --> 00:20:11.597 align:start position:0%
+ contrast, the string that Jon parses—
+that<00:20:09.526><c> is</c><00:20:09.647><c>,</c><00:20:09.769><c> the</c><00:20:10.013><c> string</c><00:20:10.439><c> representation</c><00:20:11.353><c> of</c><00:20:11.536><c> a</c>
+
+00:20:11.597 --> 00:20:11.658 align:start position:0%
+that is, the string representation of a
+ 
+
+00:20:11.658 --> 00:20:14.033 align:start position:0%
+that is, the string representation of a
+ JavaScript<00:20:12.328><c> object</c><00:20:12.693><c>—</c><00:20:12.876><c>is</c><00:20:13.059><c> extremely</c><00:20:13.668><c> simple</c>
+
+00:20:14.033 --> 00:20:14.094 align:start position:0%
+ JavaScript object—is extremely simple
+ 
+
+00:20:14.094 --> 00:20:16.287 align:start position:0%
+ JavaScript object—is extremely simple
+ in<00:20:14.277><c> terms</c><00:20:14.642><c> of</c><00:20:14.825><c> the</c><00:20:15.069><c> organization</c><00:20:15.861><c> of</c><00:20:16.044><c> this</c>
+
+00:20:16.287 --> 00:20:16.348 align:start position:0%
+ in terms of the organization of this
+ 
+
+00:20:16.348 --> 00:20:22.159 align:start position:0%
+ in terms of the organization of this
+ parser<00:20:16.714><c>.</c><00:20:20.306><c> Moreover</c><00:20:20.835><c>,</c><00:20:20.968><c> it</c><00:20:21.166><c> occurs</c><00:20:21.630><c> when</c><00:20:21.961><c> and</c>
+
+00:20:22.159 --> 00:20:22.225 align:start position:0%
+ parser. Moreover, it occurs when and
+ 
+
+00:20:22.225 --> 00:20:24.675 align:start position:0%
+ parser. Moreover, it occurs when and
+ only<00:20:22.556><c> when</c><00:20:22.887><c> you</c><00:20:23.152><c> actually</c><00:20:23.748><c> ask</c><00:20:24.013><c> jon.psp</c><00:20:24.542><c> to</c>
+
+00:20:24.675 --> 00:20:24.741 align:start position:0%
+ only when you actually ask jon.psp to
+ 
+
+00:20:24.741 --> 00:20:33.654 align:start position:0%
+ only when you actually ask jon.psp to
+ parse<00:20:25.138><c> this</c><00:20:25.469><c> object</c><00:20:25.866><c>.</c><00:20:33.033><c> And</c><00:20:33.258><c> this</c><00:20:33.541><c> is</c>
+
+00:20:33.654 --> 00:20:33.710 align:start position:0%
+ parse this object. And this is
+ 
+
+00:20:33.710 --> 00:20:35.801 align:start position:0%
+ parse this object. And this is
+ precisely<00:20:34.275><c> the</c><00:20:34.501><c> consequence</c><00:20:35.179><c> of</c><00:20:35.349><c> the</c><00:20:35.575><c> fact</c>
+
+00:20:35.801 --> 00:20:35.857 align:start position:0%
+ precisely the consequence of the fact
+ 
+
+00:20:35.857 --> 00:20:37.947 align:start position:0%
+ precisely the consequence of the fact
+ that<00:20:36.140><c> V8</c><00:20:36.309><c> engineers</c><00:20:36.817><c>,</c><00:20:36.930><c> among</c><00:20:37.269><c> others</c><00:20:37.608><c>,</c><00:20:37.721><c> as</c><00:20:37.891><c> I</c>
+
+00:20:37.947 --> 00:20:38.004 align:start position:0%
+ that V8 engineers, among others, as I
+ 
+
+00:20:38.004 --> 00:20:39.981 align:start position:0%
+ that V8 engineers, among others, as I
+ showed<00:20:38.399><c> in</c><00:20:38.569><c> the</c><00:20:38.795><c> link</c><00:20:39.021><c>,</c><00:20:39.134><c> recommend</c><00:20:39.699><c> doing</c>
+
+00:20:39.981 --> 00:20:40.038 align:start position:0%
+ showed in the link, recommend doing
+ 
+
+00:20:40.038 --> 00:20:42.241 align:start position:0%
+ showed in the link, recommend doing
+ this<00:20:40.320><c> using</c><00:20:40.659><c> the</c><00:20:40.885><c> string</c><00:20:41.280><c> representation</c><00:20:42.128><c> of</c>
+
+00:20:42.241 --> 00:20:42.297 align:start position:0%
+ this using the string representation of
+ 
+
+00:20:42.297 --> 00:20:44.387 align:start position:0%
+ this using the string representation of
+ Jon<00:20:42.523><c> Pars</c><00:20:42.749><c>,</c><00:20:42.862><c> which</c><00:20:43.201><c> could</c><00:20:43.540><c> then</c><00:20:43.823><c> be</c><00:20:43.992><c> used</c><00:20:44.275><c> in</c>
+
+00:20:44.387 --> 00:20:44.444 align:start position:0%
+ Jon Pars, which could then be used in
+ 
+
+00:20:44.444 --> 00:20:46.534 align:start position:0%
+ Jon Pars, which could then be used in
+ Jon<00:20:44.670><c> Pars</c><00:20:44.896><c>,</c><00:20:45.009><c> at</c><00:20:45.178><c> least</c><00:20:45.517><c> in</c><00:20:45.687><c> cases</c><00:20:46.026><c> where</c><00:20:46.365><c> the</c>
+
+00:20:46.534 --> 00:20:46.591 align:start position:0%
+ Jon Pars, at least in cases where the
+ 
+
+00:20:46.591 --> 00:20:48.681 align:start position:0%
+ Jon Pars, at least in cases where the
+ amount<00:20:46.986><c> of</c><00:20:47.156><c> code</c><00:20:47.438><c> represented</c><00:20:48.116><c> within</c><00:20:48.511><c> the</c>
+
+00:20:48.681 --> 00:20:48.737 align:start position:0%
+ amount of code represented within the
+ 
+
+00:20:48.737 --> 00:20:50.828 align:start position:0%
+ amount of code represented within the
+ literal<00:20:49.189><c> form</c><00:20:49.472><c> of</c><00:20:49.641><c> an</c><00:20:49.811><c> object</c><00:20:50.206><c> or</c><00:20:50.376><c> array</c><00:20:50.715><c> is</c>
+
+00:20:50.828 --> 00:20:50.884 align:start position:0%
+ literal form of an object or array is
+ 
+
+00:20:50.884 --> 00:20:51.845 align:start position:0%
+ literal form of an object or array is
+ not<00:20:51.110><c> so</c><00:20:51.280><c> important</c><00:20:51.788><c>.</c>
+
+00:20:51.845 --> 00:21:08.055 align:start position:0%
+ not so important.
+ 
+
+00:21:08.055 --> 00:21:10.072 align:start position:0%
+ 
+ Okay<00:21:08.261><c>,</c><00:21:08.365><c> I'll</c><00:21:08.623><c> just</c><00:21:08.882><c> quickly</c><00:21:09.296><c> check</c><00:21:09.606><c> to</c><00:21:09.761><c> see</c><00:21:09.968><c> if</c>
+
+00:21:10.072 --> 00:21:10.123 align:start position:0%
+ Okay, I'll just quickly check to see if
+ 
+
+00:21:10.123 --> 00:21:20.257 align:start position:0%
+ Okay, I'll just quickly check to see if
+ any<00:21:10.330><c> questions</c><00:21:10.848><c> have</c><00:21:11.106><c> popped</c><00:21:11.468><c> up</c><00:21:11.572><c>.</c><00:21:19.906><c> I</c><00:21:19.993><c> should</c>
+
+00:21:20.257 --> 00:21:20.301 align:start position:0%
+ any questions have popped up. I should
+ 
+
+00:21:20.301 --> 00:21:21.972 align:start position:0%
+ any questions have popped up. I should
+ have<00:21:20.521><c> opened</c><00:21:20.829><c> the</c><00:21:21.004><c> chat</c><00:21:21.224><c> earlier</c><00:21:21.576><c> for</c><00:21:21.752><c> this</c><00:21:21.928><c>.</c>
+
+00:21:21.972 --> 00:21:24.682 align:start position:0%
+ have opened the chat earlier for this.
+ 
+
+00:21:24.682 --> 00:21:26.564 align:start position:0%
+ 
+ Yeah<00:21:24.891><c>,</c><00:21:24.995><c> there</c><00:21:25.309><c> are</c><00:21:25.518><c> some</c><00:21:25.779><c> questions</c><00:21:26.302><c> here</c><00:21:26.511><c>.</c>
+
+00:21:26.564 --> 00:21:26.664 align:start position:0%
+ Yeah, there are some questions here.
+ 
+
+00:21:26.664 --> 00:21:28.767 align:start position:0%
+ Yeah, there are some questions here.
+ Just<00:21:26.933><c> a</c><00:21:27.041><c> second</c><00:21:27.365><c>,</c><00:21:27.472><c> I'll</c><00:21:27.742><c> just</c><00:21:28.012><c> quickly</c><00:21:28.443><c> check</c><00:21:28.713><c>.</c>
+
+00:21:28.767 --> 00:21:34.175 align:start position:0%
+ Just a second, I'll just quickly check.
+ 
+
+00:21:34.175 --> 00:21:36.251 align:start position:0%
+ 
+ It<00:21:34.338><c> seems</c><00:21:34.666><c> like</c><00:21:34.940><c> the</c><00:21:35.158><c> same</c><00:21:35.431><c> operation</c><00:21:35.978><c> isn't</c>
+
+00:21:36.251 --> 00:21:36.306 align:start position:0%
+ It seems like the same operation isn't
+ 
+
+00:21:36.306 --> 00:21:39.230 align:start position:0%
+ It seems like the same operation isn't
+ just<00:21:36.579><c> relevant</c><00:21:37.071><c> for</c><00:21:37.290><c> V8</c><00:21:37.399><c>.</c><00:21:38.431><c> That's</c><00:21:38.861><c> right</c><00:21:39.169><c>,</c>
+
+00:21:39.230 --> 00:21:39.292 align:start position:0%
+ just relevant for V8. That's right,
+ 
+
+00:21:39.292 --> 00:21:41.629 align:start position:0%
+ just relevant for V8. That's right,
+ it's<00:21:39.599><c> not</c><00:21:39.845><c> just</c><00:21:40.153><c> relevant</c><00:21:40.706><c> for</c><00:21:40.952><c> V8</c><00:21:41.075><c>,</c><00:21:41.198><c> because</c>
+
+00:21:41.629 --> 00:21:41.690 align:start position:0%
+ it's not just relevant for V8, because
+ 
+
+00:21:41.690 --> 00:21:43.904 align:start position:0%
+ it's not just relevant for V8, because
+ the<00:21:41.936><c> complexity</c><00:21:42.613><c> of</c><00:21:42.797><c> parsing</c><00:21:43.289><c> JavaScript</c>
+
+00:21:43.904 --> 00:21:43.966 align:start position:0%
+ the complexity of parsing JavaScript
+ 
+
+00:21:43.966 --> 00:21:45.995 align:start position:0%
+ the complexity of parsing JavaScript
+ syntax<00:21:44.396><c> is</c><00:21:44.581><c> such</c><00:21:44.888><c> that</c><00:21:45.196><c> regardless</c><00:21:45.872><c> of</c>
+
+00:21:45.995 --> 00:21:46.057 align:start position:0%
+ syntax is such that regardless of
+ 
+
+00:21:46.057 --> 00:21:48.456 align:start position:0%
+ syntax is such that regardless of
+ whether<00:21:46.549><c> you're</c><00:21:46.980><c> looking</c><00:21:47.472><c> at</c><00:21:47.656><c> Spider-Monkey</c>
+
+00:21:48.456 --> 00:21:50.608 align:start position:0%
+ whether you're looking at Spider-Monkey
+,<00:21:48.579><c> V8</c><00:21:48.702><c>,</c><00:21:48.825><c> Cor</c><00:21:49.009><c>,</c><00:21:49.132><c> or</c><00:21:49.317><c> any</c><00:21:49.563><c> other</c><00:21:49.932><c> parser</c><00:21:50.301><c>,</c><00:21:50.424><c> any</c>
+
+00:21:50.608 --> 00:21:50.670 align:start position:0%
+, V8, Cor, or any other parser, any
+ 
+
+00:21:50.670 --> 00:21:52.884 align:start position:0%
+, V8, Cor, or any other parser, any
+ other<00:21:51.039><c> RN</c><00:21:51.223><c> time</c><00:21:51.469><c>,</c><00:21:51.592><c> they</c><00:21:51.900><c> all</c><00:21:52.146><c> run</c><00:21:52.392><c> into</c><00:21:52.699><c> the</c>
+
+00:21:52.884 --> 00:21:52.945 align:start position:0%
+ other RN time, they all run into the
+ 
+
+00:21:52.945 --> 00:22:00.376 align:start position:0%
+ other RN time, they all run into the
+ same<00:21:53.253><c> problems</c><00:21:53.745><c>.</c><00:21:59.385><c> Writing</c><00:21:59.825><c> optimized</c><00:22:00.321><c>,</c>
+
+00:22:00.376 --> 00:22:00.431 align:start position:0%
+ same problems. Writing optimized,
+ 
+
+00:22:00.431 --> 00:22:02.524 align:start position:0%
+ same problems. Writing optimized,
+ super-high-performance<00:22:01.698><c> code</c><00:22:01.973><c> to</c><00:22:02.138><c> do</c><00:22:02.304><c> this</c>
+
+00:22:02.524 --> 00:22:02.579 align:start position:0%
+ super-high-performance code to do this
+ 
+
+00:22:02.579 --> 00:22:04.727 align:start position:0%
+ super-high-performance code to do this
+ is<00:22:02.744><c> possible</c><00:22:03.185><c>,</c><00:22:03.295><c> but</c><00:22:03.515><c> if</c><00:22:03.681><c> you're</c><00:22:04.066><c> a</c><00:22:04.176><c> specialist</c>
+
+00:22:04.727 --> 00:22:04.782 align:start position:0%
+ is possible, but if you're a specialist
+ 
+
+00:22:04.782 --> 00:22:06.930 align:start position:0%
+ is possible, but if you're a specialist
+ at<00:22:04.947><c> the</c><00:22:05.168><c> level</c><00:22:05.498><c> of</c><00:22:05.663><c> writing</c><00:22:06.104><c> this</c><00:22:06.379><c> code</c><00:22:06.600><c>,</c><00:22:06.710><c> then</c>
+
+00:22:06.930 --> 00:22:06.985 align:start position:0%
+ at the level of writing this code, then
+ 
+
+00:22:06.985 --> 00:22:09.133 align:start position:0%
+ at the level of writing this code, then
+ you'll<00:22:07.371><c> write</c><00:22:07.701><c> equally</c><00:22:08.142><c> optimized</c><00:22:08.693><c> code</c><00:22:08.968><c> for</c>
+
+00:22:09.133 --> 00:22:09.188 align:start position:0%
+ you'll write equally optimized code for
+ 
+
+00:22:09.188 --> 00:22:11.061 align:start position:0%
+ you'll write equally optimized code for
+ parsing<00:22:09.629><c> a</c><00:22:09.739><c> JSON</c><00:22:10.015><c> string</c><00:22:10.345><c>,</c><00:22:10.455><c> and</c><00:22:10.676><c> it</c><00:22:10.841><c> will</c>
+
+00:22:11.061 --> 00:22:11.116 align:start position:0%
+ parsing a JSON string, and it will
+ 
+
+00:22:11.116 --> 00:22:20.958 align:start position:0%
+ parsing a JSON string, and it will
+ always<00:22:11.502><c> be</c><00:22:11.667><c> faster</c><00:22:11.997><c>.</c><00:22:19.831><c> I</c><00:22:19.938><c> really</c><00:22:20.314><c> want</c><00:22:20.582><c> to</c><00:22:20.744><c> do</c><00:22:20.905><c> a</c>
+
+00:22:20.958 --> 00:22:21.012 align:start position:0%
+ always be faster. I really want to do a
+ 
+
+00:22:21.012 --> 00:22:24.168 align:start position:0%
+ always be faster. I really want to do a
+ deep<00:22:21.281><c> copy</c><00:22:21.549><c> of</c><00:22:21.710><c> an</c><00:22:21.872><c> object</c><00:22:22.194><c>.</c><00:22:23.438><c> That's</c><00:22:23.864><c> not</c><00:22:24.107><c> a</c>
+
+00:22:24.168 --> 00:22:24.229 align:start position:0%
+ deep copy of an object. That's not a
+ 
+
+00:22:24.229 --> 00:22:30.043 align:start position:0%
+ deep copy of an object. That's not a
+ question<00:22:24.777><c> for</c><00:22:25.020><c> me</c><00:22:25.142><c>,</c><00:22:25.264><c> because</c><00:22:25.690><c>,</c><00:22:25.812><c> uh</c><00:22:25.933><c>,</c><00:22:26.055><c> given</c><00:22:29.922><c> my</c>
+
+00:22:30.043 --> 00:22:30.104 align:start position:0%
+ question for me, because, uh, given my
+ 
+
+00:22:30.104 --> 00:22:32.348 align:start position:0%
+ question for me, because, uh, given my
+ background<00:22:30.771><c> as</c><00:22:30.953><c> a</c><00:22:31.074><c> programmer</c><00:22:31.681><c>,</c><00:22:31.802><c> we</c><00:22:31.984><c> always</c>
+
+00:22:32.348 --> 00:22:32.409 align:start position:0%
+ background as a programmer, we always
+ 
+
+00:22:32.409 --> 00:22:37.137 align:start position:0%
+ background as a programmer, we always
+ have<00:22:32.712><c> rules</c><00:22:33.016><c>.</c><00:22:35.747><c> If</c><00:22:35.901><c> you</c><00:22:36.107><c> need</c><00:22:36.365><c> to</c><00:22:36.519><c> deep</c><00:22:36.777><c> copy</c><00:22:37.034><c> an</c>
+
+00:22:37.137 --> 00:22:37.189 align:start position:0%
+ have rules. If you need to deep copy an
+ 
+
+00:22:37.189 --> 00:22:39.146 align:start position:0%
+ have rules. If you need to deep copy an
+ object<00:22:37.498><c>,</c><00:22:37.601><c> then</c><00:22:37.858><c> you</c><00:22:38.065><c> have</c><00:22:38.322><c> serious</c><00:22:38.734><c> problems</c>
+
+00:22:39.146 --> 00:22:39.198 align:start position:0%
+ object, then you have serious problems
+ 
+
+00:22:39.198 --> 00:22:41.207 align:start position:0%
+ object, then you have serious problems
+ with<00:22:39.455><c> your</c><00:22:39.713><c> application</c><00:22:40.331><c> architecture</c><00:22:40.949><c>,</c><00:22:41.052><c> and</c>
+
+00:22:41.207 --> 00:22:41.258 align:start position:0%
+ with your application architecture, and
+ 
+
+00:22:41.258 --> 00:22:42.907 align:start position:0%
+ with your application architecture, and
+ you<00:22:41.464><c> need</c><00:22:41.722><c> to</c><00:22:41.876><c> think</c><00:22:42.185><c> not</c><00:22:42.391><c> about</c><00:22:42.701><c> deep</c>
+
+00:22:42.907 --> 00:22:42.958 align:start position:0%
+ you need to think not about deep
+ 
+
+00:22:42.958 --> 00:22:44.761 align:start position:0%
+ you need to think not about deep
+ copying<00:22:43.370><c> an</c><00:22:43.525><c> object</c><00:22:43.834><c>,</c><00:22:43.937><c> but</c><00:22:44.143><c> about</c><00:22:44.452><c> how</c><00:22:44.658><c> to</c>
+
+00:22:44.761 --> 00:22:44.812 align:start position:0%
+ copying an object, but about how to
+ 
+
+00:22:44.812 --> 00:22:46.461 align:start position:0%
+ copying an object, but about how to
+ reconsider<00:22:45.379><c> the</c><00:22:45.585><c> structure</c><00:22:46.100><c> of</c><00:22:46.255><c> your</c>
+
+00:22:46.461 --> 00:22:46.512 align:start position:0%
+ reconsider the structure of your
+ 
+
+00:22:46.512 --> 00:22:52.242 align:start position:0%
+ reconsider the structure of your
+ application<00:22:47.079><c>.</c><00:22:50.687><c> Because</c><00:22:51.184><c> any</c><00:22:51.433><c> data</c><00:22:51.744><c> copying</c><00:22:52.180><c>,</c>
+
+00:22:52.242 --> 00:22:52.304 align:start position:0%
+ application. Because any data copying,
+ 
+
+00:22:52.304 --> 00:22:54.730 align:start position:0%
+ application. Because any data copying,
+ I<00:22:52.428><c> emphasize</c><00:22:52.988><c>,</c><00:22:53.113><c> and</c><00:22:53.362><c> JavaScript</c><00:22:54.046><c> is</c><00:22:54.233><c> designed</c>
+
+00:22:54.730 --> 00:22:54.793 align:start position:0%
+ I emphasize, and JavaScript is designed
+ 
+
+00:22:54.793 --> 00:22:57.157 align:start position:0%
+ I emphasize, and JavaScript is designed
+ this<00:22:55.104><c> way</c><00:22:55.290><c>,</c><00:22:55.415><c> by</c><00:22:55.601><c> the</c><00:22:55.850><c> way</c><00:22:56.037><c>,</c><00:22:56.161><c> as</c><00:22:56.348><c> is</c><00:22:56.535><c> functional</c>
+
+00:22:57.157 --> 00:22:57.219 align:start position:0%
+ this way, by the way, as is functional
+ 
+
+00:22:57.219 --> 00:22:59.645 align:start position:0%
+ this way, by the way, as is functional
+ programming<00:22:57.903><c>,</c><00:22:58.028><c> in</c><00:22:58.214><c> which</c><00:22:58.588><c> data</c><00:22:58.899><c> copying</c><00:22:59.396><c> is</c><00:22:59.583><c> a</c>
+
+00:22:59.645 --> 00:22:59.707 align:start position:0%
+ programming, in which data copying is a
+ 
+
+00:22:59.707 --> 00:23:01.698 align:start position:0%
+ programming, in which data copying is a
+ last<00:23:00.019><c> resort</c><00:23:00.392><c>,</c><00:23:00.516><c> always</c><00:23:00.952><c> taken</c><00:23:01.325><c> out</c><00:23:01.574><c> of</c>
+
+00:23:01.698 --> 00:23:01.761 align:start position:0%
+ last resort, always taken out of
+ 
+
+00:23:01.761 --> 00:23:08.071 align:start position:0%
+ last resort, always taken out of
+ consideration<00:23:02.569><c>.</c><00:23:06.988><c> So</c><00:23:07.096><c>,</c><00:23:07.204><c> I</c><00:23:07.313><c> emphasize</c><00:23:07.800><c>,</c><00:23:07.909><c> the</c>
+
+00:23:08.071 --> 00:23:08.125 align:start position:0%
+ consideration. So, I emphasize, the
+ 
+
+00:23:08.125 --> 00:23:10.022 align:start position:0%
+ consideration. So, I emphasize, the
+ fact<00:23:08.396><c> that</c><00:23:08.667><c> you</c><00:23:08.884><c> suddenly</c><00:23:09.371><c> want</c><00:23:09.642><c> to</c><00:23:09.805><c> copy</c>
+
+00:23:10.022 --> 00:23:10.076 align:start position:0%
+ fact that you suddenly want to copy
+ 
+
+00:23:10.076 --> 00:23:12.026 align:start position:0%
+ fact that you suddenly want to copy
+ objects<00:23:10.509><c> indicates</c><00:23:11.051><c> that</c><00:23:11.268><c>,</c><00:23:11.376><c> most</c><00:23:11.647><c> likely</c><00:23:11.972><c>,</c>
+
+00:23:12.026 --> 00:23:12.081 align:start position:0%
+ objects indicates that, most likely,
+ 
+
+00:23:12.081 --> 00:23:13.598 align:start position:0%
+ objects indicates that, most likely,
+ there<00:23:12.406><c> is</c><00:23:12.568><c> a</c><00:23:12.676><c> different</c><00:23:13.218><c> form</c><00:23:13.489><c> of</c>
+
+00:23:13.598 --> 00:23:13.652 align:start position:0%
+ there is a different form of
+ 
+
+00:23:13.652 --> 00:23:15.711 align:start position:0%
+ there is a different form of
+ representing<00:23:14.356><c> your</c><00:23:14.627><c> data</c><00:23:14.898><c> that</c><00:23:15.169><c> will</c><00:23:15.440><c> allow</c>
+
+00:23:15.711 --> 00:23:15.765 align:start position:0%
+ representing your data that will allow
+ 
+
+00:23:15.765 --> 00:23:17.770 align:start position:0%
+ representing your data that will allow
+ you<00:23:15.982><c> to</c><00:23:16.144><c> make</c><00:23:16.415><c> your</c><00:23:16.686><c> code</c><00:23:16.957><c> more</c><00:23:17.228><c> efficient</c><00:23:17.715><c>.</c>
+
+00:23:17.770 --> 00:23:22.672 align:start position:0%
+ you to make your code more efficient.
+ 
+
+00:23:22.672 --> 00:23:24.691 align:start position:0%
+ 
+ And<00:23:22.909><c> then</c><00:23:23.147><c>,</c><00:23:23.266><c> Stratcheckclone</c><00:23:24.216><c> appeared</c>
+
+00:23:24.691 --> 00:23:24.751 align:start position:0%
+ And then, Stratcheckclone appeared
+ 
+
+00:23:24.751 --> 00:23:27.006 align:start position:0%
+ And then, Stratcheckclone appeared
+ recently<00:23:25.226><c>.</c><00:23:25.546><c> Actually</c><00:23:25.995><c>,</c><00:23:26.107><c> the</c><00:23:26.332><c> question</c><00:23:26.837><c> is</c><00:23:26.950><c>,</c>
+
+00:23:27.006 --> 00:23:27.062 align:start position:0%
+ recently. Actually, the question is,
+ 
+
+00:23:27.062 --> 00:23:28.972 align:start position:0%
+ recently. Actually, the question is,
+ which<00:23:27.399><c> of</c><00:23:27.567><c> the</c><00:23:27.792><c> above</c><00:23:28.129><c> will</c><00:23:28.410><c> be</c><00:23:28.578><c> faster</c><00:23:28.915><c>.</c>
+
+00:23:28.972 --> 00:23:29.538 align:start position:0%
+ which of the above will be faster.
+ 
+
+00:23:29.538 --> 00:23:31.655 align:start position:0%
+ which of the above will be faster.
+ Stratcheckclone<00:23:30.479><c> hasn't</c><00:23:30.890><c> appeared</c><00:23:31.420><c> yet</c><00:23:31.596><c>,</c>
+
+00:23:31.655 --> 00:23:31.714 align:start position:0%
+ Stratcheckclone hasn't appeared yet,
+ 
+
+00:23:31.714 --> 00:23:33.831 align:start position:0%
+ Stratcheckclone hasn't appeared yet,
+ but<00:23:31.890><c>,</c><00:23:32.008><c> as</c><00:23:32.184><c> far</c><00:23:32.420><c> as</c><00:23:32.596><c> I</c><00:23:32.714><c> know</c><00:23:32.949><c>,</c><00:23:33.067><c> yes</c><00:23:33.243><c>,</c><00:23:33.361><c> they</c><00:23:33.655><c> are</c>
+
+00:23:33.831 --> 00:23:33.890 align:start position:0%
+ but, as far as I know, yes, they are
+ 
+
+00:23:33.890 --> 00:23:35.537 align:start position:0%
+ but, as far as I know, yes, they are
+ trying<00:23:34.302><c> to</c><00:23:34.478><c> enshrine</c><00:23:35.008><c> it</c><00:23:35.184><c> in</c><00:23:35.361><c> the</c>
+
+00:23:35.537 --> 00:23:35.596 align:start position:0%
+ trying to enshrine it in the
+ 
+
+00:23:35.596 --> 00:23:38.122 align:start position:0%
+ trying to enshrine it in the
+ specification<00:23:36.361><c>.</c><00:23:37.018><c> I'm</c><00:23:37.210><c> not</c><00:23:37.402><c> ready</c><00:23:37.690><c> to</c><00:23:37.834><c> answer</c>
+
+00:23:38.122 --> 00:23:38.170 align:start position:0%
+ specification. I'm not ready to answer
+ 
+
+00:23:38.170 --> 00:23:41.273 align:start position:0%
+ specification. I'm not ready to answer
+ this<00:23:38.410><c> question</c><00:23:38.843><c> objectively</c><00:23:39.419><c> right</c><00:23:39.707><c> now</c><00:23:39.851><c>.</c><00:23:41.211><c> I</c>
+
+00:23:41.273 --> 00:23:41.335 align:start position:0%
+ this question objectively right now. I
+ 
+
+00:23:41.335 --> 00:23:43.579 align:start position:0%
+ this question objectively right now. I
+ need<00:23:41.647><c> to</c><00:23:41.834><c> take</c><00:23:42.145><c> a</c><00:23:42.270><c> closer</c><00:23:42.706><c> look</c><00:23:43.018><c> at</c><00:23:43.205><c> how</c><00:23:43.454><c> it</c>
+
+00:23:43.579 --> 00:23:43.641 align:start position:0%
+ need to take a closer look at how it
+ 
+
+00:23:43.641 --> 00:23:45.947 align:start position:0%
+ need to take a closer look at how it
+ got<00:23:43.890><c> to</c><00:23:44.077><c> stage</c><00:23:44.451><c> 3</c><00:23:44.576><c> or</c><00:23:44.763><c> stage</c><00:23:45.136><c> 2</c><00:23:45.199><c>,</c><00:23:45.323><c> if</c><00:23:45.510><c> it</c><00:23:45.697><c> has</c><00:23:45.884><c>.</c>
+
+00:23:45.947 --> 00:23:48.010 align:start position:0%
+ got to stage 3 or stage 2, if it has.
+ 
+
+00:23:48.010 --> 00:23:50.179 align:start position:0%
+ 
+ But<00:23:48.244><c> I</c><00:23:48.361><c> don't</c><00:23:48.713><c> rule</c><00:23:49.007><c> out</c><00:23:49.241><c> the</c><00:23:49.476><c> possibility</c><00:23:50.121><c>,</c>
+
+00:23:50.179 --> 00:23:50.238 align:start position:0%
+ But I don't rule out the possibility,
+ 
+
+00:23:50.238 --> 00:23:52.525 align:start position:0%
+ But I don't rule out the possibility,
+ because<00:23:50.707><c> after</c><00:23:51.059><c> LED</c><00:23:51.294><c> and</c><00:23:51.528><c> const</c><00:23:51.880><c> appeared</c><00:23:52.408><c> in</c>
+
+00:23:52.525 --> 00:23:52.584 align:start position:0%
+ because after LED and const appeared in
+ 
+
+00:23:52.584 --> 00:23:54.461 align:start position:0%
+ because after LED and const appeared in
+ JavaScript<00:23:53.170><c>,</c><00:23:53.288><c> nothing</c><00:23:53.757><c> surprises</c><00:23:54.343><c> me</c>
+
+00:23:54.461 --> 00:23:54.519 align:start position:0%
+ JavaScript, nothing surprises me
+ 
+
+00:23:54.519 --> 00:23:57.399 align:start position:0%
+ JavaScript, nothing surprises me
+ anymore<00:23:54.930><c>.</c><00:23:56.032><c> If</c><00:23:56.178><c> the</c><00:23:56.373><c> operation</c><00:23:56.862><c> is</c><00:23:57.008><c> based</c><00:23:57.301><c> on</c>
+
+00:23:57.399 --> 00:23:57.448 align:start position:0%
+ anymore. If the operation is based on
+ 
+
+00:23:57.448 --> 00:23:59.157 align:start position:0%
+ anymore. If the operation is based on
+ your<00:23:57.692><c> own</c><00:23:57.887><c> guesses</c><00:23:58.229><c>,</c><00:23:58.326><c> then</c><00:23:58.571><c> the</c><00:23:58.766><c> terrible</c>
+
+00:23:59.157 --> 00:23:59.205 align:start position:0%
+ your own guesses, then the terrible
+ 
+
+00:23:59.205 --> 00:24:03.483 align:start position:0%
+ your own guesses, then the terrible
+ clone<00:23:59.498><c> should</c><00:23:59.840><c> win</c><00:23:59.987><c>.</c><00:24:00.136><c> No</c><00:24:00.293><c>,</c><00:24:00.450><c> it</c><00:24:00.686><c> won't</c><00:24:01.158><c> win</c><00:24:01.394><c>.</c><00:24:03.332><c> The</c>
+
+00:24:03.483 --> 00:24:03.534 align:start position:0%
+ clone should win. No, it won't win. The
+ 
+
+00:24:03.534 --> 00:24:05.049 align:start position:0%
+ clone should win. No, it won't win. The
+ winner<00:24:03.887><c> will</c><00:24:04.140><c> always</c><00:24:04.494><c> be</c><00:24:04.645><c> a</c><00:24:04.746><c> proper</c>
+
+00:24:05.049 --> 00:24:05.100 align:start position:0%
+ winner will always be a proper
+ 
+
+00:24:05.100 --> 00:24:07.020 align:start position:0%
+ winner will always be a proper
+ application<00:24:05.706><c> architecture</c><00:24:06.313><c>,</c><00:24:06.414><c> one</c><00:24:06.616><c> in</c><00:24:06.767><c> which</c>
+
+00:24:07.020 --> 00:24:07.071 align:start position:0%
+ application architecture, one in which
+ 
+
+00:24:07.071 --> 00:24:08.991 align:start position:0%
+ application architecture, one in which
+ you<00:24:07.273><c> never</c><00:24:07.576><c> even</c><00:24:07.829><c> think</c><00:24:08.132><c> about</c><00:24:08.435><c> the</c><00:24:08.637><c> need</c><00:24:08.890><c> to</c>
+
+00:24:08.991 --> 00:24:09.041 align:start position:0%
+ you never even think about the need to
+ 
+
+00:24:09.041 --> 00:24:14.209 align:start position:0%
+ you never even think about the need to
+ copy<00:24:09.294><c> data</c><00:24:09.496><c>.</c><00:24:13.041><c> I</c><00:24:13.138><c> don't</c><00:24:13.430><c> know</c><00:24:13.673><c> of</c><00:24:13.820><c> a</c><00:24:13.917><c> single</c>
+
+00:24:14.209 --> 00:24:14.258 align:start position:0%
+ copy data. I don't know of a single
+ 
+
+00:24:14.258 --> 00:24:16.157 align:start position:0%
+ copy data. I don't know of a single
+ problem<00:24:14.647><c> except</c><00:24:14.988><c> for</c><00:24:15.183><c> systems</c><00:24:15.572><c> programming</c><00:24:16.108><c>.</c>
+
+00:24:16.157 --> 00:24:17.164 align:start position:0%
+ problem except for systems programming.
+ 
+
+00:24:17.164 --> 00:24:18.841 align:start position:0%
+ 
+ And<00:24:17.387><c> JavaScript</c><00:24:18.002><c> is</c><00:24:18.170><c> not</c><00:24:18.394><c> a</c><00:24:18.506><c> system</c>
+
+00:24:18.841 --> 00:24:18.897 align:start position:0%
+ And JavaScript is not a system
+ 
+
+00:24:18.897 --> 00:24:20.910 align:start position:0%
+ And JavaScript is not a system
+ programming<00:24:19.568><c> language</c><00:24:20.015><c>,</c><00:24:20.127><c> but</c><00:24:20.351><c> an</c><00:24:20.519><c> applied</c>
+
+00:24:20.910 --> 00:24:20.966 align:start position:0%
+ programming language, but an applied
+ 
+
+00:24:20.966 --> 00:24:23.248 align:start position:0%
+ programming language, but an applied
+ programming<00:24:21.637><c> language</c><00:24:22.085><c>.</c><00:24:22.241><c> That</c><00:24:22.537><c> is</c><00:24:22.656><c>,</c><00:24:22.774><c> one</c><00:24:23.011><c> that</c>
+
+00:24:23.248 --> 00:24:23.308 align:start position:0%
+ programming language. That is, one that
+ 
+
+00:24:23.308 --> 00:24:27.482 align:start position:0%
+ programming language. That is, one that
+ solves<00:24:23.723><c> applied</c><00:24:24.197><c> problems</c><00:24:24.671><c>.</c><00:24:26.858><c> So</c><00:24:26.971><c>,</c><00:24:27.085><c> I</c><00:24:27.198><c> don't</c>
+
+00:24:27.482 --> 00:24:27.539 align:start position:0%
+ solves applied problems. So, I don't
+ 
+
+00:24:27.539 --> 00:24:29.697 align:start position:0%
+ solves applied problems. So, I don't
+ know<00:24:27.823><c> of</c><00:24:27.993><c> a</c><00:24:28.107><c> single</c><00:24:28.504><c> applied</c><00:24:28.958><c> problem</c><00:24:29.413><c> where</c>
+
+00:24:29.697 --> 00:24:29.753 align:start position:0%
+ know of a single applied problem where
+ 
+
+00:24:29.753 --> 00:24:31.854 align:start position:0%
+ know of a single applied problem where
+ the<00:24:29.980><c> application</c><00:24:30.662><c> architecture</c><00:24:31.400><c> requires</c>
+
+00:24:31.854 --> 00:24:31.911 align:start position:0%
+ the application architecture requires
+ 
+
+00:24:31.911 --> 00:24:35.833 align:start position:0%
+ the application architecture requires
+ copying<00:24:32.365><c> objects</c><00:24:32.763><c>.</c><00:24:34.701><c> Conversely</c><00:24:35.240><c>,</c><00:24:35.348><c> I</c><00:24:35.455><c> know</c><00:24:35.725><c> of</c>
+
+00:24:35.833 --> 00:24:35.887 align:start position:0%
+ copying objects. Conversely, I know of
+ 
+
+00:24:35.887 --> 00:24:37.936 align:start position:0%
+ copying objects. Conversely, I know of
+ thousands<00:24:36.426><c> of</c><00:24:36.588><c> examples</c><00:24:37.073><c> where</c><00:24:37.397><c> people</c><00:24:37.720><c>,</c><00:24:37.828><c> by</c>
+
+00:24:37.936 --> 00:24:37.990 align:start position:0%
+ thousands of examples where people, by
+ 
+
+00:24:37.990 --> 00:24:39.985 align:start position:0%
+ thousands of examples where people, by
+ copying<00:24:38.421><c> objects</c><00:24:38.798><c>,</c><00:24:38.906><c> actually</c><00:24:39.392><c> make</c><00:24:39.661><c> things</c>
+
+00:24:39.985 --> 00:24:40.039 align:start position:0%
+ copying objects, actually make things
+ 
+
+00:24:40.039 --> 00:24:42.088 align:start position:0%
+ copying objects, actually make things
+ much<00:24:40.308><c> worse</c><00:24:40.632><c> for</c><00:24:40.847><c> themselves</c><00:24:41.441><c> than</c><00:24:41.710><c> if</c><00:24:41.872><c> they</c>
+
+00:24:42.088 --> 00:24:42.141 align:start position:0%
+ much worse for themselves than if they
+ 
+
+00:24:42.141 --> 00:24:44.137 align:start position:0%
+ much worse for themselves than if they
+ had<00:24:42.357><c> organized</c><00:24:42.896><c> everything</c><00:24:43.489><c> differently</c><00:24:44.083><c>.</c>
+
+00:24:44.137 --> 00:24:45.202 align:start position:0%
+ had organized everything differently.
+ 
+
+00:24:45.202 --> 00:24:46.959 align:start position:0%
+ 
+ So<00:24:45.319><c>,</c><00:24:45.436><c> I</c><00:24:45.553><c> quickly</c><00:24:46.022><c> answered</c><00:24:46.549><c> all</c><00:24:46.784><c> the</c>
+
+00:24:46.959 --> 00:24:47.018 align:start position:0%
+ So, I quickly answered all the
+ 
+
+00:24:47.018 --> 00:24:50.957 align:start position:0%
+ So, I quickly answered all the
+ questions<00:24:47.604><c> I</c><00:24:47.721><c> saw</c><00:24:47.897><c>.</c><00:24:49.857><c> Previously</c><00:24:50.407><c>,</c><00:24:50.517><c> I</c><00:24:50.627><c> simply</c>
+
+00:24:50.957 --> 00:24:51.012 align:start position:0%
+ questions I saw. Previously, I simply
+ 
+
+00:24:51.012 --> 00:24:52.827 align:start position:0%
+ questions I saw. Previously, I simply
+ skipped<00:24:51.452><c> them</c><00:24:51.672><c>,</c><00:24:51.782><c> but</c><00:24:52.002><c> now</c><00:24:52.222><c> I'll</c><00:24:52.497><c> try</c><00:24:52.717><c> to</c>
+
+00:24:52.827 --> 00:24:52.882 align:start position:0%
+ skipped them, but now I'll try to
+ 
+
+00:24:52.882 --> 00:24:54.982 align:start position:0%
+ skipped them, but now I'll try to
+ answer<00:24:53.267><c> them</c><00:24:53.542><c> quickly</c><00:24:53.927><c>.</c>
+

@@ -1,0 +1,2384 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:02:02.870 align:start position:0%
+ 
+[music]
+
+00:02:02.870 --> 00:02:02.880 align:start position:0%
+ 
+ 
+
+00:02:02.880 --> 00:02:08.029 align:start position:0%
+ 
+So <00:02:03.206><c>Uncle </c><00:02:03.532><c>Muroch </c><00:02:03.858><c>is </c><00:02:04.184><c>trying </c><00:02:04.510><c>to </c><00:02:04.836><c>be </c><00:02:05.162><c>helpful. </c><00:02:05.488><c>I </c><00:02:05.814><c>have</c>
+
+00:02:08.029 --> 00:02:08.039 align:start position:0%
+So Uncle Muroch is trying to be helpful. I have
+ 
+
+00:02:08.039 --> 00:02:14.210 align:start position:0%
+So Uncle Muroch is trying to be helpful. I have
+n't <00:02:08.219><c>spent </c><00:02:08.399><c>more </c><00:02:08.579><c>than </c><00:02:08.759><c>4 </c><00:02:08.939><c>hours </c><00:02:09.119><c>on </c><00:02:09.299><c>this. </c><00:02:09.479><c>What </c><00:02:09.659><c>we're </c><00:02:09.839><c>going </c><00:02:10.019><c>to </c><00:02:10.199><c>talk</c>
+
+00:02:14.210 --> 00:02:17.030 align:start position:0%
+ 
+ 
+
+00:02:17.030 --> 00:02:17.040 align:start position:0%
+ 
+ 
+
+00:02:17.040 --> 00:02:19.369 align:start position:0%
+ 
+about <00:02:17.550><c>is </c><00:02:18.060><c>a</c>
+
+00:02:19.369 --> 00:02:19.379 align:start position:0%
+about is a
+ 
+
+00:02:19.379 --> 00:02:22.790 align:start position:0%
+about is a
+situation <00:02:20.419><c>where, </c><00:02:21.459><c>when </c><00:02:22.499><c>using</c>
+
+00:02:22.790 --> 00:02:22.800 align:start position:0%
+situation where, when using
+ 
+
+00:02:22.800 --> 00:02:24.949 align:start position:0%
+situation where, when using
+identifiers,
+
+00:02:24.949 --> 00:02:24.959 align:start position:0%
+identifiers,
+ 
+
+00:02:24.959 --> 00:02:28.070 align:start position:0%
+identifiers,
+and <00:02:25.919><c>we </c><00:02:26.879><c>call </c><00:02:27.839><c>identifiers</c>
+
+00:02:28.070 --> 00:02:28.080 align:start position:0%
+and we call identifiers
+ 
+
+00:02:28.080 --> 00:02:29.510 align:start position:0%
+and we call identifiers
+things <00:02:28.332><c>like </c><00:02:28.584><c>these </c><00:02:28.836><c>that </c><00:02:29.088><c>come </c><00:02:29.340><c>after</c>
+
+00:02:29.510 --> 00:02:29.520 align:start position:0%
+things like these that come after
+ 
+
+00:02:29.520 --> 00:02:31.729 align:start position:0%
+things like these that come after
+defining <00:02:29.870><c>War </c><00:02:30.220><c>LED </c><00:02:30.570><c>or </c><00:02:30.920><c>const </c><00:02:31.270><c>in </c><00:02:31.620><c>this</c>
+
+00:02:31.729 --> 00:02:31.739 align:start position:0%
+defining War LED or const in this
+ 
+
+00:02:31.739 --> 00:02:34.030 align:start position:0%
+defining War LED or const in this
+case, <00:02:31.919><c>it </c><00:02:32.099><c>doesn't </c><00:02:32.279><c>matter,</c>
+
+00:02:34.030 --> 00:02:34.040 align:start position:0%
+case, it doesn't matter,
+ 
+
+00:02:34.040 --> 00:02:36.410 align:start position:0%
+case, it doesn't matter,
+or <00:02:34.540><c>a </c><00:02:35.040><c>fact.</c>
+
+00:02:36.410 --> 00:02:36.420 align:start position:0%
+or a fact.
+ 
+
+00:02:36.420 --> 00:02:38.510 align:start position:0%
+or a fact.
+We <00:02:36.629><c>can </c><00:02:36.838><c>find </c><00:02:37.047><c>ourselves </c><00:02:37.256><c>in </c><00:02:37.465><c>a </c><00:02:37.674><c>situation </c><00:02:37.883><c>where </c><00:02:38.092><c>the</c>
+
+00:02:38.510 --> 00:02:38.520 align:start position:0%
+We can find ourselves in a situation where the
+ 
+
+00:02:38.520 --> 00:02:40.369 align:start position:0%
+We can find ourselves in a situation where the
+same <00:02:38.865><c>code </c><00:02:39.210><c>will </c><00:02:39.555><c>be </c><00:02:39.900><c>executed</c>
+
+00:02:40.369 --> 00:02:40.379 align:start position:0%
+same code will be executed
+ 
+
+00:02:40.379 --> 00:02:44.750 align:start position:0%
+same code will be executed
+with <00:02:40.699><c>completely </c><00:02:41.019><c>different </c><00:02:41.339><c>performance.</c>
+
+00:02:44.750 --> 00:02:44.760 align:start position:0%
+ 
+ 
+
+00:02:44.760 --> 00:02:47.330 align:start position:0%
+ 
+In <00:02:45.150><c>order </c><00:02:45.540><c>to</c>
+
+00:02:47.330 --> 00:02:47.340 align:start position:0%
+In order to
+ 
+
+00:02:47.340 --> 00:02:50.990 align:start position:0%
+In order to
+avoid <00:02:47.519><c>this </c><00:02:47.698><c>kind </c><00:02:47.877><c>of</c>
+
+00:02:50.990 --> 00:02:51.000 align:start position:0%
+ 
+ 
+
+00:02:51.000 --> 00:02:53.449 align:start position:0%
+ 
+situation, <00:02:51.585><c>or </c><00:02:52.170><c>in </c><00:02:52.755><c>order </c><00:02:53.340><c>to</c>
+
+00:02:53.449 --> 00:02:53.459 align:start position:0%
+situation, or in order to
+ 
+
+00:02:53.459 --> 00:02:55.869 align:start position:0%
+situation, or in order to
+know <00:02:53.959><c>when </c><00:02:54.459><c>we </c><00:02:54.959><c>use</c>
+
+00:02:55.869 --> 00:02:55.879 align:start position:0%
+know when we use
+ 
+
+00:02:55.879 --> 00:02:58.610 align:start position:0%
+know when we use
+what <00:02:56.379><c>resources </c><00:02:56.879><c>to </c><00:02:57.379><c>execute </c><00:02:57.879><c>this </c><00:02:58.379><c>or</c>
+
+00:02:58.610 --> 00:02:58.620 align:start position:0%
+what resources to execute this or
+ 
+
+00:02:58.620 --> 00:03:01.009 align:start position:0%
+what resources to execute this or
+that <00:02:58.960><c>code, </c><00:02:59.300><c>there </c><00:02:59.640><c>is </c><00:02:59.980><c>one </c><00:03:00.320><c>very </c><00:03:00.660><c>simple</c>
+
+00:03:01.009 --> 00:03:01.019 align:start position:0%
+that code, there is one very simple
+ 
+
+00:03:01.019 --> 00:03:05.270 align:start position:0%
+that code, there is one very simple
+rule. <00:03:01.529><c>If </c><00:03:02.039><c>our </c><00:03:02.549><c>identifier </c><00:03:03.059><c>is</c>
+
+00:03:05.270 --> 00:03:05.280 align:start position:0%
+rule. If our identifier is
+ 
+
+00:03:05.280 --> 00:03:08.509 align:start position:0%
+rule. If our identifier is
+used <00:03:06.030><c>outside </c><00:03:06.780><c>the</c>
+
+00:03:08.509 --> 00:03:08.519 align:start position:0%
+used outside the
+ 
+
+00:03:08.519 --> 00:03:11.149 align:start position:0%
+used outside the
+function
+
+00:03:11.149 --> 00:03:11.159 align:start position:0%
+function
+ 
+
+00:03:11.159 --> 00:03:13.550 align:start position:0%
+function
+within <00:03:11.484><c>which </c><00:03:11.809><c>it </c><00:03:12.134><c>is </c><00:03:12.459><c>defined, </c><00:03:12.784><c>as </c><00:03:13.109><c>in </c><00:03:13.434><c>this</c>
+
+00:03:13.550 --> 00:03:13.560 align:start position:0%
+within which it is defined, as in this
+ 
+
+00:03:13.560 --> 00:03:15.830 align:start position:0%
+within which it is defined, as in this
+example, <00:03:13.755><c>now </c><00:03:13.950><c>on </c><00:03:14.145><c>the </c><00:03:14.340><c>screen</c>
+
+00:03:15.830 --> 00:03:15.840 align:start position:0%
+example, now on the screen
+ 
+
+00:03:15.840 --> 00:03:19.250 align:start position:0%
+example, now on the screen
+where <00:03:16.369><c>inside </c><00:03:16.898><c>the </c><00:03:17.427><c>function </c><00:03:17.956><c>I </c><00:03:18.485><c>created </c><00:03:19.014><c>the</c>
+
+00:03:19.250 --> 00:03:19.260 align:start position:0%
+where inside the function I created the
+ 
+
+00:03:19.260 --> 00:03:21.830 align:start position:0%
+where inside the function I created the
+identifier <00:03:19.754><c>The </c><00:03:20.248><c>sing, </c><00:03:20.742><c>which </c><00:03:21.236><c>is</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+identifier The sing, which is
+ 
+
+00:03:21.840 --> 00:03:24.710 align:start position:0%
+identifier The sing, which is
+part <00:03:22.368><c>of </c><00:03:22.896><c>some </c><00:03:23.424><c>internal </c><00:03:23.952><c>cycle. </c><00:03:24.480><c>It's</c>
+
+00:03:24.710 --> 00:03:24.720 align:start position:0%
+part of some internal cycle. It's
+ 
+
+00:03:24.720 --> 00:03:26.210 align:start position:0%
+part of some internal cycle. It's
+not <00:03:25.064><c>important </c><00:03:25.408><c>here, </c><00:03:25.752><c>just </c><00:03:26.096><c>to</c>
+
+00:03:26.210 --> 00:03:26.220 align:start position:0%
+not important here, just to
+ 
+
+00:03:26.220 --> 00:03:27.949 align:start position:0%
+not important here, just to
+demonstrate <00:03:26.564><c>that </c><00:03:26.908><c>I'm </c><00:03:27.252><c>accessing </c><00:03:27.596><c>an</c>
+
+00:03:27.949 --> 00:03:27.959 align:start position:0%
+demonstrate that I'm accessing an
+ 
+
+00:03:27.959 --> 00:03:29.570 align:start position:0%
+demonstrate that I'm accessing an
+identifier <00:03:28.289><c>outside </c><00:03:28.619><c>the </c><00:03:28.949><c>scope </c><00:03:29.279><c>of</c>
+
+00:03:29.570 --> 00:03:29.580 align:start position:0%
+identifier outside the scope of
+ 
+
+00:03:29.580 --> 00:03:32.210 align:start position:0%
+identifier outside the scope of
+this <00:03:30.320><c>function, </c><00:03:31.060><c>outside </c><00:03:31.800><c>the</c>
+
+00:03:32.210 --> 00:03:32.220 align:start position:0%
+this function, outside the
+ 
+
+00:03:32.220 --> 00:03:34.190 align:start position:0%
+this function, outside the
+environment <00:03:32.509><c>of </c><00:03:32.798><c>this </c><00:03:33.087><c>function, </c><00:03:33.376><c>which </c><00:03:33.665><c>is </c><00:03:33.954><c>located</c>
+
+00:03:34.190 --> 00:03:34.200 align:start position:0%
+environment of this function, which is located
+ 
+
+00:03:34.200 --> 00:03:37.670 align:start position:0%
+environment of this function, which is located
+somewhere <00:03:34.500><c>higher </c><00:03:34.800><c>up.</c>
+
+00:03:37.670 --> 00:03:37.680 align:start position:0%
+ 
+ 
+
+00:03:37.680 --> 00:03:39.830 align:start position:0%
+ 
+In <00:03:38.075><c>this </c><00:03:38.470><c>situation, </c><00:03:38.865><c>we </c><00:03:39.260><c>should </c><00:03:39.655><c>immediately</c>
+
+00:03:39.830 --> 00:03:39.840 align:start position:0%
+In this situation, we should immediately
+ 
+
+00:03:39.840 --> 00:03:42.369 align:start position:0%
+In this situation, we should immediately
+click <00:03:40.284><c>and </c><00:03:40.728><c>correct </c><00:03:41.172><c>in </c><00:03:41.616><c>our </c><00:03:42.060><c>heads</c>
+
+00:03:42.369 --> 00:03:42.379 align:start position:0%
+click and correct in our heads
+ 
+
+00:03:42.379 --> 00:03:46.009 align:start position:0%
+click and correct in our heads
+how <00:03:42.824><c>much </c><00:03:43.269><c>I </c><00:03:43.714><c>need </c><00:03:44.159><c>it</c>
+
+00:03:46.009 --> 00:03:46.019 align:start position:0%
+how much I need it
+ 
+
+00:03:46.019 --> 00:03:48.710 align:start position:0%
+how much I need it
+and <00:03:46.326><c>why </c><00:03:46.633><c>I </c><00:03:46.940><c>did </c><00:03:47.247><c>it </c><00:03:47.554><c>this </c><00:03:47.861><c>way </c><00:03:48.168><c>and </c><00:03:48.475><c>didn't</c>
+
+00:03:48.710 --> 00:03:48.720 align:start position:0%
+and why I did it this way and didn't
+ 
+
+00:03:48.720 --> 00:03:50.330 align:start position:0%
+and why I did it this way and didn't
+use <00:03:49.320><c>any </c><00:03:49.920><c>local</c>
+
+00:03:50.330 --> 00:03:50.340 align:start position:0%
+use any local
+ 
+
+00:03:50.340 --> 00:03:52.550 align:start position:0%
+use any local
+identifier <00:03:50.663><c>like </c><00:03:50.986><c>an </c><00:03:51.309><c>adder </c><00:03:51.632><c>identifier. </c><00:03:51.955><c>What</c>
+
+00:03:52.550 --> 00:03:52.560 align:start position:0%
+identifier like an adder identifier. What
+ 
+
+00:03:52.560 --> 00:03:54.289 align:start position:0%
+identifier like an adder identifier. What
+
+
+00:03:54.289 --> 00:03:54.299 align:start position:0%
+ 
+ 
+
+00:03:54.299 --> 00:03:57.649 align:start position:0%
+ 
+exactly <00:03:54.779><c>does </c><00:03:55.259><c>this </c><00:03:55.739><c>reflect</c>
+
+00:03:57.649 --> 00:03:57.659 align:start position:0%
+exactly does this reflect
+ 
+
+00:03:57.659 --> 00:03:59.830 align:start position:0%
+exactly does this reflect
+in <00:03:58.004><c>that?  </c><00:03:58.349><c>If </c><00:03:58.694><c>our </c><00:03:59.039><c>identifier</c>
+
+00:03:59.830 --> 00:03:59.840 align:start position:0%
+in that?  If our identifier
+ 
+
+00:03:59.840 --> 00:04:03.770 align:start position:0%
+in that?  If our identifier
+is <00:04:00.820><c>used </c><00:04:01.800><c>outside </c><00:04:02.780><c>the</c>
+
+00:04:03.770 --> 00:04:03.780 align:start position:0%
+is used outside the
+ 
+
+00:04:03.780 --> 00:04:07.490 align:start position:0%
+is used outside the
+parent <00:04:04.920><c>function's </c><00:04:06.060><c>scope, </c><00:04:07.200><c>this</c>
+
+00:04:07.490 --> 00:04:07.500 align:start position:0%
+parent function's scope, this
+ 
+
+00:04:07.500 --> 00:04:11.809 align:start position:0%
+parent function's scope, this
+leads <00:04:08.099><c>to </c><00:04:08.698><c>a </c><00:04:09.297><c>situation </c><00:04:09.896><c>where, </c><00:04:10.495><c>within </c><00:04:11.094><c>the</c>
+
+00:04:11.809 --> 00:04:11.819 align:start position:0%
+leads to a situation where, within the
+ 
+
+00:04:11.819 --> 00:04:14.089 align:start position:0%
+leads to a situation where, within the
+same <00:04:12.029><c>bytecode </c><00:04:12.239><c>of</c>
+
+00:04:14.089 --> 00:04:14.099 align:start position:0%
+same bytecode of
+ 
+
+00:04:14.099 --> 00:04:17.150 align:start position:0%
+same bytecode of
+our <00:04:14.484><c>V8 </c><00:04:14.869><c>interpreter, </c><00:04:15.254><c>and </c><00:04:15.639><c>by </c><00:04:16.024><c>the </c><00:04:16.409><c>way, </c><00:04:16.794><c>a</c>
+
+00:04:17.150 --> 00:04:17.160 align:start position:0%
+our V8 interpreter, and by the way, a
+ 
+
+00:04:17.160 --> 00:04:18.909 align:start position:0%
+our V8 interpreter, and by the way, a
+similar <00:04:17.559><c>situation </c><00:04:17.958><c>is </c><00:04:18.357><c>absolutely</c>
+
+00:04:18.909 --> 00:04:18.919 align:start position:0%
+similar situation is absolutely
+ 
+
+00:04:18.919 --> 00:04:21.409 align:start position:0%
+similar situation is absolutely
+identical <00:04:19.712><c>for </c><00:04:20.505><c>almost </c><00:04:21.298><c>all</c>
+
+00:04:21.409 --> 00:04:21.419 align:start position:0%
+identical for almost all
+ 
+
+00:04:21.419 --> 00:04:23.030 align:start position:0%
+identical for almost all
+interpreters, <00:04:21.749><c>now </c><00:04:22.079><c>very </c><00:04:22.409><c>large </c><00:04:22.739><c>ones,</c>
+
+00:04:23.030 --> 00:04:23.040 align:start position:0%
+interpreters, now very large ones,
+ 
+
+00:04:23.040 --> 00:04:26.030 align:start position:0%
+interpreters, now very large ones,
+since <00:04:23.579><c>this </c><00:04:24.118><c>is </c><00:04:24.657><c>the </c><00:04:25.196><c>simplest</c>
+
+00:04:26.030 --> 00:04:26.040 align:start position:0%
+since this is the simplest
+ 
+
+00:04:26.040 --> 00:04:27.650 align:start position:0%
+since this is the simplest
+optimization <00:04:26.415><c>method </c><00:04:26.790><c>that </c><00:04:27.165><c>they </c><00:04:27.540><c>can</c>
+
+00:04:27.650 --> 00:04:27.660 align:start position:0%
+optimization method that they can
+ 
+
+00:04:27.660 --> 00:04:29.390 align:start position:0%
+optimization method that they can
+use <00:04:27.974><c>and </c><00:04:28.288><c>which </c><00:04:28.602><c>they </c><00:04:28.916><c>all</c>
+
+00:04:29.390 --> 00:04:29.400 align:start position:0%
+use and which they all
+ 
+
+00:04:29.400 --> 00:04:32.870 align:start position:0%
+use and which they all
+try <00:04:29.460><c>to </c><00:04:29.520><c>use, </c><00:04:29.580><c>then</c>
+
+00:04:32.870 --> 00:04:32.880 align:start position:0%
+ 
+ 
+
+00:04:32.880 --> 00:04:35.770 align:start position:0%
+ 
+in <00:04:33.339><c>this </c><00:04:33.798><c>case, </c><00:04:34.257><c>Ranta</c>
+
+00:04:35.770 --> 00:04:35.780 align:start position:0%
+in this case, Ranta
+ 
+
+00:04:35.780 --> 00:04:39.290 align:start position:0%
+in this case, Ranta
+needs <00:04:39.060><c>to</c>
+
+00:04:39.290 --> 00:04:39.300 align:start position:0%
+needs to
+ 
+
+00:04:39.300 --> 00:04:43.730 align:start position:0%
+needs to
+create <00:04:39.791><c>its </c><00:04:40.282><c>own </c><00:04:40.773><c>context </c><00:04:41.264><c>for </c><00:04:41.755><c>the </c><00:04:42.246><c>function </c><00:04:42.737><c>and</c>
+
+00:04:43.730 --> 00:04:43.740 align:start position:0%
+create its own context for the function and
+ 
+
+00:04:43.740 --> 00:04:45.129 align:start position:0%
+create its own context for the function and
+save the
+
+00:04:45.129 --> 00:04:45.139 align:start position:0%
+save the
+ 
+
+00:04:45.139 --> 00:04:48.530 align:start position:0%
+save the
+identifier <00:04:45.792><c>within </c><00:04:46.445><c>this </c><00:04:47.098><c>context,</c>
+
+00:04:48.530 --> 00:04:48.540 align:start position:0%
+identifier within this context,
+ 
+
+00:04:48.540 --> 00:04:51.350 align:start position:0%
+identifier within this context,
+after <00:04:49.340><c>which, </c><00:04:50.140><c>going </c><00:04:50.940><c>directly</c>
+
+00:04:51.350 --> 00:04:51.360 align:start position:0%
+after which, going directly
+ 
+
+00:04:51.360 --> 00:04:54.469 align:start position:0%
+after which, going directly
+to <00:04:51.948><c>the </c><00:04:52.536><c>internal </c><00:04:53.124><c>function </c><00:04:53.712><c>that </c><00:04:54.300><c>I</c>
+
+00:04:54.469 --> 00:04:54.479 align:start position:0%
+to the internal function that I
+ 
+
+00:04:54.479 --> 00:04:56.810 align:start position:0%
+to the internal function that I
+call <00:04:54.875><c>here, </c><00:04:55.271><c>where </c><00:04:55.667><c>I </c><00:04:56.063><c>use </c><00:04:56.459><c>this</c>
+
+00:04:56.810 --> 00:04:56.820 align:start position:0%
+call here, where I use this
+ 
+
+00:04:56.820 --> 00:04:59.450 align:start position:0%
+call here, where I use this
+identifier, <00:04:57.154><c>we </c><00:04:57.488><c>can </c><00:04:57.822><c>see </c><00:04:58.156><c>here </c><00:04:58.490><c>a </c><00:04:58.824><c>set </c><00:04:59.158><c>of</c>
+
+00:04:59.450 --> 00:04:59.460 align:start position:0%
+identifier, we can see here a set of
+ 
+
+00:04:59.460 --> 00:05:01.629 align:start position:0%
+identifier, we can see here a set of
+code <00:04:59.805><c>that </c><00:05:00.150><c>uses </c><00:05:00.495><c>loading </c><00:05:00.840><c>a</c>
+
+00:05:01.629 --> 00:05:01.639 align:start position:0%
+code that uses loading a
+ 
+
+00:05:01.639 --> 00:05:05.510 align:start position:0%
+code that uses loading a
+value <00:05:02.444><c>from </c><00:05:03.249><c>the </c><00:05:04.054><c>current </c><00:05:04.859><c>context,</c>
+
+00:05:05.510 --> 00:05:05.520 align:start position:0%
+value from the current context,
+ 
+
+00:05:05.520 --> 00:05:07.189 align:start position:0%
+value from the current context,
+produces <00:05:07.020><c>no</c>
+
+00:05:07.189 --> 00:05:07.199 align:start position:0%
+produces no
+ 
+
+00:05:07.199 --> 00:05:09.170 align:start position:0%
+produces no
+manipulations <00:05:07.535><c>and </c><00:05:07.871><c>again </c><00:05:08.207><c>saves </c><00:05:08.543><c>in </c><00:05:08.879><c>the</c>
+
+00:05:09.170 --> 00:05:09.180 align:start position:0%
+manipulations and again saves in the
+ 
+
+00:05:09.180 --> 00:05:11.629 align:start position:0%
+manipulations and again saves in the
+current <00:05:09.530><c>context, </c><00:05:09.880><c>the </c><00:05:10.230><c>current </c><00:05:10.580><c>context </c><00:05:10.930><c>of </c><00:05:11.280><c>the</c>
+
+00:05:11.629 --> 00:05:11.639 align:start position:0%
+current context, the current context of the
+ 
+
+00:05:11.639 --> 00:05:14.210 align:start position:0%
+current context, the current context of the
+current <00:05:12.019><c>functions </c><00:05:12.399><c>being </c><00:05:12.779><c>executed,</c>
+
+00:05:14.210 --> 00:05:14.220 align:start position:0%
+current functions being executed,
+ 
+
+00:05:14.220 --> 00:05:19.150 align:start position:0%
+current functions being executed,
+these <00:05:14.610><c>operations </c><00:05:15.000><c>are </c><00:05:15.390><c>much </c><00:05:15.780><c>more</c>
+
+00:05:19.150 --> 00:05:19.160 align:start position:0%
+ 
+ 
+
+00:05:19.160 --> 00:05:22.689 align:start position:0%
+ 
+resource-intensive <00:05:20.649><c>than </c><00:05:22.138><c>the</c>
+
+00:05:22.689 --> 00:05:22.699 align:start position:0%
+resource-intensive than the
+ 
+
+00:05:22.699 --> 00:05:25.969 align:start position:0%
+resource-intensive than the
+operation <00:05:23.247><c>when </c><00:05:23.795><c>working </c><00:05:24.343><c>with </c><00:05:24.891><c>an </c><00:05:25.439><c>identifier</c>
+
+00:05:25.969 --> 00:05:25.979 align:start position:0%
+operation when working with an identifier
+ 
+
+00:05:25.979 --> 00:05:28.070 align:start position:0%
+operation when working with an identifier
+that <00:05:26.375><c>we </c><00:05:26.771><c>have </c><00:05:27.167><c>declared </c><00:05:27.563><c>locally, </c><00:05:27.959><c>the</c>
+
+00:05:28.070 --> 00:05:28.080 align:start position:0%
+that we have declared locally, the
+ 
+
+00:05:28.080 --> 00:05:30.050 align:start position:0%
+that we have declared locally, the
+same <00:05:28.428><c>identifier, </c><00:05:28.776><c>the </c><00:05:29.124><c>adder </c><00:05:29.472><c>that </c><00:05:29.820><c>I</c>
+
+00:05:30.050 --> 00:05:30.060 align:start position:0%
+same identifier, the adder that I
+ 
+
+00:05:30.060 --> 00:05:32.689 align:start position:0%
+same identifier, the adder that I
+declared <00:05:30.675><c>here </c><00:05:31.290><c>within </c><00:05:31.905><c>the </c><00:05:32.520><c>same</c>
+
+00:05:32.689 --> 00:05:32.699 align:start position:0%
+declared here within the same
+ 
+
+00:05:32.699 --> 00:05:34.330 align:start position:0%
+declared here within the same
+bytecode,
+
+00:05:34.330 --> 00:05:34.340 align:start position:0%
+bytecode,
+ 
+
+00:05:34.340 --> 00:05:38.510 align:start position:0%
+bytecode,
+functions <00:05:35.230><c>exclusively </c><00:05:36.120><c>as</c>
+
+00:05:38.510 --> 00:05:38.520 align:start position:0%
+functions exclusively as
+ 
+
+00:05:38.520 --> 00:05:41.810 align:start position:0%
+functions exclusively as
+part <00:05:38.840><c>of </c><00:05:39.160><c>the </c><00:05:39.480><c>contents </c><00:05:39.800><c>of </c><00:05:40.120><c>one </c><00:05:40.440><c>register,</c>
+
+00:05:41.810 --> 00:05:41.820 align:start position:0%
+part of the contents of one register,
+ 
+
+00:05:41.820 --> 00:05:45.890 align:start position:0%
+part of the contents of one register,
+here <00:05:42.360><c>we </c><00:05:42.900><c>have </c><00:05:43.440><c>loading </c><00:05:43.980><c>zero </c><00:05:44.520><c>into </c><00:05:45.060><c>the</c>
+
+00:05:45.890 --> 00:05:45.900 align:start position:0%
+here we have loading zero into the
+ 
+
+00:05:45.900 --> 00:05:48.170 align:start position:0%
+here we have loading zero into the
+accumulator <00:05:46.360><c>register, </c><00:05:46.820><c>saving </c><00:05:47.280><c>this</c>
+
+00:05:48.170 --> 00:05:48.180 align:start position:0%
+accumulator register, saving this
+ 
+
+00:05:48.180 --> 00:05:50.990 align:start position:0%
+accumulator register, saving this
+accumulator <00:05:48.750><c>register </c><00:05:49.320><c>to </c><00:05:49.890><c>the </c><00:05:50.460><c>virtual</c>
+
+00:05:50.990 --> 00:05:51.000 align:start position:0%
+accumulator register to the virtual
+ 
+
+00:05:51.000 --> 00:05:53.450 align:start position:0%
+accumulator register to the virtual
+machine <00:05:51.284><c>register </c><00:05:51.568><c>r0, </c><00:05:51.852><c>and </c><00:05:52.136><c>then</c>
+
+00:05:53.450 --> 00:05:53.460 align:start position:0%
+machine register r0, and then
+ 
+
+00:05:53.460 --> 00:05:58.189 align:start position:0%
+machine register r0, and then
+my <00:05:53.920><c>adder </c><00:05:54.380><c>is </c><00:05:54.840><c>always </c><00:05:55.300><c>the </c><00:05:55.760><c>register </c><00:05:56.220><c>p0,</c>
+
+00:05:58.189 --> 00:05:58.199 align:start position:0%
+my adder is always the register p0,
+ 
+
+00:05:58.199 --> 00:06:03.290 align:start position:0%
+my adder is always the register p0,
+and <00:05:58.391><c>if </c><00:05:58.583><c>this </c><00:05:58.775><c>code </c><00:05:58.967><c>is </c><00:05:59.159><c>still  </c><00:05:59.351><c>and </c><00:05:59.543><c>will </c><00:05:59.735><c>fall </c><00:05:59.927><c>into </c><00:06:00.119><c>the</c>
+
+00:06:03.290 --> 00:06:03.300 align:start position:0%
+ 
+ 
+
+00:06:03.300 --> 00:06:05.689 align:start position:0%
+ 
+field <00:06:03.617><c>of </c><00:06:03.934><c>view </c><00:06:04.251><c>of </c><00:06:04.568><c>turbofan, </c><00:06:04.885><c>that </c><00:06:05.202><c>is, </c><00:06:05.519><c>the</c>
+
+00:06:05.689 --> 00:06:05.699 align:start position:0%
+field of view of turbofan, that is, the
+ 
+
+00:06:05.699 --> 00:06:07.189 align:start position:0%
+field of view of turbofan, that is, the
+optimizing <00:06:06.299><c>compiler </c><00:06:06.899><c>that</c>
+
+00:06:07.189 --> 00:06:07.199 align:start position:0%
+optimizing compiler that
+ 
+
+00:06:07.199 --> 00:06:08.870 align:start position:0%
+optimizing compiler that
+transforms <00:06:07.429><c>this </c><00:06:07.659><c>code </c><00:06:07.889><c>not </c><00:06:08.119><c>just </c><00:06:08.349><c>from </c><00:06:08.579><c>the</c>
+
+00:06:08.870 --> 00:06:08.880 align:start position:0%
+transforms this code not just from the
+ 
+
+00:06:08.880 --> 00:06:10.310 align:start position:0%
+transforms this code not just from the
+bytecode <00:06:09.084><c>of </c><00:06:09.288><c>the </c><00:06:09.492><c>virtual </c><00:06:09.696><c>machine </c><00:06:09.900><c>but</c>
+
+00:06:10.310 --> 00:06:10.320 align:start position:0%
+bytecode of the virtual machine but
+ 
+
+00:06:10.320 --> 00:06:13.430 align:start position:0%
+bytecode of the virtual machine but
+transforms <00:06:10.809><c>it </c><00:06:11.298><c>into </c><00:06:11.787><c>machine </c><00:06:12.276><c>code </c><00:06:12.765><c>for </c><00:06:13.254><c>a</c>
+
+00:06:13.430 --> 00:06:13.440 align:start position:0%
+transforms it into machine code for a
+ 
+
+00:06:13.440 --> 00:06:16.550 align:start position:0%
+transforms it into machine code for a
+specific <00:06:13.880><c>architecture, </c><00:06:14.320><c>then </c><00:06:14.760><c>it </c><00:06:15.200><c>will </c><00:06:15.640><c>try </c><00:06:16.080><c>to</c>
+
+00:06:16.550 --> 00:06:16.560 align:start position:0%
+specific architecture, then it will try to
+ 
+
+00:06:16.560 --> 00:06:19.129 align:start position:0%
+specific architecture, then it will try to
+do <00:06:16.920><c>this </c><00:06:17.280><c>in </c><00:06:17.640><c>exactly </c><00:06:18.000><c>the </c><00:06:18.360><c>same </c><00:06:18.720><c>way</c>
+
+00:06:19.129 --> 00:06:19.139 align:start position:0%
+do this in exactly the same way
+ 
+
+00:06:19.139 --> 00:06:21.110 align:start position:0%
+do this in exactly the same way
+when <00:06:19.463><c>it </c><00:06:19.787><c>tries </c><00:06:20.111><c>to </c><00:06:20.435><c>place </c><00:06:20.759><c>this</c>
+
+00:06:21.110 --> 00:06:21.120 align:start position:0%
+when it tries to place this
+ 
+
+00:06:21.120 --> 00:06:24.890 align:start position:0%
+when it tries to place this
+value <00:06:21.684><c>inside </c><00:06:22.248><c>the </c><00:06:22.812><c>processor </c><00:06:23.376><c>register. </c><00:06:23.940><c>And</c>
+
+00:06:24.890 --> 00:06:24.900 align:start position:0%
+value inside the processor register. And
+ 
+
+00:06:24.900 --> 00:06:26.570 align:start position:0%
+value inside the processor register. And
+this <00:06:25.140><c>is </c><00:06:25.380><c>the </c><00:06:25.620><c>fastest </c><00:06:25.860><c>memory </c><00:06:26.100><c>that </c><00:06:26.340><c>only</c>
+
+00:06:26.570 --> 00:06:26.580 align:start position:0%
+this is the fastest memory that only
+ 
+
+00:06:26.580 --> 00:06:29.510 align:start position:0%
+this is the fastest memory that only
+exists <00:06:27.075><c>in </c><00:06:27.570><c>a </c><00:06:28.065><c>computing </c><00:06:28.560><c>machine,</c>
+
+00:06:29.510 --> 00:06:29.520 align:start position:0%
+exists in a computing machine,
+ 
+
+00:06:29.520 --> 00:06:32.110 align:start position:0%
+exists in a computing machine,
+unlike <00:06:30.000><c>the </c><00:06:30.480><c>same </c><00:06:30.960><c>one</c>
+
+00:06:32.110 --> 00:06:32.120 align:start position:0%
+unlike the same one
+ 
+
+00:06:32.120 --> 00:06:35.330 align:start position:0%
+unlike the same one
+that <00:06:32.526><c>will </c><00:06:32.932><c>always </c><00:06:33.338><c>be </c><00:06:33.744><c>loaded </c><00:06:34.150><c>from </c><00:06:34.556><c>the</c>
+
+00:06:35.330 --> 00:06:35.340 align:start position:0%
+that will always be loaded from the
+ 
+
+00:06:35.340 --> 00:06:37.749 align:start position:0%
+that will always be loaded from the
+context
+
+00:06:37.749 --> 00:06:37.759 align:start position:0%
+context
+ 
+
+00:06:37.759 --> 00:06:40.749 align:start position:0%
+context
+for <00:06:38.349><c>our </c><00:06:38.939><c>function,</c>
+
+00:06:40.749 --> 00:06:40.759 align:start position:0%
+for our function,
+ 
+
+00:06:40.759 --> 00:06:42.790 align:start position:0%
+for our function,
+perhaps the
+
+00:06:42.790 --> 00:06:42.800 align:start position:0%
+perhaps the
+ 
+
+00:06:42.800 --> 00:06:44.749 align:start position:0%
+perhaps the
+activating <00:06:43.179><c>compiler </c><00:06:43.558><c>will </c><00:06:43.937><c>cope </c><00:06:44.316><c>with </c><00:06:44.695><c>this,</c>
+
+00:06:44.749 --> 00:06:44.759 align:start position:0%
+activating compiler will cope with this,
+ 
+
+00:06:44.759 --> 00:06:47.150 align:start position:0%
+activating compiler will cope with this,
+perhaps <00:06:45.239><c>it </c><00:06:45.719><c>will </c><00:06:46.199><c>substitute </c><00:06:46.679><c>this</c>
+
+00:06:47.150 --> 00:06:47.160 align:start position:0%
+perhaps it will substitute this
+ 
+
+00:06:47.160 --> 00:06:49.029 align:start position:0%
+perhaps it will substitute this
+value <00:06:47.250><c>into </c><00:06:47.340><c>the</c>
+
+00:06:49.029 --> 00:06:49.039 align:start position:0%
+value into the
+ 
+
+00:06:49.039 --> 00:06:51.650 align:start position:0%
+value into the
+optimized <00:06:49.619><c>code </c><00:06:50.199><c>being </c><00:06:50.779><c>optimized </c><00:06:51.359><c>in</c>
+
+00:06:51.650 --> 00:06:51.660 align:start position:0%
+optimized code being optimized in
+ 
+
+00:06:51.660 --> 00:06:54.110 align:start position:0%
+optimized code being optimized in
+such <00:06:51.951><c>a </c><00:06:52.242><c>way </c><00:06:52.533><c>that </c><00:06:52.824><c>it </c><00:06:53.115><c>will </c><00:06:53.406><c>not </c><00:06:53.697><c>require</c>
+
+00:06:54.110 --> 00:06:54.120 align:start position:0%
+such a way that it will not require
+ 
+
+00:06:54.120 --> 00:06:56.870 align:start position:0%
+such a way that it will not require
+loading <00:06:54.559><c>from </c><00:06:54.998><c>the </c><00:06:55.437><c>context. </c><00:06:55.876><c>Maybe </c><00:06:56.315><c>all </c><00:06:56.754><c>this</c>
+
+00:06:56.870 --> 00:06:56.880 align:start position:0%
+loading from the context. Maybe all this
+ 
+
+00:06:56.880 --> 00:06:59.330 align:start position:0%
+loading from the context. Maybe all this
+can <00:06:57.348><c>be, </c><00:06:57.816><c>but </c><00:06:58.284><c>you </c><00:06:58.752><c>should </c><00:06:59.220><c>always</c>
+
+00:06:59.330 --> 00:06:59.340 align:start position:0%
+can be, but you should always
+ 
+
+00:06:59.340 --> 00:07:01.129 align:start position:0%
+can be, but you should always
+remember <00:06:59.604><c>that </c><00:06:59.868><c>under </c><00:07:00.132><c>current </c><00:07:00.396><c>conditions, </c><00:07:00.660><c>in</c>
+
+00:07:01.129 --> 00:07:01.139 align:start position:0%
+remember that under current conditions, in
+ 
+
+00:07:01.139 --> 00:07:03.710 align:start position:0%
+remember that under current conditions, in
+most <00:07:01.519><c>cases, </c><00:07:01.899><c>more </c><00:07:02.279><c>than </c><00:07:02.659><c>70 </c><00:07:03.039><c>percent </c><00:07:03.419><c>of</c>
+
+00:07:03.710 --> 00:07:03.720 align:start position:0%
+most cases, more than 70 percent of
+ 
+
+00:07:03.720 --> 00:07:06.529 align:start position:0%
+most cases, more than 70 percent of
+our <00:07:04.115><c>code </c><00:07:04.510><c>is </c><00:07:04.905><c>never </c><00:07:05.300><c>optimized </c><00:07:05.695><c>but</c>
+
+00:07:06.529 --> 00:07:06.539 align:start position:0%
+our code is never optimized but
+ 
+
+00:07:06.539 --> 00:07:08.809 align:start position:0%
+our code is never optimized but
+executed <00:07:06.795><c>only </c><00:07:07.051><c>at </c><00:07:07.307><c>the </c><00:07:07.563><c>bytecode </c><00:07:07.819><c>level.</c>
+
+00:07:08.809 --> 00:07:08.819 align:start position:0%
+executed only at the bytecode level.
+ 
+
+00:07:08.819 --> 00:07:11.950 align:start position:0%
+executed only at the bytecode level.
+When <00:07:09.071><c>executed </c><00:07:09.323><c>at </c><00:07:09.575><c>the </c><00:07:09.827><c>bytecode </c><00:07:10.079><c>level,</c>
+
+00:07:11.950 --> 00:07:11.960 align:start position:0%
+When executed at the bytecode level,
+ 
+
+00:07:11.960 --> 00:07:15.170 align:start position:0%
+When executed at the bytecode level,
+the <00:07:12.342><c>process </c><00:07:12.724><c>of </c><00:07:13.106><c>loading </c><00:07:13.488><c>the </c><00:07:13.870><c>value </c><00:07:14.252><c>of </c><00:07:14.634><c>our</c>
+
+00:07:15.170 --> 00:07:15.180 align:start position:0%
+the process of loading the value of our
+ 
+
+00:07:15.180 --> 00:07:18.790 align:start position:0%
+the process of loading the value of our
+identifier <00:07:15.420><c>from </c><00:07:15.660><c>the </c><00:07:15.900><c>environment </c><00:07:16.140><c>will </c><00:07:16.380><c>not </c><00:07:16.620><c>be</c>
+
+00:07:18.790 --> 00:07:18.800 align:start position:0%
+identifier from the environment will not be
+ 
+
+00:07:18.800 --> 00:07:21.710 align:start position:0%
+identifier from the environment will not be
+optimized. <00:07:19.179><c>There </c><00:07:19.558><c>is </c><00:07:19.937><c>no </c><00:07:20.316><c>other </c><00:07:20.695><c>way</c>
+
+00:07:21.710 --> 00:07:21.720 align:start position:0%
+optimized. There is no other way
+ 
+
+00:07:21.720 --> 00:07:24.170 align:start position:0%
+optimized. There is no other way
+if <00:07:22.188><c>the </c><00:07:22.656><c>same </c><00:07:23.124><c>function </c><00:07:23.592><c>that </c><00:07:24.060><c>we</c>
+
+00:07:24.170 --> 00:07:24.180 align:start position:0%
+if the same function that we
+ 
+
+00:07:24.180 --> 00:07:26.749 align:start position:0%
+if the same function that we
+see <00:07:24.570><c>here </c><00:07:24.960><c>is </c><00:07:25.350><c>rewritten </c><00:07:25.740><c>in </c><00:07:26.130><c>a </c><00:07:26.520><c>slightly</c>
+
+00:07:26.749 --> 00:07:26.759 align:start position:0%
+see here is rewritten in a slightly
+ 
+
+00:07:26.759 --> 00:07:29.290 align:start position:0%
+see here is rewritten in a slightly
+different <00:07:27.284><c>way </c><00:07:27.809><c>in </c><00:07:28.334><c>which </c><00:07:28.859><c>we</c>
+
+00:07:29.290 --> 00:07:29.300 align:start position:0%
+different way in which we
+ 
+
+00:07:29.300 --> 00:07:32.450 align:start position:0%
+different way in which we
+pass <00:07:29.896><c>the </c><00:07:30.492><c>identifier </c><00:07:31.088><c>as </c><00:07:31.684><c>parameters </c><00:07:32.280><c>to</c>
+
+00:07:32.450 --> 00:07:32.460 align:start position:0%
+pass the identifier as parameters to
+ 
+
+00:07:32.460 --> 00:07:34.969 align:start position:0%
+pass the identifier as parameters to
+our <00:07:32.844><c>function </c><00:07:33.228><c>to </c><00:07:33.612><c>inner </c><00:07:33.996><c>Think, </c><00:07:34.380><c>inside</c>
+
+00:07:34.969 --> 00:07:34.979 align:start position:0%
+our function to inner Think, inside
+ 
+
+00:07:34.979 --> 00:07:37.909 align:start position:0%
+our function to inner Think, inside
+which <00:07:35.379><c>this </c><00:07:35.779><c>occurs.  </c><00:07:36.179><c>execution, </c><00:07:36.579><c>then </c><00:07:36.979><c>the </c><00:07:37.379><c>code</c>
+
+00:07:37.909 --> 00:07:37.919 align:start position:0%
+which this occurs.  execution, then the code
+ 
+
+00:07:37.919 --> 00:07:41.089 align:start position:0%
+which this occurs.  execution, then the code
+changes <00:07:38.654><c>radically, </c><00:07:39.389><c>there </c><00:07:40.124><c>is </c><00:07:40.859><c>no</c>
+
+00:07:41.089 --> 00:07:41.099 align:start position:0%
+changes radically, there is no
+ 
+
+00:07:41.099 --> 00:07:44.330 align:start position:0%
+changes radically, there is no
+longer <00:07:41.547><c>any </c><00:07:41.995><c>access </c><00:07:42.443><c>to </c><00:07:42.891><c>the </c><00:07:43.339><c>external</c>
+
+00:07:44.330 --> 00:07:44.340 align:start position:0%
+longer any access to the external
+ 
+
+00:07:44.340 --> 00:07:46.790 align:start position:0%
+longer any access to the external
+context, <00:07:44.674><c>attempts </c><00:07:45.008><c>to </c><00:07:45.342><c>load </c><00:07:45.676><c>a </c><00:07:46.010><c>value </c><00:07:46.344><c>from </c><00:07:46.678><c>there,</c>
+
+00:07:46.790 --> 00:07:46.800 align:start position:0%
+context, attempts to load a value from there,
+ 
+
+00:07:46.800 --> 00:07:49.309 align:start position:0%
+context, attempts to load a value from there,
+attempts <00:07:47.384><c>to </c><00:07:47.968><c>save </c><00:07:48.552><c>this </c><00:07:49.136><c>value,</c>
+
+00:07:49.309 --> 00:07:49.319 align:start position:0%
+attempts to save this value,
+ 
+
+00:07:49.319 --> 00:07:51.710 align:start position:0%
+attempts to save this value,
+and <00:07:49.784><c>work </c><00:07:50.249><c>occurs </c><00:07:50.714><c>exclusively </c><00:07:51.179><c>only</c>
+
+00:07:51.710 --> 00:07:51.720 align:start position:0%
+and work occurs exclusively only
+ 
+
+00:07:51.720 --> 00:07:55.370 align:start position:0%
+and work occurs exclusively only
+with <00:07:52.139><c>registers,</c>
+
+00:07:55.370 --> 00:07:55.380 align:start position:0%
+ 
+ 
+
+00:07:55.380 --> 00:07:57.890 align:start position:0%
+ 
+our <00:07:56.099><c>virtual </c><00:07:56.818><c>machines, </c><00:07:57.537><c>which</c>
+
+00:07:57.890 --> 00:07:57.900 align:start position:0%
+our virtual machines, which
+ 
+
+00:07:57.900 --> 00:08:00.770 align:start position:0%
+our virtual machines, which
+is <00:07:59.010><c>the </c><00:08:00.120><c>most</c>
+
+00:08:00.770 --> 00:08:00.780 align:start position:0%
+is the most
+ 
+
+00:08:00.780 --> 00:08:03.230 align:start position:0%
+is the most
+optimal <00:08:01.027><c>way </c><00:08:01.274><c>for </c><00:08:01.521><c>a </c><00:08:01.768><c>virtual </c><00:08:02.015><c>machine </c><00:08:02.262><c>to </c><00:08:02.509><c>execute </c><00:08:02.756><c>our</c>
+
+00:08:03.230 --> 00:08:03.240 align:start position:0%
+optimal way for a virtual machine to execute our
+ 
+
+00:08:03.240 --> 00:08:06.469 align:start position:0%
+optimal way for a virtual machine to execute our
+code <00:08:03.419><c>as </c><00:08:03.598><c>quickly </c><00:08:03.777><c>as </c><00:08:03.956><c>possible, </c><00:08:04.135><c>that's</c>
+
+00:08:06.469 --> 00:08:06.479 align:start position:0%
+code as quickly as possible, that's
+ 
+
+00:08:06.479 --> 00:08:12.290 align:start position:0%
+code as quickly as possible, that's
+not <00:08:07.649><c>all. </c><00:08:08.819><c>The</c>
+
+00:08:12.290 --> 00:08:12.300 align:start position:0%
+ 
+ 
+
+00:08:12.300 --> 00:08:14.210 align:start position:0%
+ 
+second <00:08:12.704><c>important </c><00:08:13.108><c>thing </c><00:08:13.512><c>that </c><00:08:13.916><c>should</c>
+
+00:08:14.210 --> 00:08:14.220 align:start position:0%
+second important thing that should
+ 
+
+00:08:14.220 --> 00:08:16.189 align:start position:0%
+second important thing that should
+always <00:08:14.483><c>be </c><00:08:14.746><c>remembered </c><00:08:15.009><c>when </c><00:08:15.272><c>using </c><00:08:15.535><c>identifiers</c>
+
+00:08:16.189 --> 00:08:16.199 align:start position:0%
+always be remembered when using identifiers
+ 
+
+00:08:16.199 --> 00:08:18.710 align:start position:0%
+always be remembered when using identifiers
+outside <00:08:16.724><c>of </c><00:08:17.249><c>parent </c><00:08:17.774><c>functions </c><00:08:18.299><c>is</c>
+
+00:08:18.710 --> 00:08:18.720 align:start position:0%
+outside of parent functions is
+ 
+
+00:08:18.720 --> 00:08:22.129 align:start position:0%
+outside of parent functions is
+that
+
+00:08:22.129 --> 00:08:22.139 align:start position:0%
+that
+ 
+
+00:08:22.139 --> 00:08:26.510 align:start position:0%
+that
+V8 <00:08:22.931><c>as </c><00:08:23.723><c>a </c><00:08:24.515><c>runtime </c><00:08:25.307><c>tries </c><00:08:26.099><c>to</c>
+
+00:08:26.510 --> 00:08:26.520 align:start position:0%
+V8 as a runtime tries to
+ 
+
+00:08:26.520 --> 00:08:28.309 align:start position:0%
+V8 as a runtime tries to
+optimize <00:08:26.693><c>its </c><00:08:26.866><c>work </c><00:08:27.039><c>as </c><00:08:27.212><c>much </c><00:08:27.385><c>as </c><00:08:27.558><c>possible </c><00:08:27.731><c>even </c><00:08:27.904><c>at </c><00:08:28.077><c>the</c>
+
+00:08:28.309 --> 00:08:28.319 align:start position:0%
+optimize its work as much as possible even at the
+ 
+
+00:08:28.319 --> 00:08:29.869 align:start position:0%
+optimize its work as much as possible even at the
+bytecode <00:08:28.440><c>level.</c>
+
+00:08:29.869 --> 00:08:29.879 align:start position:0%
+bytecode level.
+ 
+
+00:08:29.879 --> 00:08:32.269 align:start position:0%
+bytecode level.
+One <00:08:30.239><c>of </c><00:08:30.599><c>the </c><00:08:30.959><c>first </c><00:08:31.319><c>optimizations </c><00:08:31.679><c>that </c><00:08:32.039><c>it</c>
+
+00:08:32.269 --> 00:08:32.279 align:start position:0%
+One of the first optimizations that it
+ 
+
+00:08:32.279 --> 00:08:34.010 align:start position:0%
+One of the first optimizations that it
+uses <00:08:32.555><c>within </c><00:08:32.831><c>the </c><00:08:33.107><c>execution </c><00:08:33.383><c>of </c><00:08:33.659><c>our</c>
+
+00:08:34.010 --> 00:08:34.020 align:start position:0%
+uses within the execution of our
+ 
+
+00:08:34.020 --> 00:08:36.050 align:start position:0%
+uses within the execution of our
+function <00:08:34.410><c>is </c><00:08:34.800><c>to </c><00:08:35.190><c>create </c><00:08:35.580><c>a</c>
+
+00:08:36.050 --> 00:08:36.060 align:start position:0%
+function is to create a
+ 
+
+00:08:36.060 --> 00:08:38.149 align:start position:0%
+function is to create a
+context <00:08:36.455><c>for </c><00:08:36.850><c>this </c><00:08:37.245><c>function, </c><00:08:37.640><c>that </c><00:08:38.035><c>is,</c>
+
+00:08:38.149 --> 00:08:38.159 align:start position:0%
+context for this function, that is,
+ 
+
+00:08:38.159 --> 00:08:39.949 align:start position:0%
+context for this function, that is,
+some <00:08:38.639><c>service </c><00:08:39.119><c>area </c><00:08:39.599><c>inside</c>
+
+00:08:39.949 --> 00:08:39.959 align:start position:0%
+some service area inside
+ 
+
+00:08:39.959 --> 00:08:41.389 align:start position:0%
+some service area inside
+which <00:08:40.119><c>some </c><00:08:40.279><c>additional </c><00:08:40.439><c>values ​​</c><00:08:40.599><c>will </c><00:08:40.759><c>be </c><00:08:40.919><c>stored.</c>
+
+00:08:41.389 --> 00:08:44.870 align:start position:0%
+which some additional values ​​will be stored.
+ 
+
+00:08:44.870 --> 00:08:44.880 align:start position:0%
+ 
+ 
+
+00:08:44.880 --> 00:08:47.449 align:start position:0%
+ 
+It <00:08:46.920><c>will</c>
+
+00:08:47.449 --> 00:08:47.459 align:start position:0%
+It will
+ 
+
+00:08:47.459 --> 00:08:49.610 align:start position:0%
+It will
+only <00:08:47.789><c>try </c><00:08:48.119><c>to </c><00:08:48.449><c>do </c><00:08:48.779><c>this </c><00:08:49.109><c>in </c><00:08:49.439><c>one</c>
+
+00:08:49.610 --> 00:08:49.620 align:start position:0%
+only try to do this in one
+ 
+
+00:08:49.620 --> 00:08:51.230 align:start position:0%
+only try to do this in one
+single <00:08:49.812><c>case </c><00:08:50.004><c>when </c><00:08:50.196><c>the </c><00:08:50.388><c>context </c><00:08:50.580><c>is</c>
+
+00:08:51.230 --> 00:08:51.240 align:start position:0%
+single case when the context is
+ 
+
+00:08:51.240 --> 00:08:53.150 align:start position:0%
+single case when the context is
+really <00:08:51.600><c>needed. </c><00:08:51.960><c>Despite </c><00:08:52.320><c>the </c><00:08:52.680><c>fact </c><00:08:53.040><c>that</c>
+
+00:08:53.150 --> 00:08:53.160 align:start position:0%
+really needed. Despite the fact that
+ 
+
+00:08:53.160 --> 00:08:55.250 align:start position:0%
+really needed. Despite the fact that
+the <00:08:53.460><c>specification </c><00:08:53.760><c>requires </c><00:08:54.060><c>always </c><00:08:54.360><c>creating </c><00:08:54.660><c>a</c>
+
+00:08:55.250 --> 00:08:55.260 align:start position:0%
+the specification requires always creating a
+ 
+
+00:08:55.260 --> 00:08:58.190 align:start position:0%
+the specification requires always creating a
+context. <00:08:55.500><c>Even </c><00:08:55.740><c>if </c><00:08:55.980><c>it </c><00:08:56.220><c>is </c><00:08:56.460><c>not </c><00:08:56.700><c>needed, </c><00:08:56.940><c>that</c>
+
+00:08:58.190 --> 00:08:58.200 align:start position:0%
+context. Even if it is not needed, that
+ 
+
+00:08:58.200 --> 00:08:59.990 align:start position:0%
+context. Even if it is not needed, that
+is, <00:08:58.590><c>creating </c><00:08:58.980><c>a </c><00:08:59.370><c>special </c><00:08:59.760><c>environment</c>
+
+00:08:59.990 --> 00:09:00.000 align:start position:0%
+is, creating a special environment
+ 
+
+00:09:00.000 --> 00:09:03.170 align:start position:0%
+is, creating a special environment
+that <00:09:00.516><c>would </c><00:09:01.032><c>describe </c><00:09:01.548><c>the </c><00:09:02.064><c>work, </c><00:09:02.580><c>all</c>
+
+00:09:03.170 --> 00:09:03.180 align:start position:0%
+that would describe the work, all
+ 
+
+00:09:03.180 --> 00:09:04.970 align:start position:0%
+that would describe the work, all
+modern <00:09:03.510><c>runtimes, </c><00:09:03.840><c>trying </c><00:09:04.170><c>to </c><00:09:04.500><c>save</c>
+
+00:09:04.970 --> 00:09:04.980 align:start position:0%
+modern runtimes, trying to save
+ 
+
+00:09:04.980 --> 00:09:08.570 align:start position:0%
+modern runtimes, trying to save
+resources, <00:09:05.351><c>and </c><00:09:05.722><c>which </c><00:09:06.093><c>is </c><00:09:06.464><c>absolutely </c><00:09:06.835><c>true,</c>
+
+00:09:08.570 --> 00:09:08.580 align:start position:0%
+resources, and which is absolutely true,
+ 
+
+00:09:08.580 --> 00:09:11.269 align:start position:0%
+resources, and which is absolutely true,
+and <00:09:08.931><c>V8 </c><00:09:09.282><c>is </c><00:09:09.633><c>no </c><00:09:09.984><c>exception, </c><00:09:10.335><c>do </c><00:09:10.686><c>this </c><00:09:11.037><c>only</c>
+
+00:09:11.269 --> 00:09:11.279 align:start position:0%
+and V8 is no exception, do this only
+ 
+
+00:09:11.279 --> 00:09:14.150 align:start position:0%
+and V8 is no exception, do this only
+when <00:09:11.592><c>it </c><00:09:11.905><c>is </c><00:09:12.218><c>really </c><00:09:12.531><c>needed. </c><00:09:12.844><c>In </c><00:09:13.157><c>other</c>
+
+00:09:14.150 --> 00:09:14.160 align:start position:0%
+when it is really needed. In other
+ 
+
+00:09:14.160 --> 00:09:16.430 align:start position:0%
+when it is really needed. In other
+words, <00:09:14.364><c>in </c><00:09:14.568><c>the </c><00:09:14.772><c>example </c><00:09:14.976><c>of </c><00:09:15.180><c>Dame </c><00:09:15.384><c>2, </c><00:09:15.588><c>where </c><00:09:15.792><c>I </c><00:09:15.996><c>use </c><00:09:16.200><c>the</c>
+
+00:09:16.430 --> 00:09:16.440 align:start position:0%
+words, in the example of Dame 2, where I use the
+ 
+
+00:09:16.440 --> 00:09:19.970 align:start position:0%
+words, in the example of Dame 2, where I use the
+fing <00:09:17.075><c>identifier </c><00:09:17.710><c>that </c><00:09:18.345><c>I </c><00:09:18.980><c>pass</c>
+
+00:09:19.970 --> 00:09:19.980 align:start position:0%
+fing identifier that I pass
+ 
+
+00:09:19.980 --> 00:09:22.670 align:start position:0%
+fing identifier that I pass
+inside <00:09:20.310><c>the </c><00:09:20.640><c>function</c>
+
+00:09:22.670 --> 00:09:22.680 align:start position:0%
+inside the function
+ 
+
+00:09:22.680 --> 00:09:25.730 align:start position:0%
+inside the function
+and <00:09:23.090><c>receive </c><00:09:23.500><c>it </c><00:09:23.910><c>inside </c><00:09:24.320><c>the </c><00:09:24.730><c>function. </c><00:09:25.140><c>Using</c>
+
+00:09:25.730 --> 00:09:25.740 align:start position:0%
+and receive it inside the function. Using
+ 
+
+00:09:25.740 --> 00:09:29.870 align:start position:0%
+and receive it inside the function. Using
+inside <00:09:26.624><c>already </c><00:09:27.508><c>directly  </c><00:09:28.392><c>Inerfing </c><00:09:29.276><c>we</c>
+
+00:09:29.870 --> 00:09:29.880 align:start position:0%
+inside already directly  Inerfing we
+ 
+
+00:09:29.880 --> 00:09:32.630 align:start position:0%
+inside already directly  Inerfing we
+can <00:09:30.435><c>see </c><00:09:30.990><c>that </c><00:09:31.545><c>our </c><00:09:32.100><c>original</c>
+
+00:09:32.630 --> 00:09:32.640 align:start position:0%
+can see that our original
+ 
+
+00:09:32.640 --> 00:09:35.290 align:start position:0%
+can see that our original
+function <00:09:32.960><c>do </c><00:09:33.280><c>Think </c><00:09:33.600><c>according </c><00:09:33.920><c>to </c><00:09:34.240><c>our </c><00:09:34.560><c>bytecode</c>
+
+00:09:35.290 --> 00:09:35.300 align:start position:0%
+function do Think according to our bytecode
+ 
+
+00:09:35.300 --> 00:09:38.449 align:start position:0%
+function do Think according to our bytecode
+does <00:09:35.884><c>not </c><00:09:36.468><c>create </c><00:09:37.052><c>any </c><00:09:37.636><c>context, </c><00:09:38.220><c>but</c>
+
+00:09:38.449 --> 00:09:38.459 align:start position:0%
+does not create any context, but
+ 
+
+00:09:38.459 --> 00:09:40.310 align:start position:0%
+does not create any context, but
+only <00:09:38.676><c>creates </c><00:09:38.893><c>our </c><00:09:39.110><c>peel, </c><00:09:39.327><c>which </c><00:09:39.544><c>is </c><00:09:39.761><c>what </c><00:09:39.978><c>it </c><00:09:40.195><c>should</c>
+
+00:09:40.310 --> 00:09:40.320 align:start position:0%
+only creates our peel, which is what it should
+ 
+
+00:09:40.320 --> 00:09:42.490 align:start position:0%
+only creates our peel, which is what it should
+do, <00:09:40.620><c>creates,</c>
+
+00:09:42.490 --> 00:09:42.500 align:start position:0%
+do, creates,
+ 
+
+00:09:42.500 --> 00:09:45.110 align:start position:0%
+do, creates,
+loads <00:09:42.976><c>the </c><00:09:43.452><c>internal </c><00:09:43.928><c>register </c><00:09:44.404><c>of </c><00:09:44.880><c>the</c>
+
+00:09:45.110 --> 00:09:45.120 align:start position:0%
+loads the internal register of the
+ 
+
+00:09:45.120 --> 00:09:47.150 align:start position:0%
+loads the internal register of the
+virtual <00:09:45.480><c>machine </c><00:09:45.840><c>value </c><00:09:46.200><c>three. </c><00:09:46.560><c>This </c><00:09:46.920><c>is</c>
+
+00:09:47.150 --> 00:09:47.160 align:start position:0%
+virtual machine value three. This is
+ 
+
+00:09:47.160 --> 00:09:49.009 align:start position:0%
+virtual machine value three. This is
+our <00:09:47.579><c>value </c><00:09:47.998><c>three </c><00:09:48.417><c>and </c><00:09:48.836><c>then</c>
+
+00:09:49.009 --> 00:09:49.019 align:start position:0%
+our value three and then
+ 
+
+00:09:49.019 --> 00:09:50.870 align:start position:0%
+our value three and then
+calls <00:09:49.367><c>the </c><00:09:49.715><c>colondefine </c><00:09:50.063><c>receiver, </c><00:09:50.411><c>and </c><00:09:50.759><c>so</c>
+
+00:09:50.870 --> 00:09:50.880 align:start position:0%
+calls the colondefine receiver, and so
+ 
+
+00:09:50.880 --> 00:09:54.050 align:start position:0%
+calls the colondefine receiver, and so
+on. <00:09:51.274><c>If </c><00:09:51.668><c>we </c><00:09:52.062><c>return </c><00:09:52.456><c>to </c><00:09:52.850><c>our </c><00:09:53.244><c>function </c><00:09:53.638><c>with</c>
+
+00:09:54.050 --> 00:09:54.060 align:start position:0%
+on. If we return to our function with
+ 
+
+00:09:54.060 --> 00:09:55.490 align:start position:0%
+on. If we return to our function with
+which <00:09:54.240><c>I </c><00:09:54.420><c>started </c><00:09:54.600><c>and </c><00:09:54.780><c>which </c><00:09:54.960><c>I </c><00:09:55.140><c>tried </c><00:09:55.320><c>to</c>
+
+00:09:55.490 --> 00:09:55.500 align:start position:0%
+which I started and which I tried to
+ 
+
+00:09:55.500 --> 00:09:58.430 align:start position:0%
+which I started and which I tried to
+explain <00:09:56.025><c>what </c><00:09:56.550><c>is </c><00:09:57.075><c>wrong </c><00:09:57.600><c>and</c>
+
+00:09:58.430 --> 00:09:58.440 align:start position:0%
+explain what is wrong and
+ 
+
+00:09:58.440 --> 00:10:00.230 align:start position:0%
+explain what is wrong and
+return <00:09:58.550><c>to </c><00:09:58.660><c>our </c><00:09:58.770><c>bytecode </c><00:09:58.880><c>initially, </c><00:09:58.990><c>then, </c><00:09:59.100><c>among </c><00:09:59.210><c>other </c><00:09:59.320><c>things, </c><00:09:59.430><c>so </c><00:09:59.540><c>that </c><00:09:59.650><c>it </c><00:09:59.760><c>would </c><00:09:59.870><c>be</c>
+
+00:10:00.230 --> 00:10:00.240 align:start position:0%
+return to our bytecode initially, then, among other things, so that it would be
+ 
+
+00:10:00.240 --> 00:10:02.690 align:start position:0%
+return to our bytecode initially, then, among other things, so that it would be
+here.
+
+00:10:02.690 --> 00:10:02.700 align:start position:0%
+here.
+ 
+
+00:10:02.700 --> 00:10:05.509 align:start position:0%
+here.
+And <00:10:03.330><c>now, </c><00:10:03.960><c>for </c><00:10:04.590><c>comparison, </c><00:10:05.220><c>we</c>
+
+00:10:05.509 --> 00:10:05.519 align:start position:0%
+And now, for comparison, we
+ 
+
+00:10:05.519 --> 00:10:11.389 align:start position:0%
+And now, for comparison, we
+will <00:10:05.685><c>show </c><00:10:05.851><c>it </c><00:10:06.017><c>this </c><00:10:06.183><c>way, </c><00:10:06.349><c>so </c><00:10:06.515><c>that </c><00:10:06.681><c>it </c><00:10:06.847><c>would </c><00:10:07.013><c>be</c>
+
+00:10:11.389 --> 00:10:11.399 align:start position:0%
+ 
+ 
+
+00:10:11.399 --> 00:10:13.329 align:start position:0%
+ 
+here <00:10:11.719><c>is </c><00:10:12.039><c>our </c><00:10:12.359><c>function.</c>
+
+00:10:13.329 --> 00:10:13.339 align:start position:0%
+here is our function.
+ 
+
+00:10:13.339 --> 00:10:17.570 align:start position:0%
+here is our function.
+Here <00:10:13.744><c>is </c><00:10:14.149><c>the </c><00:10:14.554><c>bytecode </c><00:10:14.959><c>that </c><00:10:15.364><c>V8 </c><00:10:15.769><c>generated. </c><00:10:16.174><c>Here </c><00:10:16.579><c>is</c>
+
+00:10:17.570 --> 00:10:17.580 align:start position:0%
+Here is the bytecode that V8 generated. Here is
+ 
+
+00:10:17.580 --> 00:10:23.350 align:start position:0%
+Here is the bytecode that V8 generated. Here is
+our <00:10:17.985><c>function </c><00:10:18.390><c>for </c><00:10:18.795><c>years. </c><00:10:19.200><c>2 </c><00:10:19.605><c>Dome </c><00:10:20.010><c>2 </c><00:10:20.415><c>bytecode </c><00:10:20.820><c>is</c>
+
+00:10:23.350 --> 00:10:23.360 align:start position:0%
+our function for years. 2 Dome 2 bytecode is
+ 
+
+00:10:23.360 --> 00:10:27.410 align:start position:0%
+our function for years. 2 Dome 2 bytecode is
+the <00:10:23.802><c>opposite, </c><00:10:24.244><c>only </c><00:10:24.686><c>Dome-2. </c><00:10:25.128><c>Now </c><00:10:25.570><c>I </c><00:10:26.012><c>will </c><00:10:26.454><c>swap</c>
+
+00:10:27.410 --> 00:10:27.420 align:start position:0%
+the opposite, only Dome-2. Now I will swap
+ 
+
+00:10:27.420 --> 00:10:31.430 align:start position:0%
+the opposite, only Dome-2. Now I will swap
+them <00:10:28.060><c>so </c><00:10:28.700><c>that </c><00:10:29.340><c>they </c><00:10:29.980><c>do </c><00:10:30.620><c>not </c><00:10:31.260><c>confuse.</c>
+
+00:10:31.430 --> 00:10:31.440 align:start position:0%
+them so that they do not confuse.
+ 
+
+00:10:31.440 --> 00:10:37.070 align:start position:0%
+them so that they do not confuse.
+That's <00:10:31.566><c>how </c><00:10:31.692><c>it </c><00:10:31.818><c>will </c><00:10:31.944><c>be. </c><00:10:32.070><c>Yes, </c><00:10:32.196><c>that's </c><00:10:32.322><c>right. </c><00:10:32.448><c>Yes, </c><00:10:32.574><c>that's</c>
+
+00:10:37.070 --> 00:10:37.080 align:start position:0%
+ 
+ 
+
+00:10:37.080 --> 00:10:40.790 align:start position:0%
+ 
+right.
+
+00:10:40.790 --> 00:10:40.800 align:start position:0%
+ 
+ 
+
+00:10:40.800 --> 00:10:43.370 align:start position:0%
+ 
+One <00:10:41.099><c>of </c><00:10:41.398><c>the </c><00:10:41.697><c>first </c><00:10:41.996><c>operations </c><00:10:42.295><c>that </c><00:10:42.594><c>will </c><00:10:42.893><c>be</c>
+
+00:10:43.370 --> 00:10:43.380 align:start position:0%
+One of the first operations that will be
+ 
+
+00:10:43.380 --> 00:10:45.530 align:start position:0%
+One of the first operations that will be
+performed <00:10:43.660><c>in </c><00:10:43.940><c>two </c><00:10:44.220><c>inc </c><00:10:44.500><c>for </c><00:10:44.780><c>our </c><00:10:45.060><c>dame</c>
+
+00:10:45.530 --> 00:10:45.540 align:start position:0%
+performed in two inc for our dame
+ 
+
+00:10:45.540 --> 00:10:47.449 align:start position:0%
+performed in two inc for our dame
+for <00:10:45.870><c>the </c><00:10:46.200><c>original </c><00:10:46.530><c>where </c><00:10:46.860><c>we</c>
+
+00:10:47.449 --> 00:10:47.459 align:start position:0%
+for the original where we
+ 
+
+00:10:47.459 --> 00:10:49.790 align:start position:0%
+for the original where we
+use <00:10:47.716><c>the </c><00:10:47.973><c>dfing </c><00:10:48.230><c>identifier </c><00:10:48.487><c>outside </c><00:10:48.744><c>the </c><00:10:49.001><c>context </c><00:10:49.258><c>of</c>
+
+00:10:49.790 --> 00:10:49.800 align:start position:0%
+use the dfing identifier outside the context of
+ 
+
+00:10:49.800 --> 00:10:52.009 align:start position:0%
+use the dfing identifier outside the context of
+our <00:10:50.160><c>function</c>
+
+00:10:52.009 --> 00:10:52.019 align:start position:0%
+our function
+ 
+
+00:10:52.019 --> 00:10:54.170 align:start position:0%
+our function
+leads <00:10:52.259><c>to </c><00:10:52.499><c>the </c><00:10:52.739><c>fact </c><00:10:52.979><c>that </c><00:10:53.219><c>now, </c><00:10:53.459><c>for </c><00:10:53.699><c>the </c><00:10:53.939><c>function,</c>
+
+00:10:54.170 --> 00:10:54.180 align:start position:0%
+leads to the fact that now, for the function,
+ 
+
+00:10:54.180 --> 00:10:57.130 align:start position:0%
+leads to the fact that now, for the function,
+each <00:10:54.672><c>time </c><00:10:55.164><c>it </c><00:10:55.656><c>is </c><00:10:56.148><c>called, </c><00:10:56.640><c>an</c>
+
+00:10:57.130 --> 00:10:57.140 align:start position:0%
+each time it is called, an
+ 
+
+00:10:57.140 --> 00:10:59.030 align:start position:0%
+each time it is called, an
+additional <00:10:57.416><c>operation </c><00:10:57.692><c>will </c><00:10:57.968><c>be </c><00:10:58.244><c>called </c><00:10:58.520><c>that </c><00:10:58.796><c>will</c>
+
+00:10:59.030 --> 00:10:59.040 align:start position:0%
+additional operation will be called that will
+ 
+
+00:10:59.040 --> 00:11:00.889 align:start position:0%
+additional operation will be called that will
+create <00:10:59.292><c>a </c><00:10:59.544><c>special </c><00:10:59.796><c>context </c><00:11:00.048><c>for </c><00:11:00.300><c>it</c>
+
+00:11:00.889 --> 00:11:00.899 align:start position:0%
+create a special context for it
+ 
+
+00:11:00.899 --> 00:11:03.110 align:start position:0%
+create a special context for it
+within <00:11:01.209><c>which </c><00:11:01.519><c>it  </c><00:11:01.829><c>and </c><00:11:02.139><c>will </c><00:11:02.449><c>have </c><00:11:02.759><c>to</c>
+
+00:11:03.110 --> 00:11:03.120 align:start position:0%
+within which it  and will have to
+ 
+
+00:11:03.120 --> 00:11:05.150 align:start position:0%
+within which it  and will have to
+save <00:11:03.585><c>the </c><00:11:04.050><c>value </c><00:11:04.515><c>associated </c><00:11:04.980><c>with</c>
+
+00:11:05.150 --> 00:11:05.160 align:start position:0%
+save the value associated with
+ 
+
+00:11:05.160 --> 00:11:08.150 align:start position:0%
+save the value associated with
+the identifier
+
+00:11:08.150 --> 00:11:08.160 align:start position:0%
+ 
+ 
+
+00:11:08.160 --> 00:11:12.250 align:start position:0%
+ 
+and, <00:11:09.239><c>accordingly, </c><00:11:10.318><c>inside </c><00:11:11.397><c>the</c>
+
+00:11:12.250 --> 00:11:12.260 align:start position:0%
+and, accordingly, inside the
+ 
+
+00:11:12.260 --> 00:11:14.389 align:start position:0%
+and, accordingly, inside the
+innerhing <00:11:12.531><c>function. </c><00:11:12.802><c>That </c><00:11:13.073><c>is, </c><00:11:13.344><c>what </c><00:11:13.615><c>we </c><00:11:13.886><c>are </c><00:11:14.157><c>doing</c>
+
+00:11:14.389 --> 00:11:14.399 align:start position:0%
+innerhing function. That is, what we are doing
+ 
+
+00:11:14.399 --> 00:11:16.850 align:start position:0%
+innerhing function. That is, what we are doing
+inside, <00:11:14.783><c>it </c><00:11:15.167><c>will </c><00:11:15.551><c>be </c><00:11:15.935><c>constantly </c><00:11:16.319><c>forced</c>
+
+00:11:16.850 --> 00:11:16.860 align:start position:0%
+inside, it will be constantly forced
+ 
+
+00:11:16.860 --> 00:11:19.310 align:start position:0%
+inside, it will be constantly forced
+to <00:11:17.199><c>load </c><00:11:17.538><c>some </c><00:11:17.877><c>value </c><00:11:18.216><c>from </c><00:11:18.555><c>the </c><00:11:18.894><c>context,</c>
+
+00:11:19.310 --> 00:11:19.320 align:start position:0%
+to load some value from the context,
+ 
+
+00:11:19.320 --> 00:11:21.530 align:start position:0%
+to load some value from the context,
+do <00:11:19.650><c>something </c><00:11:19.980><c>with </c><00:11:20.310><c>it, </c><00:11:20.640><c>and </c><00:11:20.970><c>unload </c><00:11:21.300><c>it</c>
+
+00:11:21.530 --> 00:11:21.540 align:start position:0%
+do something with it, and unload it
+ 
+
+00:11:21.540 --> 00:11:24.350 align:start position:0%
+do something with it, and unload it
+back, <00:11:22.155><c>unlike </c><00:11:22.770><c>another </c><00:11:23.385><c>function </c><00:11:24.000><c>where</c>
+
+00:11:24.350 --> 00:11:24.360 align:start position:0%
+back, unlike another function where
+ 
+
+00:11:24.360 --> 00:11:27.829 align:start position:0%
+back, unlike another function where
+we <00:11:25.480><c>pass </c><00:11:26.600><c>the </c><00:11:27.720><c>same</c>
+
+00:11:27.829 --> 00:11:27.839 align:start position:0%
+we pass the same
+ 
+
+00:11:27.839 --> 00:11:30.410 align:start position:0%
+we pass the same
+identifier <00:11:29.009><c>internally; </c><00:11:30.179><c>it</c>
+
+00:11:30.410 --> 00:11:30.420 align:start position:0%
+identifier internally; it
+ 
+
+00:11:30.420 --> 00:11:32.449 align:start position:0%
+identifier internally; it
+does <00:11:30.940><c>not </c><00:11:31.460><c>create </c><00:11:31.980><c>any</c>
+
+00:11:32.449 --> 00:11:32.459 align:start position:0%
+does not create any
+ 
+
+00:11:32.459 --> 00:11:36.050 align:start position:0%
+does not create any
+extra <00:11:32.695><c>structure </c><00:11:32.931><c>for </c><00:11:33.167><c>this </c><00:11:33.403><c>original </c><00:11:33.639><c>function </c><00:11:33.875><c>of </c><00:11:34.111><c>ours; </c><00:11:34.347><c>it </c><00:11:34.583><c>is </c><00:11:34.819><c>absent, </c><00:11:35.055><c>and</c>
+
+00:11:36.050 --> 00:11:36.060 align:start position:0%
+extra structure for this original function of ours; it is absent, and
+ 
+
+00:11:36.060 --> 00:11:37.030 align:start position:0%
+extra structure for this original function of ours; it is absent, and
+inside,
+
+00:11:37.030 --> 00:11:37.040 align:start position:0%
+inside,
+ 
+
+00:11:37.040 --> 00:11:40.009 align:start position:0%
+inside,
+all <00:11:37.362><c>we </c><00:11:37.684><c>see </c><00:11:38.006><c>is </c><00:11:38.328><c>the </c><00:11:38.650><c>manipulation </c><00:11:38.972><c>of </c><00:11:39.294><c>the</c>
+
+00:11:40.009 --> 00:11:40.019 align:start position:0%
+all we see is the manipulation of the
+ 
+
+00:11:40.019 --> 00:11:41.569 align:start position:0%
+all we see is the manipulation of the
+internal <00:11:40.274><c>resistors </c><00:11:40.529><c>of </c><00:11:40.784><c>the </c><00:11:41.039><c>virtual</c>
+
+00:11:41.569 --> 00:11:41.579 align:start position:0%
+internal resistors of the virtual
+ 
+
+00:11:41.579 --> 00:11:46.150 align:start position:0%
+internal resistors of the virtual
+machine. <00:11:41.927><c>What </c><00:11:42.275><c>is </c><00:11:42.623><c>the </c><00:11:42.971><c>most </c><00:11:43.319><c>optimal</c>
+
+00:11:46.150 --> 00:11:46.160 align:start position:0%
+ 
+ 
+
+00:11:46.160 --> 00:11:49.610 align:start position:0%
+ 
+scenario <00:11:46.905><c>for </c><00:11:47.650><c>executing </c><00:11:48.395><c>code </c><00:11:49.140><c>if</c>
+
+00:11:49.610 --> 00:11:49.620 align:start position:0%
+scenario for executing code if
+ 
+
+00:11:49.620 --> 00:11:52.069 align:start position:0%
+scenario for executing code if
+it <00:11:49.919><c>is </c><00:11:50.218><c>not </c><00:11:50.517><c>optimized,</c>
+
+00:11:52.069 --> 00:11:52.079 align:start position:0%
+it is not optimized,
+ 
+
+00:11:52.079 --> 00:11:54.949 align:start position:0%
+it is not optimized,
+and <00:11:52.469><c>this </c><00:11:52.859><c>is </c><00:11:53.249><c>also </c><00:11:53.639><c>the </c><00:11:54.029><c>best </c><00:11:54.419><c>possible</c>
+
+00:11:54.949 --> 00:11:54.959 align:start position:0%
+and this is also the best possible
+ 
+
+00:11:54.959 --> 00:11:56.690 align:start position:0%
+and this is also the best possible
+prerequisite <00:11:55.214><c>for </c><00:11:55.469><c>obtaining </c><00:11:55.724><c>the </c><00:11:55.979><c>most</c>
+
+00:11:56.690 --> 00:11:56.700 align:start position:0%
+prerequisite for obtaining the most
+ 
+
+00:11:56.700 --> 00:11:59.530 align:start position:0%
+prerequisite for obtaining the most
+optimized <00:11:56.880><c>code </c><00:11:57.060><c>from </c><00:11:57.240><c>the </c><00:11:57.420><c>point </c><00:11:57.600><c>of </c><00:11:57.780><c>view </c><00:11:57.960><c>of </c><00:11:58.140><c>the</c>
+
+00:11:59.530 --> 00:11:59.540 align:start position:0%
+optimized code from the point of view of the
+ 
+
+00:11:59.540 --> 00:12:01.790 align:start position:0%
+optimized code from the point of view of the
+TurboFan <00:12:00.309><c>optimizing </c><00:12:01.078><c>compiler,</c>
+
+00:12:01.790 --> 00:12:01.800 align:start position:0%
+TurboFan optimizing compiler,
+ 
+
+00:12:01.800 --> 00:12:03.769 align:start position:0%
+TurboFan optimizing compiler,
+which <00:12:02.060><c>will </c><00:12:02.320><c>transform </c><00:12:02.580><c>this </c><00:12:02.840><c>code </c><00:12:03.100><c>into </c><00:12:03.360><c>machine</c>
+
+00:12:03.769 --> 00:12:03.779 align:start position:0%
+which will transform this code into machine
+ 
+
+00:12:03.779 --> 00:12:06.290 align:start position:0%
+which will transform this code into machine
+code <00:12:04.149><c>that </c><00:12:04.519><c>will </c><00:12:04.889><c>be </c><00:12:05.259><c>exactly </c><00:12:05.629><c>the </c><00:12:05.999><c>same</c>
+
+00:12:06.290 --> 00:12:06.300 align:start position:0%
+code that will be exactly the same
+ 
+
+00:12:06.300 --> 00:12:09.290 align:start position:0%
+code that will be exactly the same
+effective, <00:12:07.220><c>that </c><00:12:08.140><c>is, </c><00:12:09.060><c>it</c>
+
+00:12:09.290 --> 00:12:09.300 align:start position:0%
+effective, that is, it
+ 
+
+00:12:09.300 --> 00:12:10.670 align:start position:0%
+effective, that is, it
+will <00:12:09.445><c>try </c><00:12:09.590><c>to </c><00:12:09.735><c>map </c><00:12:09.880><c>the </c><00:12:10.025><c>same </c><00:12:10.170><c>registers </c><00:12:10.315><c>into</c>
+
+00:12:10.670 --> 00:12:10.680 align:start position:0%
+will try to map the same registers into
+ 
+
+00:12:10.680 --> 00:12:12.290 align:start position:0%
+will try to map the same registers into
+processor <00:12:10.853><c>registers </c><00:12:11.026><c>and </c><00:12:11.199><c>do </c><00:12:11.372><c>it </c><00:12:11.545><c>all </c><00:12:11.718><c>at </c><00:12:11.891><c>the </c><00:12:12.064><c>level </c><00:12:12.237><c>of</c>
+
+00:12:12.290 --> 00:12:12.300 align:start position:0%
+processor registers and do it all at the level of
+ 
+
+00:12:12.300 --> 00:12:13.730 align:start position:0%
+processor registers and do it all at the level of
+these <00:12:12.660><c>registers.</c>
+
+00:12:13.730 --> 00:12:13.740 align:start position:0%
+these registers.
+ 
+
+00:12:13.740 --> 00:12:18.829 align:start position:0%
+these registers.
+Now, <00:12:14.039><c>I </c><00:12:14.338><c>will </c><00:12:14.637><c>briefly </c><00:12:14.936><c>summarize </c><00:12:15.235><c>and </c><00:12:15.534><c>wrap </c><00:12:15.833><c>up.</c>
+
+00:12:18.829 --> 00:12:18.839 align:start position:0%
+ 
+ 
+
+00:12:18.839 --> 00:12:20.389 align:start position:0%
+ 
+Every <00:12:19.169><c>time </c><00:12:19.499><c>you </c><00:12:19.829><c>use </c><00:12:20.159><c>an</c>
+
+00:12:20.389 --> 00:12:20.399 align:start position:0%
+Every time you use an
+ 
+
+00:12:20.399 --> 00:12:23.810 align:start position:0%
+Every time you use an
+identifier, <00:12:21.104><c>you </c><00:12:21.809><c>should </c><00:12:22.514><c>ask </c><00:12:23.219><c>yourself</c>
+
+00:12:23.810 --> 00:12:23.820 align:start position:0%
+identifier, you should ask yourself
+ 
+
+00:12:23.820 --> 00:12:25.910 align:start position:0%
+identifier, you should ask yourself
+where <00:12:24.168><c>this </c><00:12:24.516><c>identifier </c><00:12:24.864><c>was </c><00:12:25.212><c>declared. </c><00:12:25.560><c>Who</c>
+
+00:12:25.910 --> 00:12:25.920 align:start position:0%
+where this identifier was declared. Who
+ 
+
+00:12:25.920 --> 00:12:27.889 align:start position:0%
+where this identifier was declared. Who
+is <00:12:26.310><c>the </c><00:12:26.700><c>parent </c><00:12:27.090><c>environment </c><00:12:27.480><c>for</c>
+
+00:12:27.889 --> 00:12:27.899 align:start position:0%
+is the parent environment for
+ 
+
+00:12:27.899 --> 00:12:30.290 align:start position:0%
+is the parent environment for
+this <00:12:28.271><c>identifier </c><00:12:28.643><c>if </c><00:12:29.015><c>it </c><00:12:29.387><c>turns </c><00:12:29.759><c>out</c>
+
+00:12:30.290 --> 00:12:30.300 align:start position:0%
+this identifier if it turns out
+ 
+
+00:12:30.300 --> 00:12:33.110 align:start position:0%
+this identifier if it turns out
+that <00:12:30.669><c>this </c><00:12:31.038><c>identifier </c><00:12:31.407><c>was </c><00:12:31.776><c>declared </c><00:12:32.145><c>in </c><00:12:32.514><c>a</c>
+
+00:12:33.110 --> 00:12:33.120 align:start position:0%
+that this identifier was declared in a
+ 
+
+00:12:33.120 --> 00:12:35.569 align:start position:0%
+that this identifier was declared in a
+different <00:12:33.575><c>parent </c><00:12:34.030><c>environment </c><00:12:34.485><c>than </c><00:12:34.940><c>the </c><00:12:35.395><c>one</c>
+
+00:12:35.569 --> 00:12:35.579 align:start position:0%
+different parent environment than the one
+ 
+
+00:12:35.579 --> 00:12:37.610 align:start position:0%
+different parent environment than the one
+we <00:12:35.826><c>are </c><00:12:36.073><c>in </c><00:12:36.320><c>now.  </c><00:12:36.567><c>We </c><00:12:36.814><c>work </c><00:12:37.061><c>as </c><00:12:37.308><c>in </c><00:12:37.555><c>this</c>
+
+00:12:37.610 --> 00:12:37.620 align:start position:0%
+we are in now.  We work as in this
+ 
+
+00:12:37.620 --> 00:12:40.550 align:start position:0%
+we are in now.  We work as in this
+case <00:12:37.937><c>the </c><00:12:38.254><c>function </c><00:12:38.571><c>Here </c><00:12:38.888><c>it </c><00:12:39.205><c>is </c><00:12:39.522><c>inside </c><00:12:39.839><c>it</c>
+
+00:12:40.550 --> 00:12:40.560 align:start position:0%
+case the function Here it is inside it
+ 
+
+00:12:40.560 --> 00:12:42.590 align:start position:0%
+case the function Here it is inside it
+uses <00:12:40.995><c>the </c><00:12:41.430><c>identifier </c><00:12:41.865><c>The </c><00:12:42.300><c>Think</c>
+
+00:12:42.590 --> 00:12:42.600 align:start position:0%
+uses the identifier The Think
+ 
+
+00:12:42.600 --> 00:12:45.550 align:start position:0%
+uses the identifier The Think
+which <00:12:42.864><c>was </c><00:12:43.128><c>declared </c><00:12:43.392><c>in </c><00:12:43.656><c>the </c><00:12:43.920><c>environment</c>
+
+00:12:45.550 --> 00:12:45.560 align:start position:0%
+which was declared in the environment
+ 
+
+00:12:45.560 --> 00:12:48.530 align:start position:0%
+which was declared in the environment
+above, <00:12:45.871><c>that </c><00:12:46.182><c>is, </c><00:12:46.493><c>not </c><00:12:46.804><c>in </c><00:12:47.115><c>the </c><00:12:47.426><c>function </c><00:12:47.737><c>that </c><00:12:48.048><c>we </c><00:12:48.359><c>are</c>
+
+00:12:48.530 --> 00:12:48.540 align:start position:0%
+above, that is, not in the function that we are
+ 
+
+00:12:48.540 --> 00:12:50.090 align:start position:0%
+above, that is, not in the function that we are
+now <00:12:48.712><c>in, </c><00:12:48.884><c>not </c><00:12:49.056><c>in </c><00:12:49.228><c>the </c><00:12:49.400><c>function </c><00:12:49.572><c>where </c><00:12:49.744><c>we </c><00:12:49.916><c>are</c>
+
+00:12:50.090 --> 00:12:50.100 align:start position:0%
+now in, not in the function where we are
+ 
+
+00:12:50.100 --> 00:12:51.949 align:start position:0%
+now in, not in the function where we are
+working. <00:12:50.370><c>We </c><00:12:50.640><c>must </c><00:12:50.910><c>immediately </c><00:12:51.180><c>ask </c><00:12:51.450><c>ourselves </c><00:12:51.720><c>if</c>
+
+00:12:51.949 --> 00:12:51.959 align:start position:0%
+working. We must immediately ask ourselves if
+ 
+
+00:12:51.959 --> 00:12:53.930 align:start position:0%
+working. We must immediately ask ourselves if
+I <00:12:52.479><c>can </c><00:12:52.999><c>optimize </c><00:12:53.519><c>this</c>
+
+00:12:53.930 --> 00:12:53.940 align:start position:0%
+I can optimize this
+ 
+
+00:12:53.940 --> 00:12:55.430 align:start position:0%
+I can optimize this
+process <00:12:54.170><c>in </c><00:12:54.400><c>such </c><00:12:54.630><c>a </c><00:12:54.860><c>way </c><00:12:55.090><c>as </c><00:12:55.320><c>to</c>
+
+00:12:55.430 --> 00:12:55.440 align:start position:0%
+process in such a way as to
+ 
+
+00:12:55.440 --> 00:12:57.009 align:start position:0%
+process in such a way as to
+use the
+
+00:12:57.009 --> 00:12:57.019 align:start position:0%
+use the
+ 
+
+00:12:57.019 --> 00:12:59.090 align:start position:0%
+use the
+identifier <00:12:57.672><c>that </c><00:12:58.325><c>is </c><00:12:58.978><c>declared</c>
+
+00:12:59.090 --> 00:12:59.100 align:start position:0%
+identifier that is declared
+ 
+
+00:12:59.100 --> 00:13:01.550 align:start position:0%
+identifier that is declared
+locally <00:12:59.699><c>for </c><00:13:00.298><c>my </c><00:13:00.897><c>inner</c>
+
+00:13:01.550 --> 00:13:01.560 align:start position:0%
+locally for my inner
+ 
+
+00:13:01.560 --> 00:13:05.150 align:start position:0%
+locally for my inner
+Think <00:13:01.931><c>function </c><00:13:02.302><c>because </c><00:13:02.673><c>for </c><00:13:03.044><c>the </c><00:13:03.415><c>bytecode </c><00:13:03.786><c>of </c><00:13:04.157><c>the</c>
+
+00:13:05.150 --> 00:13:05.160 align:start position:0%
+Think function because for the bytecode of the
+ 
+
+00:13:05.160 --> 00:13:06.650 align:start position:0%
+Think function because for the bytecode of the
+virtual <00:13:05.445><c>machine </c><00:13:05.730><c>that </c><00:13:06.015><c>serves </c><00:13:06.300><c>the</c>
+
+00:13:06.650 --> 00:13:06.660 align:start position:0%
+virtual machine that serves the
+ 
+
+00:13:06.660 --> 00:13:08.629 align:start position:0%
+virtual machine that serves the
+bytecode, <00:13:06.960><c>this </c><00:13:07.260><c>code </c><00:13:07.560><c>will </c><00:13:07.860><c>work </c><00:13:08.160><c>much</c>
+
+00:13:08.629 --> 00:13:08.639 align:start position:0%
+bytecode, this code will work much
+ 
+
+00:13:08.639 --> 00:13:10.009 align:start position:0%
+bytecode, this code will work much
+faster, as well as
+
+00:13:10.009 --> 00:13:10.019 align:start position:0%
+faster, as well as
+ 
+
+00:13:10.019 --> 00:13:13.129 align:start position:0%
+faster, as well as
+for <00:13:10.709><c>the </c><00:13:11.399><c>optimizing </c><00:13:12.089><c>compiler </c><00:13:12.779><c>in</c>
+
+00:13:13.129 --> 00:13:13.139 align:start position:0%
+for the optimizing compiler in
+ 
+
+00:13:13.139 --> 00:13:15.230 align:start position:0%
+for the optimizing compiler in
+the <00:13:13.312><c>event </c><00:13:13.485><c>that </c><00:13:13.658><c>it </c><00:13:13.831><c>comes </c><00:13:14.004><c>to </c><00:13:14.177><c>it, </c><00:13:14.350><c>this </c><00:13:14.523><c>code </c><00:13:14.696><c>will</c>
+
+00:13:15.230 --> 00:13:15.240 align:start position:0%
+the event that it comes to it, this code will
+ 
+
+00:13:15.240 --> 00:13:17.269 align:start position:0%
+the event that it comes to it, this code will
+also <00:13:15.840><c>work </c><00:13:16.440><c>much </c><00:13:17.040><c>faster,</c>
+
+00:13:17.269 --> 00:13:17.279 align:start position:0%
+also work much faster,
+ 
+
+00:13:17.279 --> 00:13:19.509 align:start position:0%
+also work much faster,
+otherwise, <00:13:18.839><c>the</c>
+
+00:13:19.509 --> 00:13:19.519 align:start position:0%
+otherwise, the
+ 
+
+00:13:19.519 --> 00:13:22.129 align:start position:0%
+otherwise, the
+existence <00:13:20.252><c>of </c><00:13:20.985><c>our </c><00:13:21.718><c>identifier</c>
+
+00:13:22.129 --> 00:13:22.139 align:start position:0%
+existence of our identifier
+ 
+
+00:13:22.139 --> 00:13:23.569 align:start position:0%
+existence of our identifier
+outside <00:13:22.319><c>of </c><00:13:22.499><c>this </c><00:13:22.679><c>function </c><00:13:22.859><c>in </c><00:13:23.039><c>which </c><00:13:23.219><c>we </c><00:13:23.399><c>are</c>
+
+00:13:23.569 --> 00:13:23.579 align:start position:0%
+outside of this function in which we are
+ 
+
+00:13:23.579 --> 00:13:25.370 align:start position:0%
+outside of this function in which we are
+now <00:13:23.849><c>executing </c><00:13:24.119><c>the </c><00:13:24.389><c>code </c><00:13:24.659><c>leads </c><00:13:24.929><c>to </c><00:13:25.199><c>two</c>
+
+00:13:25.370 --> 00:13:25.380 align:start position:0%
+now executing the code leads to two
+ 
+
+00:13:25.380 --> 00:13:28.069 align:start position:0%
+now executing the code leads to two
+things. <00:13:25.627><c>The </c><00:13:25.874><c>first </c><00:13:26.121><c>thing </c><00:13:26.368><c>is </c><00:13:26.615><c>that </c><00:13:26.862><c>for </c><00:13:27.109><c>the </c><00:13:27.356><c>parent</c>
+
+00:13:28.069 --> 00:13:28.079 align:start position:0%
+things. The first thing is that for the parent
+ 
+
+00:13:28.079 --> 00:13:30.530 align:start position:0%
+things. The first thing is that for the parent
+environment <00:13:28.619><c>of </c><00:13:29.159><c>this </c><00:13:29.699><c>identifier, </c><00:13:30.239><c>a</c>
+
+00:13:30.530 --> 00:13:30.540 align:start position:0%
+environment of this identifier, a
+ 
+
+00:13:30.540 --> 00:13:32.449 align:start position:0%
+environment of this identifier, a
+service <00:13:30.876><c>structure </c><00:13:31.212><c>will </c><00:13:31.548><c>necessarily </c><00:13:31.884><c>be </c><00:13:32.220><c>created,</c>
+
+00:13:32.449 --> 00:13:32.459 align:start position:0%
+service structure will necessarily be created,
+ 
+
+00:13:32.459 --> 00:13:34.569 align:start position:0%
+service structure will necessarily be created,
+which <00:13:32.681><c>everyone </c><00:13:32.903><c>is </c><00:13:33.125><c>accustomed </c><00:13:33.347><c>to </c><00:13:33.569><c>calling </c><00:13:33.791><c>a </c><00:13:34.013><c>context,</c>
+
+00:13:34.569 --> 00:13:34.579 align:start position:0%
+which everyone is accustomed to calling a context,
+ 
+
+00:13:34.579 --> 00:13:36.829 align:start position:0%
+which everyone is accustomed to calling a context,
+within <00:13:34.905><c>this </c><00:13:35.231><c>context </c><00:13:35.557><c>there </c><00:13:35.883><c>will </c><00:13:36.209><c>be </c><00:13:36.535><c>a</c>
+
+00:13:36.829 --> 00:13:36.839 align:start position:0%
+within this context there will be a
+ 
+
+00:13:36.839 --> 00:13:39.170 align:start position:0%
+within this context there will be a
+saved <00:13:37.394><c>identifier </c><00:13:37.949><c>with </c><00:13:38.504><c>its </c><00:13:39.059><c>own</c>
+
+00:13:39.170 --> 00:13:39.180 align:start position:0%
+saved identifier with its own
+ 
+
+00:13:39.180 --> 00:13:40.910 align:start position:0%
+saved identifier with its own
+value, <00:13:39.740><c>access </c><00:13:40.300><c>to </c><00:13:40.860><c>this</c>
+
+00:13:40.910 --> 00:13:40.920 align:start position:0%
+value, access to this
+ 
+
+00:13:40.920 --> 00:13:42.350 align:start position:0%
+value, access to this
+identifier <00:13:41.175><c>will </c><00:13:41.430><c>be </c><00:13:41.685><c>carried </c><00:13:41.940><c>out</c>
+
+00:13:42.350 --> 00:13:42.360 align:start position:0%
+identifier will be carried out
+ 
+
+00:13:42.360 --> 00:13:45.110 align:start position:0%
+identifier will be carried out
+by <00:13:42.828><c>loading </c><00:13:43.296><c>a </c><00:13:43.764><c>certain </c><00:13:44.232><c>value </c><00:13:44.700><c>from</c>
+
+00:13:45.110 --> 00:13:45.120 align:start position:0%
+by loading a certain value from
+ 
+
+00:13:45.120 --> 00:13:47.810 align:start position:0%
+by loading a certain value from
+this <00:13:45.509><c>context, </c><00:13:45.898><c>which </c><00:13:46.287><c>in </c><00:13:46.676><c>its </c><00:13:47.065><c>speed </c><00:13:47.454><c>and</c>
+
+00:13:47.810 --> 00:13:47.820 align:start position:0%
+this context, which in its speed and
+ 
+
+00:13:47.820 --> 00:13:49.490 align:start position:0%
+this context, which in its speed and
+performance <00:13:48.132><c>is </c><00:13:48.444><c>not </c><00:13:48.756><c>at </c><00:13:49.068><c>all </c><00:13:49.380><c>the</c>
+
+00:13:49.490 --> 00:13:49.500 align:start position:0%
+performance is not at all the
+ 
+
+00:13:49.500 --> 00:13:52.150 align:start position:0%
+performance is not at all the
+same <00:13:49.672><c>as </c><00:13:49.844><c>working </c><00:13:50.016><c>with </c><00:13:50.188><c>both </c><00:13:50.360><c>the </c><00:13:50.532><c>registers </c><00:13:50.704><c>of </c><00:13:50.876><c>the</c>
+
+00:13:52.150 --> 00:13:52.160 align:start position:0%
+same as working with both the registers of the
+ 
+
+00:13:52.160 --> 00:13:54.530 align:start position:0%
+same as working with both the registers of the
+virtual <00:13:52.650><c>machine </c><00:13:53.140><c>and </c><00:13:53.630><c>subsequently </c><00:13:54.120><c>the</c>
+
+00:13:54.530 --> 00:13:54.540 align:start position:0%
+virtual machine and subsequently the
+ 
+
+00:13:54.540 --> 00:13:57.170 align:start position:0%
+virtual machine and subsequently the
+registers <00:13:55.155><c>associated </c><00:13:55.770><c>with </c><00:13:56.385><c>the </c><00:13:57.000><c>already</c>
+
+00:13:57.170 --> 00:13:57.180 align:start position:0%
+registers associated with the already
+ 
+
+00:13:57.180 --> 00:13:59.090 align:start position:0%
+registers associated with the already
+optimized one,
+
+00:13:59.090 --> 00:13:59.100 align:start position:0%
+optimized one,
+ 
+
+00:13:59.100 --> 00:14:01.810 align:start position:0%
+optimized one,
+of <00:13:59.354><c>course, </c><00:13:59.608><c>it </c><00:13:59.862><c>is </c><00:14:00.116><c>much </c><00:14:00.370><c>more </c><00:14:00.624><c>convenient </c><00:14:00.878><c>to </c><00:14:01.132><c>have</c>
+
+00:14:01.810 --> 00:14:01.820 align:start position:0%
+of course, it is much more convenient to have
+ 
+
+00:14:01.820 --> 00:14:04.009 align:start position:0%
+of course, it is much more convenient to have
+in <00:14:02.453><c>some  </c><00:14:03.086><c>parent </c><00:14:03.719><c>environment</c>
+
+00:14:04.009 --> 00:14:04.019 align:start position:0%
+in some  parent environment
+ 
+
+00:14:04.019 --> 00:14:06.610 align:start position:0%
+in some  parent environment
+because <00:14:04.451><c>it's </c><00:14:04.883><c>architecturally </c><00:14:05.315><c>good </c><00:14:05.747><c>for </c><00:14:06.179><c>us,</c>
+
+00:14:06.610 --> 00:14:06.620 align:start position:0%
+because it's architecturally good for us,
+ 
+
+00:14:06.620 --> 00:14:09.829 align:start position:0%
+because it's architecturally good for us,
+but <00:14:07.126><c>we </c><00:14:07.632><c>should </c><00:14:08.138><c>remember </c><00:14:08.644><c>that </c><00:14:09.150><c>if </c><00:14:09.656><c>we</c>
+
+00:14:09.829 --> 00:14:09.839 align:start position:0%
+but we should remember that if we
+ 
+
+00:14:09.839 --> 00:14:12.710 align:start position:0%
+but we should remember that if we
+can <00:14:11.279><c>use</c>
+
+00:14:12.710 --> 00:14:12.720 align:start position:0%
+can use
+ 
+
+00:14:12.720 --> 00:14:15.170 align:start position:0%
+can use
+some <00:14:13.070><c>local </c><00:14:13.420><c>identifiers </c><00:14:13.770><c>somewhere </c><00:14:14.120><c>inside, </c><00:14:14.470><c>like, </c><00:14:14.820><c>for</c>
+
+00:14:15.170 --> 00:14:15.180 align:start position:0%
+some local identifiers somewhere inside, like, for
+ 
+
+00:14:15.180 --> 00:14:17.210 align:start position:0%
+some local identifiers somewhere inside, like, for
+example, <00:14:15.390><c>in </c><00:14:15.600><c>the </c><00:14:15.810><c>case </c><00:14:16.020><c>of </c><00:14:16.230><c>this </c><00:14:16.440><c>cycle</c>
+
+00:14:17.210 --> 00:14:17.220 align:start position:0%
+example, in the case of this cycle
+ 
+
+00:14:17.220 --> 00:14:20.030 align:start position:0%
+example, in the case of this cycle
+organized <00:14:17.550><c>with </c><00:14:17.880><c>the </c><00:14:18.210><c>help </c><00:14:18.540><c>of, </c><00:14:18.870><c>then </c><00:14:19.200><c>it </c><00:14:19.530><c>would </c><00:14:19.860><c>be</c>
+
+00:14:20.030 --> 00:14:20.040 align:start position:0%
+organized with the help of, then it would be
+ 
+
+00:14:20.040 --> 00:14:23.990 align:start position:0%
+organized with the help of, then it would be
+better <00:14:20.652><c>to </c><00:14:21.264><c>use </c><00:14:21.876><c>them </c><00:14:22.488><c>even </c><00:14:23.100><c>in</c>
+
+00:14:23.990 --> 00:14:24.000 align:start position:0%
+better to use them even in
+ 
+
+00:14:24.000 --> 00:14:26.210 align:start position:0%
+better to use them even in
+some <00:14:24.480><c>kind </c><00:14:24.960><c>of </c><00:14:25.440><c>underdeveloped</c>
+
+00:14:26.210 --> 00:14:26.220 align:start position:0%
+some kind of underdeveloped
+ 
+
+00:14:26.220 --> 00:14:27.650 align:start position:0%
+some kind of underdeveloped
+form
+
+00:14:27.650 --> 00:14:27.660 align:start position:0%
+form
+ 
+
+00:14:27.660 --> 00:14:30.949 align:start position:0%
+form
+where <00:14:27.975><c>we </c><00:14:28.290><c>declare </c><00:14:28.605><c>a </c><00:14:28.920><c>local </c><00:14:29.235><c>identifier </c><00:14:29.550><c>inside </c><00:14:29.865><c>this </c><00:14:30.180><c>function</c>
+
+00:14:30.949 --> 00:14:30.959 align:start position:0%
+where we declare a local identifier inside this function
+ 
+
+00:14:30.959 --> 00:14:33.170 align:start position:0%
+where we declare a local identifier inside this function
+and <00:14:31.889><c>then </c><00:14:32.819><c>work</c>
+
+00:14:33.170 --> 00:14:33.180 align:start position:0%
+and then work
+ 
+
+00:14:33.180 --> 00:14:35.150 align:start position:0%
+and then work
+only <00:14:33.495><c>with </c><00:14:33.810><c>this </c><00:14:34.125><c>local </c><00:14:34.440><c>identifier.</c>
+
+00:14:35.150 --> 00:14:35.160 align:start position:0%
+only with this local identifier.
+ 
+
+00:14:35.160 --> 00:14:37.430 align:start position:0%
+only with this local identifier.
+And <00:14:35.468><c>if </c><00:14:35.776><c>we </c><00:14:36.084><c>need </c><00:14:36.392><c>a </c><00:14:36.700><c>value </c><00:14:37.008><c>from </c><00:14:37.316><c>this</c>
+
+00:14:37.430 --> 00:14:37.440 align:start position:0%
+And if we need a value from this
+ 
+
+00:14:37.440 --> 00:14:39.230 align:start position:0%
+And if we need a value from this
+local <00:14:37.752><c>identifier </c><00:14:38.064><c>so </c><00:14:38.376><c>that </c><00:14:38.688><c>it </c><00:14:39.000><c>is</c>
+
+00:14:39.230 --> 00:14:39.240 align:start position:0%
+local identifier so that it is
+ 
+
+00:14:39.240 --> 00:14:41.569 align:start position:0%
+local identifier so that it is
+reflected. <00:14:39.735><c>The </c><00:14:40.230><c>sing, </c><00:14:40.725><c>then </c><00:14:41.220><c>before</c>
+
+00:14:41.569 --> 00:14:41.579 align:start position:0%
+reflected. The sing, then before
+ 
+
+00:14:41.579 --> 00:14:46.370 align:start position:0%
+reflected. The sing, then before
+output <00:14:42.339><c>we </c><00:14:43.099><c>return </c><00:14:43.859><c>this </c><00:14:44.619><c>value, </c><00:14:45.379><c>even</c>
+
+00:14:46.370 --> 00:14:46.380 align:start position:0%
+output we return this value, even
+ 
+
+00:14:46.380 --> 00:14:48.710 align:start position:0%
+output we return this value, even
+in <00:14:46.740><c>this </c><00:14:47.100><c>case </c><00:14:47.460><c>we </c><00:14:47.820><c>can </c><00:14:48.180><c>get </c><00:14:48.540><c>Profit</c>
+
+00:14:48.710 --> 00:14:48.720 align:start position:0%
+in this case we can get Profit
+ 
+
+00:14:48.720 --> 00:14:50.990 align:start position:0%
+in this case we can get Profit
+if <00:14:49.146><c>our </c><00:14:49.572><c>counter, </c><00:14:49.998><c>our</c>
+
+00:14:50.990 --> 00:14:51.000 align:start position:0%
+if our counter, our
+ 
+
+00:14:51.000 --> 00:14:52.910 align:start position:0%
+if our counter, our
+identifier, <00:14:51.780><c>is </c><00:14:52.560><c>used</c>
+
+00:14:52.910 --> 00:14:52.920 align:start position:0%
+identifier, is used
+ 
+
+00:14:52.920 --> 00:14:55.370 align:start position:0%
+identifier, is used
+quite <00:14:53.197><c>often. </c><00:14:53.474><c>And </c><00:14:53.751><c>it </c><00:14:54.028><c>is </c><00:14:54.305><c>even </c><00:14:54.582><c>better </c><00:14:54.859><c>to </c><00:14:55.136><c>simply</c>
+
+00:14:55.370 --> 00:14:55.380 align:start position:0%
+quite often. And it is even better to simply
+ 
+
+00:14:55.380 --> 00:14:57.110 align:start position:0%
+quite often. And it is even better to simply
+pass <00:14:55.610><c>this </c><00:14:55.840><c>value </c><00:14:56.070><c>through </c><00:14:56.300><c>the </c><00:14:56.530><c>function </c><00:14:56.760><c>arguments.</c>
+
+00:14:57.110 --> 00:14:57.120 align:start position:0%
+pass this value through the function arguments.
+ 
+
+00:14:57.120 --> 00:14:58.790 align:start position:0%
+pass this value through the function arguments.
+
+
+00:14:58.790 --> 00:14:58.800 align:start position:0%
+ 
+ 
+
+00:14:58.800 --> 00:15:00.769 align:start position:0%
+ 
+That's <00:14:59.060><c>all </c><00:14:59.320><c>I </c><00:14:59.580><c>tried </c><00:14:59.840><c>to </c><00:15:00.100><c>say </c><00:15:00.360><c>and</c>
+
+00:15:00.769 --> 00:15:00.779 align:start position:0%
+That's all I tried to say and
+ 
+
+00:15:00.779 --> 00:15:02.449 align:start position:0%
+That's all I tried to say and
+tried <00:15:00.899><c>to </c><00:15:01.019><c>invest </c><00:15:01.139><c>in </c><00:15:01.259><c>learning </c><00:15:01.379><c>how </c><00:15:01.499><c>to</c>
+
+00:15:02.449 --> 00:15:02.459 align:start position:0%
+tried to invest in learning how to
+ 
+
+00:15:02.459 --> 00:15:08.420 align:start position:0%
+tried to invest in learning how to
+fit <00:15:03.179><c>in </c><00:15:03.899><c>less </c><00:15:04.619><c>than </c><00:15:05.339><c>10 </c><00:15:06.059><c>minutes.</c>
+

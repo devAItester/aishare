@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.719 --> 00:00:02.990 align:start position:0%
+ 
+With <00:00:00.919><c>this </c><00:00:01.119><c>video </c><00:00:01.319><c>I'm </c><00:00:01.519><c>trying </c><00:00:01.719><c>to </c><00:00:01.919><c>find </c><00:00:02.119><c>out </c><00:00:02.319><c>for </c><00:00:02.519><c>myself</c>
+
+00:00:02.990 --> 00:00:03.000 align:start position:0%
+With this video I'm trying to find out for myself
+ 
+
+00:00:03.000 --> 00:00:05.570 align:start position:0%
+With this video I'm trying to find out for myself
+how <00:00:03.307><c>useful </c><00:00:03.614><c>something </c><00:00:03.921><c>can </c><00:00:04.228><c>be </c><00:00:04.535><c>for </c><00:00:04.842><c>me, </c><00:00:05.149><c>that </c><00:00:05.456><c>is,</c>
+
+00:00:05.570 --> 00:00:05.580 align:start position:0%
+how useful something can be for me, that is,
+ 
+
+00:00:05.580 --> 00:00:08.509 align:start position:0%
+how useful something can be for me, that is,
+I'll <00:00:05.959><c>try </c><00:00:06.338><c>to </c><00:00:06.717><c>answer </c><00:00:07.096><c>for </c><00:00:07.475><c>myself </c><00:00:07.854><c>the</c>
+
+00:00:08.509 --> 00:00:08.519 align:start position:0%
+I'll try to answer for myself the
+ 
+
+00:00:08.519 --> 00:00:11.089 align:start position:0%
+I'll try to answer for myself the
+question <00:00:08.804><c>of </c><00:00:09.089><c>how </c><00:00:09.374><c>the </c><00:00:09.659><c>size </c><00:00:09.944><c>of </c><00:00:10.229><c>a </c><00:00:10.514><c>javascript </c><00:00:10.799><c>array</c>
+
+00:00:11.089 --> 00:00:11.099 align:start position:0%
+question of how the size of a javascript array
+ 
+
+00:00:11.099 --> 00:00:13.789 align:start position:0%
+question of how the size of a javascript array
+can <00:00:11.519><c>affect </c><00:00:11.939><c>performance</c>
+
+00:00:13.789 --> 00:00:13.799 align:start position:0%
+can affect performance
+ 
+
+00:00:13.799 --> 00:00:16.310 align:start position:0%
+can affect performance
+or <00:00:14.069><c>how </c><00:00:14.339><c>the </c><00:00:14.609><c>speed </c><00:00:14.879><c>of </c><00:00:15.149><c>my </c><00:00:15.419><c>javascript </c><00:00:15.689><c>execution </c><00:00:15.959><c>depends</c>
+
+00:00:16.310 --> 00:00:16.320 align:start position:0%
+or how the speed of my javascript execution depends
+ 
+
+00:00:16.320 --> 00:00:19.070 align:start position:0%
+or how the speed of my javascript execution depends
+on <00:00:16.824><c>the </c><00:00:17.328><c>length </c><00:00:17.832><c>of </c><00:00:18.336><c>the </c><00:00:18.840><c>array</c>
+
+00:00:19.070 --> 00:00:19.080 align:start position:0%
+on the length of the array
+ 
+
+00:00:19.080 --> 00:00:22.029 align:start position:0%
+on the length of the array
+I'm <00:00:19.307><c>working </c><00:00:19.534><c>with. </c><00:00:19.761><c>There </c><00:00:19.988><c>is </c><00:00:20.215><c>no </c><00:00:20.442><c>simple </c><00:00:20.669><c>answer </c><00:00:20.896><c>to </c><00:00:21.123><c>this </c><00:00:21.350><c>question,</c>
+
+00:00:22.029 --> 00:00:22.039 align:start position:0%
+I'm working with. There is no simple answer to this question,
+ 
+
+00:00:22.039 --> 00:00:24.230 align:start position:0%
+I'm working with. There is no simple answer to this question,
+but <00:00:22.574><c>what </c><00:00:23.109><c>you </c><00:00:23.644><c>need </c><00:00:24.179><c>to</c>
+
+00:00:24.230 --> 00:00:24.240 align:start position:0%
+but what you need to
+ 
+
+00:00:24.240 --> 00:00:26.630 align:start position:0%
+but what you need to
+remember <00:00:25.139><c>when </c><00:00:26.038><c>we</c>
+
+00:00:26.630 --> 00:00:26.640 align:start position:0%
+remember when we
+ 
+
+00:00:26.640 --> 00:00:29.150 align:start position:0%
+remember when we
+use <00:00:28.380><c>array-like</c>
+
+00:00:29.150 --> 00:00:29.160 align:start position:0%
+use array-like
+ 
+
+00:00:29.160 --> 00:00:31.250 align:start position:0%
+use array-like
+objects, <00:00:29.460><c>that </c><00:00:29.760><c>is, </c><00:00:30.060><c>objects </c><00:00:30.360><c>that </c><00:00:30.660><c>are </c><00:00:30.960><c>created</c>
+
+00:00:31.250 --> 00:00:31.260 align:start position:0%
+objects, that is, objects that are created
+ 
+
+00:00:31.260 --> 00:00:33.049 align:start position:0%
+objects, that is, objects that are created
+using <00:00:32.220><c>the</c>
+
+00:00:33.049 --> 00:00:33.059 align:start position:0%
+using the
+ 
+
+00:00:33.059 --> 00:00:38.510 align:start position:0%
+using the
+array <00:00:33.513><c>constructor </c><00:00:33.967><c>or </c><00:00:34.421><c>a </c><00:00:34.875><c>literal </c><00:00:35.329><c>from </c><00:00:35.783><c>square </c><00:00:36.237><c>quotes,</c>
+
+00:00:38.510 --> 00:00:38.520 align:start position:0%
+array constructor or a literal from square quotes,
+ 
+
+00:00:38.520 --> 00:00:44.410 align:start position:0%
+array constructor or a literal from square quotes,
+yours <00:00:39.276><c>should </c><00:00:40.032><c>not </c><00:00:40.788><c>be </c><00:00:41.544><c>more </c><00:00:42.300><c>than</c>
+
+00:00:44.410 --> 00:00:44.420 align:start position:0%
+yours should not be more than
+ 
+
+00:00:44.420 --> 00:00:50.990 align:start position:0%
+yours should not be more than
+60-65 <00:00:45.420><c>elements</c>
+
+00:00:50.990 --> 00:00:51.000 align:start position:0%
+ 
+ 
+
+00:00:51.000 --> 00:00:53.389 align:start position:0%
+ 
+because <00:00:51.265><c>it </c><00:00:51.530><c>is </c><00:00:51.795><c>this </c><00:00:52.060><c>volume </c><00:00:52.325><c>that </c><00:00:52.590><c>can </c><00:00:52.855><c>effectively</c>
+
+00:00:53.389 --> 00:00:53.399 align:start position:0%
+because it is this volume that can effectively
+ 
+
+00:00:53.399 --> 00:00:56.750 align:start position:0%
+because it is this volume that can effectively
+optimize <00:00:53.999><c>hair </c><00:00:54.599><c>and </c><00:00:55.199><c>other </c><00:00:55.799><c>runtimes. </c><00:00:56.399><c>And</c>
+
+00:00:56.750 --> 00:00:56.760 align:start position:0%
+optimize hair and other runtimes. And
+ 
+
+00:00:56.760 --> 00:00:59.450 align:start position:0%
+optimize hair and other runtimes. And
+about <00:00:57.037><c>everything </c><00:00:57.314><c>else, </c><00:00:57.591><c>you </c><00:00:57.868><c>need </c><00:00:58.145><c>to </c><00:00:58.422><c>watch </c><00:00:58.699><c>My </c><00:00:58.976><c>streams</c>
+
+00:00:59.450 --> 00:00:59.460 align:start position:0%
+about everything else, you need to watch My streams
+ 
+
+00:00:59.460 --> 00:01:01.820 align:start position:0%
+about everything else, you need to watch My streams
+where <00:00:59.699><c>I</c>
+

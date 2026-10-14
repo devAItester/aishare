@@ -1,0 +1,2204 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:42.660 --> 00:03:17.470 align:start position:0%
+ 
+[music]
+
+00:03:17.470 --> 00:03:17.480 align:start position:0%
+ 
+ 
+
+00:03:17.480 --> 00:03:20.089 align:start position:0%
+ 
+Hello, <00:03:17.856><c>my </c><00:03:18.232><c>bearded </c><00:03:18.608><c>little </c><00:03:18.984><c>tough </c><00:03:19.360><c>guys, </c><00:03:19.736><c>I'm</c>
+
+00:03:20.089 --> 00:03:20.099 align:start position:0%
+Hello, my bearded little tough guys, I'm
+ 
+
+00:03:20.099 --> 00:03:22.550 align:start position:0%
+Hello, my bearded little tough guys, I'm
+
+
+00:03:22.550 --> 00:03:22.560 align:start position:0%
+ 
+ 
+
+00:03:22.560 --> 00:03:26.350 align:start position:0%
+ 
+with <00:03:22.920><c>you. </c><00:03:23.280><c>Of </c><00:03:23.640><c>course, </c><00:03:24.000><c>I'm </c><00:03:24.360><c>just </c><00:03:24.720><c>as </c><00:03:25.080><c>bearded </c><00:03:25.440><c>and</c>
+
+00:03:26.350 --> 00:03:26.360 align:start position:0%
+with you. Of course, I'm just as bearded and
+ 
+
+00:03:26.360 --> 00:03:30.170 align:start position:0%
+with you. Of course, I'm just as bearded and
+small, <00:03:26.806><c>and </c><00:03:27.252><c>what's </c><00:03:27.698><c>the </c><00:03:28.144><c>worst </c><00:03:28.590><c>thing </c><00:03:29.036><c>about</c>
+
+00:03:30.170 --> 00:03:30.180 align:start position:0%
+small, and what's the worst thing about
+ 
+
+00:03:30.180 --> 00:03:34.190 align:start position:0%
+small, and what's the worst thing about
+JavaScript?
+
+00:03:34.190 --> 00:03:34.200 align:start position:0%
+ 
+ 
+
+00:03:34.200 --> 00:03:37.070 align:start position:0%
+ 
+Today <00:03:34.530><c>I </c><00:03:34.860><c>want </c><00:03:35.190><c>to </c><00:03:35.520><c>talk </c><00:03:35.850><c>about </c><00:03:36.180><c>a </c><00:03:36.510><c>topic </c><00:03:36.840><c>that</c>
+
+00:03:37.070 --> 00:03:37.080 align:start position:0%
+Today I want to talk about a topic that
+ 
+
+00:03:37.080 --> 00:03:39.710 align:start position:0%
+Today I want to talk about a topic that
+worries <00:03:37.330><c>me, </c><00:03:37.580><c>and </c><00:03:37.830><c>therefore </c><00:03:38.080><c>you, </c><00:03:38.330><c>too, </c><00:03:38.580><c>namely,</c>
+
+00:03:39.710 --> 00:03:39.720 align:start position:0%
+worries me, and therefore you, too, namely,
+ 
+
+00:03:39.720 --> 00:03:43.570 align:start position:0%
+worries me, and therefore you, too, namely,
+how <00:03:41.819><c>the</c>
+
+00:03:43.570 --> 00:03:43.580 align:start position:0%
+how the
+ 
+
+00:03:43.580 --> 00:03:45.649 align:start position:0%
+how the
+correct <00:03:43.904><c>perception </c><00:03:44.228><c>of </c><00:03:44.552><c>the </c><00:03:44.876><c>syntactic</c>
+
+00:03:45.649 --> 00:03:45.659 align:start position:0%
+correct perception of the syntactic
+ 
+
+00:03:45.659 --> 00:03:48.649 align:start position:0%
+correct perception of the syntactic
+constructions <00:03:45.959><c>of </c><00:03:46.259><c>a </c><00:03:46.559><c>language </c><00:03:46.859><c>allows </c><00:03:47.159><c>us </c><00:03:47.459><c>to </c><00:03:47.759><c>look </c><00:03:48.059><c>at </c><00:03:48.359><c>the</c>
+
+00:03:48.649 --> 00:03:48.659 align:start position:0%
+constructions of a language allows us to look at the
+ 
+
+00:03:48.659 --> 00:03:51.110 align:start position:0%
+constructions of a language allows us to look at the
+language <00:03:48.887><c>from </c><00:03:49.115><c>completely </c><00:03:49.343><c>unexpected </c><00:03:49.571><c>angles. </c><00:03:49.799><c>We'll</c>
+
+00:03:51.110 --> 00:03:51.120 align:start position:0%
+language from completely unexpected angles. We'll
+ 
+
+00:03:51.120 --> 00:03:56.449 align:start position:0%
+language from completely unexpected angles. We'll
+do <00:03:51.329><c>this </c><00:03:51.538><c>using </c><00:03:51.747><c>the </c><00:03:51.956><c>example </c><00:03:52.165><c>of </c><00:03:52.374><c>a</c>
+
+00:03:56.449 --> 00:03:56.459 align:start position:0%
+ 
+ 
+
+00:03:56.459 --> 00:04:01.670 align:start position:0%
+ 
+task. <00:03:56.759><c>Why </c><00:03:57.059><c>didn't </c><00:03:57.359><c>I </c><00:03:57.659><c>turn </c><00:03:57.959><c>it </c><00:03:58.259><c>off, </c><00:03:58.559><c>you </c><00:03:58.859><c>fool,</c>
+
+00:04:01.670 --> 00:04:01.680 align:start position:0%
+task. Why didn't I turn it off, you fool,
+ 
+
+00:04:01.680 --> 00:04:04.809 align:start position:0%
+task. Why didn't I turn it off, you fool,
+but <00:04:01.879><c>get </c><00:04:02.078><c>used </c><00:04:02.277><c>to </c><00:04:02.476><c>it. </c><00:04:02.675><c>They </c><00:04:02.874><c>always</c>
+
+00:04:04.809 --> 00:04:04.819 align:start position:0%
+but get used to it. They always
+ 
+
+00:04:04.819 --> 00:04:11.710 align:start position:0%
+but get used to it. They always
+told <00:04:05.152><c>me </c><00:04:05.485><c>that </c><00:04:05.818><c>the</c>
+
+00:04:11.710 --> 00:04:11.720 align:start position:0%
+ 
+ 
+
+00:04:11.720 --> 00:04:15.710 align:start position:0%
+ 
+quality <00:04:12.248><c>of </c><00:04:12.776><c>a </c><00:04:13.304><c>like </c><00:04:13.832><c>and </c><00:04:14.360><c>a </c><00:04:14.888><c>subscription </c><00:04:15.416><c>must</c>
+
+00:04:15.710 --> 00:04:15.720 align:start position:0%
+quality of a like and a subscription must
+ 
+
+00:04:15.720 --> 00:04:18.890 align:start position:0%
+quality of a like and a subscription must
+necessarily <00:04:16.140><c>be </c><00:04:16.560><c>the </c><00:04:16.980><c>quality </c><00:04:17.400><c>of </c><00:04:17.820><c>your </c><00:04:18.240><c>reactions </c><00:04:18.660><c>to</c>
+
+00:04:18.890 --> 00:04:18.900 align:start position:0%
+necessarily be the quality of your reactions to
+ 
+
+00:04:18.900 --> 00:04:20.810 align:start position:0%
+necessarily be the quality of your reactions to
+this <00:04:19.247><c>video, </c><00:04:19.594><c>if </c><00:04:19.941><c>only </c><00:04:20.288><c>because </c><00:04:20.635><c>I</c>
+
+00:04:20.810 --> 00:04:20.820 align:start position:0%
+this video, if only because I
+ 
+
+00:04:20.820 --> 00:04:22.370 align:start position:0%
+this video, if only because I
+managed <00:04:21.071><c>to </c><00:04:21.322><c>draw </c><00:04:21.573><c>these </c><00:04:21.824><c>icons </c><00:04:22.075><c>on</c>
+
+00:04:22.370 --> 00:04:22.380 align:start position:0%
+managed to draw these icons on
+ 
+
+00:04:22.380 --> 00:04:24.650 align:start position:0%
+managed to draw these icons on
+pizza <00:04:22.700><c>boxes, </c><00:04:23.020><c>or </c><00:04:23.340><c>rather </c><00:04:23.660><c>on </c><00:04:23.980><c>boxes </c><00:04:24.300><c>that</c>
+
+00:04:24.650 --> 00:04:24.660 align:start position:0%
+pizza boxes, or rather on boxes that
+ 
+
+00:04:24.660 --> 00:04:26.510 align:start position:0%
+pizza boxes, or rather on boxes that
+once <00:04:24.959><c>contained </c><00:04:25.258><c>pizza,</c>
+
+00:04:26.510 --> 00:04:26.520 align:start position:0%
+once contained pizza,
+ 
+
+00:04:26.520 --> 00:04:29.390 align:start position:0%
+once contained pizza,
+from <00:04:26.900><c>which </c><00:04:27.280><c>the </c><00:04:27.660><c>quality </c><00:04:28.040><c>of </c><00:04:28.420><c>the </c><00:04:28.800><c>stream</c>
+
+00:04:29.390 --> 00:04:29.400 align:start position:0%
+from which the quality of the stream
+ 
+
+00:04:29.400 --> 00:04:32.390 align:start position:0%
+from which the quality of the stream
+certainly <00:04:29.952><c>immediately </c><00:04:30.504><c>increased </c><00:04:31.056><c>many </c><00:04:31.608><c>times </c><00:04:32.160><c>over,</c>
+
+00:04:32.390 --> 00:04:32.400 align:start position:0%
+certainly immediately increased many times over,
+ 
+
+00:04:32.400 --> 00:04:36.409 align:start position:0%
+certainly immediately increased many times over,
+and <00:04:32.957><c>it </c><00:04:33.514><c>is </c><00:04:34.071><c>certainly </c><00:04:34.628><c>much </c><00:04:35.185><c>higher </c><00:04:35.742><c>than </c><00:04:36.299><c>everything</c>
+
+00:04:36.409 --> 00:04:36.419 align:start position:0%
+and it is certainly much higher than everything
+ 
+
+00:04:36.419 --> 00:04:38.510 align:start position:0%
+and it is certainly much higher than everything
+I'm <00:04:36.803><c>talking </c><00:04:37.187><c>about, </c><00:04:37.571><c>because </c><00:04:37.955><c>we </c><00:04:38.339><c>all</c>
+
+00:04:38.510 --> 00:04:38.520 align:start position:0%
+I'm talking about, because we all
+ 
+
+00:04:38.520 --> 00:04:41.210 align:start position:0%
+I'm talking about, because we all
+know <00:04:39.011><c>that </c><00:04:39.502><c>a </c><00:04:39.993><c>cardboard </c><00:04:40.484><c>pizza </c><00:04:40.975><c>box</c>
+
+00:04:41.210 --> 00:04:41.220 align:start position:0%
+know that a cardboard pizza box
+ 
+
+00:04:41.220 --> 00:04:43.730 align:start position:0%
+know that a cardboard pizza box
+costs <00:04:41.540><c>much </c><00:04:41.860><c>more </c><00:04:42.180><c>than</c>
+
+00:04:43.730 --> 00:04:43.740 align:start position:0%
+costs much more than
+ 
+
+00:04:43.740 --> 00:04:46.810 align:start position:0%
+costs much more than
+understanding <00:04:44.085><c>what </c><00:04:44.430><c>it </c><00:04:44.775><c>is. </c><00:04:45.120><c>Let's</c>
+
+00:04:46.810 --> 00:04:46.820 align:start position:0%
+understanding what it is. Let's
+ 
+
+00:04:46.820 --> 00:04:49.129 align:start position:0%
+understanding what it is. Let's
+return <00:04:47.260><c>to </c><00:04:47.700><c>what </c><00:04:48.140><c>I </c><00:04:48.580><c>wanted </c><00:04:49.020><c>to</c>
+
+00:04:49.129 --> 00:04:49.139 align:start position:0%
+return to what I wanted to
+ 
+
+00:04:49.139 --> 00:04:52.370 align:start position:0%
+return to what I wanted to
+talk <00:04:49.229><c>about </c><00:04:49.319><c>first.</c>
+
+00:04:52.370 --> 00:04:52.380 align:start position:0%
+ 
+ 
+
+00:04:52.380 --> 00:04:53.890 align:start position:0%
+ 
+In the
+
+00:04:53.890 --> 00:04:53.900 align:start position:0%
+In the
+ 
+
+00:04:53.900 --> 00:05:01.550 align:start position:0%
+In the
+era <00:04:54.285><c>of </c><00:04:54.670><c>my </c><00:04:55.055><c>turbulent </c><00:04:55.440><c>youth,</c>
+
+00:05:01.550 --> 00:05:01.560 align:start position:0%
+ 
+ 
+
+00:05:01.560 --> 00:05:04.909 align:start position:0%
+ 
+those <00:05:01.843><c>well-known </c><00:05:02.126><c>gatherings </c><00:05:02.409><c>of </c><00:05:02.692><c>system </c><00:05:02.975><c>programmers </c><00:05:03.258><c>took </c><00:05:03.541><c>place, </c><00:05:03.824><c>famous </c><00:05:04.107><c>all </c><00:05:04.390><c>over </c><00:05:04.673><c>the</c>
+
+00:05:04.909 --> 00:05:04.919 align:start position:0%
+those well-known gatherings of system programmers took place, famous all over the
+ 
+
+00:05:04.919 --> 00:05:07.129 align:start position:0%
+those well-known gatherings of system programmers took place, famous all over the
+world, <00:05:05.669><c>with </c><00:05:06.419><c>demonstrations,</c>
+
+00:05:07.129 --> 00:05:07.139 align:start position:0%
+world, with demonstrations,
+ 
+
+00:05:07.139 --> 00:05:11.689 align:start position:0%
+world, with demonstrations,
+where <00:05:09.660><c>they</c>
+
+00:05:11.689 --> 00:05:11.699 align:start position:0%
+where they
+ 
+
+00:05:11.699 --> 00:05:13.270 align:start position:0%
+where they
+violently
+
+00:05:13.270 --> 00:05:13.280 align:start position:0%
+violently
+ 
+
+00:05:13.280 --> 00:05:16.189 align:start position:0%
+violently
+humiliate <00:05:13.599><c>each </c><00:05:13.918><c>other </c><00:05:14.237><c>and </c><00:05:14.556><c>discussed </c><00:05:14.875><c>how </c><00:05:15.194><c>you</c>
+
+00:05:16.189 --> 00:05:16.199 align:start position:0%
+humiliate each other and discussed how you
+ 
+
+00:05:16.199 --> 00:05:18.170 align:start position:0%
+humiliate each other and discussed how you
+can
+
+00:05:18.170 --> 00:05:18.180 align:start position:0%
+can
+ 
+
+00:05:18.180 --> 00:05:21.770 align:start position:0%
+can
+reset <00:05:18.700><c>the </c><00:05:19.220><c>contents.  </c><00:05:19.740><c>There</c>
+
+00:05:21.770 --> 00:05:21.780 align:start position:0%
+reset the contents.  There
+ 
+
+00:05:21.780 --> 00:05:23.749 align:start position:0%
+reset the contents.  There
+were <00:05:22.155><c>even </c><00:05:22.530><c>entire </c><00:05:22.905><c>competitions </c><00:05:23.280><c>to</c>
+
+00:05:23.749 --> 00:05:23.759 align:start position:0%
+were even entire competitions to
+ 
+
+00:05:23.759 --> 00:05:25.610 align:start position:0%
+were even entire competitions to
+come <00:05:23.922><c>up </c><00:05:24.085><c>with </c><00:05:24.248><c>more </c><00:05:24.411><c>ways </c><00:05:24.574><c>to </c><00:05:24.737><c>reset </c><00:05:24.900><c>the</c>
+
+00:05:25.610 --> 00:05:25.620 align:start position:0%
+come up with more ways to reset the
+ 
+
+00:05:25.620 --> 00:05:28.870 align:start position:0%
+come up with more ways to reset the
+X <00:05:26.100><c>register.</c>
+
+00:05:28.870 --> 00:05:28.880 align:start position:0%
+ 
+ 
+
+00:05:28.880 --> 00:05:31.010 align:start position:0%
+ 
+JavaScript <00:05:29.860><c>is </c><00:05:30.840><c>no</c>
+
+00:05:31.010 --> 00:05:31.020 align:start position:0%
+JavaScript is no
+ 
+
+00:05:31.020 --> 00:05:33.770 align:start position:0%
+JavaScript is no
+exception <00:05:31.429><c>in </c><00:05:31.838><c>this </c><00:05:32.247><c>regard. </c><00:05:32.656><c>It's </c><00:05:33.065><c>also </c><00:05:33.474><c>possible</c>
+
+00:05:33.770 --> 00:05:33.780 align:start position:0%
+exception in this regard. It's also possible
+ 
+
+00:05:33.780 --> 00:05:35.629 align:start position:0%
+exception in this regard. It's also possible
+to <00:05:34.230><c>announce </c><00:05:34.680><c>similar </c><00:05:35.130><c>competitions, </c><00:05:35.580><c>but</c>
+
+00:05:35.629 --> 00:05:35.639 align:start position:0%
+to announce similar competitions, but
+ 
+
+00:05:35.639 --> 00:05:38.710 align:start position:0%
+to announce similar competitions, but
+we <00:05:35.864><c>won't </c><00:05:36.089><c>update </c><00:05:36.314><c>the </c><00:05:36.539><c>register.</c>
+
+00:05:38.710 --> 00:05:38.720 align:start position:0%
+we won't update the register.
+ 
+
+00:05:38.720 --> 00:05:43.670 align:start position:0%
+we won't update the register.
+We'll
+
+00:05:43.670 --> 00:05:43.680 align:start position:0%
+ 
+ 
+
+00:05:43.680 --> 00:05:45.890 align:start position:0%
+ 
+look <00:05:43.890><c>for </c><00:05:44.100><c>100 </c><00:05:44.310><c>plus </c><00:05:44.520><c>one </c><00:05:44.730><c>ways </c><00:05:44.940><c>to </c><00:05:45.150><c>call </c><00:05:45.360><c>a</c>
+
+00:05:45.890 --> 00:05:45.900 align:start position:0%
+look for 100 plus one ways to call a
+ 
+
+00:05:45.900 --> 00:05:48.230 align:start position:0%
+look for 100 plus one ways to call a
+function.
+
+00:05:48.230 --> 00:05:48.240 align:start position:0%
+ 
+ 
+
+00:05:48.240 --> 00:05:51.590 align:start position:0%
+ 
+Why <00:05:48.606><c>we </c><00:05:48.972><c>need </c><00:05:49.338><c>this </c><00:05:49.704><c>will </c><00:05:50.070><c>be </c><00:05:50.436><c>clear </c><00:05:50.802><c>at </c><00:05:51.168><c>the </c><00:05:51.534><c>end.</c>
+
+00:05:51.590 --> 00:05:51.600 align:start position:0%
+Why we need this will be clear at the end.
+ 
+
+00:05:51.600 --> 00:05:58.990 align:start position:0%
+Why we need this will be clear at the end.
+So <00:05:51.892><c>now </c><00:05:52.184><c>I </c><00:05:52.476><c>have </c><00:05:52.768><c>to </c><00:05:53.060><c>turn </c><00:05:53.352><c>off </c><00:05:53.644><c>my </c><00:05:53.936><c>mug.</c>
+
+00:05:58.990 --> 00:05:59.000 align:start position:0%
+ 
+ 
+
+00:05:59.000 --> 00:06:02.810 align:start position:0%
+ 
+When <00:05:59.607><c>will </c><00:06:00.214><c>at </c><00:06:00.821><c>least </c><00:06:01.428><c>some </c><00:06:02.035><c>Streamer</c>
+
+00:06:02.810 --> 00:06:02.820 align:start position:0%
+When will at least some Streamer
+ 
+
+00:06:02.820 --> 00:06:04.390 align:start position:0%
+When will at least some Streamer
+
+
+00:06:04.390 --> 00:06:04.400 align:start position:0%
+ 
+ 
+
+00:06:04.400 --> 00:06:09.590 align:start position:0%
+ 
+catch <00:06:04.829><c>up </c><00:06:05.258><c>with </c><00:06:05.687><c>the </c><00:06:06.116><c>quality </c><00:06:06.545><c>of </c><00:06:06.974><c>what </c><00:06:07.403><c>I </c><00:06:07.832><c>do? </c><00:06:08.261><c>I </c><00:06:08.690><c>think </c><00:06:09.119><c>it's</c>
+
+00:06:09.590 --> 00:06:09.600 align:start position:0%
+catch up with the quality of what I do? I think it's
+ 
+
+00:06:09.600 --> 00:06:11.570 align:start position:0%
+catch up with the quality of what I do? I think it's
+simply <00:06:09.929><c>impossible </c><00:06:10.258><c>in </c><00:06:10.587><c>principle. </c><00:06:10.916><c>I</c>
+
+00:06:11.570 --> 00:06:11.580 align:start position:0%
+simply impossible in principle. I
+ 
+
+00:06:11.580 --> 00:06:13.249 align:start position:0%
+simply impossible in principle. I
+raise <00:06:11.752><c>it </c><00:06:11.924><c>to </c><00:06:12.096><c>such </c><00:06:12.268><c>a </c><00:06:12.440><c>high </c><00:06:12.612><c>level </c><00:06:12.784><c>every </c><00:06:12.956><c>time.</c>
+
+00:06:13.249 --> 00:06:13.259 align:start position:0%
+raise it to such a high level every time.
+ 
+
+00:06:13.259 --> 00:06:17.570 align:start position:0%
+raise it to such a high level every time.
+
+
+00:06:17.570 --> 00:06:17.580 align:start position:0%
+ 
+ 
+
+00:06:17.580 --> 00:06:20.990 align:start position:0%
+ 
+Well, <00:06:18.390><c>at </c><00:06:19.200><c>least </c><00:06:20.010><c>forgive </c><00:06:20.820><c>me</c>
+
+00:06:20.990 --> 00:06:21.000 align:start position:0%
+Well, at least forgive me
+ 
+
+00:06:21.000 --> 00:06:23.670 align:start position:0%
+Well, at least forgive me
+for <00:06:21.120><c>this</c>
+
+00:06:23.670 --> 00:06:23.680 align:start position:0%
+ 
+ 
+
+00:06:23.680 --> 00:06:25.850 align:start position:0%
+ 
+[applause]. You
+
+00:06:25.850 --> 00:06:25.860 align:start position:0%
+[applause]. You
+ 
+
+00:06:25.860 --> 00:06:28.610 align:start position:0%
+[applause]. You
+can <00:06:26.351><c>still </c><00:06:26.842><c>watch </c><00:06:27.333><c>this </c><00:06:27.824><c>stick </c><00:06:28.315><c>now.</c>
+
+00:06:28.610 --> 00:06:28.620 align:start position:0%
+can still watch this stick now.
+ 
+
+00:06:28.620 --> 00:06:32.689 align:start position:0%
+can still watch this stick now.
+If <00:06:28.887><c>you </c><00:06:29.154><c>turn </c><00:06:29.421><c>it </c><00:06:29.688><c>over, </c><00:06:29.955><c>you </c><00:06:30.222><c>won't </c><00:06:30.489><c>get </c><00:06:30.756><c>a </c><00:06:31.023><c>like, </c><00:06:31.290><c>you'll </c><00:06:31.557><c>get</c>
+
+00:06:32.689 --> 00:06:32.699 align:start position:0%
+If you turn it over, you won't get a like, you'll get
+ 
+
+00:06:32.699 --> 00:06:36.110 align:start position:0%
+If you turn it over, you won't get a like, you'll get
+complete <00:06:32.954><c>[ </c><00:06:33.209><c>__ </c><00:06:33.464><c>]. </c><00:06:33.719><c>Yes. </c><00:06:33.974><c>And </c><00:06:34.229><c>so </c><00:06:34.484><c>it </c><00:06:34.739><c>turns </c><00:06:34.994><c>out </c><00:06:35.249><c>like </c><00:06:35.504><c>a </c><00:06:35.759><c>like.</c>
+
+00:06:36.110 --> 00:06:36.120 align:start position:0%
+complete [ __ ]. Yes. And so it turns out like a like.
+ 
+
+00:06:36.120 --> 00:06:41.930 align:start position:0%
+complete [ __ ]. Yes. And so it turns out like a like.
+And <00:06:36.295><c>so </c><00:06:36.470><c>it's </c><00:06:36.645><c>like </c><00:06:36.820><c>complete </c><00:06:36.995><c>[ </c><00:06:37.170><c>__ </c><00:06:37.345><c>]. </c><00:06:37.520><c>A </c><00:06:37.695><c>special </c><00:06:37.870><c>effect. </c><00:06:38.045><c>In </c><00:06:38.220><c>short,</c>
+
+00:06:41.930 --> 00:06:41.940 align:start position:0%
+ 
+ 
+
+00:06:41.940 --> 00:06:47.930 align:start position:0%
+ 
+to <00:06:42.420><c>the </c><00:06:42.900><c>point,</c>
+
+00:06:47.930 --> 00:06:47.940 align:start position:0%
+ 
+ 
+
+00:06:47.940 --> 00:06:50.510 align:start position:0%
+ 
+at <00:06:48.210><c>least. </c><00:06:48.480><c>You </c><00:06:48.750><c>now </c><00:06:49.020><c>know </c><00:06:49.290><c>for </c><00:06:49.560><c>sure </c><00:06:49.830><c>that </c><00:06:50.100><c>I</c>
+
+00:06:50.510 --> 00:06:50.520 align:start position:0%
+at least. You now know for sure that I
+ 
+
+00:06:50.520 --> 00:06:52.430 align:start position:0%
+at least. You now know for sure that I
+am <00:06:50.789><c>a </c><00:06:51.058><c>worthy </c><00:06:51.327><c>successor </c><00:06:51.596><c>to </c><00:06:51.865><c>Petrosyan's </c><00:06:52.134><c>work.</c>
+
+00:06:52.430 --> 00:06:52.440 align:start position:0%
+am a worthy successor to Petrosyan's work.
+ 
+
+00:06:52.440 --> 00:06:59.570 align:start position:0%
+am a worthy successor to Petrosyan's work.
+
+
+00:06:59.570 --> 00:06:59.580 align:start position:0%
+ 
+ 
+
+00:06:59.580 --> 00:07:02.749 align:start position:0%
+ 
+First, <00:07:00.089><c>what </c><00:07:00.598><c>is </c><00:07:01.107><c>it? </c><00:07:01.616><c>If </c><00:07:02.125><c>suddenly </c><00:07:02.634><c>someone</c>
+
+00:07:02.749 --> 00:07:02.759 align:start position:0%
+First, what is it? If suddenly someone
+ 
+
+00:07:02.759 --> 00:07:05.330 align:start position:0%
+First, what is it? If suddenly someone
+forgot, <00:07:02.984><c>this </c><00:07:03.209><c>is </c><00:07:03.434><c>the </c><00:07:03.659><c>ability </c><00:07:03.884><c>in </c><00:07:04.109><c>the </c><00:07:04.334><c>JavaScript </c><00:07:04.559><c>language</c>
+
+00:07:05.330 --> 00:07:05.340 align:start position:0%
+forgot, this is the ability in the JavaScript language
+ 
+
+00:07:05.340 --> 00:07:08.809 align:start position:0%
+forgot, this is the ability in the JavaScript language
+for <00:07:05.496><c>some </c><00:07:05.652><c>time </c><00:07:05.808><c>now </c><00:07:05.964><c>to </c><00:07:06.120><c>define</c>
+
+00:07:08.809 --> 00:07:08.819 align:start position:0%
+ 
+ 
+
+00:07:08.819 --> 00:07:11.150 align:start position:0%
+ 
+strings <00:07:09.720><c>using</c>
+
+00:07:11.150 --> 00:07:11.160 align:start position:0%
+strings using
+ 
+
+00:07:11.160 --> 00:07:26.150 align:start position:0%
+strings using
+an <00:07:11.535><c>annotation </c><00:07:11.910><c>similar </c><00:07:12.285><c>to </c><00:07:12.660><c>this.</c>
+
+00:07:26.150 --> 00:07:26.160 align:start position:0%
+ 
+ 
+
+00:07:26.160 --> 00:07:28.309 align:start position:0%
+ 
+Someone <00:07:26.460><c>who </c><00:07:26.760><c>couldn't </c><00:07:27.060><c>do </c><00:07:27.360><c>something </c><00:07:27.660><c>decided </c><00:07:27.960><c>to</c>
+
+00:07:28.309 --> 00:07:28.319 align:start position:0%
+Someone who couldn't do something decided to
+ 
+
+00:07:28.319 --> 00:07:29.809 align:start position:0%
+Someone who couldn't do something decided to
+come <00:07:28.472><c>up </c><00:07:28.625><c>with </c><00:07:28.778><c>a </c><00:07:28.931><c>name </c><00:07:29.084><c>for </c><00:07:29.237><c>it. </c><00:07:29.390><c>That </c><00:07:29.543><c>is, </c><00:07:29.696><c>a</c>
+
+00:07:29.809 --> 00:07:29.819 align:start position:0%
+come up with a name for it. That is, a
+ 
+
+00:07:29.819 --> 00:07:32.990 align:start position:0%
+come up with a name for it. That is, a
+template <00:07:30.407><c>literal. </c><00:07:30.995><c>God </c><00:07:31.583><c>be </c><00:07:32.171><c>their </c><00:07:32.759><c>judge.</c>
+
+00:07:32.990 --> 00:07:33.000 align:start position:0%
+template literal. God be their judge.
+ 
+
+00:07:33.000 --> 00:07:36.050 align:start position:0%
+template literal. God be their judge.
+Let <00:07:33.360><c>it </c><00:07:33.720><c>be </c><00:07:34.080><c>called </c><00:07:34.440><c>that.  </c><00:07:34.800><c>we're </c><00:07:35.160><c>not </c><00:07:35.520><c>talking </c><00:07:35.880><c>about</c>
+
+00:07:36.050 --> 00:07:36.060 align:start position:0%
+Let it be called that.  we're not talking about
+ 
+
+00:07:36.060 --> 00:07:37.070 align:start position:0%
+Let it be called that.  we're not talking about
+that <00:07:36.120><c>now</c>
+
+00:07:37.070 --> 00:07:37.080 align:start position:0%
+that now
+ 
+
+00:07:37.080 --> 00:07:39.710 align:start position:0%
+that now
+we're <00:07:37.635><c>talking </c><00:07:38.190><c>about </c><00:07:38.745><c>how </c><00:07:39.300><c>many</c>
+
+00:07:39.710 --> 00:07:39.720 align:start position:0%
+we're talking about how many
+ 
+
+00:07:39.720 --> 00:07:41.629 align:start position:0%
+we're talking about how many
+ways <00:07:39.985><c>are </c><00:07:40.250><c>there </c><00:07:40.515><c>to </c><00:07:40.780><c>call </c><00:07:41.045><c>a </c><00:07:41.310><c>function </c><00:07:41.575><c>in</c>
+
+00:07:41.629 --> 00:07:41.639 align:start position:0%
+ways are there to call a function in
+ 
+
+00:07:41.639 --> 00:07:44.629 align:start position:0%
+ways are there to call a function in
+JavaScript <00:07:42.459><c>without </c><00:07:43.279><c>using </c><00:07:44.099><c>parentheses</c>
+
+00:07:44.629 --> 00:07:44.639 align:start position:0%
+JavaScript without using parentheses
+ 
+
+00:07:44.639 --> 00:07:45.890 align:start position:0%
+JavaScript without using parentheses
+
+
+00:07:45.890 --> 00:07:45.900 align:start position:0%
+ 
+ 
+
+00:07:45.900 --> 00:07:48.110 align:start position:0%
+ 
+that <00:07:46.189><c>can </c><00:07:46.478><c>come </c><00:07:46.767><c>to </c><00:07:47.056><c>your </c><00:07:47.345><c>mind </c><00:07:47.634><c>Well,</c>
+
+00:07:48.110 --> 00:07:48.120 align:start position:0%
+that can come to your mind Well,
+ 
+
+00:07:48.120 --> 00:07:50.150 align:start position:0%
+that can come to your mind Well,
+let's <00:07:48.491><c>immediately </c><00:07:48.862><c>note </c><00:07:49.233><c>the </c><00:07:49.604><c>typical </c><00:07:49.975><c>options</c>
+
+00:07:50.150 --> 00:07:50.160 align:start position:0%
+let's immediately note the typical options
+ 
+
+00:07:50.160 --> 00:07:51.950 align:start position:0%
+let's immediately note the typical options
+from <00:07:50.423><c>the </c><00:07:50.686><c>category </c><00:07:50.949><c>we </c><00:07:51.212><c>use </c><00:07:51.475><c>some</c>
+
+00:07:51.950 --> 00:07:51.960 align:start position:0%
+from the category we use some
+ 
+
+00:07:51.960 --> 00:07:56.330 align:start position:0%
+from the category we use some
+external <00:07:52.392><c>API </c><00:07:52.824><c>Yes, </c><00:07:53.256><c>with </c><00:07:53.688><c>this </c><00:07:54.120><c>mot</c>
+
+00:07:56.330 --> 00:07:56.340 align:start position:0%
+external API Yes, with this mot
+ 
+
+00:07:56.340 --> 00:07:58.430 align:start position:0%
+external API Yes, with this mot
+Let's <00:07:56.614><c>first </c><00:07:56.888><c>at </c><00:07:57.162><c>least </c><00:07:57.436><c>define </c><00:07:57.710><c>this </c><00:07:57.984><c>function </c><00:07:58.258><c>Let</c>
+
+00:07:58.430 --> 00:07:58.440 align:start position:0%
+Let's first at least define this function Let
+ 
+
+00:07:58.440 --> 00:08:03.070 align:start position:0%
+Let's first at least define this function Let
+
+
+00:08:03.070 --> 00:08:03.080 align:start position:0%
+ 
+ 
+
+00:08:03.080 --> 00:08:07.969 align:start position:0%
+ 
+this <00:08:03.993><c>function </c><00:08:04.906><c>be </c><00:08:05.819><c>a</c>
+
+00:08:07.969 --> 00:08:07.979 align:start position:0%
+this function be a
+ 
+
+00:08:07.979 --> 00:08:14.689 align:start position:0%
+this function be a
+regular <00:08:08.459><c>function </c><00:08:08.939><c>its</c>
+
+00:08:14.689 --> 00:08:14.699 align:start position:0%
+ 
+ 
+
+00:08:14.699 --> 00:08:16.689 align:start position:0%
+ 
+
+
+00:08:16.689 --> 00:08:16.699 align:start position:0%
+ 
+ 
+
+00:08:16.699 --> 00:08:20.270 align:start position:0%
+ 
+task <00:08:17.112><c>will </c><00:08:17.525><c>be </c><00:08:17.938><c>to</c>
+
+00:08:20.270 --> 00:08:22.629 align:start position:0%
+task will be to
+ 
+
+00:08:22.629 --> 00:08:22.639 align:start position:0%
+ 
+ 
+
+00:08:22.639 --> 00:08:31.369 align:start position:0%
+ 
+tell <00:08:23.024><c>us </c><00:08:23.409><c>in </c><00:08:23.794><c>the </c><00:08:24.179><c>console</c>
+
+00:08:31.369 --> 00:08:31.379 align:start position:0%
+ 
+ 
+
+00:08:31.379 --> 00:08:34.070 align:start position:0%
+ 
+all <00:08:31.563><c>the </c><00:08:31.747><c>parameters </c><00:08:31.931><c>with </c><00:08:32.115><c>which </c><00:08:32.299><c>we </c><00:08:32.483><c>call </c><00:08:32.667><c>this </c><00:08:32.851><c>function </c><00:08:33.035><c>like </c><00:08:33.219><c>this </c><00:08:33.403><c>so </c><00:08:33.587><c>let's </c><00:08:33.771><c>double-</c>
+
+00:08:34.070 --> 00:08:34.080 align:start position:0%
+all the parameters with which we call this function like this so let's double-
+ 
+
+00:08:34.080 --> 00:08:39.250 align:start position:0%
+all the parameters with which we call this function like this so let's double-
+
+
+00:08:39.250 --> 00:08:45.290 align:start position:0%
+ 
+ 
+
+00:08:45.290 --> 00:08:45.300 align:start position:0%
+ 
+ 
+
+00:08:45.300 --> 00:08:47.630 align:start position:0%
+ 
+check <00:08:45.979><c>ourselves </c><00:08:46.658><c>just </c><00:08:47.337><c>in</c>
+
+00:08:47.630 --> 00:08:47.640 align:start position:0%
+check ourselves just in
+ 
+
+00:08:47.640 --> 00:08:49.130 align:start position:0%
+check ourselves just in
+case
+
+00:08:49.130 --> 00:08:49.140 align:start position:0%
+case
+ 
+
+00:08:49.140 --> 00:08:55.490 align:start position:0%
+case
+once <00:08:49.680><c>two </c><00:08:50.220><c>three</c>
+
+00:08:55.490 --> 00:08:55.500 align:start position:0%
+ 
+ 
+
+00:08:55.500 --> 00:09:01.009 align:start position:0%
+ 
+Yes, <00:08:55.817><c>we </c><00:08:56.134><c>saw </c><00:08:56.451><c>what </c><00:08:56.768><c>we </c><00:08:57.085><c>wanted </c><00:08:57.402><c>to </c><00:08:57.719><c>see</c>
+
+00:09:01.009 --> 00:09:01.019 align:start position:0%
+ 
+ 
+
+00:09:01.019 --> 00:09:02.750 align:start position:0%
+ 
+now <00:09:01.219><c>how </c><00:09:01.419><c>many </c><00:09:01.619><c>ways </c><00:09:01.819><c>are </c><00:09:02.019><c>there </c><00:09:02.219><c>to</c>
+
+00:09:02.750 --> 00:09:02.760 align:start position:0%
+now how many ways are there to
+ 
+
+00:09:02.760 --> 00:09:04.670 align:start position:0%
+now how many ways are there to
+call <00:09:03.084><c>this </c><00:09:03.408><c>function </c><00:09:03.732><c>without </c><00:09:04.056><c>using </c><00:09:04.380><c>parentheses</c>
+
+00:09:04.670 --> 00:09:04.680 align:start position:0%
+call this function without using parentheses
+ 
+
+00:09:04.680 --> 00:09:06.170 align:start position:0%
+call this function without using parentheses
+
+
+00:09:06.170 --> 00:09:06.180 align:start position:0%
+ 
+ 
+
+00:09:06.180 --> 00:09:08.590 align:start position:0%
+ 
+Well, <00:09:06.444><c>besides </c><00:09:06.708><c>the </c><00:09:06.972><c>obvious </c><00:09:07.236><c>ones </c><00:09:07.500><c>like</c>
+
+00:09:08.590 --> 00:09:08.600 align:start position:0%
+Well, besides the obvious ones like
+ 
+
+00:09:08.600 --> 00:09:13.250 align:start position:0%
+Well, besides the obvious ones like
+Set <00:09:09.137><c>Time </c><00:09:09.674><c>Out </c><00:09:10.211><c>for </c><00:09:10.748><c>example </c><00:09:11.285><c>where </c><00:09:11.822><c>we </c><00:09:12.359><c>Pass </c><00:09:12.896><c>the</c>
+
+00:09:13.250 --> 00:09:13.260 align:start position:0%
+Set Time Out for example where we Pass the
+ 
+
+00:09:13.260 --> 00:09:19.070 align:start position:0%
+Set Time Out for example where we Pass the
+function
+
+00:09:19.070 --> 00:09:19.080 align:start position:0%
+ 
+ 
+
+00:09:19.080 --> 00:09:20.930 align:start position:0%
+ 
+how <00:09:19.277><c>many </c><00:09:19.474><c>ways </c><00:09:19.671><c>can </c><00:09:19.868><c>you </c><00:09:20.065><c>think </c><00:09:20.262><c>of </c><00:09:20.459><c>to</c>
+
+00:09:20.930 --> 00:09:20.940 align:start position:0%
+how many ways can you think of to
+ 
+
+00:09:20.940 --> 00:09:23.030 align:start position:0%
+how many ways can you think of to
+call <00:09:21.252><c>a </c><00:09:21.564><c>function </c><00:09:21.876><c>other </c><00:09:22.188><c>than </c><00:09:22.500><c>using</c>
+
+00:09:23.030 --> 00:09:23.040 align:start position:0%
+call a function other than using
+ 
+
+00:09:23.040 --> 00:09:25.910 align:start position:0%
+call a function other than using
+any <00:09:23.480><c>other </c><00:09:23.920><c>external </c><00:09:24.360><c>API</c>
+
+00:09:25.910 --> 00:09:25.920 align:start position:0%
+any other external API
+ 
+
+00:09:25.920 --> 00:09:29.269 align:start position:0%
+any other external API
+without <00:09:26.879><c>using </c><00:09:27.838><c>parentheses</c>
+
+00:09:29.269 --> 00:09:29.279 align:start position:0%
+without using parentheses
+ 
+
+00:09:29.279 --> 00:09:35.509 align:start position:0%
+without using parentheses
+so <00:09:29.579><c>that </c><00:09:29.879><c>this </c><00:09:30.179><c>function </c><00:09:30.479><c>is </c><00:09:30.779><c>called</c>
+
+00:09:35.509 --> 00:09:35.519 align:start position:0%
+ 
+ 
+
+00:09:35.519 --> 00:09:39.110 align:start position:0%
+ 
+while <00:09:35.759><c>you </c><00:09:35.999><c>think </c><00:09:36.239><c>I'll </c><00:09:36.479><c>start </c><00:09:36.719><c>telling </c><00:09:36.959><c>you </c><00:09:37.199><c>the</c>
+
+00:09:39.110 --> 00:09:39.120 align:start position:0%
+while you think I'll start telling you the
+ 
+
+00:09:39.120 --> 00:09:41.449 align:start position:0%
+while you think I'll start telling you the
+first <00:09:39.492><c>way </c><00:09:39.864><c>that </c><00:09:40.236><c>has </c><00:09:40.608><c>always </c><00:09:40.980><c>existed</c>
+
+00:09:41.449 --> 00:09:41.459 align:start position:0%
+first way that has always existed
+ 
+
+00:09:41.459 --> 00:09:43.250 align:start position:0%
+first way that has always existed
+and <00:09:41.646><c>is </c><00:09:41.833><c>a </c><00:09:42.020><c>classic </c><00:09:42.207><c>is </c><00:09:42.394><c>the </c><00:09:42.581><c>use </c><00:09:42.768><c>of </c><00:09:42.955><c>the</c>
+
+00:09:43.250 --> 00:09:43.260 align:start position:0%
+and is a classic is the use of the
+ 
+
+00:09:43.260 --> 00:09:46.329 align:start position:0%
+and is a classic is the use of the
+New <00:09:43.889><c>keyword </c><00:09:44.518><c>the </c><00:09:45.147><c>New </c><00:09:45.776><c>keyword</c>
+
+00:09:46.329 --> 00:09:46.339 align:start position:0%
+New keyword the New keyword
+ 
+
+00:09:46.339 --> 00:09:48.650 align:start position:0%
+New keyword the New keyword
+which <00:09:46.619><c>people </c><00:09:46.899><c>are </c><00:09:47.179><c>accustomed </c><00:09:47.459><c>to </c><00:09:47.739><c>perceiving </c><00:09:48.019><c>as </c><00:09:48.299><c>the</c>
+
+00:09:48.650 --> 00:09:48.660 align:start position:0%
+which people are accustomed to perceiving as the
+ 
+
+00:09:48.660 --> 00:09:50.509 align:start position:0%
+which people are accustomed to perceiving as the
+word <00:09:48.924><c>that </c><00:09:49.188><c>supposedly </c><00:09:49.452><c>should </c><00:09:49.716><c>be </c><00:09:49.980><c>called</c>
+
+00:09:50.509 --> 00:09:50.519 align:start position:0%
+word that supposedly should be called
+ 
+
+00:09:50.519 --> 00:09:52.550 align:start position:0%
+word that supposedly should be called
+before <00:09:50.891><c>creating </c><00:09:51.263><c>a </c><00:09:51.635><c>class </c><00:09:52.007><c>or </c><00:09:52.379><c>before</c>
+
+00:09:52.550 --> 00:09:52.560 align:start position:0%
+before creating a class or before
+ 
+
+00:09:52.560 --> 00:09:55.610 align:start position:0%
+before creating a class or before
+creating <00:09:52.980><c>a </c><00:09:53.400><c>new </c><00:09:53.820><c>object </c><00:09:54.240><c>in </c><00:09:54.660><c>fact, </c><00:09:55.080><c>from </c><00:09:55.500><c>the</c>
+
+00:09:55.610 --> 00:09:55.620 align:start position:0%
+creating a new object in fact, from the
+ 
+
+00:09:55.620 --> 00:09:57.470 align:start position:0%
+creating a new object in fact, from the
+point <00:09:55.806><c>of </c><00:09:55.992><c>view </c><00:09:56.178><c>of </c><00:09:56.364><c>the </c><00:09:56.550><c>specification, </c><00:09:56.736><c>it </c><00:09:56.922><c>is </c><00:09:57.108><c>just </c><00:09:57.294><c>a</c>
+
+00:09:57.470 --> 00:09:57.480 align:start position:0%
+point of view of the specification, it is just a
+ 
+
+00:09:57.480 --> 00:10:00.230 align:start position:0%
+point of view of the specification, it is just a
+keyword <00:09:58.240><c>that </c><00:09:59.000><c>calls </c><00:09:59.760><c>a</c>
+
+00:10:00.230 --> 00:10:00.240 align:start position:0%
+keyword that calls a
+ 
+
+00:10:00.240 --> 00:10:03.350 align:start position:0%
+keyword that calls a
+function <00:10:00.700><c>a </c><00:10:01.160><c>regular </c><00:10:01.620><c>function  </c><00:10:02.080><c>not </c><00:10:02.540><c>an </c><00:10:03.000><c>arrow</c>
+
+00:10:03.350 --> 00:10:03.360 align:start position:0%
+function a regular function  not an arrow
+ 
+
+00:10:03.360 --> 00:10:07.329 align:start position:0%
+function a regular function  not an arrow
+function, <00:10:03.813><c>a </c><00:10:04.266><c>regular </c><00:10:04.719><c>function, </c><00:10:05.172><c>and </c><00:10:05.625><c>binds </c><00:10:06.078><c>the</c>
+
+00:10:07.329 --> 00:10:07.339 align:start position:0%
+function, a regular function, and binds the
+ 
+
+00:10:07.339 --> 00:10:10.250 align:start position:0%
+function, a regular function, and binds the
+This <00:10:07.775><c>identifier </c><00:10:08.211><c>within </c><00:10:08.647><c>this </c><00:10:09.083><c>function </c><00:10:09.519><c>to </c><00:10:09.955><c>an</c>
+
+00:10:10.250 --> 00:10:10.260 align:start position:0%
+This identifier within this function to an
+ 
+
+00:10:10.260 --> 00:10:14.630 align:start position:0%
+This identifier within this function to an
+empty <00:10:11.640><c>object,</c>
+
+00:10:14.630 --> 00:10:14.640 align:start position:0%
+ 
+ 
+
+00:10:14.640 --> 00:10:18.170 align:start position:0%
+ 
+therefore,
+
+00:10:18.170 --> 00:10:18.180 align:start position:0%
+ 
+ 
+
+00:10:18.180 --> 00:10:23.509 align:start position:0%
+ 
+calling
+
+00:10:23.509 --> 00:10:23.519 align:start position:0%
+ 
+ 
+
+00:10:23.519 --> 00:10:31.770 align:start position:0%
+ 
+our
+
+00:10:31.770 --> 00:10:31.780 align:start position:0%
+ 
+ 
+
+00:10:31.780 --> 00:10:49.210 align:start position:0%
+ 
+[music], and
+
+00:10:49.210 --> 00:10:49.220 align:start position:0%
+ 
+ 
+
+00:10:49.220 --> 00:10:52.630 align:start position:0%
+ 
+note <00:10:49.874><c>how </c><00:10:50.528><c>interesting </c><00:10:51.182><c>it </c><00:10:51.836><c>is.</c>
+
+00:10:52.630 --> 00:10:52.640 align:start position:0%
+note how interesting it is.
+ 
+
+00:10:52.640 --> 00:10:55.490 align:start position:0%
+note how interesting it is.
+All <00:10:53.234><c>this </c><00:10:53.828><c>happens </c><00:10:54.422><c>without </c><00:10:55.016><c>specifying</c>
+
+00:10:55.490 --> 00:10:55.500 align:start position:0%
+All this happens without specifying
+ 
+
+00:10:55.500 --> 00:10:57.889 align:start position:0%
+All this happens without specifying
+any <00:10:56.100><c>other</c>
+
+00:10:57.889 --> 00:10:57.899 align:start position:0%
+any other
+ 
+
+00:10:57.899 --> 00:11:00.889 align:start position:0%
+any other
+points <00:10:58.469><c>and </c><00:10:59.039><c>tricks,</c>
+
+00:11:00.889 --> 00:11:00.899 align:start position:0%
+points and tricks,
+ 
+
+00:11:00.899 --> 00:11:08.210 align:start position:0%
+points and tricks,
+by <00:11:01.095><c>the </c><00:11:01.291><c>way, </c><00:11:01.487><c>I </c><00:11:01.683><c>didn’t </c><00:11:01.879><c>forget </c><00:11:02.075><c>there, </c><00:11:02.271><c>I </c><00:11:02.467><c>didn’t </c><00:11:02.663><c>forget, </c><00:11:02.859><c>well </c><00:11:03.055><c>done,</c>
+
+00:11:08.210 --> 00:11:08.220 align:start position:0%
+ 
+ 
+
+00:11:08.220 --> 00:11:10.069 align:start position:0%
+ 
+this <00:11:08.451><c>is </c><00:11:08.682><c>about </c><00:11:08.913><c>the </c><00:11:09.144><c>first </c><00:11:09.375><c>simple </c><00:11:09.606><c>example </c><00:11:09.837><c>that</c>
+
+00:11:10.069 --> 00:11:10.079 align:start position:0%
+this is about the first simple example that
+ 
+
+00:11:10.079 --> 00:11:12.350 align:start position:0%
+this is about the first simple example that
+shows <00:11:10.424><c>you </c><00:11:10.769><c>how </c><00:11:11.114><c>the </c><00:11:11.459><c>correct</c>
+
+00:11:12.350 --> 00:11:12.360 align:start position:0%
+shows you how the correct
+ 
+
+00:11:12.360 --> 00:11:14.509 align:start position:0%
+shows you how the correct
+perception <00:11:12.900><c>of </c><00:11:13.440><c>those </c><00:11:13.980><c>syntactic</c>
+
+00:11:14.509 --> 00:11:14.519 align:start position:0%
+perception of those syntactic
+ 
+
+00:11:14.519 --> 00:11:16.430 align:start position:0%
+perception of those syntactic
+constructions <00:11:16.200><c>that</c>
+
+00:11:16.430 --> 00:11:16.440 align:start position:0%
+constructions that
+ 
+
+00:11:16.440 --> 00:11:18.170 align:start position:0%
+constructions that
+exist <00:11:16.692><c>in </c><00:11:16.944><c>the </c><00:11:17.196><c>language </c><00:11:17.448><c>allows </c><00:11:17.700><c>you</c>
+
+00:11:18.170 --> 00:11:18.180 align:start position:0%
+exist in the language allows you
+ 
+
+00:11:18.180 --> 00:11:20.470 align:start position:0%
+exist in the language allows you
+to <00:11:18.344><c>look </c><00:11:18.508><c>at </c><00:11:18.672><c>this </c><00:11:18.836><c>language</c>
+
+00:11:20.470 --> 00:11:20.480 align:start position:0%
+to look at this language
+ 
+
+00:11:20.480 --> 00:11:23.509 align:start position:0%
+to look at this language
+from <00:11:20.854><c>the </c><00:11:21.228><c>right </c><00:11:21.602><c>side, </c><00:11:21.976><c>that </c><00:11:22.350><c>is, </c><00:11:22.724><c>to </c><00:11:23.098><c>clearly</c>
+
+00:11:23.509 --> 00:11:23.519 align:start position:0%
+from the right side, that is, to clearly
+ 
+
+00:11:23.519 --> 00:11:26.150 align:start position:0%
+from the right side, that is, to clearly
+understand <00:11:23.870><c>what </c><00:11:24.221><c>is </c><00:11:24.572><c>being </c><00:11:24.923><c>done </c><00:11:25.274><c>in </c><00:11:25.625><c>a </c><00:11:25.976><c>given</c>
+
+00:11:26.150 --> 00:11:26.160 align:start position:0%
+understand what is being done in a given
+ 
+
+00:11:26.160 --> 00:11:29.630 align:start position:0%
+understand what is being done in a given
+case. <00:11:26.279><c>New</c>
+
+00:11:29.630 --> 00:11:29.640 align:start position:0%
+ 
+ 
+
+00:11:29.640 --> 00:11:32.210 align:start position:0%
+ 
+is <00:11:30.225><c>not </c><00:11:30.810><c>a </c><00:11:31.395><c>special </c><00:11:31.980><c>keyword</c>
+
+00:11:32.210 --> 00:11:32.220 align:start position:0%
+is not a special keyword
+ 
+
+00:11:32.220 --> 00:11:34.389 align:start position:0%
+is not a special keyword
+that <00:11:32.472><c>is </c><00:11:32.724><c>created </c><00:11:32.976><c>to </c><00:11:33.228><c>create </c><00:11:33.480><c>new</c>
+
+00:11:34.389 --> 00:11:34.399 align:start position:0%
+that is created to create new
+ 
+
+00:11:34.399 --> 00:11:37.310 align:start position:0%
+that is created to create new
+classes <00:11:34.887><c>or </c><00:11:35.375><c>objects. </c><00:11:35.863><c>New </c><00:11:36.351><c>is </c><00:11:36.839><c>a</c>
+
+00:11:37.310 --> 00:11:37.320 align:start position:0%
+classes or objects. New is a
+ 
+
+00:11:37.320 --> 00:11:38.990 align:start position:0%
+classes or objects. New is a
+keyword. <00:11:37.571><c>According </c><00:11:37.822><c>to </c><00:11:38.073><c>the </c><00:11:38.324><c>specification </c><00:11:38.575><c>that</c>
+
+00:11:38.990 --> 00:11:39.000 align:start position:0%
+keyword. According to the specification that
+ 
+
+00:11:39.000 --> 00:11:40.970 align:start position:0%
+keyword. According to the specification that
+allows <00:11:39.215><c>you </c><00:11:39.430><c>to </c><00:11:39.645><c>call </c><00:11:39.860><c>the </c><00:11:40.075><c>Regular</c>
+
+00:11:40.970 --> 00:11:40.980 align:start position:0%
+allows you to call the Regular
+ 
+
+00:11:40.980 --> 00:11:46.509 align:start position:0%
+allows you to call the Regular
+function, <00:11:41.370><c>if </c><00:11:41.760><c>we </c><00:11:42.150><c>had </c><00:11:42.540><c>an</c>
+
+00:11:46.509 --> 00:11:46.519 align:start position:0%
+ 
+ 
+
+00:11:46.519 --> 00:11:49.490 align:start position:0%
+ 
+arrow <00:11:46.955><c>function, </c><00:11:47.391><c>then </c><00:11:47.827><c>we </c><00:11:48.263><c>would </c><00:11:48.699><c>not </c><00:11:49.135><c>have</c>
+
+00:11:49.490 --> 00:11:49.500 align:start position:0%
+arrow function, then we would not have
+ 
+
+00:11:49.500 --> 00:11:53.210 align:start position:0%
+arrow function, then we would not have
+succeeded <00:11:49.935><c>in </c><00:11:50.370><c>the </c><00:11:50.805><c>case </c><00:11:51.240><c>of </c><00:11:51.675><c>the </c><00:11:52.110><c>word </c><00:11:52.545><c>for </c><00:11:52.980><c>the</c>
+
+00:11:53.210 --> 00:11:53.220 align:start position:0%
+succeeded in the case of the word for the
+ 
+
+00:11:53.220 --> 00:11:54.610 align:start position:0%
+succeeded in the case of the word for the
+reason <00:11:53.579><c>that</c>
+
+00:11:54.610 --> 00:11:54.620 align:start position:0%
+reason that
+ 
+
+00:11:54.620 --> 00:11:57.350 align:start position:0%
+reason that
+New <00:11:54.985><c>cannot </c><00:11:55.350><c>be </c><00:11:55.715><c>for </c><00:11:56.080><c>the </c><00:11:56.445><c>reason </c><00:11:56.810><c>that </c><00:11:57.175><c>an</c>
+
+00:11:57.350 --> 00:11:57.360 align:start position:0%
+New cannot be for the reason that an
+ 
+
+00:11:57.360 --> 00:11:58.610 align:start position:0%
+New cannot be for the reason that an
+arrow <00:11:57.630><c>construction </c><00:11:57.900><c>cannot </c><00:11:58.170><c>be </c><00:11:58.440><c>a</c>
+
+00:11:58.610 --> 00:11:58.620 align:start position:0%
+arrow construction cannot be a
+ 
+
+00:11:58.620 --> 00:12:00.530 align:start position:0%
+arrow construction cannot be a
+constructor.
+
+00:12:00.530 --> 00:12:00.540 align:start position:0%
+constructor.
+ 
+
+00:12:00.540 --> 00:12:03.470 align:start position:0%
+constructor.
+The <00:12:00.917><c>fact </c><00:12:01.294><c>that </c><00:12:01.671><c>any </c><00:12:02.048><c>of </c><00:12:02.425><c>our </c><00:12:02.802><c>Functions </c><00:12:03.179><c>can</c>
+
+00:12:03.470 --> 00:12:03.480 align:start position:0%
+The fact that any of our Functions can
+ 
+
+00:12:03.480 --> 00:12:04.810 align:start position:0%
+The fact that any of our Functions can
+be <00:12:03.520><c>a </c><00:12:03.560><c>constructor </c><00:12:03.600><c>does</c>
+
+00:12:04.810 --> 00:12:04.820 align:start position:0%
+be a constructor does
+ 
+
+00:12:04.820 --> 00:12:06.949 align:start position:0%
+be a constructor does
+not <00:12:05.493><c>mean </c><00:12:06.166><c>that </c><00:12:06.839><c>this</c>
+
+00:12:06.949 --> 00:12:06.959 align:start position:0%
+not mean that this
+ 
+
+00:12:06.959 --> 00:12:08.930 align:start position:0%
+not mean that this
+imposes <00:12:07.149><c>any </c><00:12:07.339><c>restrictions </c><00:12:07.529><c>on </c><00:12:07.719><c>us. </c><00:12:07.909><c>This </c><00:12:08.099><c>is</c>
+
+00:12:08.930 --> 00:12:08.940 align:start position:0%
+imposes any restrictions on us. This is
+ 
+
+00:12:08.940 --> 00:12:11.210 align:start position:0%
+imposes any restrictions on us. This is
+just <00:12:09.300><c>a </c><00:12:09.660><c>definition </c><00:12:10.020><c>of </c><00:12:10.380><c>the </c><00:12:10.740><c>word</c>
+
+00:12:11.210 --> 00:12:11.220 align:start position:0%
+just a definition of the word
+ 
+
+00:12:11.220 --> 00:12:12.710 align:start position:0%
+just a definition of the word
+within <00:12:11.460><c>the </c><00:12:11.700><c>specification. </c><00:12:11.940><c>A</c>
+
+00:12:12.710 --> 00:12:12.720 align:start position:0%
+within the specification. A
+ 
+
+00:12:12.720 --> 00:12:16.509 align:start position:0%
+within the specification. A
+constructor <00:12:13.210><c>is </c><00:12:13.700><c>a </c><00:12:14.190><c>function, </c><00:12:14.680><c>a </c><00:12:15.170><c>regular </c><00:12:15.660><c>function,</c>
+
+00:12:16.509 --> 00:12:16.519 align:start position:0%
+constructor is a function, a regular function,
+ 
+
+00:12:16.519 --> 00:12:19.130 align:start position:0%
+constructor is a function, a regular function,
+when <00:12:17.169><c>called, </c><00:12:17.819><c>which</c>
+
+00:12:19.130 --> 00:12:19.140 align:start position:0%
+when called, which
+ 
+
+00:12:19.140 --> 00:12:21.470 align:start position:0%
+when called, which
+This <00:12:19.536><c>can </c><00:12:19.932><c>be </c><00:12:20.328><c>associated </c><00:12:20.724><c>with </c><00:12:21.120><c>some</c>
+
+00:12:21.470 --> 00:12:21.480 align:start position:0%
+This can be associated with some
+ 
+
+00:12:21.480 --> 00:12:24.769 align:start position:0%
+This can be associated with some
+value.
+
+00:12:24.769 --> 00:12:24.779 align:start position:0%
+ 
+ 
+
+00:12:24.779 --> 00:12:27.530 align:start position:0%
+ 
+For <00:12:25.064><c>the </c><00:12:25.349><c>same </c><00:12:25.634><c>reason, </c><00:12:25.919><c>the</c>
+
+00:12:27.530 --> 00:12:27.540 align:start position:0%
+For the same reason, the
+ 
+
+00:12:27.540 --> 00:12:31.430 align:start position:0%
+For the same reason, the
+use <00:12:27.930><c>of </c><00:12:28.320><c>the </c><00:12:28.710><c>New </c><00:12:29.100><c>keyword</c>
+
+00:12:31.430 --> 00:12:31.440 align:start position:0%
+use of the New keyword
+ 
+
+00:12:31.440 --> 00:12:34.490 align:start position:0%
+use of the New keyword
+in <00:12:31.752><c>relation </c><00:12:32.064><c>to </c><00:12:32.376><c>any </c><00:12:32.688><c>other </c><00:12:33.000><c>function</c>
+
+00:12:34.490 --> 00:12:34.500 align:start position:0%
+in relation to any other function
+ 
+
+00:12:34.500 --> 00:12:37.009 align:start position:0%
+in relation to any other function
+This <00:12:34.780><c>is </c><00:12:35.060><c>just </c><00:12:35.340><c>a </c><00:12:35.620><c>way </c><00:12:35.900><c>to </c><00:12:36.180><c>call</c>
+
+00:12:37.009 --> 00:12:37.019 align:start position:0%
+This is just a way to call
+ 
+
+00:12:37.019 --> 00:12:40.310 align:start position:0%
+This is just a way to call
+this <00:12:37.401><c>function </c><00:12:37.783><c>when </c><00:12:38.165><c>This </c><00:12:38.547><c>is </c><00:12:38.929><c>associated </c><00:12:39.311><c>with </c><00:12:39.693><c>an </c><00:12:40.075><c>empty</c>
+
+00:12:40.310 --> 00:12:40.320 align:start position:0%
+this function when This is associated with an empty
+ 
+
+00:12:40.320 --> 00:12:42.730 align:start position:0%
+this function when This is associated with an empty
+object,
+
+00:12:42.730 --> 00:12:42.740 align:start position:0%
+ 
+ 
+
+00:12:42.740 --> 00:12:45.710 align:start position:0%
+ 
+paraphrasing <00:12:43.455><c>this </c><00:12:44.170><c>means </c><00:12:44.885><c>exactly </c><00:12:45.600><c>the</c>
+
+00:12:45.710 --> 00:12:45.720 align:start position:0%
+paraphrasing this means exactly the
+ 
+
+00:12:45.720 --> 00:12:49.430 align:start position:0%
+paraphrasing this means exactly the
+same <00:12:46.109><c>as </c><00:12:46.498><c>calling </c><00:12:46.887><c>a </c><00:12:47.276><c>function,</c>
+
+00:12:49.430 --> 00:12:49.440 align:start position:0%
+same as calling a function,
+ 
+
+00:12:49.440 --> 00:12:53.870 align:start position:0%
+same as calling a function,
+but
+
+00:12:53.870 --> 00:12:53.880 align:start position:0%
+ 
+ 
+
+00:12:53.880 --> 00:12:56.569 align:start position:0%
+ 
+without <00:12:54.500><c>specifying </c><00:12:55.120><c>any </c><00:12:55.740><c>unnecessary</c>
+
+00:12:56.569 --> 00:12:56.579 align:start position:0%
+without specifying any unnecessary
+ 
+
+00:12:56.579 --> 00:12:58.430 align:start position:0%
+without specifying any unnecessary
+additional <00:12:56.819><c>brackets, </c><00:12:57.059><c>in</c>
+
+00:12:58.430 --> 00:12:58.440 align:start position:0%
+additional brackets, in
+ 
+
+00:12:58.440 --> 00:13:00.829 align:start position:0%
+additional brackets, in
+my <00:12:58.599><c>opinion, </c><00:12:58.758><c>it </c><00:12:58.917><c>is </c><00:12:59.076><c>more </c><00:12:59.235><c>aesthetically </c><00:12:59.394><c>pleasing.</c>
+
+00:13:00.829 --> 00:13:00.839 align:start position:0%
+my opinion, it is more aesthetically pleasing.
+ 
+
+00:13:00.839 --> 00:13:02.750 align:start position:0%
+my opinion, it is more aesthetically pleasing.
+Although <00:13:01.139><c>who </c><00:13:01.439><c>is </c><00:13:01.739><c>it </c><00:13:02.039><c>to </c><00:13:02.339><c>argue </c><00:13:02.639><c>about</c>
+
+00:13:02.750 --> 00:13:02.760 align:start position:0%
+Although who is it to argue about
+ 
+
+00:13:02.760 --> 00:13:04.610 align:start position:0%
+Although who is it to argue about
+aesthetics
+
+00:13:04.610 --> 00:13:04.620 align:start position:0%
+aesthetics
+ 
+
+00:13:04.620 --> 00:13:07.250 align:start position:0%
+aesthetics
+from <00:13:04.927><c>a </c><00:13:05.234><c>third </c><00:13:05.541><c>party? </c><00:13:05.848><c>Who </c><00:13:06.155><c>else </c><00:13:06.462><c>can </c><00:13:06.769><c>argue </c><00:13:07.076><c>if</c>
+
+00:13:07.250 --> 00:13:07.260 align:start position:0%
+from a third party? Who else can argue if
+ 
+
+00:13:07.260 --> 00:13:10.490 align:start position:0%
+from a third party? Who else can argue if
+not <00:13:07.440><c>me?</c>
+
+00:13:10.490 --> 00:13:10.500 align:start position:0%
+ 
+ 
+
+00:13:10.500 --> 00:13:12.889 align:start position:0%
+ 
+While <00:13:10.755><c>you </c><00:13:11.010><c>are </c><00:13:11.265><c>digesting </c><00:13:11.520><c>this </c><00:13:11.775><c>information </c><00:13:12.030><c>in </c><00:13:12.285><c>your </c><00:13:12.540><c>head,</c>
+
+00:13:12.889 --> 00:13:12.899 align:start position:0%
+While you are digesting this information in your head,
+ 
+
+00:13:12.899 --> 00:13:15.290 align:start position:0%
+While you are digesting this information in your head,
+
+
+00:13:15.290 --> 00:13:15.300 align:start position:0%
+ 
+ 
+
+00:13:15.300 --> 00:13:17.389 align:start position:0%
+ 
+we <00:13:15.548><c>will </c><00:13:15.796><c>finally </c><00:13:16.044><c>move </c><00:13:16.292><c>on </c><00:13:16.540><c>to </c><00:13:16.788><c>what </c><00:13:17.036><c>template</c>
+
+00:13:17.389 --> 00:13:17.399 align:start position:0%
+we will finally move on to what template
+ 
+
+00:13:17.399 --> 00:13:20.389 align:start position:0%
+we will finally move on to what template
+literals <00:13:17.519><c>are</c>
+
+00:13:20.389 --> 00:13:20.399 align:start position:0%
+literals are
+ 
+
+00:13:20.399 --> 00:13:25.690 align:start position:0%
+literals are
+because <00:13:20.596><c>I </c><00:13:20.793><c>showed </c><00:13:20.990><c>it </c><00:13:21.187><c>at </c><00:13:21.384><c>the </c><00:13:21.581><c>very </c><00:13:21.778><c>beginning.</c>
+
+00:13:25.690 --> 00:13:25.700 align:start position:0%
+ 
+ 
+
+00:13:25.700 --> 00:13:28.250 align:start position:0%
+ 
+According <00:13:26.031><c>to </c><00:13:26.362><c>the </c><00:13:26.693><c>specification, </c><00:13:27.024><c>as </c><00:13:27.355><c>well </c><00:13:27.686><c>as </c><00:13:28.017><c>what</c>
+
+00:13:28.250 --> 00:13:28.260 align:start position:0%
+According to the specification, as well as what
+ 
+
+00:13:28.260 --> 00:13:30.889 align:start position:0%
+According to the specification, as well as what
+many <00:13:28.550><c>other </c><00:13:28.840><c>people </c><00:13:29.130><c>teach </c><00:13:29.420><c>you, </c><00:13:29.710><c>before </c><00:13:30.000><c>a</c>
+
+00:13:30.889 --> 00:13:30.899 align:start position:0%
+many other people teach you, before a
+ 
+
+00:13:30.899 --> 00:13:33.230 align:start position:0%
+many other people teach you, before a
+literal, <00:13:31.274><c>you </c><00:13:31.649><c>can </c><00:13:32.024><c>specify </c><00:13:32.399><c>some</c>
+
+00:13:33.230 --> 00:13:33.240 align:start position:0%
+literal, you can specify some
+ 
+
+00:13:33.240 --> 00:13:35.629 align:start position:0%
+literal, you can specify some
+function.
+
+00:13:35.629 --> 00:13:35.639 align:start position:0%
+function.
+ 
+
+00:13:35.639 --> 00:13:37.970 align:start position:0%
+function.
+Yes, <00:13:36.149><c>some </c><00:13:36.659><c>functions </c><00:13:37.169><c>that, </c><00:13:37.679><c>when</c>
+
+00:13:37.970 --> 00:13:37.980 align:start position:0%
+Yes, some functions that, when
+ 
+
+00:13:37.980 --> 00:13:39.350 align:start position:0%
+Yes, some functions that, when
+executed, <00:13:38.172><c>will </c><00:13:38.364><c>allow </c><00:13:38.556><c>something </c><00:13:38.748><c>to </c><00:13:38.940><c>be</c>
+
+00:13:39.350 --> 00:13:39.360 align:start position:0%
+executed, will allow something to be
+ 
+
+00:13:39.360 --> 00:13:43.970 align:start position:0%
+executed, will allow something to be
+modified <00:13:39.564><c>in </c><00:13:39.768><c>this </c><00:13:39.972><c>template </c><00:13:40.176><c>literal. </c><00:13:40.380><c>The</c>
+
+00:13:43.970 --> 00:13:43.980 align:start position:0%
+ 
+ 
+
+00:13:43.980 --> 00:13:46.190 align:start position:0%
+ 
+logical <00:13:44.459><c>and </c><00:13:44.938><c>simplest </c><00:13:45.417><c>conclusion </c><00:13:45.896><c>from</c>
+
+00:13:46.190 --> 00:13:46.200 align:start position:0%
+logical and simplest conclusion from
+ 
+
+00:13:46.200 --> 00:13:50.150 align:start position:0%
+logical and simplest conclusion from
+this <00:13:46.680><c>is</c>
+
+00:13:50.150 --> 00:13:50.160 align:start position:0%
+ 
+ 
+
+00:13:50.160 --> 00:13:52.370 align:start position:0%
+ 
+that <00:13:50.399><c>this </c><00:13:50.638><c>is </c><00:13:50.877><c>not </c><00:13:51.116><c>some </c><00:13:51.355><c>kind </c><00:13:51.594><c>of </c><00:13:51.833><c>special</c>
+
+00:13:52.370 --> 00:13:52.380 align:start position:0%
+that this is not some kind of special
+ 
+
+00:13:52.380 --> 00:13:53.750 align:start position:0%
+that this is not some kind of special
+construct <00:13:52.590><c>that </c><00:13:52.800><c>is </c><00:13:53.010><c>intended </c><00:13:53.220><c>to</c>
+
+00:13:53.750 --> 00:13:53.760 align:start position:0%
+construct that is intended to
+ 
+
+00:13:53.760 --> 00:13:55.970 align:start position:0%
+construct that is intended to
+exist <00:13:54.120><c>so </c><00:13:54.480><c>that </c><00:13:54.840><c>you </c><00:13:55.200><c>have </c><00:13:55.560><c>the</c>
+
+00:13:55.970 --> 00:13:55.980 align:start position:0%
+exist so that you have the
+ 
+
+00:13:55.980 --> 00:13:59.590 align:start position:0%
+exist so that you have the
+opportunity <00:13:56.392><c>to </c><00:13:56.804><c>form </c><00:13:57.216><c>literals. </c><00:13:57.628><c>And </c><00:13:58.040><c>this </c><00:13:58.452><c>is </c><00:13:58.864><c>exactly </c><00:13:59.276><c>the</c>
+
+00:13:59.590 --> 00:13:59.600 align:start position:0%
+opportunity to form literals. And this is exactly the
+ 
+
+00:13:59.600 --> 00:14:02.509 align:start position:0%
+opportunity to form literals. And this is exactly the
+same <00:14:00.284><c>way </c><00:14:00.968><c>to </c><00:14:01.652><c>call </c><00:14:02.336><c>any</c>
+
+00:14:02.509 --> 00:14:02.519 align:start position:0%
+same way to call any
+ 
+
+00:14:02.519 --> 00:14:06.650 align:start position:0%
+same way to call any
+other <00:14:02.760><c>function,</c>
+
+00:14:06.650 --> 00:14:06.660 align:start position:0%
+ 
+ 
+
+00:14:06.660 --> 00:14:15.949 align:start position:0%
+ 
+that <00:14:07.028><c>is, </c><00:14:07.396><c>we </c><00:14:07.764><c>can </c><00:14:08.132><c>take </c><00:14:08.500><c>the </c><00:14:08.868><c>same </c><00:14:09.236><c>one,</c>
+
+00:14:15.949 --> 00:14:15.959 align:start position:0%
+ 
+ 
+
+00:14:15.959 --> 00:14:19.009 align:start position:0%
+ 
+which <00:14:16.146><c>will </c><00:14:16.333><c>lead </c><00:14:16.520><c>to </c><00:14:16.707><c>a </c><00:14:16.894><c>call </c><00:14:17.081><c>to </c><00:14:17.268><c>this </c><00:14:17.455><c>function,</c>
+
+00:14:19.009 --> 00:14:19.019 align:start position:0%
+which will lead to a call to this function,
+ 
+
+00:14:19.019 --> 00:14:21.470 align:start position:0%
+which will lead to a call to this function,
+unlike <00:14:19.359><c>the </c><00:14:19.699><c>word </c><00:14:20.039><c>Newton. </c><00:14:20.379><c>The </c><00:14:20.719><c>literal </c><00:14:21.059><c>is</c>
+
+00:14:21.470 --> 00:14:21.480 align:start position:0%
+unlike the word Newton. The literal is
+ 
+
+00:14:21.480 --> 00:14:23.629 align:start position:0%
+unlike the word Newton. The literal is
+much <00:14:21.875><c>more </c><00:14:22.270><c>flexible. </c><00:14:22.665><c>Why? </c><00:14:23.060><c>Because </c><00:14:23.455><c>it</c>
+
+00:14:23.629 --> 00:14:23.639 align:start position:0%
+much more flexible. Why? Because it
+ 
+
+00:14:23.639 --> 00:14:25.970 align:start position:0%
+much more flexible. Why? Because it
+even <00:14:23.830><c>allows </c><00:14:24.021><c>you </c><00:14:24.212><c>to </c><00:14:24.403><c>pass </c><00:14:24.594><c>there.  </c><00:14:24.785><c>the </c><00:14:24.976><c>parameters</c>
+
+00:14:25.970 --> 00:14:25.980 align:start position:0%
+even allows you to pass there.  the parameters
+ 
+
+00:14:25.980 --> 00:14:30.410 align:start position:0%
+even allows you to pass there.  the parameters
+we <00:14:26.350><c>want </c><00:14:26.720><c>we </c><00:14:27.090><c>can </c><00:14:27.460><c>write </c><00:14:27.830><c>words </c><00:14:28.200><c>here</c>
+
+00:14:30.410 --> 00:14:30.420 align:start position:0%
+ 
+ 
+
+00:14:30.420 --> 00:14:38.389 align:start position:0%
+ 
+
+
+00:14:38.389 --> 00:14:38.399 align:start position:0%
+ 
+ 
+
+00:14:38.399 --> 00:14:40.389 align:start position:0%
+ 
+and <00:14:38.699><c>here </c><00:14:38.999><c>are</c>
+
+00:14:40.389 --> 00:14:40.399 align:start position:0%
+and here are
+ 
+
+00:14:40.399 --> 00:14:45.430 align:start position:0%
+and here are
+our <00:14:41.399><c>parameters,</c>
+
+00:14:45.430 --> 00:14:45.440 align:start position:0%
+ 
+ 
+
+00:14:45.440 --> 00:14:50.590 align:start position:0%
+ 
+while <00:14:45.959><c>no </c><00:14:46.478><c>one </c><00:14:46.997><c>interferes </c><00:14:47.516><c>inside </c><00:14:48.035><c>this </c><00:14:48.554><c>same </c><00:14:49.073><c>one</c>
+
+00:14:50.590 --> 00:14:50.600 align:start position:0%
+while no one interferes inside this same one
+ 
+
+00:14:50.600 --> 00:14:52.790 align:start position:0%
+while no one interferes inside this same one
+where <00:14:50.880><c>we </c><00:14:51.160><c>have </c><00:14:51.440><c>just </c><00:14:51.720><c>a </c><00:14:52.000><c>call </c><00:14:52.280><c>in </c><00:14:52.560><c>this</c>
+
+00:14:52.790 --> 00:14:52.800 align:start position:0%
+where we have just a call in this
+ 
+
+00:14:52.800 --> 00:15:18.590 align:start position:0%
+where we have just a call in this
+case
+
+00:15:18.590 --> 00:15:18.600 align:start position:0%
+ 
+ 
+
+00:15:18.600 --> 00:15:20.810 align:start position:0%
+ 
+and <00:15:18.899><c>now </c><00:15:19.198><c>when </c><00:15:19.497><c>you </c><00:15:19.796><c>look </c><00:15:20.095><c>at </c><00:15:20.394><c>the</c>
+
+00:15:20.810 --> 00:15:20.820 align:start position:0%
+and now when you look at the
+ 
+
+00:15:20.820 --> 00:15:22.370 align:start position:0%
+and now when you look at the
+syntactic <00:15:21.159><c>construction </c><00:15:21.498><c>that </c><00:15:21.837><c>is</c>
+
+00:15:22.370 --> 00:15:22.380 align:start position:0%
+syntactic construction that is
+ 
+
+00:15:22.380 --> 00:15:24.350 align:start position:0%
+syntactic construction that is
+associated <00:15:22.668><c>with </c><00:15:22.956><c>template </c><00:15:23.244><c>literals, </c><00:15:23.532><c>begin </c><00:15:23.820><c>to</c>
+
+00:15:24.350 --> 00:15:24.360 align:start position:0%
+associated with template literals, begin to
+ 
+
+00:15:24.360 --> 00:15:27.170 align:start position:0%
+associated with template literals, begin to
+perceive <00:15:24.839><c>it</c>
+
+00:15:27.170 --> 00:15:27.180 align:start position:0%
+perceive it
+ 
+
+00:15:27.180 --> 00:15:30.769 align:start position:0%
+perceive it
+a <00:15:27.585><c>little </c><00:15:27.990><c>from </c><00:15:28.395><c>the </c><00:15:28.800><c>back </c><00:15:29.205><c>side </c><00:15:29.610><c>from </c><00:15:30.015><c>the </c><00:15:30.420><c>side</c>
+
+00:15:30.769 --> 00:15:30.779 align:start position:0%
+a little from the back side from the side
+ 
+
+00:15:30.779 --> 00:15:33.710 align:start position:0%
+a little from the back side from the side
+that, <00:15:30.875><c>for </c><00:15:30.971><c>example, </c><00:15:31.067><c>allows </c><00:15:31.163><c>you </c><00:15:31.259><c>to</c>
+
+00:15:33.710 --> 00:15:33.720 align:start position:0%
+ 
+ 
+
+00:15:33.720 --> 00:15:37.730 align:start position:0%
+ 
+call <00:15:34.475><c>functions </c><00:15:35.230><c>without </c><00:15:35.985><c>using </c><00:15:36.740><c>parentheses</c>
+
+00:15:37.730 --> 00:15:37.740 align:start position:0%
+call functions without using parentheses
+ 
+
+00:15:37.740 --> 00:15:39.710 align:start position:0%
+call functions without using parentheses
+
+
+00:15:39.710 --> 00:15:39.720 align:start position:0%
+ 
+ 
+
+00:15:39.720 --> 00:15:44.350 align:start position:0%
+ 
+what <00:15:39.920><c>is </c><00:15:40.120><c>the </c><00:15:40.320><c>benefit </c><00:15:40.520><c>of </c><00:15:40.720><c>all </c><00:15:40.920><c>this</c>
+
+00:15:44.350 --> 00:15:44.360 align:start position:0%
+ 
+ 
+
+00:15:44.360 --> 00:15:47.449 align:start position:0%
+ 
+first <00:15:44.856><c>of </c><00:15:45.352><c>all </c><00:15:45.848><c>this </c><00:15:46.344><c>example, </c><00:15:46.840><c>like </c><00:15:47.336><c>many</c>
+
+00:15:47.449 --> 00:15:47.459 align:start position:0%
+first of all this example, like many
+ 
+
+00:15:47.459 --> 00:15:49.930 align:start position:0%
+first of all this example, like many
+other <00:15:47.699><c>examples </c><00:15:47.939><c>that </c><00:15:48.179><c>I </c><00:15:48.419><c>give, </c><00:15:48.659><c>they </c><00:15:48.899><c>are</c>
+
+00:15:49.930 --> 00:15:49.940 align:start position:0%
+other examples that I give, they are
+ 
+
+00:15:49.940 --> 00:15:52.810 align:start position:0%
+other examples that I give, they are
+created <00:15:50.513><c>so </c><00:15:51.086><c>that </c><00:15:51.659><c>a</c>
+
+00:15:52.810 --> 00:15:52.820 align:start position:0%
+created so that a
+ 
+
+00:15:52.820 --> 00:15:59.269 align:start position:0%
+created so that a
+person <00:15:53.276><c>could </c><00:15:53.732><c>look </c><00:15:54.188><c>at </c><00:15:54.644><c>the </c><00:15:55.100><c>JavaScript </c><00:15:55.556><c>language</c>
+
+00:15:59.269 --> 00:15:59.279 align:start position:0%
+ 
+ 
+
+00:15:59.279 --> 00:16:01.730 align:start position:0%
+ 
+from <00:15:59.629><c>the </c><00:15:59.979><c>side </c><00:16:00.329><c>of </c><00:16:00.679><c>the </c><00:16:01.029><c>specification </c><00:16:01.379><c>that</c>
+
+00:16:01.730 --> 00:16:01.740 align:start position:0%
+from the side of the specification that
+ 
+
+00:16:01.740 --> 00:16:04.790 align:start position:0%
+from the side of the specification that
+describes <00:16:02.152><c>all </c><00:16:02.564><c>possible </c><00:16:02.976><c>features </c><00:16:03.388><c>of </c><00:16:03.800><c>the</c>
+
+00:16:04.790 --> 00:16:04.800 align:start position:0%
+describes all possible features of the
+ 
+
+00:16:04.800 --> 00:16:07.370 align:start position:0%
+describes all possible features of the
+behavior <00:16:05.292><c>of </c><00:16:05.784><c>this </c><00:16:06.276><c>language </c><00:16:06.768><c>and </c><00:16:07.260><c>thereby</c>
+
+00:16:07.370 --> 00:16:07.380 align:start position:0%
+behavior of this language and thereby
+ 
+
+00:16:07.380 --> 00:16:09.889 align:start position:0%
+behavior of this language and thereby
+see <00:16:07.710><c>or </c><00:16:08.040><c>understand </c><00:16:08.370><c>for </c><00:16:08.700><c>himself </c><00:16:09.030><c>that </c><00:16:09.360><c>the</c>
+
+00:16:09.889 --> 00:16:09.899 align:start position:0%
+see or understand for himself that the
+ 
+
+00:16:09.899 --> 00:16:12.290 align:start position:0%
+see or understand for himself that the
+familiar <00:16:10.454><c>terminology </c><00:16:11.009><c>that </c><00:16:11.564><c>has </c><00:16:12.119><c>become</c>
+
+00:16:12.290 --> 00:16:12.300 align:start position:0%
+familiar terminology that has become
+ 
+
+00:16:12.300 --> 00:16:14.030 align:start position:0%
+familiar terminology that has become
+familiar <00:16:12.480><c>to </c><00:16:12.660><c>him, </c><00:16:12.840><c>which </c><00:16:13.020><c>has </c><00:16:13.200><c>become </c><00:16:13.380><c>a </c><00:16:13.560><c>stereotype </c><00:16:13.740><c>for </c><00:16:13.920><c>him,</c>
+
+00:16:14.030 --> 00:16:14.040 align:start position:0%
+familiar to him, which has become a stereotype for him,
+ 
+
+00:16:14.040 --> 00:16:16.970 align:start position:0%
+familiar to him, which has become a stereotype for him,
+in <00:16:14.480><c>fact, </c><00:16:14.920><c>within </c><00:16:15.360><c>the </c><00:16:15.800><c>framework </c><00:16:16.240><c>of </c><00:16:16.680><c>this</c>
+
+00:16:16.970 --> 00:16:16.980 align:start position:0%
+in fact, within the framework of this
+ 
+
+00:16:16.980 --> 00:16:19.210 align:start position:0%
+in fact, within the framework of this
+language <00:16:17.250><c>works </c><00:16:17.520><c>a </c><00:16:17.790><c>little </c><00:16:18.060><c>differently</c>
+
+00:16:19.210 --> 00:16:19.220 align:start position:0%
+language works a little differently
+ 
+
+00:16:19.220 --> 00:16:21.470 align:start position:0%
+language works a little differently
+having <00:16:19.612><c>broken </c><00:16:20.004><c>your </c><00:16:20.396><c>head </c><00:16:20.788><c>with </c><00:16:21.180><c>such</c>
+
+00:16:21.470 --> 00:16:21.480 align:start position:0%
+having broken your head with such
+ 
+
+00:16:21.480 --> 00:16:25.370 align:start position:0%
+having broken your head with such
+stereotypes,
+
+00:16:25.370 --> 00:16:25.380 align:start position:0%
+ 
+ 
+
+00:16:25.380 --> 00:16:27.530 align:start position:0%
+ 
+you <00:16:25.752><c>begin </c><00:16:26.124><c>to </c><00:16:26.496><c>understand </c><00:16:26.868><c>how </c><00:16:27.240><c>the</c>
+
+00:16:27.530 --> 00:16:27.540 align:start position:0%
+you begin to understand how the
+ 
+
+00:16:27.540 --> 00:16:30.230 align:start position:0%
+you begin to understand how the
+language <00:16:27.880><c>was </c><00:16:28.220><c>directly </c><00:16:28.560><c>organized</c>
+
+00:16:30.230 --> 00:16:30.240 align:start position:0%
+language was directly organized
+ 
+
+00:16:30.240 --> 00:16:32.269 align:start position:0%
+language was directly organized
+and <00:16:30.500><c>therefore </c><00:16:30.760><c>you </c><00:16:31.020><c>begin </c><00:16:31.280><c>to </c><00:16:31.540><c>use </c><00:16:31.800><c>it</c>
+
+00:16:32.269 --> 00:16:32.279 align:start position:0%
+and therefore you begin to use it
+ 
+
+00:16:32.279 --> 00:16:38.030 align:start position:0%
+and therefore you begin to use it
+much <00:16:32.559><c>more </c><00:16:32.839><c>effectively </c><00:16:33.119><c>than </c><00:16:33.399><c>other </c><00:16:33.679><c>people </c><00:16:33.959><c>in</c>
+
+00:16:38.030 --> 00:16:38.040 align:start position:0%
+ 
+ 
+
+00:16:38.040 --> 00:16:40.269 align:start position:0%
+ 
+other <00:16:38.349><c>words </c><00:16:38.658><c>Now </c><00:16:38.967><c>you </c><00:16:39.276><c>know </c><00:16:39.585><c>that </c><00:16:39.894><c>a</c>
+
+00:16:40.269 --> 00:16:40.279 align:start position:0%
+other words Now you know that a
+ 
+
+00:16:40.279 --> 00:16:43.310 align:start position:0%
+other words Now you know that a
+template <00:16:40.644><c>literal </c><00:16:41.009><c>is </c><00:16:41.374><c>not </c><00:16:41.739><c>just </c><00:16:42.104><c>a </c><00:16:42.469><c>way </c><00:16:42.834><c>of</c>
+
+00:16:43.310 --> 00:16:43.320 align:start position:0%
+template literal is not just a way of
+ 
+
+00:16:43.320 --> 00:16:46.129 align:start position:0%
+template literal is not just a way of
+forming <00:16:43.800><c>a </c><00:16:44.280><c>string </c><00:16:44.760><c>value </c><00:16:45.240><c>or </c><00:16:45.720><c>an</c>
+
+00:16:46.129 --> 00:16:46.139 align:start position:0%
+forming a string value or an
+ 
+
+00:16:46.139 --> 00:16:48.230 align:start position:0%
+forming a string value or an
+object <00:16:46.451><c>at </c><00:16:46.763><c>the </c><00:16:47.075><c>level </c><00:16:47.387><c>of </c><00:16:47.699><c>internal</c>
+
+00:16:48.230 --> 00:16:48.240 align:start position:0%
+object at the level of internal
+ 
+
+00:16:48.240 --> 00:16:49.730 align:start position:0%
+object at the level of internal
+representation <00:16:48.492><c>with </c><00:16:48.744><c>a </c><00:16:48.996><c>description </c><00:16:49.248><c>of </c><00:16:49.500><c>various</c>
+
+00:16:49.730 --> 00:16:49.740 align:start position:0%
+representation with a description of various
+ 
+
+00:16:49.740 --> 00:16:52.430 align:start position:0%
+representation with a description of various
+parameters <00:16:50.219><c>in </c><00:16:50.698><c>this </c><00:16:51.177><c>string, </c><00:16:51.656><c>but </c><00:16:52.135><c>it</c>
+
+00:16:52.430 --> 00:16:52.440 align:start position:0%
+parameters in this string, but it
+ 
+
+00:16:52.440 --> 00:16:53.629 align:start position:0%
+parameters in this string, but it
+turns <00:16:52.567><c>out </c><00:16:52.694><c>from </c><00:16:52.821><c>the </c><00:16:52.948><c>point </c><00:16:53.075><c>of </c><00:16:53.202><c>view </c><00:16:53.329><c>of </c><00:16:53.456><c>the</c>
+
+00:16:53.629 --> 00:16:53.639 align:start position:0%
+turns out from the point of view of the
+ 
+
+00:16:53.639 --> 00:16:56.210 align:start position:0%
+turns out from the point of view of the
+specification <00:16:53.929><c>it </c><00:16:54.219><c>is </c><00:16:54.509><c>just </c><00:16:54.799><c>a </c><00:16:55.089><c>function </c><00:16:55.379><c>call</c>
+
+00:16:56.210 --> 00:16:56.220 align:start position:0%
+specification it is just a function call
+ 
+
+00:16:56.220 --> 00:16:57.949 align:start position:0%
+specification it is just a function call
+
+
+00:16:57.949 --> 00:16:57.959 align:start position:0%
+ 
+ 
+
+00:16:57.959 --> 00:17:01.210 align:start position:0%
+ 
+where  <00:16:58.639><c>Instead </c><00:16:59.319><c>of </c><00:16:59.999><c>parentheses,</c>
+
+00:17:01.210 --> 00:17:01.220 align:start position:0%
+where  Instead of parentheses,
+ 
+
+00:17:01.220 --> 00:17:05.510 align:start position:0%
+where  Instead of parentheses,
+curious <00:17:01.544><c>quotation </c><00:17:01.868><c>marks </c><00:17:02.192><c>are </c><00:17:02.516><c>used, </c><00:17:02.840><c>and </c><00:17:03.164><c>the </c><00:17:03.488><c>parameters </c><00:17:03.812><c>are </c><00:17:04.136><c>passed</c>
+
+00:17:05.510 --> 00:17:05.520 align:start position:0%
+curious quotation marks are used, and the parameters are passed
+ 
+
+00:17:05.520 --> 00:17:08.569 align:start position:0%
+curious quotation marks are used, and the parameters are passed
+to <00:17:05.800><c>this </c><00:17:06.080><c>function </c><00:17:06.360><c>in</c>
+
+00:17:08.569 --> 00:17:08.579 align:start position:0%
+ 
+ 
+
+00:17:08.579 --> 00:17:11.470 align:start position:0%
+ 
+such <00:17:09.620><c>a</c>
+
+00:17:11.470 --> 00:17:11.480 align:start position:0%
+such a
+ 
+
+00:17:11.480 --> 00:17:29.390 align:start position:0%
+such a
+curious, <00:17:12.113><c>exotic </c><00:17:12.746><c>way. </c><00:17:13.379><c>In</c>
+
+00:17:29.390 --> 00:17:29.400 align:start position:0%
+ 
+ 
+
+00:17:29.400 --> 00:17:32.030 align:start position:0%
+ 
+most <00:17:29.879><c>cases, </c><00:17:30.358><c>when </c><00:17:30.837><c>you </c><00:17:31.316><c>are </c><00:17:31.795><c>taught</c>
+
+00:17:32.030 --> 00:17:32.040 align:start position:0%
+most cases, when you are taught
+ 
+
+00:17:32.040 --> 00:17:34.970 align:start position:0%
+most cases, when you are taught
+JavaScript, <00:17:32.369><c>you </c><00:17:32.698><c>are </c><00:17:33.027><c>not </c><00:17:33.356><c>taught </c><00:17:33.685><c>the </c><00:17:34.014><c>language, </c><00:17:34.343><c>but </c><00:17:34.672><c>rather</c>
+
+00:17:34.970 --> 00:17:34.980 align:start position:0%
+JavaScript, you are not taught the language, but rather
+ 
+
+00:17:34.980 --> 00:17:37.250 align:start position:0%
+JavaScript, you are not taught the language, but rather
+the <00:17:35.220><c>principles </c><00:17:35.460><c>of </c><00:17:35.700><c>other </c><00:17:35.940><c>languages, </c><00:17:36.180><c>stretched </c><00:17:36.420><c>to </c><00:17:36.660><c>the </c><00:17:36.900><c>limit.</c>
+
+00:17:37.250 --> 00:17:38.690 align:start position:0%
+the principles of other languages, stretched to the limit.
+ 
+
+00:17:38.690 --> 00:17:38.700 align:start position:0%
+ 
+ 
+
+00:17:38.700 --> 00:17:40.490 align:start position:0%
+ 
+JavaScript <00:17:39.200><c>can </c><00:17:39.700><c>work </c><00:17:40.200><c>completely</c>
+
+00:17:40.490 --> 00:17:40.500 align:start position:0%
+JavaScript can work completely
+ 
+
+00:17:40.500 --> 00:17:43.390 align:start position:0%
+JavaScript can work completely
+differently, <00:17:40.770><c>but </c><00:17:41.040><c>it </c><00:17:41.310><c>cannot, </c><00:17:41.580><c>and </c><00:17:41.850><c>most </c><00:17:42.120><c>often </c><00:17:42.390><c>it </c><00:17:42.660><c>does.</c>
+
+00:17:43.390 --> 00:17:43.400 align:start position:0%
+differently, but it cannot, and most often it does.
+ 
+
+00:17:43.400 --> 00:17:46.130 align:start position:0%
+differently, but it cannot, and most often it does.
+Each <00:17:44.273><c>subsequent </c><00:17:45.146><c>similar </c><00:17:46.019><c>example</c>
+
+00:17:46.130 --> 00:17:46.140 align:start position:0%
+Each subsequent similar example
+ 
+
+00:17:46.140 --> 00:17:48.230 align:start position:0%
+Each subsequent similar example
+that <00:17:46.340><c>I </c><00:17:46.540><c>give </c><00:17:46.740><c>is</c>
+
+00:17:48.230 --> 00:17:48.240 align:start position:0%
+that I give is
+ 
+
+00:17:48.240 --> 00:17:51.230 align:start position:0%
+that I give is
+trying <00:17:48.680><c>to </c><00:17:49.120><c>show </c><00:17:49.560><c>you </c><00:17:50.000><c>how </c><00:17:50.440><c>a </c><00:17:50.880><c>seemingly</c>
+
+00:17:51.230 --> 00:17:51.240 align:start position:0%
+trying to show you how a seemingly
+ 
+
+00:17:51.240 --> 00:17:53.990 align:start position:0%
+trying to show you how a seemingly
+familiar <00:17:51.960><c>construction</c>
+
+00:17:53.990 --> 00:17:54.000 align:start position:0%
+familiar construction
+ 
+
+00:17:54.000 --> 00:17:57.950 align:start position:0%
+familiar construction
+suddenly <00:17:54.288><c>turns </c><00:17:54.576><c>out </c><00:17:54.864><c>to </c><00:17:55.152><c>be </c><00:17:55.440><c>something</c>
+
+00:17:57.950 --> 00:17:57.960 align:start position:0%
+suddenly turns out to be something
+ 
+
+00:17:57.960 --> 00:18:01.789 align:start position:0%
+suddenly turns out to be something
+that <00:17:58.270><c>can </c><00:17:58.580><c>be </c><00:17:58.890><c>used </c><00:17:59.200><c>in </c><00:17:59.510><c>an </c><00:17:59.820><c>unexpected</c>
+
+00:18:01.789 --> 00:18:01.799 align:start position:0%
+that can be used in an unexpected
+ 
+
+00:18:01.799 --> 00:18:03.770 align:start position:0%
+that can be used in an unexpected
+context <00:18:02.147><c>or </c><00:18:02.495><c>in </c><00:18:02.843><c>an </c><00:18:03.191><c>unexpected </c><00:18:03.539><c>manner.</c>
+
+00:18:03.770 --> 00:18:03.780 align:start position:0%
+context or in an unexpected manner.
+ 
+
+00:18:03.780 --> 00:18:05.590 align:start position:0%
+context or in an unexpected manner.
+Why?
+
+00:18:05.590 --> 00:18:05.600 align:start position:0%
+Why?
+ 
+
+00:18:05.600 --> 00:18:09.049 align:start position:0%
+Why?
+Because <00:18:06.066><c>the </c><00:18:06.532><c>language </c><00:18:06.998><c>is </c><00:18:07.464><c>such </c><00:18:07.930><c>a </c><00:18:08.396><c>crazy,</c>
+
+00:18:09.049 --> 00:18:09.059 align:start position:0%
+Because the language is such a crazy,
+ 
+
+00:18:09.059 --> 00:18:11.810 align:start position:0%
+Because the language is such a crazy,
+crazy, <00:18:09.299><c>wonderful </c><00:18:09.539><c>language. </c><00:18:09.779><c>I</c>
+
+00:18:11.810 --> 00:18:11.820 align:start position:0%
+crazy, wonderful language. I
+ 
+
+00:18:11.820 --> 00:18:15.049 align:start position:0%
+crazy, wonderful language. I
+hope <00:18:11.985><c>everyone </c><00:18:12.150><c>has </c><00:18:12.315><c>signed </c><00:18:12.480><c>up.</c>
+
+00:18:15.049 --> 00:18:15.059 align:start position:0%
+hope everyone has signed up.
+ 
+
+00:18:15.059 --> 00:18:20.409 align:start position:0%
+hope everyone has signed up.
+Thank <00:18:15.339><c>you </c><00:18:15.619><c>very </c><00:18:15.899><c>much.</c>
+
+00:18:20.409 --> 00:18:20.419 align:start position:0%
+ 
+ 
+
+00:18:20.419 --> 00:18:22.669 align:start position:0%
+ 
+I <00:18:20.673><c>also </c><00:18:20.927><c>wanted </c><00:18:21.181><c>to </c><00:18:21.435><c>tell </c><00:18:21.689><c>some </c><00:18:21.943><c>kind </c><00:18:22.197><c>of</c>
+
+00:18:22.669 --> 00:18:22.679 align:start position:0%
+I also wanted to tell some kind of
+ 
+
+00:18:22.679 --> 00:18:25.010 align:start position:0%
+I also wanted to tell some kind of
+joke <00:18:23.087><c>or </c><00:18:23.495><c>anecdote, </c><00:18:23.903><c>although </c><00:18:24.311><c>my </c><00:18:24.719><c>very</c>
+
+00:18:25.010 --> 00:18:25.020 align:start position:0%
+joke or anecdote, although my very
+ 
+
+00:18:25.020 --> 00:18:28.100 align:start position:0%
+joke or anecdote, although my very
+appearance <00:18:25.214><c>is </c><00:18:25.408><c>already </c><00:18:25.602><c>a </c><00:18:25.796><c>joke.</c>
+

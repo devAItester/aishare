@@ -1,5 +1,9 @@
 # Rules
 
+## [Naming new folders](folder-naming.md)
+
+All new directory names we create use lowercase English ASCII and hyphens; preserve case-sensitive external identifiers as data and do not rename imported source directories automatically.
+
 ## [Работа с настройками и dotfiles](Settings-and-dotfiles.md)
 
 Как обсуждать настройки: сначала читать актуальные dotfiles и сверяться с документацией, затем согласовывать изменение, вносить его в репозиторий и давать одну команду для синхронизации с компьютером.

@@ -1,15 +1,15 @@
 # GitHub account configuration audit
 
-Selected diagnostics; terminal sessions excluded; obvious secrets redacted.
+Selected diagnostics; raw terminal sessions excluded; obvious secrets redacted. Local usernames, home paths, LAN host details, and account-specific noreply addresses are redacted for public publication.
 
 ## github-audit/gh-config-inventory.txt
 
 ```text
-===== /home/faebfe/.config/gh-accounts/FAEBFE =====
+===== $HOME/.config/gh-accounts/FAEBFE =====
 config.yml
-===== /home/faebfe/.config/gh-accounts/devAItester =====
+===== $HOME/.config/gh-accounts/devAItester =====
 config.yml
-===== /home/faebfe/.config/gh-global-disabled =====
+===== $HOME/.config/gh-global-disabled =====
 
 gh version 2.102.0 (2026-09-30)
 https://github.com/cli/cli/releases/tag/v2.102.0
@@ -20,122 +20,122 @@ https://github.com/cli/cli/releases/tag/v2.102.0
 
 ```text
 
-===== /mnt/dev/github.com/devAItester/aichat =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/aichat =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/aichat.git (fetch)
 origin	git@github-devaitester:devAItester/aichat.git (push)
 
-===== /mnt/dev/github.com/devAItester/aishare =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/aishare =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/aishare.git (fetch)
 origin	git@github-devaitester:devAItester/aishare.git (push)
 
-===== /mnt/dev/github.com/devAItester/d00-jk =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/d00-jk =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/d00-jk.git (fetch)
 origin	git@github-devaitester:devAItester/d00-jk.git (push)
 
-===== /mnt/dev/github.com/devAItester/d00-jk-bc =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/d00-jk-bc =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/d00-jk-bc.git (fetch)
 origin	git@github-devaitester:devAItester/d00-jk-bc.git (push)
 
-===== /mnt/dev/github.com/devAItester/d01-jk =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/d01-jk =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/d01-jk.git (fetch)
 origin	git@github-devaitester:devAItester/d01-jk.git (push)
 
-===== /mnt/dev/github.com/devAItester/d02-bh =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/d02-bh =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/d02-bh.git (fetch)
 origin	git@github-devaitester:devAItester/d02-bh.git (push)
 
-===== /mnt/dev/github.com/devAItester/dotfiles =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/dotfiles =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/dotfiles.git (fetch)
 origin	git@github-devaitester:devAItester/dotfiles.git (push)
 
-===== /mnt/dev/github.com/devAItester/dotmyfiles =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/dotmyfiles =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/dotmyfiles.git (fetch)
 origin	git@github-devaitester:devAItester/dotmyfiles.git (push)
 
-===== /mnt/dev/github.com/devAItester/jk-minima =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/jk-minima =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/jk-minima.git (fetch)
 origin	git@github-devaitester:devAItester/jk-minima.git (push)
 
-===== /mnt/dev/github.com/devAItester/jk-minima-gpt =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/jk-minima-gpt =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/jk-minima-gpt.git (fetch)
 origin	git@github-devaitester:devAItester/jk-minima-gpt.git (push)
 
-===== /mnt/dev/github.com/devAItester/jk-tmp =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/jk-tmp =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/jk-tmp.git (fetch)
 origin	git@github-devaitester:devAItester/jk-tmp.git (push)
 
-===== /mnt/dev/github.com/devAItester/primer =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/primer =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/primer.git (fetch)
 origin	git@github-devaitester:devAItester/primer.git (push)
 
-===== /mnt/dev/github.com/devAItester/ytbd =====
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	devAItester
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	336027073+devAItester@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
+===== $REPO_ROOT/devAItester/ytbd =====
+file:$HOME/.config/git/accounts/devAItester.gitconfig	devAItester
+file:$HOME/.config/git/accounts/devAItester.gitconfig	[devAItester noreply email redacted]
+file:$HOME/.config/git/accounts/devAItester.gitconfig	ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 origin	git@github-devaitester:devAItester/ytbd.git (fetch)
 origin	git@github-devaitester:devAItester/ytbd.git (push)
 
-===== /mnt/dev/github.com/FAEBFE/01-simple =====
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	FAEBFE
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	336804604+FAEBFE@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
+===== $REPO_ROOT/FAEBFE/01-simple =====
+file:$HOME/.config/git/accounts/faebfe.gitconfig	FAEBFE
+file:$HOME/.config/git/accounts/faebfe.gitconfig	[FAEBFE noreply email redacted]
+file:$HOME/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 origin	git@github.com:FAEBFE/01-simple.git (fetch)
 origin	git@github.com:FAEBFE/01-simple.git (push)
 
-===== /mnt/dev/github.com/FAEBFE/02-clean =====
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	FAEBFE
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	336804604+FAEBFE@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
+===== $REPO_ROOT/FAEBFE/02-clean =====
+file:$HOME/.config/git/accounts/faebfe.gitconfig	FAEBFE
+file:$HOME/.config/git/accounts/faebfe.gitconfig	[FAEBFE noreply email redacted]
+file:$HOME/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 origin	git@github.com:FAEBFE/02-clean.git (fetch)
 origin	git@github.com:FAEBFE/02-clean.git (push)
 
-===== /mnt/dev/github.com/FAEBFE/FAEBFE.github.io =====
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	FAEBFE
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	336804604+FAEBFE@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
+===== $REPO_ROOT/FAEBFE/FAEBFE.github.io =====
+file:$HOME/.config/git/accounts/faebfe.gitconfig	FAEBFE
+file:$HOME/.config/git/accounts/faebfe.gitconfig	[FAEBFE noreply email redacted]
+file:$HOME/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 origin	git@github.com:FAEBFE/FAEBFE.github.io.git (fetch)
 origin	git@github.com:FAEBFE/FAEBFE.github.io.git (push)
 
-===== /mnt/dev/github.com/FAEBFE/repo =====
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	FAEBFE
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	336804604+FAEBFE@users.noreply.github.com
-file:/home/faebfe/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
+===== $REPO_ROOT/FAEBFE/repo =====
+file:$HOME/.config/git/accounts/faebfe.gitconfig	FAEBFE
+file:$HOME/.config/git/accounts/faebfe.gitconfig	[FAEBFE noreply email redacted]
+file:$HOME/.config/git/accounts/faebfe.gitconfig	ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 origin	git@github.com:FAEBFE/repo.git (fetch)
 origin	git@github.com:FAEBFE/repo.git (push)
 
@@ -166,12 +166,12 @@ $ git --version
 git version 2.56.0
 
 $ git config --show-origin --list
-file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/FAEBFE/.path=/home/faebfe/.config/git/accounts/faebfe.gitconfig
-file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/devAItester/.path=/home/faebfe/.config/git/accounts/devAItester.gitconfig
+file:$HOME/.gitconfig	includeif.gitdir:$REPO_ROOT/FAEBFE/.path=$HOME/.config/git/accounts/faebfe.gitconfig
+file:$HOME/.gitconfig	includeif.gitdir:$REPO_ROOT/devAItester/.path=$HOME/.config/git/accounts/devAItester.gitconfig
 
 $ git config --global --list --show-origin
-file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/FAEBFE/.path=/home/faebfe/.config/git/accounts/faebfe.gitconfig
-file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/devAItester/.path=/home/faebfe/.config/git/accounts/devAItester.gitconfig
+file:$HOME/.gitconfig	includeif.gitdir:$REPO_ROOT/FAEBFE/.path=$HOME/.config/git/accounts/faebfe.gitconfig
+file:$HOME/.gitconfig	includeif.gitdir:$REPO_ROOT/devAItester/.path=$HOME/.config/git/accounts/devAItester.gitconfig
 
 ```
 
@@ -188,10 +188,10 @@ file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/devAItester/.p
 243-    cwd="$(pwd -P)" || return 1
 244-
 245-    case "$cwd/" in
-246-        /mnt/dev/github.com/FAEBFE/*)
+246-        $REPO_ROOT/FAEBFE/*)
 247-            config="$HOME/.config/gh-accounts/FAEBFE"
 248-            ;;
-249-        /mnt/dev/github.com/devAItester/*)
+249-        $REPO_ROOT/devAItester/*)
 250-            config="$HOME/.config/gh-accounts/devAItester"
 251-            ;;
 252-        *)
@@ -210,7 +210,7 @@ file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/devAItester/.p
 ```text
 [user]
     name = FAEBFE
-    email = 336804604+FAEBFE@users.noreply.github.com
+    email = [FAEBFE noreply email redacted]
 [core]
     sshCommand = ssh -i ~/.ssh/id_ed25519 -o IdentitiesOnly=yes
 
@@ -221,7 +221,7 @@ file:/home/faebfe/.gitconfig	includeif.gitdir:/mnt/dev/github.com/devAItester/.p
 ```text
 [user]
     name = devAItester
-    email = 336027073+devAItester@users.noreply.github.com
+    email = [devAItester noreply email redacted]
 [core]
     sshCommand = ssh -i ~/.ssh/id_ed25519_devaitester -o IdentitiesOnly=yes
 
@@ -242,10 +242,10 @@ Host github-devaitester
     IdentityFile ~/.ssh/id_ed25519_devaitester
     IdentitiesOnly yes
 
-Host h310
-    HostName 192.168.10.104
-    User Nikos
-    IdentityFile ~/.ssh/id_ed25519_h310
+Host [local SSH host redacted]
+    HostName [LAN IP redacted]
+    User [local username redacted]
+    IdentityFile [local key path redacted]
     IdentitiesOnly yes
 
 ```
@@ -253,10 +253,10 @@ Host h310
 ## github-audit/gitconfig
 
 ```text
-[includeIf "gitdir:/mnt/dev/github.com/FAEBFE/"]
-	path = /home/faebfe/.config/git/accounts/faebfe.gitconfig
-[includeIf "gitdir:/mnt/dev/github.com/devAItester/"]
-	path = /home/faebfe/.config/git/accounts/devAItester.gitconfig
+[includeIf "gitdir:$REPO_ROOT/FAEBFE/"]
+	path = $HOME/.config/git/accounts/faebfe.gitconfig
+[includeIf "gitdir:$REPO_ROOT/devAItester/"]
+	path = $HOME/.config/git/accounts/devAItester.gitconfig
 
 ```
 
@@ -264,7 +264,7 @@ Host h310
 
 ```text
 14:sudo chown -R faebfe:faebfe ~/dotfiles
-29:grep -RniE 'token|password|secret|api[_-]?key|BEGIN (OPENSSH|RSA|EC|PRIVATE)|/home/faebfe'   --exclude-dir=.git \
+29:grep -RniE 'token|password|secret|api[_-]?key|BEGIN (OPENSSH|RSA|EC|PRIVATE)|$HOME'   --exclude-dir=.git \
 33:git commit -m "Add current Arch configuration"
 41:pacman -Qq | grep -E '^(niri|fuzzel|alacritty|greetd|tuigreet|fastfetch|yazi|zed|opencode|github-cli|networkmanager|systemd-zram-generator|broadcom-wl-dkms|macfan|amnezia|mpv|imv)$'
 64:git clone <repository> ~/dotfiles
@@ -288,8 +288,8 @@ Host h310
 138:git commit --amend --no-edit
 140:git push --force-with-lease
 146:git remote -v
-150:sed -i 's#/home/faebfe/.local/bin/macfan#%h/.local/bin/macfan#' etc/systemd/system/macfan.service && git add etc/systemd/system/macfan.service && git commit -m "Make macfan service portable" && git push
-152:sed -i 's#%h/.local/bin/macfan#/home/faebfe/.local/bin/macfan#' etc/systemd/system/macfan.service && git add etc/systemd/system/macfan.service && git commit -m "Fix macfan service path" && git push
+150:sed -i 's#$HOME/.local/bin/macfan#%h/.local/bin/macfan#' etc/systemd/system/macfan.service && git add etc/systemd/system/macfan.service && git commit -m "Make macfan service portable" && git push
+152:sed -i 's#%h/.local/bin/macfan#$HOME/.local/bin/macfan#' etc/systemd/system/macfan.service && git add etc/systemd/system/macfan.service && git commit -m "Fix macfan service path" && git push
 170:git commit -m "Add dotfiles installer"
 172:git push
 176:printf '%s\n' '# dotfiles' '' 'Конфигурация Arch Linux для рабочего окружения.' '' '## Структура' '' '- `home/` — пользовательские конфигурации и скрипты' '- `etc/` — системные конфигурации' '' '## Установка' '' 'Клонировать репозиторий:' '' '```bash' 'git clone git@github-devaitester:devAItester/dotfiles.git ~/dotfiles' 'cd ~/dotfiles' '```' '' 'Установить конфигурацию:' '' '```bash' './install.sh' '```' > README.md
@@ -303,7 +303,7 @@ Host h310
 279:git config core.sshCommand "ssh -i ~/.ssh/id_ed25519_devaitester -F /dev/null"
 281:git push -u origin main
 283:gh repo create --public --source=. --remote=origin
-489:sed -i 's#Mod+Slash { show-hotkey-overlay; }#Mod+Slash { spawn "foot" "-T" "Workflow" "micro" "/home/faebfe/.config/workflow"; }#' ~/.config/niri/config.kdl
+489:sed -i 's#Mod+Slash { show-hotkey-overlay; }#Mod+Slash { spawn "foot" "-T" "Workflow" "micro" "$HOME/.config/workflow"; }#' ~/.config/niri/config.kdl
 777:gh auth login
 779:gh auth status
 781:gh repo list FAEBFE --limit 1000
@@ -437,7 +437,7 @@ Host h310
 1529:for account in devAItester faebfe; do     printf '\n=== %s ===\n' "$account";     for dir in "$HOME/dev/$account"/*/; do         [ -d "$dir/.git" ] || continue;         printf '\n%s\n' "$(basename "$dir")";         git -C "$dir" config --show-origin --get core.sshCommand;     done; done
 1531:for account in devAItester faebfe; do     for dir in "$HOME/dev/$account"/*/; do         [ -d "$dir/.git" ] || continue;          printf '\n=== %s/%s ===\n' "$account" "$(basename "$dir")";          if output=$(git -C "$dir" ls-remote origin HEAD 2>&1); then             if [ -n "$output" ]; then                 printf 'OK: %s\n' "$output";             else                 printf 'OK: HEAD отсутствует; репозиторий может быть пустым.\n';             fi;         else             printf 'ERROR: %s\n' "$output";         fi;     done; done
 1585:faebfe@arch ~/youtube/AsForJS                                                                                                                                                                                 17:58:24
-1812:  33289       1 S+         14:07 /bin/bash /home/faebfe/.local/bin/amnezia-vpn
+1812:  33289       1 S+         14:07 /bin/bash $HOME/.local/bin/amnezia-vpn
 1822:faebfe@arch ~                                                                                                                                                                                                 18:13:52
 1996:cd ~/dev/devAItester/aishare
 2004:git remote -v

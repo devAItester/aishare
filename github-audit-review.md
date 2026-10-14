@@ -470,3 +470,78 @@ Host [local SSH host redacted]
 2486:if ! git diff --cached --quiet; then   git commit -m "Archive AsForJS collection log";   git push origin main; fi
 2492:{     set -u;      video="DjuK8h7-ep8";     source="$HOME/youtube/AsForJS/full-data/$video";     repo="$HOME/dev/devAItester/aishare";     relative="Archive/YouTube Transcript Copy/summaries/yt-dlp/AsForJS/full-data/$video";     destination="$repo/$relative";     temp="$(mktemp -d)";     log="$temp/ru-auto-caption.log";     status_file="$temp/ru-auto-caption-status.txt";      if ! command -v yt-dlp >/dev/null ||        ! command -v jq >/dev/null ||        ! command -v git >/dev/null; then         printf '%s\n' "ERROR: yt-dlp, jq and git are required.";         exit 1;     fi;      if [ ! -d "$source" ] || [ ! -d "$repo/.git" ]; then         printf '%s\n' "ERROR: Expected source or repository directory is missing.";         exit 1;     fi;      cd "$repo" || exit 1;      if ! git switch main || ! git pull --ff-only; then         printf '%s\n' "ERROR: Could not update repository main branch.";         exit 1;     fi;      mkdir -p "$destination";      caption="";     for file in "$source"/"$video"*.json3; do         if [ -f "$file" ]; then             caption="$file";             break;         fi;     done;      if [ -z "$caption" ]; then         yt-dlp             --skip-download             --write-auto-subs             --sub-langs ru             --sub-format json3             --output "$temp/%(id)s.%(ext)s"             "https://www.youtube.com/watch?v=$video"             >"$log" 2>&1;         download_rc=$?;          for file in "$temp"/"$video"*.json3; do             if [ -f "$file" ]; then                 caption="$file";                 break;             fi;         done;     else         printf '%s\n' "Using existing local JSON3 caption file." >"$log";         download_rc=0;     fi;      if [ -n "$caption" ] && jq -e 'type == "object" and (.events | type == "array")' "$caption" >/dev/null 2>&1; then         cp "$caption" "$destination/$(basename "$caption")";         printf 'result=success\nvideo=%s\nlanguage=ru\ndownload_exit_code=%s\nfile=%s\n'             "$video" "$download_rc" "$(basename "$caption")" >"$status_file";     else         printf 'result=failed\nvideo=%s\nlanguage=ru\ndownload_exit_code=%s\nreason=no_valid_json3_caption\n'             "$video" "${download_rc:-unknown}" >"$status_file";     fi;      cp "$log" "$destination/ru-auto-caption.log";     cp "$status_file" "$destination/ru-auto-caption-status.txt";      git add -- "$relative/ru-auto-caption.log" "$relative/ru-auto-caption-status.txt";     if
 ```
+
+
+# Инструкция: Git и GitHub с двумя аккаунтами на Arch Linux
+
+## Принцип
+
+- Репозитории FAEBFE хранятся в `/mnt/dev/github.com/FAEBFE/`.
+- Репозитории devAItester хранятся в `/mnt/dev/github.com/devAItester/`.
+- Глобальный `~/.gitconfig` подключает отдельный файл настроек через `includeIf` в зависимости от каталога репозитория.
+- Для SSH используются разные ключи и хосты: `github.com` для FAEBFE и `github-devaitester` для devAItester.
+- Обёртка `gh()` в Bash выбирает отдельный `GH_CONFIG_DIR` по текущему каталогу. Запускай `gh` из каталога нужного аккаунта.
+
+## Настройки
+
+Файл `~/.gitconfig` должен содержать:
+
+```gitconfig
+[includeIf "gitdir:/mnt/dev/github.com/FAEBFE/"]
+    path = ~/.config/git/accounts/faebfe.gitconfig
+[includeIf "gitdir:/mnt/dev/github.com/devAItester/"]
+    path = ~/.config/git/accounts/devAItester.gitconfig
+```
+
+В `~/.config/git/accounts/faebfe.gitconfig` задаются имя `FAEBFE`, соответствующий GitHub noreply email и SSH-команда с ключом `~/.ssh/id_ed25519`.
+
+В `~/.config/git/accounts/devAItester.gitconfig` задаются имя `devAItester`, соответствующий GitHub noreply email и SSH-команда с ключом `~/.ssh/id_ed25519_devaitester`.
+
+В `~/.ssh/config` должны быть настроены алиасы `github.com` и `github-devaitester`, оба с `IdentitiesOnly yes`, но с разными ключами.
+
+## Проверка
+
+Выполни команды из каждого соответствующего дерева репозиториев:
+
+```bash
+# Проверить автора и SSH-команду текущего репозитория
+git config --show-origin --get user.name
+git config --show-origin --get user.email
+git config --show-origin --get core.sshCommand
+git remote -v
+
+# Проверить, какой ключ назначен каждому SSH-алиасу
+ssh -G github.com | grep -i '^identityfile '
+ssh -G github-devaitester | grep -i '^identityfile '
+
+# Проверить фактическую GitHub-аутентификацию обоих ключей
+ssh -T git@github.com
+ssh -T git@github-devaitester
+
+# Проверить доступ к конкретному удалённому репозиторию
+git ls-remote origin HEAD
+```
+
+Ожидаемый результат: для каждого репозитория совпадают аккаунт в `user.name`/email, SSH-ключ и владелец URL `origin`; `ssh -T` сообщает правильный GitHub login для каждого алиаса; `git ls-remote origin HEAD` завершается без ошибки (у пустого репозитория отсутствие HEAD возможно).
+
+## GitHub CLI
+
+Внутри дерева аккаунта проверь авторизацию:
+
+```bash
+gh auth status
+gh api user --jq .login
+```
+
+Логин должен соответствовать аккаунту дерева. Вне `/mnt/dev/github.com/FAEBFE/` и `/mnt/dev/github.com/devAItester/` обёртка `gh()` намеренно возвращает ошибку. Не обходи это запуском `/usr/bin/gh`, если не хочешь сознательно использовать его стандартную конфигурацию.
+
+## При добавлении нового репозитория
+
+1. Клонируй его внутрь каталога правильного аккаунта.
+2. Проверь `git remote -v`: у devAItester должен использоваться алиас `github-devaitester`; у FAEBFE — `github.com`.
+3. Проверь автора коммита через `git config user.name` и `git config user.email`.
+4. Проверь доступ через `git ls-remote origin HEAD` до внесения изменений.
+
+## Критерий готовности
+
+Оба SSH-алиаса аутентифицируют ожидаемые аккаунты; `gh api user --jq .login` внутри каждого дерева возвращает ожидаемый login; Git показывает настройки нужного аккаунта, а удалённый URL указывает на владельца репозитория. Проверки из текущего отчёта подтверждают конфигурацию маршрутизации, но сами по себе не подтверждают актуальную успешную аутентификацию.

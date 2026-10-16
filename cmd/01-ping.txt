@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Ping the host configured in cmd/data/ping-target.txt.
+
+set -uo pipefail
+
+readonly TARGET_URL="https://raw.githubusercontent.com/devAItester/aishare/main/cmd/data/ping-target.txt"
+
+if ! target=$(curl -fsSL "$TARGET_URL"); then
+  printf 'Error: could not read ping-target.txt.\n' >&2
+  exit 1
+fi
+
+target=$(printf '%s' "$target" | tr -d '\r\n[:space:]')
+if [[ -z "$target" ]]; then
+  printf 'Error: ping target is empty.\n' >&2
+  exit 1
+fi
+
+printf 'Pinging %s (3 packets)\n\n' "$target"
+ping -c 3 -- "$target"

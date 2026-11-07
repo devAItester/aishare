@@ -4,16 +4,27 @@ specification {
   element container
   element component
 
-  relationship creates
-  relationship indexes
+  relationship starts
+  relationship implements
+  relationship connects
+  relationship manages
+  relationship launches
+  relationship hosts
+  relationship invokes
+  relationship integrates
   relationship reads
-  relationship generates
-  relationship compiles
-  relationship executes
-  relationship includes
-  relationship serves
+  relationship writes
+  relationship opens
+  relationship renders
+  relationship previews
+  relationship provides
+  relationship uses
+  relationship configures
+  relationship detects
+  relationship displays
 
   tag confirmed
-  tag reference
+  tag configured
+  tag supporting
   tag to-verify
 }

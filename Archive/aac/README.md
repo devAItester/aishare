@@ -76,7 +76,6 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - systemd — https://systemd.io/
 - fuzzel upstream — https://codeberg.org/dnkl/fuzzel
 - imv upstream — https://github.com/eXeC64/imv
-- wl-clipboard — https://github.com/bugaevc/wl-clipboard
 - NetworkManager — https://networkmanager.dev/docs/
 
 ## Проверка

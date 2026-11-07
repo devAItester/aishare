@@ -204,7 +204,6 @@ model {
   workstation.interaction.foot -> workstation.session.wayland 'connects as Wayland client'
   workstation.interaction.fuzzel -> workstation.session.wayland 'connects as Wayland client'
   workstation.filesAndEditing.imv -> workstation.session.wayland 'connects as Wayland client'
-  workstation.filesAndEditing.firefox -> workstation.session.wayland 'uses native Wayland session when configured' 
 
   workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'

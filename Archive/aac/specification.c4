@@ -5,6 +5,7 @@ specification {
   element component
 
   relationship starts
+  relationship loads
   relationship implements
   relationship connects
   relationship manages

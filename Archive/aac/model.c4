@@ -1,92 +1,241 @@
 model {
-  author = person 'Author'
+  user = person 'User'
 
-  site = softwareSystem 'Personal knowledge site' {
-    description 'The user’s own journal / knowledge site. This model records architecture selected in prior project work; it does not model the separate menu project.'
+  workstation = softwareSystem 'Arch Linux workstation' {
+    description 'The user’s personal Linux workstation and daily software environment. The website project and the menu repository are explicitly outside this system.'
 
-    content = container 'Content records' {
-      description 'Source records and authored material.'
-      entryLog = component 'Entry log' {
-        #reference
-        description 'Input records for journal entries. The upstream Oscean reference calls this entry-log.'
+    hardware = container 'Laptop hardware' {
+      description 'MacBookAir6,2 platform: Intel Core i5-4260U, Intel Haswell graphics, Broadcom BCM4360 Wi-Fi, Apple trackpad.'
+      laptop = component 'MacBook Air 6,2' {
+        #confirmed
+        description 'Physical host for the software environment.'
       }
-      entryMap = component 'Entry map' {
-        #reference
-        description 'Input map used to derive incoming links and page relationships. The upstream Oscean reference calls this entry-map.'
+      graphics = component 'Intel Haswell graphics' {
+        #confirmed
+        description 'Integrated Intel GPU used by the Wayland session.'
+      }
+      wifi = component 'Broadcom BCM4360 Wi-Fi' {
+        #confirmed
+        description 'Wireless adapter using broadcom-wl-dkms; NetworkManager manages the connection.'
+      }
+      trackpad = component 'Apple trackpad' {
+        #confirmed
+        description 'Primary pointing and gesture input device.'
       }
     }
 
-    informationModel = container 'Page and link model' {
-      description 'The structured index of pages and their relationships.'
-      lexicon = component 'Lexicon' {
-        #reference
-        description 'Plain-text page dictionary / index of pages and links in the Oscean reference.'
+    base = container 'Operating system' {
+      description 'Arch Linux base system and system services.'
+      arch = component 'Arch Linux' {
+        #confirmed
+        description 'Rolling-release GNU/Linux distribution; package management through pacman.'
+      }
+      kernel = component 'Linux kernel' {
+        #confirmed
+        description 'Linux kernel; exact version is machine-state data and should be refreshed when inventory is updated.'
+      }
+      systemd = component 'systemd' {
+        #confirmed
+        description 'System and service manager.'
+      }
+      pacman = component 'pacman' {
+        #confirmed
+        description 'Arch Linux package manager.'
+      }
+      networkManager = component 'NetworkManager' {
+        #confirmed
+        description 'Network connection management.'
+      }
+      broadcomDriver = component 'broadcom-wl-dkms' {
+        #confirmed
+        description 'Kernel driver package used by the Broadcom BCM4360 wireless adapter.'
       }
     }
 
-    generator = container 'Site generator' {
-      description 'Generation logic. The Oscean reference implements this in Uxntal; whether the user’s own implementation will reuse it is intentionally left open.'
-      osceanProgram = component 'Generator program' {
-        #reference
-        description 'Upstream reference: src/oscean.tal. This is not proof that the user’s own site runs this exact program.'
+    session = container 'Login and graphical session' {
+      description 'Login manager, Wayland protocol and compositor.'
+      greetd = component 'greetd' {
+        #confirmed
+        description 'Minimal login manager; starts the configured user session.'
+      }
+      wayland = component 'Wayland protocol' {
+        #confirmed
+        description 'Client/server display protocol and architecture. It is not itself a compositor process.'
+      }
+      niri = component 'niri compositor' {
+        #confirmed
+        description 'Scrollable-tiling Wayland compositor; acts as the Wayland server for graphical clients.'
+      }
+      niriConfig = component 'niri configuration' {
+        #configured
+        description 'KDL configuration at ~/.config/niri/config.kdl.'
       }
     }
 
-    presentation = container 'Presentation sources' {
-      html = component 'HTML fragments and templates' {
-        #reference
-        description 'Upstream reference: src/htm/.'
+    interaction = container 'Desktop interaction' {
+      description 'Application launcher, terminal emulator and shell.'
+      fuzzel = component 'fuzzel' {
+        #confirmed
+        description 'Wayland-native application launcher; invoked from the user’s niri workflow.'
       }
-      styles = component 'Stylesheet' {
-        #reference
-        description 'Upstream reference: links/main.css.'
+      foot = component 'foot' {
+        #confirmed
+        description 'Wayland-native terminal emulator; provides the terminal environment for shell and TUI applications.'
       }
-      media = component 'Media assets' {
-        #reference
-        description 'Images and other static assets.'
+      footConfig = component 'foot configuration' {
+        #configured
+        description 'Configuration at ~/.config/foot/foot.ini. The user’s Iosevka Nerd Font 10pt preference and Sixel use are documented separately from a fresh config-file audit.'
       }
-    }
-
-    runtime = container 'Build and runtime' {
-      uxnasm = component 'uxnasm / assembler' {
-        #reference
-        description 'Assembles the Uxntal source into a Uxn ROM.'
+      bash = component 'Bash' {
+        #confirmed
+        description 'Interactive shell started inside foot.'
       }
-      uxncli = component 'uxncli / Uxn runtime' {
-        #reference
-        description 'Executes the generated ROM.'
-      }
-      rom = component 'Generator ROM' {
-        #reference
-        description 'Compiled output of the Uxntal generator.'
-      }
-    }
-
-    output = container 'Generated site' {
-      description 'Static HTML output published or served to readers.'
-      pages = component 'Generated pages' {
+      shellEnvironment = component 'Shell environment' {
         #to-verify
-        description 'Generated HTML pages.'
+        description 'EDITOR and VISUAL variables; Neovim is the selected default editor, but current exported values need a live check.'
       }
-      assets = component 'Published assets' {
+    }
+
+    filesAndEditing = container 'File management and editing' {
+      description 'Primary terminal file manager, editor, plugin integration and external openers.'
+      yazi = component 'Yazi' {
+        #confirmed
+        description 'Primary terminal file manager; normally runs inside foot.'
+      }
+      nvim = component 'Neovim' {
+        #confirmed
+        description 'Primary text editor, configured in Lua under ~/.config/nvim/.'
+      }
+      lazy = component 'lazy.nvim' {
+        #configured
+        description 'Neovim plugin manager.'
+      }
+      yaziNvim = component 'yazi.nvim' {
+        #configured
+        description 'Neovim integration that launches Yazi in a Neovim terminal/floating interface.'
+      }
+      plenary = component 'plenary.nvim' {
+        #supporting
+        description 'Lua utility dependency used by the yazi.nvim integration.'
+      }
+      imv = component 'imv' {
+        #confirmed
+        description 'External image viewer; Yazi image opener is configured to use it.'
+      }
+      xdgOpen = component 'xdg-open' {
+        #supporting
+        description 'Opens non-image files through the desktop MIME/application associations.'
+      }
+      file = component 'file' {
+        #supporting
+        description 'File type and MIME detection used by Yazi.'
+      }
+      firefox = component 'Firefox' {
+        #confirmed
+        description 'Web browser in the user’s desktop environment.'
+      }
+    }
+
+    clipboard = container 'Clipboard and selection' {
+      description 'Wayland clipboard utilities and selection integration.'
+      wlClipboard = component 'wl-clipboard' {
+        #configured
+        description 'Provides wl-copy and wl-paste command-line utilities for Wayland clipboard access.'
+      }
+      primarySelection = component 'Wayland primary-selection protocol' {
         #to-verify
-        description 'Copied or generated CSS and media assets.'
+        description 'Selection-oriented clipboard behavior; the exact protocol path for the user’s trackpad tap workflow must be verified against the running compositor and applications.'
+      }
+    }
+
+    preview = container 'Terminal preview and media tools' {
+      description 'Yazi preview backends and helper utilities previously installed or selected.'
+      sixel = component 'Sixel graphics protocol' {
+        #configured
+        description 'Terminal graphics protocol used by Yazi to display image previews in foot.'
+      }
+      chafa = component 'Chafa' {
+        #supporting
+        description 'Fallback terminal image renderer.'
+      }
+      ueberzug = component 'Überzug++' {
+        #supporting
+        description 'Alternative image preview backend; not the selected active path for Yazi inside foot.'
+      }
+      ffmpeg = component 'FFmpeg / ffprobe' {
+        #supporting
+        description 'Media metadata and video preview support.'
+      }
+      poppler = component 'Poppler / pdftoppm' {
+        #supporting
+        description 'PDF rendering for previews.'
+      }
+      imagemagick = component 'ImageMagick' {
+        #supporting
+        description 'Image format conversion and preview support.'
+      }
+      resvg = component 'resvg' {
+        #supporting
+        description 'SVG rendering support.'
+      }
+      archiveTools = component '7-Zip' {
+        #supporting
+        description 'Archive listing, extraction and preview support.'
+      }
+      searchTools = component 'fzf / ripgrep / jq' {
+        #supporting
+        description 'Search and structured-data helpers available to terminal workflows.'
       }
     }
   }
 
-  author -> site.content.entryLog 'writes journal records'
-  author -> site.informationModel.lexicon 'maintains page index'
+  user -> workstation.hardware.laptop 'uses'
+  workstation.hardware.laptop -> workstation.base.arch 'runs'
+  workstation.base.arch -> workstation.base.kernel 'is based on'
+  workstation.base.arch -> workstation.base.pacman 'manages packages with'
+  workstation.base.systemd -> workstation.session.greetd 'starts login service'
+  workstation.session.greetd -> workstation.session.niri 'starts configured session'
+  workstation.session.niri -> workstation.session.wayland 'implements compositor side of'
+  workstation.session.niri -> workstation.session.niriConfig 'is configured by'
+  workstation.session.niri -> workstation.interaction.foot 'manages terminal window'
+  workstation.session.niri -> workstation.interaction.fuzzel 'displays launcher client'
+  workstation.session.niri -> workstation.filesAndEditing.imv 'manages image viewer window'
+  workstation.session.niri -> workstation.filesAndEditing.firefox 'manages browser window'
+  workstation.interaction.foot -> workstation.session.wayland 'connects as Wayland client'
+  workstation.interaction.fuzzel -> workstation.session.wayland 'connects as Wayland client'
+  workstation.filesAndEditing.imv -> workstation.session.wayland 'connects as Wayland client'
+  workstation.filesAndEditing.firefox -> workstation.session.wayland 'uses native Wayland session when configured'
 
-  site.content.entryLog -> site.generator.osceanProgram 'provides entry data'
-  site.content.entryMap -> site.generator.osceanProgram 'provides link map'
-  site.informationModel.lexicon -> site.generator.osceanProgram 'provides page and link index'
-  site.presentation.html -> site.generator.osceanProgram 'supplies HTML fragments'
-  site.generator.osceanProgram -> site.runtime.uxnasm 'Uxntal source compiled by'
-  site.runtime.uxnasm -> site.runtime.rom 'produces ROM'
-  site.runtime.rom -> site.runtime.uxncli 'is executed by'
-  site.runtime.uxncli -> site.output.pages 'generates'
-  site.presentation.styles -> site.output.assets 'is included in'
-  site.presentation.media -> site.output.assets 'is included in'
-  site.output.pages -> site.output.assets 'references'
+  workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
+  workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'
+  workstation.interaction.bash -> workstation.interaction.shellEnvironment 'reads'
+  workstation.interaction.bash -> workstation.filesAndEditing.yazi 'launches'
+  workstation.interaction.bash -> workstation.filesAndEditing.nvim 'launches'
+  workstation.filesAndEditing.yazi -> workstation.preview.sixel 'renders terminal image previews with'
+  workstation.preview.sixel -> workstation.interaction.foot 'is rendered by'
+  workstation.filesAndEditing.yazi -> workstation.filesAndEditing.imv 'opens image files with'
+  workstation.filesAndEditing.yazi -> workstation.filesAndEditing.xdgOpen 'opens other file types with'
+  workstation.filesAndEditing.yazi -> workstation.filesAndEditing.file 'detects file types with'
+  workstation.filesAndEditing.yazi -> workstation.preview.ffmpeg 'uses for media previews'
+  workstation.filesAndEditing.yazi -> workstation.preview.poppler 'uses for PDF previews'
+  workstation.filesAndEditing.yazi -> workstation.preview.imagemagick 'uses for image formats'
+  workstation.filesAndEditing.yazi -> workstation.preview.resvg 'uses for SVG previews'
+  workstation.filesAndEditing.yazi -> workstation.preview.archiveTools 'uses for archive previews'
+  workstation.filesAndEditing.yazi -> workstation.preview.searchTools 'integrates with search helpers'
+  workstation.filesAndEditing.yazi -> workstation.preview.chafa 'can use as fallback renderer'
+  workstation.filesAndEditing.yazi -> workstation.preview.ueberzug 'has alternative preview backend'
+
+  workstation.filesAndEditing.nvim -> workstation.filesAndEditing.lazy 'loads plugin manager'
+  workstation.filesAndEditing.lazy -> workstation.filesAndEditing.yaziNvim 'loads'
+  workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.plenary 'uses dependency'
+  workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.yazi 'launches Yazi from Neovim'
+  workstation.interaction.shellEnvironment -> workstation.filesAndEditing.nvim 'selects as default editor'
+
+  workstation.filesAndEditing.nvim -> workstation.clipboard.wlClipboard 'uses for Wayland clipboard provider'
+  workstation.clipboard.wlClipboard -> workstation.session.wayland 'connects through'
+  workstation.clipboard.wlClipboard -> workstation.clipboard.primarySelection 'supports selection access through'
+  workstation.hardware.trackpad -> workstation.clipboard.primarySelection 'initiates selection gesture (protocol path to verify)'
+  workstation.base.networkManager -> workstation.hardware.wifi 'manages connection'
+  workstation.base.broadcomDriver -> workstation.hardware.wifi 'drives'
+  workstation.base.arch -> workstation.base.networkManager 'provides network service'
 }

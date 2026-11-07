@@ -1,8 +1,31 @@
 views {
   view index {
-    title 'Arch workstation — overview'
-    description 'The whole software environment, from hardware and Arch Linux to Wayland, niri and daily applications.'
-    include *
+    title 'Personal computing environment'
+    description 'Context view: the user and the complete environment, with the external service ecosystem kept outside its boundary.'
+    include user
+    include personalEnvironment
+    include externalServices
+    autoLayout LeftRight
+  }
+
+  view foundation {
+    title 'Architecture foundation'
+    description 'Five large domains. Each has a separate responsibility; detailed components and technical relationships belong in dedicated views, not on this overview.'
+    include user
+    include personalEnvironment.requirements
+    include personalEnvironment.compute
+    include personalEnvironment.softwareAccess
+    include personalEnvironment.dataServices
+    include personalEnvironment.lifecycleKnowledge
+    include workstation
+    include externalServices
+    autoLayout TopBottom
+  }
+
+  view workstation-detail {
+    title 'Current Arch workstation'
+    description 'One current implementation of the broader personal computing environment. This detailed view is intentionally separate from the architecture foundation.'
+    include workstation
     autoLayout TopBottom
   }
 

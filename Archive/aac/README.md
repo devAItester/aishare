@@ -73,6 +73,11 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - yazi.nvim — https://github.com/mikavilpas/yazi.nvim
 - wl-clipboard — https://github.com/bugaevc/wl-clipboard
 - greetd manual — https://man.archlinux.org/man/greetd.1.en
+- systemd — https://systemd.io/
+- fuzzel upstream — https://codeberg.org/dnkl/fuzzel
+- imv upstream — https://github.com/eXeC64/imv
+- wl-clipboard — https://github.com/bugaevc/wl-clipboard
+- NetworkManager — https://networkmanager.dev/docs/
 
 ## Проверка
 

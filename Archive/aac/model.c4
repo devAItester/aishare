@@ -1,6 +1,30 @@
 model {
   user = person 'User'
 
+  personalEnvironment = softwareSystem 'Personal Computing Environment' {
+    description 'The complete user-centred environment: requirements, capabilities, compute platforms, access paths, data, external services and its lifecycle.'
+
+    requirements = architectureDomain 'Requirements & Workloads' {
+      description 'User goals, capabilities, scenarios, hard constraints, preferences and quality attributes. Requirements originate here; they are not inferred from the current hardware or installed applications.'
+    }
+    compute = architectureDomain 'Compute & Platform' {
+      description 'Physical and virtual machines, operating systems, distribution profiles, installation, kernels, drivers and platform services.'
+    }
+    softwareAccess = architectureDomain 'Software & Access' {
+      description 'Applications and alternative clients, interaction methods, protocols, integrations and ways to reach required capabilities.'
+    }
+    dataServices = architectureDomain 'Data & External Services' {
+      description 'Local and remote data, repositories, media collections, network resources, communication platforms, AI providers and other external services.'
+    }
+    lifecycleKnowledge = architectureDomain 'Lifecycle & Knowledge' {
+      description 'Build, install, configure, update, migrate, observe, diagnose, document and recover the environment; preserve decisions and operational knowledge.'
+    }
+  }
+
+  externalServices = softwareSystem 'External Service Ecosystem' {
+    description 'Internet-facing services and providers used by the personal environment: communication, social platforms, media, AI, hosting and remote resources. Individual providers are modelled only when needed.'
+  }
+
   workstation = softwareSystem 'Arch Linux workstation' {
     description 'The user’s personal Linux workstation and daily software environment. The website project and the menu repository are explicitly outside this system.'
 
@@ -299,6 +323,16 @@ model {
     description 'Reserved model element for a future cloud drive/object-storage provider. No provider or active client configuration has been confirmed.'
   }
 
+  user -> personalEnvironment.requirements 'defines needs and constraints'
+  personalEnvironment.requirements -> personalEnvironment.compute 'sets hardware and platform requirements'
+  personalEnvironment.requirements -> personalEnvironment.softwareAccess 'defines required capabilities'
+  personalEnvironment.compute -> personalEnvironment.softwareAccess 'provides the execution platform'
+  personalEnvironment.softwareAccess -> personalEnvironment.dataServices 'accesses services and information'
+  personalEnvironment.lifecycleKnowledge -> personalEnvironment.compute 'builds, configures and maintains'
+  personalEnvironment.lifecycleKnowledge -> personalEnvironment.softwareAccess 'evaluates and evolves'
+  personalEnvironment.lifecycleKnowledge -> personalEnvironment.dataServices 'documents and governs'
+  personalEnvironment.compute -> workstation 'currently realized in part by'
+  personalEnvironment.dataServices -> externalServices 'uses selected external resources'
   user -> workstation.hardware.laptop 'uses'
   workstation.hardware.laptop -> workstation.base.arch 'runs'
   workstation.base.arch -> workstation.base.kernel 'is based on'

@@ -152,7 +152,7 @@ model {
       }
       nvimKeyBindings = interactionMechanism 'Neovim keyboard and pointer bindings' {
         #configured
-        description 'Super+D shortcuts for save/select-all/copy/cut/paste/undo/redo; Alt+C/V clipboard alternatives; Shift+Left quit without saving; Shift+Right save and quit; mouse selection copies to PRIMARY.'
+        description 'Super+S/A/C/X/V/Z/Y shortcuts for save/select-all/copy/cut/paste/undo/redo; Alt+C/V clipboard alternatives; Shift+Left quit without saving; Shift+Right save and quit; mouse-selection release copies to PRIMARY.'
       }
       fresh = component 'Fresh editor' {
         #confirmed
@@ -330,9 +330,11 @@ model {
   workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
   workstation.interaction.foot -> workstation.interaction.footKeyBindings 'handles terminal-level keyboard shortcuts'
   workstation.interaction.footConfig -> workstation.interaction.footKeyBindings 'defines Super+C/V and Alt font controls'
-  workstation.interaction.footKeyBindings -> workstation.clipboard.wlClipboard 'copies and pastes through Wayland clipboard'
+  workstation.interaction.footKeyBindings -> workstation.session.wayland 'uses Wayland clipboard protocol for Super+C/V'
   workstation.interaction.foot -> workstation.interaction.font 'renders text with'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'
+  workstation.interaction.foot -> workstation.filesAndEditing.yazi 'provides PTY input/output to active Yazi process'
+  workstation.interaction.foot -> workstation.filesAndEditing.nvim 'provides PTY input/output to active Neovim process'
   workstation.interaction.bash -> workstation.interaction.shellEnvironment 'reads'
   workstation.interaction.bash -> workstation.filesAndEditing.yazi 'launches'
   workstation.interaction.bash -> workstation.filesAndEditing.nvim 'launches'
@@ -367,8 +369,6 @@ model {
   workstation.filesAndEditing.lazy -> workstation.filesAndEditing.yaziNvim 'loads'
   workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.plenary 'uses dependency'
   workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.yazi 'launches Yazi from Neovim'
-  workstation.interaction.shellEnvironment -> workstation.filesAndEditing.fresh 'selects as EDITOR and VISUAL in dotfiles snapshot'
-
   workstation.filesAndEditing.nvim -> workstation.clipboard.wlClipboard 'uses for Wayland clipboard provider'
   workstation.clipboard.wlClipboard -> workstation.session.wayland 'connects through'
   workstation.clipboard.wlClipboard -> workstation.clipboard.primarySelection 'supports selection access through'

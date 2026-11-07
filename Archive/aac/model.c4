@@ -198,6 +198,8 @@ model {
   workstation.base.arch -> workstation.base.kernel 'is based on'
   workstation.base.arch -> workstation.base.pacman 'manages packages with'
   workstation.base.systemd -> workstation.session.greetd 'starts login service'
+  workstation.base.systemd -> workstation.base.networkManager 'starts network service'
+  workstation.base.kernel -> workstation.base.broadcomDriver 'loads kernel module'
   workstation.session.greetd -> workstation.session.niri 'starts configured session'
   workstation.session.niri -> workstation.session.wayland 'implements compositor side of'
   workstation.session.niri -> workstation.session.niriConfig 'is configured by'

@@ -82,8 +82,17 @@ views {
     include workstation.session.niriKeyBindings
     include workstation.session.workspaceNavigation
     include workstation.interaction.foot
+    include workstation.interaction.footConfig
+    include workstation.interaction.footKeyBindings
     include workstation.interaction.fuzzel
     include workstation.filesAndEditing.fresh
+    include workstation.filesAndEditing.yazi
+    include workstation.filesAndEditing.yaziConfig
+    include workstation.filesAndEditing.yaziKeyBindings
+    include workstation.filesAndEditing.nvim
+    include workstation.filesAndEditing.nvimConfig
+    include workstation.filesAndEditing.nvimKeyBindings
+    include workstation.clipboard
     autoLayout TopBottom
   }
 
@@ -129,4 +138,31 @@ dynamic view dotfiles-sync-flow {
     -> workstation.storage.dotfilesCheckout 'contains working copy'
     -> workstation.storage.git 'review, commit and synchronize'
     -> github.dotfilesRepo 'push / pull'
+}
+
+dynamic view terminal-app-input-flow {
+  title 'Terminal application input routing'
+  description 'The keyboard event reaches niri and the focused terminal. foot handles its own shortcuts; other keys pass through the PTY to Bash and the active TUI application.'
+  workstation.hardware.keyboard
+    -> workstation.base.kernelInput 'key events'
+    -> workstation.session.libinput 'input events'
+    -> workstation.session.niri 'routes to focused Wayland client'
+    -> workstation.interaction.foot 'terminal receives key events'
+    -> workstation.interaction.bash 'forwards non-terminal shortcuts through PTY'
+    -> workstation.filesAndEditing.yazi 'Yazi receives keys'
+    -> workstation.filesAndEditing.yaziKeyBindings 'applies keymap.toml bindings'
+}
+
+dynamic view nvim-clipboard-input-flow {
+  title 'Neovim clipboard and pointer selection'
+  description 'Neovim mappings distinguish the system clipboard (+) from PRIMARY selection (*); the latter is populated by mouse-selection release mappings.'
+  workstation.hardware.keyboard
+    -> workstation.base.kernelInput 'key events'
+    -> workstation.session.libinput 'input events'
+    -> workstation.session.niri 'routes to focused client'
+    -> workstation.interaction.foot 'terminal'
+    -> workstation.interaction.bash 'PTY'
+    -> workstation.filesAndEditing.nvim 'editor'
+    -> workstation.filesAndEditing.nvimKeyBindings 'Super/Alt mappings'
+    -> workstation.clipboard.wlClipboard 'system clipboard via + register'
 }

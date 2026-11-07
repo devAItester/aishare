@@ -47,7 +47,7 @@ views {
 
   view clipboard {
     title 'Clipboard and selection'
-    description 'Wayland clipboard access is modeled separately from the primary-selection gesture path, which still needs live verification.'
+    description 'Wayland clipboard access is distinct from the PRIMARY selection path, which is triggered by pointer selection and still needs live provider verification.'
     include workstation.session.niri
     include workstation.session.wayland
     include workstation.interaction.foot

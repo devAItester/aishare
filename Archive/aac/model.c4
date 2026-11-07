@@ -1,0 +1,92 @@
+model {
+  author = person 'Author'
+
+  site = softwareSystem 'Personal knowledge site' {
+    description 'The user’s own journal / knowledge site. This model records architecture selected in prior project work; it does not model the separate menu project.'
+
+    content = container 'Content records' {
+      description 'Source records and authored material.'
+      entryLog = component 'Entry log' {
+        description 'Input records for journal entries. The upstream Oscean reference calls this entry-log.'
+        #reference
+      }
+      entryMap = component 'Entry map' {
+        description 'Input map used to derive incoming links and page relationships. The upstream Oscean reference calls this entry-map.'
+        #reference
+      }
+    }
+
+    informationModel = container 'Page and link model' {
+      description 'The structured index of pages and their relationships.'
+      lexicon = component 'Lexicon' {
+        description 'Plain-text page dictionary / index of pages and links in the Oscean reference.'
+        #reference
+      }
+    }
+
+    generator = container 'Site generator' {
+      description 'Generation logic. The Oscean reference implements this in Uxntal; whether the user’s own implementation will reuse it is intentionally left open.'
+      osceanProgram = component 'Generator program' {
+        description 'Upstream reference: src/oscean.tal. This is not proof that the user’s own site runs this exact program.'
+        #reference
+      }
+    }
+
+    presentation = container 'Presentation sources' {
+      html = component 'HTML fragments and templates' {
+        description 'Upstream reference: src/htm/.'
+        #reference
+      }
+      styles = component 'Stylesheet' {
+        description 'Upstream reference: links/main.css.'
+        #reference
+      }
+      media = component 'Media assets' {
+        description 'Images and other static assets.'
+        #reference
+      }
+    }
+
+    runtime = container 'Build and runtime' {
+      uxnasm = component 'uxnasm / assembler' {
+        description 'Assembles the Uxntal source into a Uxn ROM.'
+        #reference
+      }
+      uxncli = component 'uxncli / Uxn runtime' {
+        description 'Executes the generated ROM.'
+        #reference
+      }
+      rom = component 'Generator ROM' {
+        description 'Compiled output of the Uxntal generator.'
+        #reference
+      }
+    }
+
+    output = container 'Generated site' {
+      description 'Static HTML output published or served to readers.'
+      pages = component 'Generated pages' {
+        description 'Generated HTML pages.'
+        #to-verify
+      }
+      assets = component 'Published assets' {
+        description 'Copied or generated CSS and media assets.'
+        #to-verify
+      }
+    }
+  }
+
+  author -> site.content.entryLog 'writes journal records'
+  author -> site.informationModel.lexicon 'maintains page index'
+
+  site.content.entryLog -> site.generator.osceanProgram 'provides entry data'
+  site.content.entryMap -> site.generator.osceanProgram 'provides link map'
+  site.informationModel.lexicon -> site.generator.osceanProgram 'provides page and link index'
+  site.presentation.html -> site.generator.osceanProgram 'supplies HTML fragments'
+  site.generator.osceanProgram -> site.runtime.uxnasm 'is assembled from Uxntal source'
+  site.runtime.uxnasm -> site.runtime.rom 'produces ROM'
+  site.runtime.rom -> site.runtime.uxncli 'is executed by'
+  site.runtime.uxncli -> site.output.pages 'generates'
+  site.presentation.styles -> site.output.assets 'is included in'
+  site.presentation.media -> site.output.assets 'is included in'
+  site.output.pages -> site.output.assets 'references'
+}

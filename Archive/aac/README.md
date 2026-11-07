@@ -30,7 +30,7 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - wl-clipboard предоставляет CLI `wl-copy` / `wl-paste` для Wayland clipboard. Primary selection остаётся отдельным механизмом от обычного clipboard.
 - Ввод не сводится к жестам: физическая клавиатура и трекпад проходят через Linux input subsystem и libinput к niri. В dotfiles заданы XKB `us,ru`, `grp:caps_toggle`, `tap`, `natural-scroll`, `Mod=Super` и `mod-key-nested=Alt`.
 - Niri имеет встроенные touchpad-жесты: три пальца вверх/вниз — смена workspace, три пальца влево/вправо — движение по горизонтальному tiling view, четыре пальца вверх/вниз — overview. В `gestures {}` текущий конфиг только отключает hot corners; отдельного жестового демона или пользовательских swipe-bindings в изученном конфиге нет.
-- Клавиатурные привязки — самостоятельный слой управления. `Super+Space` запускает fuzzel, `Super+Return` — foot, `Super+Slash` — foot с Fresh workflow, `Super+1..9` выбирает workspace. Стрелочные привязки управления окнами намеренно отсутствуют.
+- Клавиатурные привязки — отдельный слой на каждом уровне. Niri: `Super+Space` запускает fuzzel, `Super+Return` — foot, `Super+Slash` — foot с Fresh workflow, `Super+1..9` выбирает workspace. Foot: `Super+C/V` — clipboard, `Alt+Equal/Minus/0` — размер шрифта. Yazi: `p`, `Alt+\\`, `Alt+'`, `Right/Enter`, `t` имеют отдельные действия. Neovim: Super/Alt clipboard и edit mappings, Shift+Left/Right для выхода, а отпускание кнопки мыши копирует выделение в PRIMARY. Стрелочные привязки управления окнами в niri намеренно отсутствуют.
 - **Обнаруженное расхождение:** текущий dotfiles snapshot задаёт `EDITOR=fresh` и `VISUAL=fresh` в `/etc/profile.d/99-editor.sh`, а не Neovim. Niri также передаёт эти значения в D-Bus/systemd. Live state нужно сверить отдельно.
 - Yazi использует `$EDITOR` для текстовых файлов, `imv-dir` для изображений, `mpv` для видео и `xdg-open` для остальных файлов согласно текущему `yazi.toml`.
 
@@ -162,7 +162,7 @@ A systemd `.mount` unit and `.automount` unit are different roles. Cloud clients
 
 ## New architecture views
 
-- **Input** — physical devices through kernel/libinput to niri, plus key bindings and native gestures.
+- **Input** — physical devices through kernel/libinput to niri, plus compositor-, terminal-, file-manager- and editor-level key bindings and native gestures.
 - **Storage** — local filesystem, local dotfiles checkout, GitHub remotes and unverified network/cloud extension points.
 - **Dynamic input flows** — trackpad gesture processing and keyboard shortcut dispatch.
 - **Dynamic storage flow** — local dotfiles checkout to GitHub remote.
@@ -177,5 +177,6 @@ This is a repository-snapshot audit, not a live machine inventory. Before markin
 - `lsblk -f` and `findmnt -T "$HOME"`;
 - installed packages and running processes for SMB/NFS/rclone/Syncthing/provider clients;
 - `libinput list-devices` and `libinput debug-events` output.
+- Check effective niri, foot, Yazi and Neovim mappings against their current config files; include any application-level mouse bindings and clipboard/PRIMARY-selection behavior.
 
 These are audit targets only; no system commands or configuration changes were executed as part of this repository update.

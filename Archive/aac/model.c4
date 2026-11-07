@@ -204,7 +204,7 @@ model {
   workstation.interaction.foot -> workstation.session.wayland 'connects as Wayland client'
   workstation.interaction.fuzzel -> workstation.session.wayland 'connects as Wayland client'
   workstation.filesAndEditing.imv -> workstation.session.wayland 'connects as Wayland client'
-  workstation.filesAndEditing.firefox -> workstation.session.wayland 'uses native Wayland session when configured'
+  workstation.filesAndEditing.firefox -> workstation.session.wayland 'uses native Wayland session when configured' 
 
   workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'
@@ -234,7 +234,7 @@ model {
   workstation.filesAndEditing.nvim -> workstation.clipboard.wlClipboard 'uses for Wayland clipboard provider'
   workstation.clipboard.wlClipboard -> workstation.session.wayland 'connects through'
   workstation.clipboard.wlClipboard -> workstation.clipboard.primarySelection 'supports selection access through'
-  workstation.hardware.trackpad -> workstation.clipboard.primarySelection 'initiates selection gesture (protocol path to verify)'
+  workstation.hardware.trackpad -> workstation.session.niri 'sends touch and gesture input to'
   workstation.base.networkManager -> workstation.hardware.wifi 'manages connection'
   workstation.base.broadcomDriver -> workstation.hardware.wifi 'drives'
   workstation.base.arch -> workstation.base.networkManager 'provides network service'

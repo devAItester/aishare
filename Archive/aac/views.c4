@@ -1,28 +1,70 @@
 views {
   view index {
-    title 'Architecture overview'
-    description 'High-level map of the personal knowledge site and its generation pipeline.'
+    title 'Arch workstation — overview'
+    description 'The whole software environment, from hardware and Arch Linux to Wayland, niri and daily applications.'
     include *
     autoLayout
   }
 
-  view content-flow {
-    title 'Content and relationship flow'
-    description 'How authored records and the page/link model feed the generator.'
-    include site.content
-    include site.informationModel
-    include site.generator
-    include site.presentation.html
-    include site.output.pages
+  view session {
+    title 'Boot and graphical session'
+    description 'How the login manager starts niri and how Wayland clients attach to the compositor.'
+    include workstation.hardware
+    include workstation.base
+    include workstation.session
+    include workstation.interaction.fuzzel
+    include workstation.interaction.foot
+    include workstation.filesAndEditing.imv
+    include workstation.filesAndEditing.firefox
     autoLayout
   }
 
-  view build-pipeline {
-    title 'Build pipeline'
-    description 'The Uxntal / Uxn toolchain documented for the upstream Oscean reference. Confirm which parts are used by the user’s own implementation.'
-    include site.generator
-    include site.runtime
-    include site.output
+  view terminal-workflow {
+    title 'Terminal and editing workflow'
+    description 'foot hosts Bash; Bash launches Yazi and Neovim; Yazi previews through Sixel and integrates with external openers.'
+    include workstation.session.niri
+    include workstation.session.wayland
+    include workstation.interaction
+    include workstation.filesAndEditing
+    include workstation.preview
+    autoLayout
+  }
+
+  view nvim-yazi {
+    title 'Neovim and Yazi integration'
+    description 'The standalone Yazi-in-foot path is distinct from the yazi.nvim path inside Neovim.'
+    include workstation.session.wayland
+    include workstation.interaction.foot
+    include workstation.interaction.bash
+    include workstation.filesAndEditing.yazi
+    include workstation.filesAndEditing.nvim
+    include workstation.filesAndEditing.lazy
+    include workstation.filesAndEditing.yaziNvim
+    include workstation.filesAndEditing.plenary
+    include workstation.preview.sixel
+    autoLayout
+  }
+
+  view clipboard {
+    title 'Clipboard and selection'
+    description 'Wayland clipboard access is modeled separately from the primary-selection gesture path, which still needs live verification.'
+    include workstation.session.niri
+    include workstation.session.wayland
+    include workstation.interaction.foot
+    include workstation.interaction.bash
+    include workstation.filesAndEditing.nvim
+    include workstation.clipboard
+    include workstation.hardware.trackpad
+    autoLayout
+  }
+
+  view network {
+    title 'Network hardware and service'
+    description 'Broadcom Wi-Fi adapter, driver package and NetworkManager.'
+    include workstation.hardware.wifi
+    include workstation.base.arch
+    include workstation.base.networkManager
+    include workstation.base.broadcomDriver
     autoLayout
   }
 }

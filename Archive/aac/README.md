@@ -78,6 +78,29 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - imv upstream — https://github.com/eXeC64/imv
 - NetworkManager — https://networkmanager.dev/docs/
 
+## Continuous integration and publication
+
+The repository workflow `.github/workflows/pages.yml` runs on pushes and pull requests targeting `main`.
+
+It performs these steps:
+
+1. Builds the existing Jekyll website into `_site/`.
+2. Runs `npx likec4@1.60.0 validate` against this directory.
+3. Builds the interactive LikeC4 website into `_site/aac/`.
+4. Publishes the combined result to GitHub Pages after a push to `main`.
+
+The intended public URL is:
+
+https://devaitester.github.io/aishare/aac/
+
+The LikeC4 app is built with the repository subpath as its base URL, so its scripts and assets resolve correctly under GitHub Pages.
+
+**One-time repository setting:** in GitHub, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**. The workflow cannot deploy until Pages uses Actions as its publishing source. This changes the deployment mechanism for the existing site, not its content: Jekyll remains the root site and LikeC4 is added under `/aac/`.
+
+Official references:
+- LikeC4 CLI static build: https://likec4.dev/tooling/cli/
+- GitHub Pages custom workflows: https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
+
 ## Проверка
 
 LikeC4 CLI в этой задаче не запускался: GitHub-изменения сделаны напрямую в репозитории, локальная рабочая копия не открыта.

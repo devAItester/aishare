@@ -1,0 +1,19 @@
+specification {
+  element person
+  element softwareSystem
+  element container
+  element component
+
+  relationship creates
+  relationship indexes
+  relationship reads
+  relationship generates
+  relationship compiles
+  relationship executes
+  relationship includes
+  relationship serves
+
+  tag confirmed
+  tag reference
+  tag to-verify
+}

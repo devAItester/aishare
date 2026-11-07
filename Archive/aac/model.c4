@@ -334,7 +334,7 @@ model {
   workstation.filesAndEditing.lazy -> workstation.filesAndEditing.yaziNvim 'loads'
   workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.plenary 'uses dependency'
   workstation.filesAndEditing.yaziNvim -> workstation.filesAndEditing.yazi 'launches Yazi from Neovim'
-  workstation.interaction.shellEnvironment -> workstation.filesAndEditing.nvim 'selects as default editor'
+  workstation.interaction.shellEnvironment -> workstation.filesAndEditing.fresh 'selects as EDITOR and VISUAL in dotfiles snapshot'
 
   workstation.filesAndEditing.nvim -> workstation.clipboard.wlClipboard 'uses for Wayland clipboard provider'
   workstation.clipboard.wlClipboard -> workstation.session.wayland 'connects through'

@@ -3,7 +3,7 @@ views {
     title 'Arch workstation — overview'
     description 'The whole software environment, from hardware and Arch Linux to Wayland, niri and daily applications.'
     include *
-    autoLayout
+    autoLayout TopBottom
   }
 
   view session {
@@ -16,7 +16,7 @@ views {
     include workstation.interaction.foot
     include workstation.filesAndEditing.imv
     include workstation.filesAndEditing.firefox
-    autoLayout
+    autoLayout TopBottom
   }
 
   view terminal-workflow {
@@ -27,7 +27,7 @@ views {
     include workstation.interaction
     include workstation.filesAndEditing
     include workstation.preview
-    autoLayout
+    autoLayout TopBottom
   }
 
   view nvim-yazi {
@@ -42,7 +42,7 @@ views {
     include workstation.filesAndEditing.yaziNvim
     include workstation.filesAndEditing.plenary
     include workstation.preview.sixel
-    autoLayout
+    autoLayout TopBottom
   }
 
   view clipboard {
@@ -55,7 +55,7 @@ views {
     include workstation.filesAndEditing.nvim
     include workstation.clipboard
     include workstation.hardware.trackpad
-    autoLayout
+    autoLayout TopBottom
   }
 
   view network {
@@ -65,6 +65,6 @@ views {
     include workstation.base.arch
     include workstation.base.networkManager
     include workstation.base.broadcomDriver
-    autoLayout
+    autoLayout TopBottom
   }
 }

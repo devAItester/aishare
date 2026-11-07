@@ -7,70 +7,70 @@ model {
     content = container 'Content records' {
       description 'Source records and authored material.'
       entryLog = component 'Entry log' {
-        description 'Input records for journal entries. The upstream Oscean reference calls this entry-log.'
         #reference
+        description 'Input records for journal entries. The upstream Oscean reference calls this entry-log.'
       }
       entryMap = component 'Entry map' {
-        description 'Input map used to derive incoming links and page relationships. The upstream Oscean reference calls this entry-map.'
         #reference
+        description 'Input map used to derive incoming links and page relationships. The upstream Oscean reference calls this entry-map.'
       }
     }
 
     informationModel = container 'Page and link model' {
       description 'The structured index of pages and their relationships.'
       lexicon = component 'Lexicon' {
-        description 'Plain-text page dictionary / index of pages and links in the Oscean reference.'
         #reference
+        description 'Plain-text page dictionary / index of pages and links in the Oscean reference.'
       }
     }
 
     generator = container 'Site generator' {
       description 'Generation logic. The Oscean reference implements this in Uxntal; whether the user’s own implementation will reuse it is intentionally left open.'
       osceanProgram = component 'Generator program' {
-        description 'Upstream reference: src/oscean.tal. This is not proof that the user’s own site runs this exact program.'
         #reference
+        description 'Upstream reference: src/oscean.tal. This is not proof that the user’s own site runs this exact program.'
       }
     }
 
     presentation = container 'Presentation sources' {
       html = component 'HTML fragments and templates' {
-        description 'Upstream reference: src/htm/.'
         #reference
+        description 'Upstream reference: src/htm/.'
       }
       styles = component 'Stylesheet' {
-        description 'Upstream reference: links/main.css.'
         #reference
+        description 'Upstream reference: links/main.css.'
       }
       media = component 'Media assets' {
-        description 'Images and other static assets.'
         #reference
+        description 'Images and other static assets.'
       }
     }
 
     runtime = container 'Build and runtime' {
       uxnasm = component 'uxnasm / assembler' {
-        description 'Assembles the Uxntal source into a Uxn ROM.'
         #reference
+        description 'Assembles the Uxntal source into a Uxn ROM.'
       }
       uxncli = component 'uxncli / Uxn runtime' {
-        description 'Executes the generated ROM.'
         #reference
+        description 'Executes the generated ROM.'
       }
       rom = component 'Generator ROM' {
-        description 'Compiled output of the Uxntal generator.'
         #reference
+        description 'Compiled output of the Uxntal generator.'
       }
     }
 
     output = container 'Generated site' {
       description 'Static HTML output published or served to readers.'
       pages = component 'Generated pages' {
-        description 'Generated HTML pages.'
         #to-verify
+        description 'Generated HTML pages.'
       }
       assets = component 'Published assets' {
-        description 'Copied or generated CSS and media assets.'
         #to-verify
+        description 'Copied or generated CSS and media assets.'
       }
     }
   }
@@ -82,7 +82,7 @@ model {
   site.content.entryMap -> site.generator.osceanProgram 'provides link map'
   site.informationModel.lexicon -> site.generator.osceanProgram 'provides page and link index'
   site.presentation.html -> site.generator.osceanProgram 'supplies HTML fragments'
-  site.generator.osceanProgram -> site.runtime.uxnasm 'is assembled from Uxntal source'
+  site.generator.osceanProgram -> site.runtime.uxnasm 'Uxntal source compiled by'
   site.runtime.uxnasm -> site.runtime.rom 'produces ROM'
   site.runtime.rom -> site.runtime.uxncli 'is executed by'
   site.runtime.uxncli -> site.output.pages 'generates'

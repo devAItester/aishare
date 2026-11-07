@@ -4,6 +4,17 @@ specification {
   element container
   element component
 
+  element inputDevice
+  element inputProcessor
+  element kernelSubsystem
+  element interactionMechanism
+  element configuration
+  element filesystem
+  element repository
+  element storagePackage
+  element networkShare
+  element cloudStorage
+
   relationship starts
   relationship loads
   relationship implements
@@ -23,6 +34,15 @@ specification {
   relationship configures
   relationship detects
   relationship displays
+  relationship emits
+  relationship processes
+  relationship interprets
+  relationship mounts
+  relationship synchronizes
+  relationship stores
+  relationship publishes
+  relationship retrieves
+  relationship accesses
 
   tag confirmed
   tag configured

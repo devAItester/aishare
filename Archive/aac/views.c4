@@ -1,0 +1,28 @@
+views {
+  view index {
+    title 'Architecture overview'
+    description 'High-level map of the personal knowledge site and its generation pipeline.'
+    include *
+    autoLayout
+  }
+
+  view content-flow {
+    title 'Content and relationship flow'
+    description 'How authored records and the page/link model feed the generator.'
+    include site.content
+    include site.informationModel
+    include site.generator
+    include site.presentation.html
+    include site.output.pages
+    autoLayout
+  }
+
+  view build-pipeline {
+    title 'Build pipeline'
+    description 'The Uxntal / Uxn toolchain documented for the upstream Oscean reference. Confirm which parts are used by the user’s own implementation.'
+    include site.generator
+    include site.runtime
+    include site.output
+    autoLayout
+  }
+}

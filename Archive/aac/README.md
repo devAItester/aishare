@@ -1,5 +1,94 @@
 # AAC — Architecture as Code
 
+# Architecture foundation
+
+## Purpose and scope
+
+This model describes a **personal computing environment**, not just one laptop, one Linux installation or a list of installed applications. Its starting point is the user's required capabilities and workloads. Hardware, operating systems, applications, networks and external services are implementation choices used to satisfy those requirements.
+
+The model is intentionally navigable at different levels of detail. The first view should remain small; detailed relationships belong in focused views. Do not add every dependency to the overview.
+
+## Navigation
+
+1. **Personal computing environment** — context: the user, the overall environment and the external service ecosystem.
+2. **Architecture foundation** — five domains and their main responsibilities.
+3. **Current Arch workstation** — one concrete implementation, with its own focused views for session, input, software and storage.
+
+The existing workstation model is retained as a detailed implementation, not treated as the whole architecture.
+
+## Five architecture domains
+
+| Domain | Responsibility |
+|---|---|
+| **Requirements & Workloads** | User goals, capabilities, use cases, hard constraints, preferences and quality attributes. |
+| **Compute & Platform** | Physical/virtual hardware, operating systems, distribution profiles, installation, kernels, drivers and platform services. |
+| **Software & Access** | Applications, alternative clients, interaction methods, protocols and integrations used to deliver capabilities. |
+| **Data & External Services** | Local/remote data, repositories, media, network resources, communication and social platforms, AI providers and other external services. |
+| **Lifecycle & Knowledge** | Build, install, configure, update, migrate, observe, diagnose, document, recover and preserve operational knowledge. |
+
+These are architectural domains, not a rigid inventory taxonomy. A resource may participate in several domains. For example, a repository can be a data store, a collaboration space and a knowledge base; its roles should be modelled without duplicating the underlying resource.
+
+## Requirement-to-implementation reasoning
+
+A capability is not the same thing as an application or a service. Model the chain only as far as it is useful:
+
+`user need → capability / workload → service or resource → access method → software and platform → compute and hardware`
+
+This is a reasoning path, not a mandatory one-way dependency. There may be several alternative access paths, and a limitation at any point can force a change elsewhere.
+
+Hardware selection is therefore validated against the complete workload: memory, CPU/GPU, storage, display outputs and modes, wireless hardware, audio interfaces, supported operating systems and peripheral connectivity. A replacement device may be justified by a specific unmet requirement rather than by a general desire to upgrade.
+
+## Decision and constraint model
+
+Every significant choice should be recorded with its rationale and status. Keep requirements separate from implementation facts.
+
+| Classification | Meaning |
+|---|---|
+| **Mandatory** | A hard requirement. A candidate that fails it is excluded. |
+| **Preferred** | Strong preference; a compromise is possible with an explicit reason. |
+| **Optional** | Useful but not required. |
+| **Constraint** | A limitation imposed by hardware, OS, protocol, service, licensing, cost, network access or policy. |
+| **Trade-off** | A documented balance between competing requirements. |
+| **Unverified** | A hypothesis or current-state assumption that still needs evidence. |
+
+For software candidates, evaluate at least: functional fit, shortcut/gesture compatibility, protocol and OS support, implementation language/runtime, dependencies, resource use, security/privacy, maintenance, licensing, cost and network availability. A preference for a language or technology is a selection criterion, not automatically a hard exclusion unless explicitly marked mandatory.
+
+Alternative applications should remain visible with their current status and the reason they were not selected. Re-evaluate them when the original limitation changes; do not treat a rejected candidate as permanently unsuitable.
+
+## Cross-domain change impact
+
+A change should trigger review only of the connected requirements and decisions, not a wholesale redraw. Examples:
+
+- A new service or communication channel can introduce OS, browser/client, network, privacy and hardware requirements.
+- A new display or audio workflow can change GPU, ports, resolution, codec, filesystem and application requirements.
+- A change in editor or terminal can affect keyboard mappings, mouse/trackpad interaction, graphics protocols and file-manager integration.
+- A new AI provider can change network routes, authentication, cost, data handling and the balance between local and remote compute.
+- A storage-format or location change can affect applications, media playback, backup, synchronization and available capacity.
+
+## Modelling and diagram rules
+
+- Keep the context view to a few elements and meaningful relationships.
+- Use one view for one question. Avoid a single all-inclusive diagram.
+- Prefer navigation into a domain over adding more nodes to the overview.
+- Show only relationships that explain a dependency, data flow, control flow or important constraint.
+- Do not draw speculative relationships as facts; mark them unverified.
+- Distinguish the desired architecture from the currently implemented state.
+- Keep decision criteria and rationale attached to the affected choice, rather than turning the main diagram into a legend of every preference.
+
+## C4 and the modelling tool
+
+C4 is a way to describe software architecture at progressively deeper levels: system context, containers, components and code. It also defines supporting views such as system landscape, dynamic and deployment diagrams. **Structurizr** is the C4 creator's reference modelling tool and uses its own DSL to generate multiple views from one model.
+
+This project currently uses **LikeC4**, not Structurizr. LikeC4 provides a code-based model and interactive views. The wider personal computing environment is broader than a conventional software system, so the model uses C4-inspired hierarchy and navigation without forcing every physical, operational or user-requirement concept into a strict C4 container/component category.
+
+Primary references:
+- C4 model: https://c4model.com/
+- C4 diagrams and abstraction levels: https://c4model.com/diagrams
+- Structurizr: https://docs.structurizr.com/
+- Structurizr DSL: https://docs.structurizr.com/dsl
+- LikeC4: https://likec4.dev/
+
+
 LikeC4-модель рабочей Linux-среды пользователя: Arch Linux → Wayland → niri → foot → Bash / Yazi / Neovim и связанные инструменты.
 
 Это **не архитектура сайта** и **не проект menu**.

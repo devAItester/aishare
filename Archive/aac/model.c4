@@ -82,6 +82,10 @@ model {
         #confirmed
         description 'Wayland-native terminal emulator; provides the terminal environment for shell and TUI applications.'
       }
+      font = component 'Iosevka Nerd Font' {
+        #configured
+        description 'Preferred terminal font at 10pt; Nerd Font glyphs are used by terminal tools.'
+      }
       footConfig = component 'foot configuration' {
         #configured
         description 'Configuration at ~/.config/foot/foot.ini. The user’s Iosevka Nerd Font 10pt preference and Sixel use are documented separately from a fresh config-file audit.'
@@ -198,7 +202,7 @@ model {
   workstation.session.niri -> workstation.session.wayland 'implements compositor side of'
   workstation.session.niri -> workstation.session.niriConfig 'is configured by'
   workstation.session.niri -> workstation.interaction.foot 'manages terminal window'
-  workstation.session.niri -> workstation.interaction.fuzzel 'displays launcher client'
+  workstation.session.niri -> workstation.interaction.fuzzel 'launches on configured Command+Space shortcut'
   workstation.session.niri -> workstation.filesAndEditing.imv 'manages image viewer window'
   workstation.session.niri -> workstation.filesAndEditing.firefox 'manages browser window'
   workstation.interaction.foot -> workstation.session.wayland 'connects as Wayland client'
@@ -206,6 +210,7 @@ model {
   workstation.filesAndEditing.imv -> workstation.session.wayland 'connects as Wayland client'
 
   workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
+  workstation.interaction.foot -> workstation.interaction.font 'renders text with'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'
   workstation.interaction.bash -> workstation.interaction.shellEnvironment 'reads'
   workstation.interaction.bash -> workstation.filesAndEditing.yazi 'launches'
@@ -215,6 +220,7 @@ model {
   workstation.filesAndEditing.yazi -> workstation.filesAndEditing.imv 'opens image files with'
   workstation.filesAndEditing.yazi -> workstation.filesAndEditing.xdgOpen 'opens other file types with'
   workstation.filesAndEditing.yazi -> workstation.filesAndEditing.file 'detects file types with'
+  workstation.filesAndEditing.yazi -> workstation.interaction.shellEnvironment 'reads EDITOR and VISUAL'
   workstation.filesAndEditing.yazi -> workstation.preview.ffmpeg 'uses for media previews'
   workstation.filesAndEditing.yazi -> workstation.preview.poppler 'uses for PDF previews'
   workstation.filesAndEditing.yazi -> workstation.preview.imagemagick 'uses for image formats'

@@ -67,4 +67,66 @@ views {
     include workstation.base.broadcomDriver
     autoLayout TopBottom
   }
+
+  view input {
+    title 'Input devices, gestures and keyboard control'
+    description 'Keyboard and trackpad events pass through the Linux input subsystem and libinput to niri. Niri handles native swipe gestures; config.kdl defines keyboard layout, touchpad behavior and Super-based bindings.'
+    include workstation.hardware.keyboard
+    include workstation.hardware.trackpad
+    include workstation.base.kernel
+    include workstation.base.kernelInput
+    include workstation.session.libinput
+    include workstation.session.niri
+    include workstation.session.niriConfig
+    include workstation.session.niriGestures
+    include workstation.session.niriKeyBindings
+    include workstation.session.workspaceNavigation
+    include workstation.interaction.foot
+    include workstation.interaction.fuzzel
+    include workstation.filesAndEditing.fresh
+    autoLayout TopBottom
+  }
+
+  view storage {
+    title 'Local, shared and cloud storage'
+    description 'Confirmed local dotfiles checkout and GitHub repositories are separated from unverified network-share and cloud-storage extension points.'
+    include workstation.storage
+    include workstation.filesAndEditing.yazi
+    include workstation.base.systemd
+    include github
+    include networkShare
+    include cloudStorage
+    autoLayout TopBottom
+  }
+}
+
+dynamic view trackpad-gesture-flow {
+  title 'Trackpad gesture processing'
+  description 'Native niri gesture path: three-finger vertical swipe changes workspace, three-finger horizontal swipe moves the view, and four-finger vertical swipe toggles overview. No separate gesture daemon or custom swipe mapping was found in the reviewed niri config.'
+  workstation.hardware.trackpad
+    -> workstation.base.kernelInput 'touch and pointer events'
+    -> workstation.session.libinput 'normalized input events'
+    -> workstation.session.niri 'gesture events'
+    -> workstation.session.niriGestures 'recognizes native swipe'
+    -> workstation.session.workspaceNavigation 'switches workspace, moves view or toggles overview'
+}
+
+dynamic view keyboard-shortcut-flow {
+  title 'Keyboard shortcut dispatch'
+  description 'Example from config.kdl: Super+Space launches fuzzel. Mod is configured as Super.'
+  workstation.hardware.keyboard
+    -> workstation.base.kernelInput 'key events'
+    -> workstation.session.libinput 'input events'
+    -> workstation.session.niri 'keyboard events'
+    -> workstation.session.niriKeyBindings 'matches Super+Space'
+    -> workstation.interaction.fuzzel 'launches'
+}
+
+dynamic view dotfiles-sync-flow {
+  title 'Dotfiles repository synchronization'
+  description 'The documented workflow separates local collection, diff review, explicit Git commit/publish and remote synchronization.'
+  workstation.storage.localFilesystem
+    -> workstation.storage.dotfilesCheckout 'contains working copy'
+    -> workstation.storage.git 'review, commit and synchronize'
+    -> github.dotfilesRepo 'push / pull'
 }

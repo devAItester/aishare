@@ -331,6 +331,7 @@ model {
   workstation.interaction.foot -> workstation.interaction.footKeyBindings 'handles terminal-level keyboard shortcuts'
   workstation.interaction.footConfig -> workstation.interaction.footKeyBindings 'defines Super+C/V and Alt font controls'
   workstation.interaction.footKeyBindings -> workstation.session.wayland 'uses Wayland clipboard protocol for Super+C/V'
+  workstation.interaction.foot -> workstation.clipboard.primarySelection 'middle-click pastes from PRIMARY selection by default'
   workstation.interaction.footKeyBindings -> workstation.filesAndEditing.nvimKeyBindings 'Super+C/V are mapped at both terminal and editor layers; dispatch precedence needs runtime verification'
   workstation.interaction.foot -> workstation.interaction.font 'renders text with'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'

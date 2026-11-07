@@ -148,8 +148,7 @@ dynamic view terminal-app-input-flow {
     -> workstation.session.libinput 'input events'
     -> workstation.session.niri 'routes to focused Wayland client'
     -> workstation.interaction.foot 'terminal receives key events'
-    -> workstation.interaction.bash 'forwards non-terminal shortcuts through PTY'
-    -> workstation.filesAndEditing.yazi 'Yazi receives keys'
+    -> workstation.filesAndEditing.yazi 'active TUI process receives PTY input'
     -> workstation.filesAndEditing.yaziKeyBindings 'applies keymap.toml bindings'
 }
 
@@ -165,4 +164,17 @@ dynamic view nvim-clipboard-input-flow {
     -> workstation.filesAndEditing.nvim 'editor'
     -> workstation.filesAndEditing.nvimKeyBindings 'Super/Alt mappings'
     -> workstation.clipboard.wlClipboard 'system clipboard via + register'
+}
+
+dynamic view primary-selection-flow {
+  title 'Trackpad selection to PRIMARY'
+  description 'The trackpad pointer event is delivered through the compositor and terminal mouse reporting to Neovim. The configured mouse-release mapping yanks the selection to the * register; the live clipboard provider path still needs verification.'
+  workstation.hardware.trackpad
+    -> workstation.base.kernelInput 'pointer events'
+    -> workstation.session.libinput 'input events'
+    -> workstation.session.niri 'routes pointer input to focused client'
+    -> workstation.interaction.foot 'terminal mouse reporting'
+    -> workstation.filesAndEditing.nvim 'mouse input'
+    -> workstation.filesAndEditing.nvimKeyBindings 'LeftRelease / 2-LeftRelease mapping'
+    -> workstation.clipboard.primarySelection 'writes selected text to PRIMARY'
 }

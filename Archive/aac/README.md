@@ -129,7 +129,7 @@ Official references:
 
 ## Проверка
 
-Проверка в GitHub Actions: [run #5](https://github.com/devAItester/aishare/actions/runs/42411056083).
+Последняя проверка и публикация: [GitHub Actions run #26](https://github.com/devAItester/aishare/actions/runs/42413265945), commit `0d4dcbf7b2fc17728151ec20dab50fb4893e0609`.
 
 - Jekyll build: success.
 - LikeC4 validate (1.60.0): success.
@@ -137,7 +137,7 @@ Official references:
 - Pages artifact upload: success.
 - GitHub Pages deployment: success.
 
-Локальная интерактивная проверка в браузере пользователя не выполнялась. Модель проходит автоматическую синтаксическую и layout-проверку; соответствие всех связей реальному состоянию конфигураций ещё требует аудита dotfiles.
+Автоматическая проверка подтверждает синтаксис модели, layout, сборку и deployment. Браузерная визуальная проверка не выполнялась. Сверка публичного snapshot dotfiles проведена; соответствие live-системе, эффективные настройки tap-button-map/clipboard и фактические mount points ещё требуют проверки на машине.
 
 
 ## Input architecture and audit

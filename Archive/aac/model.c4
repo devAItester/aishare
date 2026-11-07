@@ -110,9 +110,13 @@ model {
         #configured
         description 'Preferred terminal font at 10pt; Nerd Font glyphs are used by terminal tools.'
       }
-      footConfig = component 'foot configuration' {
+      footConfig = configuration 'foot configuration' {
         #configured
-        description 'Configuration at ~/.config/foot/foot.ini. The user’s Iosevka Nerd Font 10pt preference and Sixel use are documented separately from a fresh config-file audit.'
+        description 'Configuration at ~/.config/foot/foot.ini; defines Super+C/V clipboard shortcuts and Alt font-size controls.'
+      }
+      footKeyBindings = interactionMechanism 'foot keyboard bindings' {
+        #configured
+        description 'Terminal-level shortcuts: Super+C copies and Super+V pastes through the clipboard; Alt+Equal/Minus/0 controls font size.'
       }
       bash = component 'Bash' {
         #confirmed
@@ -130,9 +134,25 @@ model {
         #confirmed
         description 'Primary terminal file manager; normally runs inside foot.'
       }
+      yaziConfig = configuration 'Yazi configuration' {
+        #configured
+        description 'Configuration at ~/.config/yazi/yazi.toml; defines editor, image/video and generic openers.'
+      }
+      yaziKeyBindings = interactionMechanism 'Yazi keyboard bindings' {
+        #configured
+        description 'Bindings in ~/.config/yazi/keymap.toml: p toggles max preview; Alt+Backslash exits to original cwd; Alt+apostrophe exits to current cwd; Right/Enter smart-enter; t opens terminal in current directory.'
+      }
       nvim = component 'Neovim' {
         #confirmed
         description 'Configured text editor, with Lua configuration under ~/.config/nvim/.'
+      }
+      nvimConfig = configuration 'Neovim configuration' {
+        #configured
+        description 'Lua configuration at ~/.config/nvim/init.lua; defines editor behavior, clipboard integration and custom key mappings.'
+      }
+      nvimKeyBindings = interactionMechanism 'Neovim keyboard and pointer bindings' {
+        #configured
+        description 'Super+D shortcuts for save/select-all/copy/cut/paste/undo/redo; Alt+C/V clipboard alternatives; Shift+Left quit without saving; Shift+Right save and quit; mouse selection copies to PRIMARY.'
       }
       fresh = component 'Fresh editor' {
         #confirmed
@@ -297,7 +317,8 @@ model {
   workstation.session.niriKeyBindings -> workstation.session.workspaceNavigation 'invokes configured workspace actions'
   workstation.session.niriKeyBindings -> workstation.interaction.foot 'Super+Return launches terminal'
   workstation.session.niriKeyBindings -> workstation.interaction.fuzzel 'Super+Space launches application launcher'
-  workstation.session.niriKeyBindings -> workstation.filesAndEditing.fresh 'Super+Slash launches Fresh workflow in foot'
+  workstation.session.niriKeyBindings -> workstation.interaction.foot 'Super+Slash launches workflow terminal'
+  workstation.interaction.foot -> workstation.filesAndEditing.fresh 'runs Fresh for workflow shortcut'
   workstation.session.niri -> workstation.interaction.foot 'manages terminal window'
   workstation.session.niri -> workstation.interaction.fuzzel 'manages launcher window'
   workstation.session.niri -> workstation.filesAndEditing.imv 'manages image viewer window'
@@ -307,11 +328,23 @@ model {
   workstation.filesAndEditing.imv -> workstation.session.wayland 'connects as Wayland client'
 
   workstation.interaction.foot -> workstation.interaction.footConfig 'is configured by'
+  workstation.interaction.foot -> workstation.interaction.footKeyBindings 'handles terminal-level keyboard shortcuts'
+  workstation.interaction.footConfig -> workstation.interaction.footKeyBindings 'defines Super+C/V and Alt font controls'
+  workstation.interaction.footKeyBindings -> workstation.clipboard.wlClipboard 'copies and pastes through Wayland clipboard'
   workstation.interaction.foot -> workstation.interaction.font 'renders text with'
   workstation.interaction.foot -> workstation.interaction.bash 'hosts shell'
   workstation.interaction.bash -> workstation.interaction.shellEnvironment 'reads'
   workstation.interaction.bash -> workstation.filesAndEditing.yazi 'launches'
   workstation.interaction.bash -> workstation.filesAndEditing.nvim 'launches'
+  workstation.filesAndEditing.yazi -> workstation.filesAndEditing.yaziConfig 'is configured by'
+  workstation.filesAndEditing.yazi -> workstation.filesAndEditing.yaziKeyBindings 'handles file-manager key bindings'
+  workstation.filesAndEditing.yaziConfig -> workstation.filesAndEditing.yaziKeyBindings 'defines'
+  workstation.filesAndEditing.yaziKeyBindings -> workstation.interaction.foot 't opens foot in current directory'
+  workstation.filesAndEditing.nvim -> workstation.filesAndEditing.nvimConfig 'is configured by'
+  workstation.filesAndEditing.nvim -> workstation.filesAndEditing.nvimKeyBindings 'handles editor key bindings'
+  workstation.filesAndEditing.nvimConfig -> workstation.filesAndEditing.nvimKeyBindings 'defines'
+  workstation.filesAndEditing.nvimKeyBindings -> workstation.clipboard.wlClipboard 'uses + register for system clipboard'
+  workstation.filesAndEditing.nvimKeyBindings -> workstation.clipboard.primarySelection 'uses * register for PRIMARY selection'
   workstation.interaction.shellEnvironment -> workstation.filesAndEditing.fresh 'selects as EDITOR and VISUAL in dotfiles snapshot'
   workstation.filesAndEditing.yazi -> workstation.filesAndEditing.fresh 'opens text files through EDITOR'
   workstation.filesAndEditing.yazi -> workstation.filesAndEditing.mpv 'opens video files with'

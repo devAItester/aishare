@@ -178,3 +178,14 @@ dynamic view primary-selection-flow {
     -> workstation.filesAndEditing.nvimKeyBindings 'LeftRelease / 2-LeftRelease mapping'
     -> workstation.clipboard.primarySelection 'writes selected text to PRIMARY'
 }
+
+dynamic view three-finger-tap-primary-paste {
+  title 'Three-finger tap to PRIMARY paste'
+  description 'Conditional path: foot pastes PRIMARY on middle-click by default. The current niri config enables tap-to-click but does not explicitly set tap-button-map, so confirm that a three-finger tap is mapped to middle-click on this device.'
+  workstation.hardware.trackpad
+    -> workstation.base.kernelInput 'tap event'
+    -> workstation.session.libinput 'touchpad tap processing'
+    -> workstation.session.niri 'delivers pointer button event'
+    -> workstation.interaction.foot 'receives middle-click if effective tap-button-map maps three fingers to middle'
+    -> workstation.clipboard.primarySelection 'pastes current PRIMARY selection'
+}

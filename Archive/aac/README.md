@@ -1,40 +1,88 @@
 # AAC — Architecture as Code
 
-Проект LikeC4 для архитектуры собственного сайта / журнала пользователя.
+LikeC4-модель рабочей Linux-среды пользователя: Arch Linux → Wayland → niri → foot → Bash / Yazi / Neovim и связанные инструменты.
 
-## Источник модели
+Это **не архитектура сайта** и **не проект menu**.
 
-Модель восстановлена из ранее принятых решений и технических заметок:
+## Что описывается
 
-- собственный сайт / журнал отделён от исследовательского архива;
-- Oscean (XXIIVV) изучается как архитектурный и технический референс;
-- в описании Oscean зафиксированы src/oscean.tal, src/lexicon, src/htm/, src/logs/, links/main.css, site/, uxnasm и uxncli;
-- entry-log и entry-map описаны как входные структуры для записей и связей.
+Модель охватывает несколько слоёв:
 
-## Важное разграничение
+1. **Платформа** — MacBook Air, Arch Linux, Linux kernel, systemd, pacman.
+2. **Вход в систему** — greetd запускает пользовательскую сессию niri.
+3. **Графическая основа** — Wayland protocol; niri — compositor и Wayland server.
+4. **Рабочее взаимодействие** — fuzzel как launcher, foot как терминал, Bash как shell.
+5. **Файлы и редактирование** — Yazi, Neovim, Lazy.nvim, yazi.nvim, imv.
+6. **Общие механизмы** — Wayland clipboard, wl-clipboard, XDG openers, MIME detection.
+7. **Интеграции отображения** — Yazi выводит Sixel preview в foot; изображения также открываются во внешнем imv.
 
-**Не все элементы модели подтверждены как части собственной реализации пользователя.** Компоненты, перенесённые из описания upstream Oscean, помечены тегом #reference. Элементы, требующие проверки по текущему проекту, помечены #to-verify.
+## Важные технические разграничения
 
-Это стартовая архитектурная гипотеза, а не утверждение, что собственный сайт уже реализован на Uxntal или использует все внутренние компоненты Oscean. Проект menu намеренно не включён.
+- Wayland — протокол и архитектура взаимодействия, а не отдельный оконный менеджер. niri реализует compositor/server; приложения выступают клиентами.
+- foot — Wayland-native terminal emulator. Он запускает shell и TUI-программы внутри терминала.
+- Yazi — самостоятельный TUI-файловый менеджер. В обычном сценарии он работает внутри foot.
+- Связка Yazi → foot использует Sixel для предпросмотра изображений в терминале.
+- Отдельный opener Yazi запускает imv для изображений; прочие файлы открываются через XDG opener.
+- Neovim — редактор; Lazy.nvim управляет плагинами; yazi.nvim связывает Neovim с отдельным процессом Yazi.
+- Sixel в foot не означает, что Sixel-preview автоматически работает внутри встроенного terminal buffer Neovim. Для yazi.nvim это отдельный путь отображения.
+- wl-clipboard предоставляет CLI `wl-copy` / `wl-paste` для Wayland clipboard. Модель отдельно отмечает primary selection; точная реализация жеста трекпада и передача selection между приложениями требуют проверки на текущей конфигурации.
 
-## Файлы
+## Статусы модели
 
-- likec4.config.json — конфигурация проекта LikeC4.
-- specification.c4 — типы компонентов, связей и статусов.
-- model.c4 — единая модель компонентов и отношений.
-- views.c4 — представления одной модели: общий обзор, поток данных и сборка.
+- `#confirmed` — компонент или выбор подтверждён в предыдущей работе.
+- `#configured` — интеграция была настроена или проверена в предыдущей работе, но файлы конфигурации сейчас повторно не прочитаны.
+- `#supporting` — вспомогательный компонент или утилита.
+- `#to-verify` — связь или текущее состояние конфигурации нужно перепроверить на машине.
 
-## Правило изменения
+Теги не означают, что текущие файлы конфигурации были проверены в этой задаче. Репозиторий dotfiles не был доступен для чтения через поиск GitHub, поэтому модель не выдаёт старые сведения за свежую проверку.
 
-Менять сущности и связи нужно в model.c4 (или в соответствующем будущем файле модели), а не дублировать их в диаграммах. Представления в views.c4 выбирают элементы из общей модели и обновляются на её основе.
+## Структура
+
+- `likec4.config.json` — конфигурация LikeC4.
+- `specification.c4` — типы элементов, связей и статусов.
+- `model.c4` — единственный источник компонентов и связей.
+- `views.c4` — архитектурные представления, построенные из модели.
+
+**Изменения вносить в `model.c4`.** Представления в `views.c4` фильтруют общую модель и не должны дублировать связи вручную.
+
+## Основные конфигурационные точки
+
+| Компонент | Конфигурация / источник |
+|---|---|
+| greetd | `/etc/greetd/config.toml` |
+| niri | `~/.config/niri/config.kdl` |
+| foot | `~/.config/foot/foot.ini` |
+| Bash | `~/.bashrc` и shell environment |
+| Yazi | `~/.config/yazi/` |
+| Neovim | `~/.config/nvim/` |
+| systemd user services | `~/.config/systemd/user/` |
+
+Пути перечислены как точки конфигурации, а не как утверждение, что все они были заново проверены.
+
+## Первичные источники
+
+- Arch Linux — https://archlinux.org/about/
+- Wayland architecture — https://wayland.freedesktop.org/
+- Wayland protocol — https://wayland.freedesktop.org/docs/book/Protocol.html
+- niri documentation — https://niri-wm.github.io/niri/
+- Arch manual: foot — https://man.archlinux.org/man/extra/foot/foot.1.en
+- Yazi documentation — https://yazi-rs.github.io/docs/
+- Yazi installation and dependencies — https://yazi-rs.github.io/docs/installation/
+- Neovim documentation — https://neovim.io/doc/user/
+- lazy.nvim — https://github.com/folke/lazy.nvim
+- yazi.nvim — https://github.com/mikavilpas/yazi.nvim
+- wl-clipboard — https://github.com/bugaevc/wl-clipboard
+- greetd manual — https://man.archlinux.org/man/greetd.1.en
 
 ## Проверка
 
-Локальная проверка LikeC4 CLI ещё не выполнялась. После получения рабочей копии каталога:
+LikeC4 CLI в этой задаче не запускался: GitHub-изменения сделаны напрямую в репозитории, локальная рабочая копия не открыта.
+
+В рабочей копии каталога выполнить:
 
 ```sh
 npx likec4 validate
 npx likec4 start
 ```
 
-Официальная документация: https://likec4.dev/dsl/intro/
+Критерий готовности: модель проходит validate, все связи отражают фактические интеграции, а изменения в модели обновляют все соответствующие views.

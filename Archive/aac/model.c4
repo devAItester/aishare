@@ -323,6 +323,8 @@ model {
     description 'Reserved model element for a future cloud drive/object-storage provider. No provider or active client configuration has been confirmed.'
   }
 
+  user -> personalEnvironment 'uses'
+  personalEnvironment -> externalServices 'accesses required external services'
   user -> personalEnvironment.requirements 'defines needs and constraints'
   personalEnvironment.requirements -> personalEnvironment.compute 'sets hardware and platform requirements'
   personalEnvironment.requirements -> personalEnvironment.softwareAccess 'defines required capabilities'

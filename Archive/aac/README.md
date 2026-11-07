@@ -31,6 +31,7 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - Ввод не сводится к жестам: физическая клавиатура и трекпад проходят через Linux input subsystem и libinput к niri. В dotfiles заданы XKB `us,ru`, `grp:caps_toggle`, `tap`, `natural-scroll`, `Mod=Super` и `mod-key-nested=Alt`.
 - Niri имеет встроенные touchpad-жесты: три пальца вверх/вниз — смена workspace, три пальца влево/вправо — движение по горизонтальному tiling view, четыре пальца вверх/вниз — overview. В `gestures {}` текущий конфиг только отключает hot corners; отдельного жестового демона или пользовательских swipe-bindings в изученном конфиге нет.
 - Клавиатурные привязки — отдельный слой на каждом уровне. Niri: `Super+Space` запускает fuzzel, `Super+Return` — foot, `Super+Slash` — foot с Fresh workflow, `Super+1..9` выбирает workspace. Foot: `Super+C/V` — clipboard, `Alt+Equal/Minus/0` — размер шрифта. Yazi: `p`, `Alt+\\`, `Alt+'`, `Right/Enter`, `t` имеют отдельные действия. Neovim: `Super+S/A/C/X/V/Z/Y`, `Alt+C/V`, `Shift+Left/Right`; отпускание кнопки мыши копирует выделение в PRIMARY. Стрелочные привязки управления окнами в niri намеренно отсутствуют.
+- **Потенциальная коллизия:** Foot и Neovim оба назначают `Super+C/V`: в `foot.ini` это terminal-level clipboard actions, а в `init.lua` — Neovim mappings `<D-c>`/`<D-v>` (`D` в Neovim означает Super/Command). Вложенный терминал может перехватить эти комбинации раньше Neovim. Это не исправлял: нужно проверить фактическую маршрутизацию. `Alt+C/V` в Neovim — отдельная альтернатива, не совпадающая с текущими Foot bindings.
 - **Обнаруженное расхождение:** текущий dotfiles snapshot задаёт `EDITOR=fresh` и `VISUAL=fresh` в `/etc/profile.d/99-editor.sh`, а не Neovim. Niri также передаёт эти значения в D-Bus/systemd. Live state нужно сверить отдельно.
 - Yazi использует `$EDITOR` для текстовых файлов, `imv-dir` для изображений, `mpv` для видео и `xdg-open` для остальных файлов согласно текущему `yazi.toml`.
 
@@ -80,6 +81,8 @@ LikeC4-модель рабочей Linux-среды пользователя: Ar
 - Wayland protocol — https://wayland.freedesktop.org/docs/book/Protocol.html
 - niri documentation — https://niri-wm.github.io/niri/
 - Arch manual: foot — https://man.archlinux.org/man/extra/foot/foot.1.en
+- Arch manual: foot.ini key bindings — https://man.archlinux.org/man/foot.ini.5.en
+- Neovim key mapping notation — https://neovim.io/doc/user/intro.html
 - Yazi documentation — https://yazi-rs.github.io/docs/
 - Yazi installation and dependencies — https://yazi-rs.github.io/docs/installation/
 - Neovim documentation — https://neovim.io/doc/user/

@@ -89,13 +89,13 @@ It performs these steps:
 3. Builds the interactive LikeC4 website into `_site/aac/`.
 4. Publishes the combined result to GitHub Pages after a push to `main`.
 
-The intended public URL is:
+The published interactive architecture is available at:
 
 https://devaitester.github.io/aishare/aac/
 
 The LikeC4 app is built with the repository subpath as its base URL, so its scripts and assets resolve correctly under GitHub Pages.
 
-**One-time repository setting:** in GitHub, open **Settings → Pages → Build and deployment → Source** and select **GitHub Actions**. The workflow cannot deploy until Pages uses Actions as its publishing source. This changes the deployment mechanism for the existing site, not its content: Jekyll remains the root site and LikeC4 is added under `/aac/`.
+GitHub Pages accepted the workflow deployment successfully. Jekyll remains the root site and LikeC4 is published under `/aac/`; the generated site is built as one artifact so neither output overwrites the other.
 
 Official references:
 - LikeC4 CLI static build: https://likec4.dev/tooling/cli/
@@ -103,13 +103,12 @@ Official references:
 
 ## Проверка
 
-LikeC4 CLI в этой задаче не запускался: GitHub-изменения сделаны напрямую в репозитории, локальная рабочая копия не открыта.
+Проверка в GitHub Actions: [run #5](https://github.com/devAItester/aishare/actions/runs/42411056083).
 
-В рабочей копии каталога выполнить:
+- Jekyll build: success.
+- LikeC4 validate (1.60.0): success.
+- LikeC4 static build: success.
+- Pages artifact upload: success.
+- GitHub Pages deployment: success.
 
-```sh
-npx likec4 validate
-npx likec4 start
-```
-
-Критерий готовности: модель проходит validate, все связи отражают фактические интеграции, а изменения в модели обновляют все соответствующие views.
+Локальная интерактивная проверка в браузере пользователя не выполнялась. Модель проходит автоматическую синтаксическую и layout-проверку; соответствие всех связей реальному состоянию конфигураций ещё требует аудита dotfiles.

@@ -29,7 +29,8 @@ def main() -> int:
         TEMP_FILE.unlink()
 
     try:
-        with sqlite3.connect(TEMP_FILE) as connection:
+        connection = sqlite3.connect(TEMP_FILE)
+        try:
             connection.executescript(SQL_FILE.read_text(encoding="utf-8"))
 
             integrity = connection.execute("PRAGMA integrity_check").fetchone()[0]
@@ -71,6 +72,8 @@ def main() -> int:
                     f"Page/event reconciliation failed: "
                     f"{page_event_count} != {event_count}"
                 )
+        finally:
+            connection.close()
 
         os.replace(TEMP_FILE, DB_FILE)
     except Exception:

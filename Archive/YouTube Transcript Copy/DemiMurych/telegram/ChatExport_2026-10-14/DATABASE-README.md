@@ -44,11 +44,12 @@ GROUP BY event_type
 ORDER BY COUNT(*) DESC;
 
 -- Приглашения по датам
-SELECT date_hint, COUNT(*)
+SELECT date_hint, COUNT(*) AS invites,
+       MIN(telegram_message_id) AS first_message_id
 FROM service_events
 WHERE event_type = 'invite'
 GROUP BY date_hint
-ORDER BY date_hint;
+ORDER BY first_message_id;
 
 -- Активность отправителей по дням (UTC, JSON-экспорт)
 SELECT date(datetime(m.date_unix, 'unixepoch')) AS utc_day,

@@ -3,12 +3,9 @@
 -- Service-message blocks contain no exact timestamps; date_hint is the preceding date separator only.
 PRAGMA foreign_keys=ON;
 BEGIN TRANSACTION;
-CREATE TABLE export_metadata(key TEXT PRIMARY KEY,value TEXT NOT NULL);
+CREATE TABLE export_metadata(key TEXT NOT NULL,value TEXT NOT NULL);
 CREATE TABLE source_pages(page_number INTEGER PRIMARY KEY,file_name TEXT NOT NULL,service_event_count INTEGER NOT NULL);
 CREATE TABLE service_events(event_id INTEGER PRIMARY KEY,source_page INTEGER NOT NULL,telegram_message_id INTEGER NOT NULL,date_hint TEXT,event_type TEXT NOT NULL,timestamp_utc TEXT,actor_or_subject TEXT,raw_text TEXT NOT NULL);
-CREATE INDEX idx_service_events_date ON service_events(date_hint);
-CREATE INDEX idx_service_events_type_date ON service_events(event_type,date_hint);
-CREATE INDEX idx_service_events_message ON service_events(telegram_message_id);
 INSERT INTO export_metadata VALUES('source_pages_expected','252');
 INSERT INTO export_metadata VALUES('source_export','ChatExport_2026-10-14');
 INSERT INTO export_metadata VALUES('source_pages_processed','252');

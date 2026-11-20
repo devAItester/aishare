@@ -1438,4 +1438,7 @@ INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,
 INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(192,240220,'15 December 2025','invite',NULL,'Mahmoud Wael','Mahmoud Wael invited Mahmoud Wael');
 INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(192,240239,'15 December 2025','invite',NULL,'Deleted Account','Deleted invited Deleted Account');
 INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(192,240282,'15 December 2025','invite',NULL,'Deleted Account','Deleted invited Deleted Account');
+INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(217,267863,'1 May 2026','other_service',NULL,NULL,'조선의 정신 added "" to the poll.');
+INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(217,267886,'1 May 2026','other_service',NULL,NULL,'Олег added "" to the poll.');
+INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(226,277385,'21 June 2026','other_service',NULL,NULL,'Maksym Shenderuk added "" to the poll.');
 COMMIT;

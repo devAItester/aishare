@@ -4508,4 +4508,5 @@ INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,
 
 INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(217,267863,'1 May 2026','service_other',NULL,NULL,'조선의 정신 added "" to the poll.');
 INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(217,267886,'1 May 2026','service_other',NULL,NULL,'Олег added "" to the poll.');
+INSERT INTO service_events(source_page,telegram_message_id,date_hint,event_type,timestamp_utc,actor_or_subject,raw_text) VALUES(226,277385,'21 June 2026','service_other',NULL,NULL,'Maksym Shenderuk added "" to the poll.');
 COMMIT;
